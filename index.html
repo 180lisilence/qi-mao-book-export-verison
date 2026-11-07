@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>七猫免费小说 7.80 · 导出插件工程</title>
+<style>
+  :root{
+    --bg:#0e1116; --panel:#161b22; --panel2:#1c2128; --border:#2a3038;
+    --fg:#e6edf3; --muted:#9aa7b4; --accent:#ff7a18; --accent2:#ffb347;
+    --green:#3fb950; --blue:#58a6ff; --code:#0b0f14;
+  }
+  @media (prefers-color-scheme: light){
+    :root{
+      --bg:#ffffff; --panel:#f6f8fa; --panel2:#eef1f4; --border:#d8dee4;
+      --fg:#1f2328; --muted:#57606a; --accent:#d35400; --accent2:#e67e22;
+      --green:#1a7f37; --blue:#0969da; --code:#f0f3f6;
+    }
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC","Microsoft YaHei",sans-serif;
+       background:var(--bg);color:var(--fg);line-height:1.7;font-size:16px}
+  .wrap{max-width:960px;margin:0 auto;padding:32px 20px 80px}
+  header.hero{background:linear-gradient(135deg,#1a1206,#241405 60%,#0e1116);
+    border:1px solid var(--border);border-radius:16px;padding:34px 30px;margin-bottom:28px;overflow:hidden;position:relative}
+  header.hero::after{content:"";position:absolute;right:-60px;top:-60px;width:220px;height:220px;
+    background:radial-gradient(circle,rgba(255,122,24,.35),transparent 70%);filter:blur(8px)}
+  h1{margin:0 0 6px;font-size:30px;letter-spacing:.5px}
+  .sub{color:var(--accent2);font-weight:600;margin-bottom:14px}
+  .badges{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
+  .badge{font-size:12px;padding:4px 10px;border-radius:999px;background:var(--panel2);
+    border:1px solid var(--border);color:var(--muted)}
+  .badge.hot{color:var(--accent);border-color:var(--accent)}
+  section{background:var(--panel);border:1px solid var(--border);border-radius:14px;
+    padding:22px 24px;margin-bottom:20px}
+  h2{font-size:21px;margin:0 0 14px;padding-bottom:8px;border-bottom:1px solid var(--border)}
+  h2 .tag{font-size:12px;color:var(--accent);font-weight:700;margin-right:8px}
+  h3{font-size:16px;margin:18px 0 8px;color:var(--accent2)}
+  p{color:var(--fg)} .muted{color:var(--muted)}
+  ul{margin:8px 0;padding-left:22px} li{margin:5px 0}
+  code{background:var(--code);padding:2px 7px;border-radius:6px;font-size:13.5px;
+    font-family:"SFMono-Regular",Consolas,"Liberation Mono",monospace;color:var(--accent2)}
+  pre{background:var(--code);border:1px solid var(--border);border-radius:10px;
+    padding:14px 16px;overflow:auto;font-size:13px;line-height:1.55;
+    font-family:"SFMono-Regular",Consolas,monospace;color:var(--fg)}
+  table{border-collapse:collapse;width:100%;margin:10px 0;font-size:14.5px}
+  th,td{border:1px solid var(--border);padding:8px 11px;text-align:left;vertical-align:top}
+  th{background:var(--panel2);color:var(--fg)}
+  tr:nth-child(even) td{background:var(--panel2)}
+  .tree{font-family:"SFMono-Regular",Consolas,monospace;font-size:13px;color:var(--muted);
+    white-space:pre;background:var(--code);border:1px solid var(--border);border-radius:10px;padding:14px 16px;overflow:auto}
+  .tree b{color:var(--accent2)}
+  .note{border-left:3px solid var(--accent);background:var(--panel2);padding:10px 14px;border-radius:0 8px 8px 0;margin:12px 0;font-size:14px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+  .card{background:var(--panel2);border:1px solid var(--border);border-radius:10px;padding:14px}
+  .card .t{font-weight:700;color:var(--accent2);margin-bottom:4px}
+  a{color:var(--blue);text-decoration:none} a:hover{text-decoration:underline}
+  footer{text-align:center;color:var(--muted);font-size:13px;margin-top:30px}
+  .pill{display:inline-block;background:rgba(63,185,80,.12);color:var(--green);
+    border:1px solid rgba(63,185,80,.4);padding:2px 9px;border-radius:6px;font-size:12px;font-weight:600}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="hero">
+    <h1>七猫免费小说 7.80 · 导出插件工程</h1>
+    <div class="sub">qi-mao-book-export · 静态注入式章节解密导出</div>
+    <div class="muted" style="max-width:640px">
+      在已重打包的破解版 APK 基础上，<b>静态注入</b>一个导出插件（无 Xposed / 无 Pine / 无 native hook），
+      直接借用 App 自身的解密器把缓存密文还原为可阅读的明文 txt，并支持分章勾选、整理全集。
+    </div>
+    <div class="badges">
+      <span class="badge hot">Android 7.0+ (API 24)</span>
+      <span class="badge">com.kmxs.reader</span>
+      <span class="badge">smali 静态注入</span>
+      <span class="badge">DEX 解密复用</span>
+      <span class="badge">逆向分析</span>
+      <span class="badge">Frida / Xposed / smali 三方案</span>
+    </div>
+  </header>
+
+  <section>
+    <h2><span class="tag">01</span>这是什么</h2>
+    <p>本项目围绕 <b>七猫免费小说 7.80</b>（包名 <code>com.kmxs.reader</code>）展开两件事：</p>
+    <div class="grid">
+      <div class="card">
+        <div class="t">导出插件（主线）</div>
+        把 App 已缓存的加密小说章节，通过插件在本地解密并导出为纯文本 txt，可在手机内阅读或拷到电脑。实测一本书 3690 章 10 秒内全部导出，0 失败。
+      </div>
+      <div class="card">
+        <div class="t">逆向分析报告</div>
+        对原破解版 APK 做完整拆解：Pine Xposed 注入框架、40 个中文包名业务 Hook 类、Protect2C 壳（Dex2C/VMP）、原生 VIP 判定链路与三种改法对比。
+      </div>
+    </div>
+    <div class="note">
+      关键突破：找到了正文加密点 <code>com.km.encryption.api.Security</code>（native 层 <code>decrypt / decryptV2</code>），
+      插件通过反射调用它，把密文解成<b>明文</b>再落盘——所以导出的就是能直接读的字，而不是密文。
+    </div>
+  </section>
+
+  <section>
+    <h2><span class="tag">02</span>注入点与工作原理</h2>
+    <table>
+      <tr><th>注入点</th><th>位置</th><th>作用</th></tr>
+      <tr><td><code>SophixStubApplication.attachBaseContext</code></td><td>classes10.dex</td><td>启动插件</td></tr>
+      <tr><td><code>ChapterContentEntity.getContent()</code></td><td>classes3.dex</td><td>抓到每章密文</td></tr>
+      <tr><td><code>KMChapter.getChapterName()</code></td><td>classes3.dex</td><td>抓到章节名 / 书号 / 序号</td></tr>
+      <tr><td><code>com.kmxs.export.Boot</code></td><td>classes19.dex（新增）</td><td>插件本体</td></tr>
+    </table>
+    <h3>数据流</h3>
+    <pre>App 缓存密文
+   → ChapterContentEntity.getContent() 抓取密文字节流
+   → com.kmxs.export.Boot 反射调用 Security.decryptV2(密文)
+   → App 自带 native 解密器还原明文
+   → 按 书号/章号 写入 /sdcard/Download/QimaoBooks/books/&lt;书号&gt;/&lt;章号&gt;.txt
+   → ② 整理成 全集/&lt;书号&gt;_N章.txt</pre>
+    <p class="muted">思路和原破解者改 VIP 一致：直接改 smali 字节码，不引入任何 hook 框架，因此不触发反 hook 检测、不会闪退。</p>
+  </section>
+
+  <section>
+    <h2><span class="tag">03</span>悬浮球面板（可见入口）</h2>
+    <p>安装启动后，每个页面右侧偏下有一个橙色圆形「导/出」悬浮球，可拖动且位置会被记住。点击弹出：</p>
+    <pre>七猫导出插件
+目录: /sdcard/Download/QimaoBooks
+已导出 N 章 / M 本;  App 缓存 K 个文件
+
+① 导出章节 (可勾选 / 全选)   ← 像原版一样选章导出
+② 整理成全集 txt
+③ 复制导出目录路径
+④ 打开缓存目录              ← 文件管理器 / 内置浏览器
+⑤ 重新选择导出目录
+⑥ 修复密文 (重新解密已导出文件)
+⑦ 隐藏悬浮球 / 显示悬浮球
+关闭</pre>
+    <p>进入任意带 <code>Setting</code> 字样的页面，面板也会在该页列表末尾追加一行「七猫导出插件」入口。</p>
+  </section>
+
+  <section>
+    <h2><span class="tag">04</span>分章勾选导出</h2>
+    <ul>
+      <li><b>选书</b>：列出 App 已缓存的全部书（<code>KmxsReader/books/</code> 下每个目录，显示书号 + 章数）。</li>
+      <li><b>勾章节</b>：进入章节清单（ListView + 复选框，几千章也流畅），顶部有 <code>全选 / 全不选 / 导出选中 / 搜索</code>。</li>
+      <li>点「导出选中」后，选中章节解密写入 <code>books/&lt;书号&gt;/</code>，并合并出 <code>_选中N章.txt</code>。</li>
+    </ul>
+    <div class="note">推荐用法：先在七猫里「全本下载」想导出的书 → 悬浮球 ① 全选 → 导出选中 → ② 整理成全集 txt → 连电脑拷走。</div>
+  </section>
+
+  <section>
+    <h2><span class="tag">05</span>仓库结构</h2>
+    <div class="tree"><b>qi-mao-book-export-verison/</b>
+├─ <b>导出插件使用说明.md</b>      # 插件 v3 使用文档（本页来源之一）
+├─ <b>逆向分析报告.md</b>          # 破解版架构 / VIP 链路 / 三种改法
+├─ <b>payload/</b>                # 可直接运行的脚本与模块源码
+│   ├─ BookExportModule.java      # 导出插件主体（D8 编译进 classes19）
+│   ├─ Boot.java                  # 插件入口
+│   ├─ VipHookModule.java         # VIP Hook 模块（Xposed 方案 B）
+│   ├─ book_export.js             # 导出相关 frida 脚本
+│   ├─ vip_hook.js / dump_hooks.js# VIP hook / 批量 dump 37 个 hook 点
+│   ├─ smali_patch.md             # smali 硬改指引（方案 C）
+│   └─ 整理导出.py                # 导出后整理（全集合并等）
+├─ <b>tools/</b>                  # 自写分析工具（DEX/AXML/ELF）
+│   ├─ axml.py  dexdump.py  dexinfo.py  find_class.py
+│   ├─ find_ref_in_method.py  scan_dex.py  scan_strings.py  so_strings.py
+├─ <b>build/</b>                 # 构建脚本与插件源码
+│   ├─ make_plugin.py  patch_smali.py  finish_pack*.py
+│   ├─ inject_dex.py  merge_orig.py  swap_dex19.py  diag.sh
+│   └─ src/main/com/kmxs/export/Boot.java   # 插件 Java 源码
+├─ <b>analysis/</b>              # 逆向分析产物（文本）
+│   ├─ manifest.txt  classes18_full.txt  classes18_strings.txt
+│   ├─ protect2c_strings.txt  uservipmodel.txt  ref_user_is_vip.txt ...
+├─ <b>我的小说/</b>  <b>我的小说_v2/</b>   # 导出样例（books / 全集）
+├─ <b>QimaoBooks_raw/</b>  <b>QimaoBooks_v2/</b>  # 原始 / 二次导出数据
+├─ <b>out/</b>                   # 导出样例与清理报告
+│   ├─ 导出样例_前21章.txt  cleaned/（清理后样例 + 质量报告）
+└─ <b>.gitignore</b>             # 已排除 apk/zip/jar/dex 等二进制与反编译产物</div>
+    <p class="muted">说明：为保持仓库轻量，<code>*.apk / *.zip / *.jar / *.dex</code> 等二进制与 <code>build/decoded</code> 全量 smali 反编译产物未入库；需要它们时按文档本地重建即可。</p>
+  </section>
+
+  <section>
+    <h2><span class="tag">06</span>如何重新构建</h2>
+    <pre># 一键重建导出插件 APK（javac → D8 min-api24 → 拼回原始 APK → 签名）
+python build/make_plugin.py
+
+# 输出：out/七猫免费小说_7.80_导出插件v3.apk（已签名，直接安装）
+#   脚本自动：只换 classes3 / classes10，新增 classes19 → uber-apk-signer 签名</pre>
+    <p>源码入口：<code>build/src/main/com/kmxs/export/Boot.java</code>；注入脚本：<code>build/patch_smali.py</code>（classes3）+ 手工改 <code>SophixStubApplication.smali</code>（classes10）。</p>
+  </section>
+
+  <section>
+    <h2><span class="tag">07</span>VIP 链路与三种改法（来自分析报告）</h2>
+    <p>会员状态由服务器下发加密串 → 客户端 <code>UserVipModel.decodeVipResponse()</code> 解密 → 判定 <code>status=="1"</code> 即会员。所有可行改法都在「解密之后」动手：</p>
+    <table>
+      <tr><th>方案</th><th>需要 Root</th><th>持久性</th><th>被检测风险</th><th>难度</th></tr>
+      <tr><td>Frida 注入 <code>vip_hook.js</code></td><td>是</td><td>每次注入</td><td>高</td><td>低</td></tr>
+      <tr><td>Xposed 模块 <code>VipHookModule.java</code></td><td>否（LSPatch）</td><td>永久</td><td>中</td><td>中</td></tr>
+      <tr><td>smali 硬改 <code>UserVipInfoResponse</code></td><td>否</td><td>永久</td><td>低</td><td>高</td></tr>
+    </table>
+    <div class="note">报告结论：先 Frida 验证 hook 点正确，再改成 smali 硬改重打包最稳——它改的是业务代码而非 hook，天然规避 <code>libhook-check.so / libProtect2C.so / libpinesafecheck.so</code> 等所有反调试检测。注意：本地改状态只能影响客户端行为，服务器强校验的内容（如服务器不下发的 VIP 正文）仍拿不到。</div>
+  </section>
+
+  <section>
+    <h2><span class="tag">08</span>实测数据（MuMu 模拟器）</h2>
+    <ul>
+      <li>安装、启动 <span class="pill">0 崩溃</span>，VIP 功能正常。</li>
+      <li>分章勾选导出：<code>exportSelected ok=3690 skip=0 fail=0</code>（10 秒）。</li>
+      <li><code>全集/213697_3690章.txt</code> = <b>10,525,358 字</b> 纯文本，内容抽样正常。</li>
+      <li>启动日志：<code>找到真实 Application: com.kmxs.reader.app.MainApplication</code> → <code>悬浮球已挂载</code>。</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2><span class="tag">09</span>已知边界</h2>
+    <ul>
+      <li>个别「整本打包」缓存（文件名 <code>0.txt</code>）解不开，插件自动跳过并计入 fail，不影响逐章导出。</li>
+      <li>个别 VIP 章节在阅读器里显示为 base64（App 自身解密未通过）→ 同样导不出，属破解版限制。</li>
+      <li>插件 dex 要求 <b>Android 7.0 (API 24)+</b>（D8 不脱糖接口默认方法）。</li>
+      <li><code>chapters/</code> 里 v1 遗留密文，点 ⑥ 会自动重新解密覆盖。</li>
+    </ul>
+  </section>
+
+  <footer>
+    七猫免费小说 7.80 导出插件工程 · 静态注入 · 章节解密导出 · 逆向分析记录<br>
+    详细步骤见仓库内 <a href="导出插件使用说明.md">导出插件使用说明.md</a> 与 <a href="逆向分析报告.md">逆向分析报告.md</a>
+  </footer>
+
+</div>
+</body>
+</html>

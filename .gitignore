@@ -1,0 +1,50 @@
+# ===== 二进制与构建产物（不入库） =====
+*.apk
+*.zip
+*.idsig
+*.keystore
+*.jar
+*.class
+*.dex
+
+# ===== 反编译 / 中间产物（不入库） =====
+extracted/
+build/decoded/
+build/classes/
+build/classes2/
+build/dexout/
+build/dex035/
+build/dex040/
+build/final/
+build/mini10/
+build/mini12/
+build/mini12_dec/
+build/mini3/
+build/shots/
+build/platform-tools/
+build/android.jar
+build/apktool.jar
+build/baksmali-2.5.2.jar
+build/boot40.jar
+build/r8-8.2.47.jar
+build/r8.jar
+build/smali-2.5.2.jar
+build/uber-apk-signer.jar
+build/verify_classes10.dex
+build/verify_classes19.dex
+build/stage*.apk
+build/final*.apk
+build/merged.apk
+build/unsigned.apk
+
+# ===== 图片（保持仓库为轻量文本） =====
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+
+# ===== 系统与编辑器 =====
+.DS_Store
+Thumbs.db
+*.swp

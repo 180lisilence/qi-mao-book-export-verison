@@ -1,0 +1,6 @@
+build/src/main/com/kmxs/export/Boot.java
+build/src/stub/de/robv/android/xposed/IXposedHookLoadPackage.java
+build/src/stub/de/robv/android/xposed/XC_LoadPackage.java
+build/src/stub/de/robv/android/xposed/XC_MethodHook.java
+build/src/stub/de/robv/android/xposed/XposedBridge.java
+build/src/stub/de/robv/android/xposed/XposedHelpers.java

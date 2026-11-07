@@ -1,0 +1,521 @@
+==============================================================================
+DEX   : extracted/classes6.dex
+CLASS : Lfn3;
+RAW   : 'Lfn3;'
+SUPER : Ljava/lang/Object;
+IFACES: []
+  .method virtual [0x401] Lfn3;->addBsInitPopupTask(Ltc6;,Landroidx/fragment/app/FragmentActivity;)V
+  .method virtual [0x401] Lfn3;->clearBsStatisticCache()V
+  .method virtual [0x401] Lfn3;->getSensorKOCVideoRecommendBook()Z
+  .method virtual [0x401] Lfn3;->getShelfBookFriendManager(Lcom/qimao/qmsdk/base/ui/BaseProjectActivity;)Lqn3;
+  .method virtual [0x401] Lfn3;->getUploadIdsString()Ljava/lang/String;
+  .method virtual [0x401] Lfn3;->goToNewInitPreference(Ljava/lang/String;,Ljava/util/List;)V
+  .method virtual [0x401] Lfn3;->saveBsStatisticCache()V
+  .method virtual [0x401] Lfn3;->updateBsStatisticCache(Ljava/lang/String;,Ljava/lang/String;)V
+  .method virtual [0x401] Lfn3;->updatePreference(Ljava/lang/String;,Ljava/lang/String;,I)V
+  .method virtual [0x401] Lfn3;->updatePreference(Ljava/lang/String;,Ljava/lang/String;,I,Z)V
+  .method virtual [0x401] Lfn3;->updatePreference(Ljava/lang/String;,Ljava/lang/String;,Ljava/lang/String;,I)V
+
+==============================================================================
+DEX   : extracted/classes6.dex
+CLASS : Lfn4;
+RAW   : 'Lfn4;'
+SUPER : Ljava/lang/Object;
+IFACES: []
+  .method direct [0x10008] Lfn4;-><clinit>()V
+      745b78| const-class vAA,type@BBBB    v0 Lcom/qimao/qmwidget/fontsize/LimitFontSize;
+      745b7c| invoke-virtual {..},meth@BBBB {v0} LMTT/ThirdAppInfoNew;-><init>()V
+      745b82| move-result-object vAA       v0
+      745b84| sput-object vAA,field@BBBB   v0 field@53359 Lfn4; a Ljava/lang/String;
+      745b88| return-void                  
+  .method direct [0x1019] Lfn4;->a()Ljava/lang/String;
+      745b9c| sget-object vAA,field@BBBB   v0 field@53359 Lfn4; a Ljava/lang/String;
+      745ba0| return-object vAA            v0
+
+==============================================================================
+DEX   : extracted/classes6.dex
+CLASS : Lfn;
+RAW   : 'Lfn;'
+SUPER : Ljava/lang/Object;
+IFACES: ['Lcom/qimao/qmreader/bridge/app/IAppUserInfoBridge;']
+  .method direct [0x10001] Lfn;-><init>()V
+      745bb4| invoke-direct {..},meth@BBBB {v0} LMTT/ThirdAppInfoNew;-><init>()V
+      745bba| return-void                  
+  .method direct [0x1009] Lfn;->a(Lcom/qimao/qmservice/user/entity/LoginResult;)Landroid/util/Pair;
+      745bcc| invoke-static {..},meth@BBBB {v0} LMTT/ThirdAppInfoNew;-><init>()V
+      745bd2| move-result-object vAA       v0
+      745bd4| return-object vAA            v0
+  .method direct [0x1009] Lfn;->b(Lcom/qimao/qmservice/user/entity/LoginResult;)Landroid/util/Pair;
+      745be8| const/4 vA,#+B               v0 #1
+      745bea| new-array vA,vB,type@CCCC    v1 v0 [Ljava/lang/Object;
+      745bee| const/4 vA,#+B               v2 #0
+      745bf0| aput-object vA,vB,vC         v8 v1 v2
+      745bf4| sget-object vAA,field@BBBB   v3 field@53361 Lfn; changeQuickRedirect Lcom/meituan/robust/ChangeQuickRedirect;
+      745bf8| new-array vA,vB,type@CCCC    v6 v0 [Ljava/lang/Class;
+      745bfc| const-class vAA,type@BBBB    v0 Lcom/qimao/qmservice/user/entity/LoginResult;
+      745c00| aput-object vA,vB,vC         v0 v6 v2
+      745c04| const-class vAA,type@BBBB    v7 Landroid/util/Pair;
+      745c08| const/4 vA,#+B               v2 #0
+      745c0a| const/4 vA,#+B               v4 #1
+      745c0c| const/16 vAA,#+BBBB          v5 #13757
+      745c10| invoke-static/range          {v4160..v4166} La0;-><init>()V
+      745c16| move-result-object vAA       v0
+      745c18| iget-boolean                 v1 v0 Lcom/meituan/robust/PatchProxyResult;->isSupported:Z
+      745c1c| if-eqz vAA,+BBBB             v1 +7
+      745c20| iget-object vA,vB,field@CCCC v8 v0 Lcom/meituan/robust/PatchProxyResult;->result:Ljava/lang/Object;
+      745c24| check-cast vAA,type@BBBB     v8 Landroid/util/Pair;
+      745c28| return-object vAA            v8
+      745c2a| invoke-virtual {..},meth@BBBB {v0} La22;->d()V
+      745c30| move-result-object vAA       v0
+      745c32| if-eqz vAA,+BBBB             v0 +13
+      745c36| invoke-virtual {..},meth@BBBB {v0} La22;->d()V
+      745c3c| move-result-object vAA       v0
+      745c3e| const-string vAA,string@BBBB v1 "result_extra"
+      745c42| invoke-virtual {..},meth@BBBB {v0,v12} La37;->l()Z
+      745c48| move-result-object vAA       v0
+      745c4a| goto                         +2
+      745c4c| const/4 vA,#+B               v0 #0
+      745c4e| new-instance vAA,type@BBBB   v1 Landroid/util/Pair;
+      745c52| invoke-virtual {..},meth@BBBB {v0} La22;->d()V
+      745c58| move-result vAA              v8
+      745c5a| invoke-static {..},meth@BBBB {v0} La22;->d()V
+      745c60| move-result-object vAA       v8
+      745c62| if-eqz vAA,+BBBB             v0 +3
+      745c66| goto                         +3
+      745c68| const-string vAA,string@BBBB v0 ""
+      745c6c| invoke-direct {..},meth@BBBB {v0,v12,v11} Landroid/animation/Animator;->removeAllListeners()V
+      745c72| return-object vAA            v1
+  .method virtual [0x1] Lfn;->agreePrivacy(Landroid/content/Context;)Z
+      745c84| const/4 vA,#+B               v0 #1
+      745c86| new-array vA,vB,type@CCCC    v1 v0 [Ljava/lang/Object;
+      745c8a| const/4 vA,#+B               v2 #0
+      745c8c| aput-object vA,vB,vC         v9 v1 v2
+      745c90| sget-object vAA,field@BBBB   v3 field@53361 Lfn; changeQuickRedirect Lcom/meituan/robust/ChangeQuickRedirect;
+      745c94| new-array vA,vB,type@CCCC    v6 v0 [Ljava/lang/Class;
+      745c98| const-class vAA,type@BBBB    v0 Landroid/content/Context;
+      745c9c| aput-object vA,vB,vC         v0 v6 v2
+      745ca0| sget-object vAA,field@BBBB   v7 field@53630 Ljava/lang/Boolean; TYPE Ljava/lang/Class;
+      745ca4| const/4 vA,#+B               v4 #0
+      745ca6| const/16 vAA,#+BBBB          v5 #13720
+      745caa| move-object vA,vB            v2 v8
+      745cac| invoke-static/range          {v4160..v4166} La0;-><init>()V
+      745cb2| move-result-object vAA       v0
+      745cb4| iget-boolean                 v1 v0 Lcom/meituan/robust/PatchProxyResult;->isSupported:Z
+      745cb8| if-eqz vAA,+BBBB             v1 +11
+      745cbc| iget-object vA,vB,field@CCCC v9 v0 Lcom/meituan/robust/PatchProxyResult;->result:Ljava/lang/Object;
+      745cc0| check-cast vAA,type@BBBB     v9 Ljava/lang/Boolean;
+      745cc4| invoke-virtual {..},meth@BBBB {v0} La22;->m(Ljava/lang/String;)Z
+      745cca| move-result vAA              v9
+      745ccc| return vAA                   v9
+      745cce| invoke-static {..},meth@BBBB {} LMTT/ThirdAppInfoNew;-><init>()V
+      745cd4| move-result-object vAA       v0
+      745cd6| invoke-virtual {..},meth@BBBB {v0,v11} Landroid/animation/AnimatorSet;->resume()V
+      745cdc| move-result vAA              v9
+      745cde| return vAA                   v9
+  .method virtual [0x1] Lfn;->clearBsStatisticCache()V
+      745cf0| const/4 vA,#+B               v0 #0
+      745cf2| new-array vA,vB,type@CCCC    v1 v0 [Ljava/lang/Object;
+      745cf6| sget-object vAA,field@BBBB   v3 field@53361 Lfn; changeQuickRedirect Lcom/meituan/robust/ChangeQuickRedirect;
+      745cfa| new-array vA,vB,type@CCCC    v6 v0 [Ljava/lang/Class;
+      745cfe| sget-object vAA,field@BBBB   v7 field@53641 Ljava/lang/Void; TYPE Ljava/lang/Class;
+      745d02| const/4 vA,#+B               v4 #0
+      745d04| const/16 vAA,#+BBBB          v5 #13756
+      745d08| move-object vA,vB            v2 v8
+      745d0a| invoke-static/range          {v4160..v4166} La0;-><init>()V
+      745d10| move-result-object vAA       v0
+      745d12| iget-boolean                 v0 v0 Lcom/meituan/robust/PatchProxyResult;->isSupported:Z
+      745d16| if-eqz vAA,+BBBB             v0 +3
+      745d1a| return-void                  
+      745d1c| invoke-static {..},meth@BBBB {} LMTT/ThirdAppInfoNew;-><init>()V
+      745d22| move-result-object vAA       v0
+      745d24| invoke-interface {..},meth@BBBB {v0} LMTT/ThirdAppInfoNew;-><init>()V
+      745d2a| return-void                  
+  .method virtual [0x1] Lfn;->dismissDiscountVipPriceDialog(Landroid/app/Activity;)V
+      745d3c| const/4 vA,#+B               v0 #1
+      745d3e| new-array vA,vB,type@CCCC    v1 v0 [Ljava/lang/Object;
+      745d42| const/4 vA,#+B               v2 #0
+      745d44| aput-object vA,vB,vC         v9 v1 v2
+      745d48| sget-object vAA,field@BBBB   v3 field@53361 Lfn; changeQuickRedirect Lcom/meituan/robust/ChangeQuickRedirect;
+      745d4c| new-array vA,vB,type@CCCC    v6 v0 [Ljava/lang/Class;
+      745d50| const-class vAA,type@BBBB    v0 Landroid/app/Activity;
+      745d54| aput-object vA,vB,vC         v0 v6 v2
+      745d58| sget-object vAA,field@BBBB   v7 field@53641 Ljava/lang/Void; TYPE Ljava/lang/Class;
+      745d5c| const/4 vA,#+B               v4 #0
+      745d5e| const/16 vAA,#+BBBB          v5 #13750
+      745d62| move-object vA,vB            v2 v8
+      745d64| invoke-static/range          {v4160..v4166} La0;-><init>()V
+      745d6a| move-result-object vAA       v0
+      745d6c| iget-boolean                 v0 v0 Lcom/meituan/robust/PatchProxyResult;->isSupported:Z
+      745d70| if-eqz vAA,+BBBB             v0 +3
+      745d74| return-void                  
+      745d76| invoke-static {..},meth@BBBB {} LMTT/ThirdAppInfoNew;-><init>()V
+      745d7c| move-result-object vAA       v0
+      745d7e| invoke-interface {..},meth@BBBB {v0,v10} Landroid/animation/AnimatorSet;->resume()V
+      745d84| return-void                  
+  .method virtual [0x1] Lfn;->dismissMemberReminderBottomDialog(Landroid/app/Activity;)V
+      745d98| const/4 vA,#+B               v0 #1
+      745d9a| new-array vA,vB,type@CCCC    v1 v0 [Ljava/lang/Object;
+      745d9e| const/4 vA,#+B               v2 #0
+      745da0| aput-object vA,vB,vC         v9 v1 v2
+      745da4| sget-object vAA,field@BBBB   v3 field@53361 Lfn; changeQuickRedirect Lcom/meituan/robust/ChangeQuickRedirect;
+      745da8| new-array vA,vB,type@CCCC    v6 v0 [Ljava/lang/Class;
+      745dac| const-class vAA,type@BBBB    v0 Landroid/app/Activity;
+      745db0| aput-object vA,vB,vC         v0 v6 v2
+      745db4| sget-object vAA,field@BBBB   v7 field@53641 Ljava/lang/Void; TYPE Ljava/lang/Class;
+      745db8| const/4 vA,#+B               v4 #0
+      745dba| const/16 vAA,#+BBBB          v5 #13752
+      745dbe| move-object vA,vB            v2 v8
+      745dc0| invoke-static/range          {v4160..v4166} La0;-><init>()V
+      745dc6| move-result-object vAA       v0
+      745dc8| iget-boolean                 v0 v0 Lcom/meituan/robust/PatchProxyResult;->isSupported:Z
+      745dcc| if-eqz vAA,+BBBB             v0 +3
+      745dd0| return-void                  
+      745dd2| invoke-static {..},meth@BBBB {} LMTT/ThirdAppInfoNew;-><init>()V
+      745dd8| move-result-object vAA       v0
+      745dda| invoke-interface {..},meth@BBBB {v0,v10} Landroid/animation/AnimatorSet;->resume()V
+      745de0| return-void                  
+  .method virtual [0x1] Lfn;->fullDownloadSwitchOn()Z
+      745df4| const/4 vA,#+B               v0 #0
+      745df6| new-array vA,vB,type@CCCC    v1 v0 [Ljava/lang/Object;
+      745dfa| sget-object vAA,field@BBBB   v3 field@53361 Lfn; changeQuickRedirect Lcom/meituan/robust/ChangeQuickRedirect;
+      745dfe| new-array vA,vB,type@CCCC    v6 v0 [Ljava/lang/Class;
+      745e02| sget-object vAA,field@BBBB   v7 field@53630 Ljava/lang/Boolean; TYPE Ljava/lang/Class;
+      745e06| const/4 vA,#+B               v4 #0
+      745e08| const/16 vAA,#+BBBB          v5 #13711
+      745e0c| move-object vA,vB            v2 v8
+      745e0e| invoke-static/range          {v4160..v4166} La0;-><init>()V
+      745e14| move-result-object vAA       v0
+      745e16| iget-boolean                 v1 v0 Lcom/meituan/robust/PatchProxyResult;->isSupported:Z
+      745e1a| if-eqz vAA,+BBBB             v1 +11
+      745e1e| iget-object vA,vB,field@CCCC v0 v0 Lcom/meituan/robust/PatchProxyResult;->result:Ljava/lang/Object;
+      745e22| check-cast vAA,type@BBBB     v0 Ljava/lang/Boolean;
+      745e26| invoke-virtual {..},meth@BBBB {v0} LMTT/ThirdAppInfoNew;-><init>()V
+      745e2c| move-result vAA              v0
+      745e2e| return vAA                   v0
+      745e30| invoke-static {..},meth@BBBB {} LMTT/ThirdAppInfoNew;-><init>()V
+      745e36| move-result-object vAA       v0
+      745e38| invoke-static {..},meth@BBBB {} LMTT/ThirdAppInfoNew;-><init>()V
+      745e3e| move-result-object vAA       v1
+      745e40| invoke-virtual {..},meth@BBBB {v0,v3} La37;->l()Z
+      745e46| move-result-object vAA       v0
+      745e48| const-string vAA,string@BBBB v1 "1"
+      745e4c| invoke-virtual {..},meth@BBBB {v0,v9} La0;-><init>()V
+      745e52| move-result vAA              v0
+      745e54| return vAA                   v0
+  .method virtual [0x1] Lfn;->getAppRunModel()I
+      745e68| const/4 vA,#+B               v0 #0
+      745e6a| new-array vA,vB,type@CCCC    v1 v0 [Ljava/lang/Object;
+      745e6e| sget-object vAA,field@BBBB   v3 field@53361 Lfn; changeQuickRedirect Lcom/meituan/robust/ChangeQuickRedirect;
+      745e72| new-array vA,vB,type@CCCC    v6 v0 [Ljava/lang/Class;
+      745e76| sget-object vAA,field@BBBB   v7 field@53635 Ljava/lang/Integer; TYPE Ljava/lang/Class;
+      745e7a| const/4 vA,#+B               v4 #0
+      745e7c| const/16 vAA,#+BBBB          v5 #13723
+      745e80| move-object vA,vB            v2 v8
+      745e82| invoke-static/range          {v4160..v4166} La0;-><init>()V
+      745e88| move-result-object vAA       v0
+      745e8a| iget-boolean                 v1 v0 Lcom/meituan/robust/PatchProxyResult;->isSupported:Z
+      745e8e| if-eqz vAA,+BBBB             v1 +11
+      745e92| iget-object vA,vB,field@CCCC v0 v0 Lcom/meituan/robust/PatchProxyResult;->result:Ljava/lang/Object;
+      745e96| check-cast vAA,type@BBBB     v0 Ljava/lang/Integer;
+      745e9a| invoke-virtual {..},meth@BBBB {v0} LMTT/ThirdAppInfoNew;-><init>()V
+      745ea0| move-result vAA              v0
+      745ea2| return vAA                   v0
+      745ea4| invoke-static {..},meth@BBBB {} LMTT/ThirdAppInfoNew;-><init>()V
+      745eaa| move-result-object vAA       v0
+      745eac| invoke-static {..},meth@BBBB {} LMTT/ThirdAppInfoNew;-><init>()V
+      745eb2| move-result-object vAA       v1
+      745eb4| invoke-virtual {..},meth@BBBB {v0,v11} La37;->l()Z
+      745eba| move-result vAA              v0
+      745ebc| return vAA                   v0
+  .method virtual [0x1] Lfn;->getAutoJoinShelfTime(Landroid/content/Context;)I
+      745ed0| const/4 vA,#+B               v0 #1
+      745ed2| new-array vA,vB,type@CCCC    v1 v0 [Ljava/lang/Object;
+      745ed6| const/4 vA,#+B               v2 #0
+      745ed8| aput-object vA,vB,vC         v9 v1 v2
+      745edc| sget-object vAA,field@BBBB   v3 field@53361 Lfn; changeQuickRedirect Lcom/meituan/robust/ChangeQuickRedirect;
+      745ee0| new-array vA,vB,type@CCCC    v6 v0 [Ljava/lang/Class;
+      745ee4| const-class vAA,type@BBBB    v0 Landroid/content/Context;
+      745ee8| aput-object vA,vB,vC         v0 v6 v2
+      745eec| sget-object vAA,field@BBBB   v7 field@53635 Ljava/lang/Integer; TYPE Ljava/lang/Class;
+      745ef0| const/4 vA,#+B               v4 #0
+      745ef2| const/16 vAA,#+BBBB          v5 #13718
+      745ef6| move-object vA,vB            v2 v8
+      745ef8| invoke-static/range          {v4160..v4166} La0;-><init>()V
+      745efe| move-result-object vAA       v0
+      745f00| iget-boolean                 v1 v0 Lcom/meituan/robust/PatchProxyResult;->isSupported:Z
+      745f04| if-eqz vAA,+BBBB             v1 +11
+      745f08| iget-object vA,vB,field@CCCC v9 v0 Lcom/meituan/robust/PatchProxyResult;->result:Ljava/lang/Object;
+      745f0c| check-cast vAA,type@BBBB     v9 Ljava/lang/Integer;
+      745f10| invoke-virtual {..},meth@BBBB {v0} La22;->m(Ljava/lang/String;)Z
+      745f16| move-result vAA              v9
+      745f18| return vAA                   v9
+      745f1a| invoke-static {..},meth@BBBB {} LMTT/ThirdAppInfoNew;-><init>()V
+      745f20| move-result-object vAA       v0
+      745f22| invoke-virtual {..},meth@BBBB {v0,v4} Landroid/animation/AnimatorSet;->resume()V
+      745f28| move-result vAA              v9
+      745f2a| return vAA                   v9
+  .method virtual [0x1] Lfn;->getBaiduTaskTokenKey()Ljava/lang/String;
+      745f3c| const-string vAA,string@BBBB v0 "KM_BAIDU_TASK_TOKEN"
+      745f40| return-object vAA            v0
+  .method virtual [0x1] Lfn;->getBaiduTokenDuration(Landroid/content/Context;)J
+      745f54| const/4 vA,#+B               v0 #1
+      745f56| new-array vA,vB,type@CCCC    v1 v0 [Ljava/lang/Object;
+      745f5a| const/4 vA,#+B               v2 #0
+      745f5c| aput-object vA,vB,vC         v9 v1 v2
+      745f60| sget-object vAA,field@BBBB   v3 field@53361 Lfn; changeQuickRedirect Lcom/meituan/robust/ChangeQuickRedirect;
+      745f64| new-array vA,vB,type@CCCC    v6 v0 [Ljava/lang/Class;
+      745f68| const-class vAA,type@BBBB    v0 Landroid/content/Context;
+      745f6c| aput-object vA,vB,vC         v0 v6 v2
+      745f70| sget-object vAA,field@BBBB   v7 field@53636 Ljava/lang/Long; TYPE Ljava/lang/Class;
+      745f74| const/4 vA,#+B               v4 #0
+      745f76| const/16 vAA,#+BBBB          v5 #13715
+      745f7a| move-object vA,vB            v2 v8
+      745f7c| invoke-static/range          {v4160..v4166} La0;-><init>()V
+      745f82| move-result-object vAA       v0
+      745f84| iget-boolean                 v1 v0 Lcom/meituan/robust/PatchProxyResult;->isSupported:Z
+      745f88| if-eqz vAA,+BBBB             v1 +11
+      745f8c| iget-object vA,vB,field@CCCC v9 v0 Lcom/meituan/robust/PatchProxyResult;->result:Ljava/lang/Object;
+      745f90| check-cast vAA,type@BBBB     v9 Ljava/lang/Long;
+      745f94| invoke-virtual {..},meth@BBBB {v0} La22;->m(Ljava/lang/String;)Z
+      745f9a| move-result-wide vAA         v0
+      745f9c| return-wide vAA              v0
+      745f9e| invoke-static {..},meth@BBBB {} LMTT/ThirdAppInfoNew;-><init>()V
+      745fa4| move-result-object vAA       v0
+      745fa6| invoke-virtual {..},meth@BBBB {v0,v5} Landroid/animation/AnimatorSet;->resume()V
+      745fac| move-result-wide vAA         v0
+      745fae| return-wide vAA              v0
+  .method virtual [0x1] Lfn;->getBgIndex(Landroid/content/Context;)I
+      745fc0| const/4 vA,#+B               v0 #1
+      745fc2| new-array vA,vB,type@CCCC    v1 v0 [Ljava/lang/Object;
+      745fc6| const/4 vA,#+B               v2 #0
+      745fc8| aput-object vA,vB,vC         v9 v1 v2
+      745fcc| sget-object vAA,field@BBBB   v3 field@53361 Lfn; changeQuickRedirect Lcom/meituan/robust/ChangeQuickRedirect;
+      745fd0| new-array vA,vB,type@CCCC    v6 v0 [Ljava/lang/Class;
+      745fd4| const-class vAA,type@BBBB    v0 Landroid/content/Context;
+      745fd8| aput-object vA,vB,vC         v0 v6 v2
+      745fdc| sget-object vAA,field@BBBB   v7 field@53635 Ljava/lang/Integer; TYPE Ljava/lang/Class;
+      745fe0| const/4 vA,#+B               v4 #0
+      745fe2| const/16 vAA,#+BBBB          v5 #13729
+      745fe6| move-object vA,vB            v2 v8
+      745fe8| invoke-static/range          {v4160..v4166} La0;-><init>()V
+      745fee| move-result-object vAA       v0
+      745ff0| iget-boolean                 v1 v0 Lcom/meituan/robust/PatchProxyResult;->isSupported:Z
+      745ff4| if-eqz vAA,+BBBB             v1 +11
+      745ff8| iget-object vA,vB,field@CCCC v9 v0 Lcom/meituan/robust/PatchProxyResult;->result:Ljava/lang/Object;
+      745ffc| check-cast vAA,type@BBBB     v9 Ljava/lang/Integer;
+      746000| invoke-virtual {..},meth@BBBB {v0} La22;->m(Ljava/lang/String;)Z
+      746006| move-result vAA              v9
+      746008| return vAA                   v9
+      74600a| invoke-static {..},meth@BBBB {} LMTT/ThirdAppInfoNew;-><init>()V
+      746010| move-result-object vAA       v0
+      746012| invoke-virtual {..},meth@BBBB {v0,v12} Landroid/animation/AnimatorSet;->resume()V
+      746018| move-result vAA              v9
+      74601a| return vAA                   v9
+  .method virtual [0x1] Lfn;->getBookPrivacy()Ljava/lang/String;
+      74602c| const/4 vA,#+B               v0 #0
+      74602e| new-array vA,vB,type@CCCC    v1 v0 [Ljava/lang/Object;
+      746032| sget-object vAA,field@BBBB   v3 field@53361 Lfn; changeQuickRedirect Lcom/meituan/robust/ChangeQuickRedirect;
+      746036| new-array vA,vB,type@CCCC    v6 v0 [Ljava/lang/Class;
+      74603a| const-class vAA,type@BBBB    v7 Ljava/lang/String;
+      74603e| const/4 vA,#+B               v4 #0
+      746040| const/16 vAA,#+BBBB          v5 #13744
+      746044| move-object vA,vB            v2 v8
+      746046| invoke-static/range          {v4160..v4166} La0;-><init>()V
+      74604c| move-result-object vAA       v0
+      74604e| iget-boolean                 v1 v0 Lcom/meituan/robust/PatchProxyResult;->isSupported:Z
+      746052| if-eqz vAA,+BBBB             v1 +7
+      746056| iget-object vA,vB,field@CCCC v0 v0 Lcom/meituan/robust/PatchProxyResult;->result:Ljava/lang/Object;
+      74605a| check-cast vAA,type@BBBB     v0 Ljava/lang/String;
+      74605e| return-object vAA            v0
+      746060| invoke-static {..},meth@BBBB {} LMTT/ThirdAppInfoNew;-><init>()V
+      746066| move-result-object vAA       v0
+      746068| invoke-virtual {..},meth@BBBB {v0} LMTT/ThirdAppInfoNew;-><init>()V
+      74606e| move-result-object vAA       v0
+      746070| return-object vAA            v0
+  .method virtual [0x1] Lfn;->getBooleanFunctionValue(Ljava/lang/String;)Z
+      746084| const/4 vA,#+B               v0 #1
+      746086| new-array vA,vB,type@CCCC    v1 v0 [Ljava/lang/Object;
+      74608a| const/4 vA,#+B               v8 #0
+      74608c| aput-object vA,vB,vC         v10 v1 v8
+      746090| sget-object vAA,field@BBBB   v3 field@53361 Lfn; changeQuickRedirect Lcom/meituan/robust/ChangeQuickRedirect;
+      746094| new-array vA,vB,type@CCCC    v6 v0 [Ljava/lang/Class;
+      746098| const-class vAA,type@BBBB    v2 Ljava/lang/String;
+      74609c| aput-object vA,vB,vC         v2 v6 v8
+      7460a0| sget-object vAA,field@BBBB   v7 field@53630 Ljava/lang/Boolean; TYPE Ljava/lang/Class;
+      7460a4| const/4 vA,#+B               v4 #0
+      7460a6| const/16 vAA,#+BBBB          v5 #13741
+      7460aa| move-object vA,vB            v2 v9
+      7460ac| invoke-static/range          {v4160..v4166} La0;-><init>()V
+      7460b2| move-result-object vAA       v1
+      7460b4| iget-boolean                 v2 v1 Lcom/meituan/robust/PatchProxyResult;->isSupported:Z
+      7460b8| if-eqz vAA,+BBBB             v2 +11
+      7460bc| iget-object vA,vB,field@CCCC v10 v1 Lcom/meituan/robust/PatchProxyResult;->result:Ljava/lang/Object;
+      7460c0| check-cast vAA,type@BBBB     v10 Ljava/lang/Boolean;
+      7460c4| invoke-virtual {..},meth@BBBB {v0} La26;->a(Ljava/nio/file/Path;,I)Ljava/nio/file/Path;
+      7460ca| move-result vAA              v10
+      7460cc| return vAA                   v10
+      7460ce| invoke-virtual {..},meth@BBBB {v0} La26;->a(Ljava/nio/file/Path;,I)Ljava/nio/file/Path;
+      7460d4| const/4 vA,#+B               v1 #-1
+      7460d6| invoke-virtual {..},meth@BBBB {v0} La26;->a(Ljava/nio/file/Path;,I)Ljava/nio/file/Path;
+      7460dc| move-result vAA              v2
+      7460de| sparse-switch vAA,+BBBBBBBB  v2 +151
+      7460e4| move vA,vB                   v0 v1
+      7460e6| goto                         +64
+      7460e8| const-string vAA,string@BBBB v0 "CUR_ACTIVITY_IS_LOGIN_ACTIVITY"
+      7460ec| invoke-virtual {..},meth@BBBB {v0,v9} La26;->a(Ljava/nio/file/Path;,I)Ljava/nio/file/Path;
+      7460f2| move-result vAA              v10
+      7460f4| if-nez vAA,+BBBB             v10 +3
+      7460f8| goto                         +-10
+      7460fa| const/4 vA,#+B               v0 #5
+      7460fc| goto                         +53
+      7460fe| const-string vAA,string@BBBB v0 "CUR_ACTIVITY_IS_VERIFY_CODE_INPUT_ACTIVITY"
+      746102| invoke-virtual {..},meth@BBBB {v0,v9} La26;->a(Ljava/nio/file/Path;,I)Ljava/nio/file/Path;
+      746108| move-result vAA              v10
+      74610a| if-nez vAA,+BBBB             v10 +3
+      74610e| goto                         +-21
+      746110| const/4 vA,#+B               v0 #4
+      746112| goto                         +42
+      746114| const-string vAA,string@BBBB v0 "KEY_IS_TICKER_TOTAL_OPEN"
+      746118| invoke-virtual {..},meth@BBBB {v0,v9} La26;->a(Ljava/nio/file/Path;,I)Ljava/nio/file/Path;
+      74611e| move-result vAA              v10
+      746120| if-nez vAA,+BBBB             v10 +3
+      746124| goto                         +-32
+      746126| const/4 vA,#+B               v0 #3
+      746128| goto                         +31
+      74612a| const-string vAA,string@BBBB v0 "KEY_IS_REWARD_TOTAL_OPEN"
+      74612e| invoke-virtual {..},meth@BBBB {v0,v9} La26;->a(Ljava/nio/file/Path;,I)Ljava/nio/file/Path;
+      746134| move-result vAA              v10
+      746136| if-nez vAA,+BBBB             v10 +3
+      74613a| goto                         +-43
+      74613c| const/4 vA,#+B               v0 #2
+      74613e| goto                         +20
+      746140| const-string vAA,string@BBBB v2 "USER_IS_BACK_USER"
+      746144| invoke-virtual {..},meth@BBBB {v0,v9} Lac1;-><init>()V
+      74614a| move-result vAA              v10
+      74614c| if-nez vAA,+BBBB             v10 +13
+      746150| goto                         +-54
+      746152| const-string vAA,string@BBBB v0 "IS_MULTI_DEVICE_USER"
+      746156| invoke-virtual {..},meth@BBBB {v0,v9} La26;->a(Ljava/nio/file/Path;,I)Ljava/nio/file/Path;
+      74615c| move-result vAA              v10
+      74615e| if-nez vAA,+BBBB             v10 +3
+      746162| goto                         +-63
+      746164| move vA,vB                   v0 v8
+      746166| packed-switch vAA,+BBBBBBBB  v0 +109
+      74616c| return vAA                   v8
+      74616e| invoke-static {..},meth@BBBB {} LMTT/ThirdAppInfoNew;-><init>()V
+      746174| move-result-object vAA       v10
+      746176| invoke-interface {..},meth@BBBB {v0} La26;->a(Ljava/nio/file/Path;,I)Ljava/nio/file/Path;
+      74617c| move-result vAA              v10
+      74617e| return vAA                   v10
+      746180| invoke-static {..},meth@BBBB {} LMTT/ThirdAppInfoNew;-><init>()V
+      746186| move-result-object vAA       v10
+      746188| invoke-interface {..},meth@BBBB {v0} La26;->a(Ljava/nio/file/Path;,I)Ljava/nio/file/Path;
+      74618e| move-result vAA              v10
+      746190| return vAA                   v10
+      746192| invoke-static {..},meth@BBBB {} LMTT/ThirdAppInfoNew;-><init>()V
+      746198| move-result-object vAA       v10
+      74619a| invoke-virtual {..},meth@BBBB {v0} La26;->a(Ljava/nio/file/Path;,I)Ljava/nio/file/Path;
+      7461a0| move-result vAA              v10
+      7461a2| return vAA                   v10
+      7461a4| invoke-static {..},meth@BBBB {} LMTT/ThirdAppInfoNew;-><init>()V
+      7461aa| move-result-object vAA       v10
+      7461ac| invoke-static {..},meth@BBBB {} LMTT/ThirdAppInfoNew;-><init>()V
+      7461b2| move-result-object vAA       v0
+      7461b4| invoke-virtual {..},meth@BBBB {v0,v6} La26;->a(Ljava/nio/file/Path;,I)Ljava/nio/file/Path;
+      7461ba| move-result-object vAA       v10
+      7461bc| const-string vAA,string@BBBB v0 "1"
+      7461c0| invoke-virtual {..},meth@BBBB {v0,v9} Landroid/animation/ValueAnimator;->getAnimatedValue()Ljava/lang/Object;
+      7461c6| move-result vAA              v10
+      7461c8| return vAA                   v10
+      7461ca| invoke-static {..},meth@BBBB {} LMTT/ThirdAppInfoNew;-><init>()V
+      7461d0| move-result-object vAA       v10
+      7461d2| invoke-virtual {..},meth@BBBB {v0} La26;->a(Ljava/nio/file/Path;,I)Ljava/nio/file/Path;
+      7461d8| move-result-object vAA       v10
+      7461da| if-eqz vAA,+BBBB             v10 +14
+      7461de| invoke-virtual {..},meth@BBBB {v0} La26;->a(Ljava/nio/file/Path;,I)Ljava/nio/file/Path;
+      7461e4| move-result vAA              v0
+      7461e6| if-nez vAA,+BBBB             v0 +3
+      7461ea| goto                         +6
+      7461ec| invoke-virtual {..},meth@BBBB {v0} La26;->a(Ljava/nio/file/Path;,I)Ljava/nio/file/Path;
+      7461f2| move-result vAA              v10
+      7461f4| return vAA                   v10
+      7461f6| return vAA                   v8
+      7461f8| invoke-static {..},meth@BBBB {} LMTT/ThirdAppInfoNew;-><init>()V
+      7461fe| move-result-object vAA       v10
+      746200| invoke-virtual {..},meth@BBBB {v0} La26;->a(Ljava/nio/file/Path;,I)Ljava/nio/file/Path;
+      746206| move-result vAA              v10
+      746208| return vAA                   v10
+      74620a| nop                          
+      74620c|   ; payload 0x2
+      746210| const-wide/high16 vAA,#+BBBB000000000000 v170 #0xA460000000000000
+      746214| unknown-0x42                 
+      746216| unknown-0xfe                 
+      746218| and-long/2addr               v11 v11
+      74621a| div-int/lit8                 v30 v5 #57
+      74621e| move-result-object vAA       v99
+      746220| rem-int/lit16                v1 v4 #26297
+      746224| aget-char                    v15 v225 v108
+      746228| if-ltz vAA,+BBBB             v0 +0
+      74622c| cmp-long                     v0 v0 v0
+      746230| fill-array-data vAA,+BBBBBBBB v0 +1769472
+      746236| nop                          
+      746238| return-wide vAA              v0
+      74623a| nop                          
+      74623c| move-wide/from16             v0 v0
+      746240|   ; payload 0x1
+      746244| nop                          
+      746246| nop                          
+      746248| aget-char                    v0 v0 v0
+      74624c| if-eq vA,vB,+CCCC            v0 v0 +0
+      746250| check-cast vAA,type@BBBB     v0 B
+      746254| const-wide/16 vAA,#+BBBB     v0 #0
+      746258| move-exception vAA           v0
+      74625a| nop                          
+      74625c| move-wide                    v0 v0
+      74625e| nop                          
+  .method virtual [0x1] Lfn;->getExchangeCoinAmount(Landroid/content/Context;)Ljava/lang/String;
+      746270| const/4 vA,#+B               v0 #1
+      746272| new-array vA,vB,type@CCCC    v1 v0 [Ljava/lang/Object;
+      746276| const/4 vA,#+B               v2 #0
+      746278| aput-object vA,vB,vC         v9 v1 v2
+      74627c| sget-object vAA,field@BBBB   v3 field@53361 Lfn; changeQuickRedirect Lcom/meituan/robust/ChangeQuickRedirect;
+      746280| new-array vA,vB,type@CCCC    v6 v0 [Ljava/lang/Class;
+      746284| const-class vAA,type@BBBB    v0 Landroid/content/Context;
+      746288| aput-object vA,vB,vC         v0 v6 v2
+      74628c| const-class vAA,type@BBBB    v7 Ljava/lang/String;
+      746290| const/4 vA,#+B               v4 #0
+      746292| const/16 vAA,#+BBBB          v5 #13739
+      746296| move-object vA,vB            v2 v8
+      746298| invoke-static/range          {v4160..v4166} La0;-><init>()V
+      74629e| move-result-object vAA       v0
+      7462a0| iget-boolean                 v1 v0 Lcom/meituan/robust/PatchProxyResult;->isSupported:Z
+      7462a4| if-eqz vAA,+BBBB             v1 +7
+      7462a8| iget-object vA,vB,field@CCCC v9 v0 Lcom/meituan/robust/PatchProxyResult;->result:Ljava/lang/Object;
+      7462ac| check-cast vAA,type@BBBB     v9 Ljava/lang/String;
+      7462b0| return-object vAA            v9
+      7462b2| invoke-static {..},meth@BBBB {} LMTT/ThirdAppInfoNew;-><init>()V
+      7462b8| move-result-object vAA       v0
+      7462ba| invoke-virtual {..},meth@BBBB {v0,v6} Landroid/animation/AnimatorSet;->resume()V
+      7462c0| move-result-object vAA       v9
+      7462c2| return-object vAA            v9
+  .method virtual [0x1] Lfn;->getFunctionValue(Ljava/lang/String;)Ljava/lang/String;
+Traceback (most recent call last):
+  File "E:\workaddress\qimao\tools\find_class.py", line 59, in <module>
+    run(dexpath, needle, deep)
+    ~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\workaddress\qimao\tools\find_class.py", line 45, in run
+    for off, txt in disasm(dx, CodeItem(dx, code)):
+                    ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\workaddress\qimao\tools\dexdump.py", line 297, in disasm
+    args = ['v%d' % a, 'v%d' % b, clean(dx.type_at(idx))]
+                                        ~~~~~~~~~~^^^^^
+  File "E:\workaddress\qimao\tools\dexdump.py", line 83, in type_at
+    return self.str_at(didx)
+           ~~~~~~~~~~~^^^^^^
+  File "E:\workaddress\qimao\tools\dexdump.py", line 77, in str_at
+    ln, p = uleb128(self.d, off)
+            ~~~~~~~^^^^^^^^^^^^^
+  File "E:\workaddress\qimao\tools\dexdump.py", line 38, in uleb128
+    b = d[pos]; pos += 1
+        ~^^^^^
+IndexError: index out of range

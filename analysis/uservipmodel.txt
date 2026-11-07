@@ -1,0 +1,552 @@
+==============================================================================
+DEX   : extracted/classes6.dex
+CLASS : Lcom/qimao/qmuser/model/UserVipModel;
+RAW   : 'Lcom/qimao/qmuser/model/UserVipModel;'
+SUPER : Lwd4;
+IFACES: []
+  .method direct [0x10002] Lcom/qimao/qmuser/model/UserVipModel;-><init>()V
+      489580| invoke-direct {..},meth@BBBB {v0} La12;->b(Lmp3;)V
+      489586| const/4 vA,#+B               v0 #0
+      489588| iput-boolean                 v0 v2 Lcom/qimao/qmuser/model/UserVipModel;->mineVipChange:Z
+      48958c| const/4 vA,#+B               v0 #1
+      48958e| const/4 vA,#+B               v1 #3
+      489590| filled-new-array {vC..}      {v0,v3,v2} Landroid/media/AudioAttributes;
+      489596| move-result-object vAA       v0
+      489598| iput-object vA,vB,field@CCCC v0 v2 Lcom/qimao/qmuser/model/UserVipModel;->retryInterval:[I
+      48959c| iget-object vA,vB,field@CCCC v0 v2 Lwd4;->mModelManager:Lid5;
+      4895a0| const-class vAA,type@BBBB    v1 Lcom/qimao/qmuser/model/net/IUserServiceApi;
+      4895a4| invoke-virtual {..},meth@BBBB {v0,v4} La37;->l()Z
+      4895aa| move-result-object vAA       v0
+      4895ac| check-cast vAA,type@BBBB     v0 Lcom/qimao/qmuser/model/net/IUserServiceApi;
+      4895b0| iput-object vA,vB,field@CCCC v0 v2 Lcom/qimao/qmuser/model/UserVipModel;->iUserServiceApi:Lcom/qimao/qmuser/model/net/IUserServiceApi;
+      4895b4| return-void                  
+  .method direct [0x11001] Lcom/qimao/qmuser/model/UserVipModel;-><init>(Lw49;)V
+      4895c8| invoke-direct {..},meth@BBBB {v0} LMTT/ThirdAppInfoNew;-><init>()V
+      4895ce| return-void                  
+  .method direct [0x1049] Lcom/qimao/qmuser/model/UserVipModel;->b(Lcom/qimao/qmuser/model/UserVipModel;,Lcom/qimao/qmuser/model/response/UserVipResponse;)Lcom/qimao/qmuser/model/response/UserVipInfoResponse;
+      4895e0| invoke-direct {..},meth@BBBB {v0,v12} La37;->l()Z
+      4895e6| move-result-object vAA       v0
+      4895e8| return-object vAA            v0
+  .method direct [0x2] Lcom/qimao/qmuser/model/UserVipModel;->cancelTimer()V
+      4895fc| const/4 vA,#+B               v0 #0
+      4895fe| new-array vA,vB,type@CCCC    v1 v0 [Ljava/lang/Object;
+      489602| sget-object vAA,field@BBBB   v3 field@18158 Lcom/qimao/qmuser/model/UserVipModel; changeQuickRedirect Lcom/meituan/robust/ChangeQuickRedirect;
+      489606| new-array vA,vB,type@CCCC    v6 v0 [Ljava/lang/Class;
+      48960a| sget-object vAA,field@BBBB   v7 field@53641 Ljava/lang/Void; TYPE Ljava/lang/Class;
+      48960e| const/4 vA,#+B               v4 #0
+      489610| const/16 vAA,#+BBBB          v5 #7237
+      489614| move-object vA,vB            v2 v8
+      489616| invoke-static/range          {v4160..v4166} La0;-><init>()V
+      48961c| move-result-object vAA       v0
+      48961e| iget-boolean                 v0 v0 Lcom/meituan/robust/PatchProxyResult;->isSupported:Z
+      489622| if-eqz vAA,+BBBB             v0 +3
+      489626| return-void                  
+      489628| sget-object vAA,field@BBBB   v0 field@18164 Lcom/qimao/qmuser/model/UserVipModel; schedule Lio/reactivex/disposables/Disposable;
+      48962c| if-nez vAA,+BBBB             v0 +3
+      489630| return-void                  
+      489632| invoke-interface {..},meth@BBBB {v0} LMTT/ThirdAppInfoNew;-><init>()V
+      489638| move-result vAA              v0
+      48963a| if-eqz vAA,+BBBB             v0 +3
+      48963e| return-void                  
+      489640| sget-object vAA,field@BBBB   v0 field@18164 Lcom/qimao/qmuser/model/UserVipModel; schedule Lio/reactivex/disposables/Disposable;
+      489644| invoke-interface {..},meth@BBBB {v0} LMTT/ThirdAppInfoNew;-><init>()V
+      48964a| const/4 vA,#+B               v0 #0
+      48964c| sput-object vAA,field@BBBB   v0 field@18164 Lcom/qimao/qmuser/model/UserVipModel; schedule Lio/reactivex/disposables/Disposable;
+      489650| const-wide/16 vAA,#+BBBB     v0 #0
+      489654| sput-wide                    v0 field@18161 Lcom/qimao/qmuser/model/UserVipModel; leftTime J
+      489658| return-void                  
+  .method direct [0x2] Lcom/qimao/qmuser/model/UserVipModel;->decodeVipResponse(Lcom/qimao/qmuser/model/response/UserVipResponse;)Lcom/qimao/qmuser/model/response/UserVipInfoResponse;
+      48966c| const/4 vA,#+B               v0 #1
+      48966e| new-array vA,vB,type@CCCC    v1 v0 [Ljava/lang/Object;
+      489672| const/4 vA,#+B               v2 #0
+      489674| aput-object vA,vB,vC         v9 v1 v2
+      489678| sget-object vAA,field@BBBB   v3 field@18158 Lcom/qimao/qmuser/model/UserVipModel; changeQuickRedirect Lcom/meituan/robust/ChangeQuickRedirect;
+      48967c| new-array vA,vB,type@CCCC    v6 v0 [Ljava/lang/Class;
+      489680| const-class vAA,type@BBBB    v0 Lcom/qimao/qmuser/model/response/UserVipResponse;
+      489684| aput-object vA,vB,vC         v0 v6 v2
+      489688| const-class vAA,type@BBBB    v7 Lcom/qimao/qmuser/model/response/UserVipInfoResponse;
+      48968c| const/4 vA,#+B               v4 #0
+      48968e| const/16 vAA,#+BBBB          v5 #7234
+      489692| move-object vA,vB            v2 v8
+      489694| invoke-static/range          {v4160..v4166} La0;-><init>()V
+      48969a| move-result-object vAA       v0
+      48969c| iget-boolean                 v1 v0 Lcom/meituan/robust/PatchProxyResult;->isSupported:Z
+      4896a0| if-eqz vAA,+BBBB             v1 +7
+      4896a4| iget-object vA,vB,field@CCCC v9 v0 Lcom/meituan/robust/PatchProxyResult;->result:Ljava/lang/Object;
+      4896a8| check-cast vAA,type@BBBB     v9 Lcom/qimao/qmuser/model/response/UserVipInfoResponse;
+      4896ac| return-object vAA            v9
+      4896ae| if-eqz vAA,+BBBB             v9 +43
+      4896b2| invoke-virtual {..},meth@BBBB {v0} La22;->m(Ljava/lang/String;)Z
+      4896b8| move-result-object vAA       v0
+      4896ba| if-eqz vAA,+BBBB             v0 +37
+      4896be| invoke-virtual {..},meth@BBBB {v0} La22;->m(Ljava/lang/String;)Z
+      4896c4| move-result-object vAA       v9
+      4896c6| invoke-static {..},meth@BBBB {v0} La22;->m(Ljava/lang/String;)Z
+      4896cc| move-result-object vAA       v9
+      4896ce| invoke-virtual {..},meth@BBBB {v0} La22;->m(Ljava/lang/String;)Z
+      4896d4| move-result-object vAA       v9
+      4896d6| invoke-static {..},meth@BBBB {v0} La22;->m(Ljava/lang/String;)Z
+      4896dc| move-result vAA              v0
+      4896de| if-eqz vAA,+BBBB             v0 +19
+      4896e2| invoke-static {..},meth@BBBB {} LMTT/ThirdAppInfoNew;-><init>()V
+      4896e8| move-result-object vAA       v0
+      4896ea| invoke-virtual {..},meth@BBBB {v0} LMTT/ThirdAppInfoNew;-><init>()V
+      4896f0| move-result-object vAA       v0
+      4896f2| const-class vAA,type@BBBB    v1 Lcom/qimao/qmuser/model/response/UserVipInfoResponse;
+      4896f6| invoke-virtual {..},meth@BBBB {v0,v2,v11} Landroid/app/Activity;->onProvideKeyboardShortcuts(Ljava/util/List;,Landroid/view/Menu;,I)V
+      4896fc| move-result-object vAA       v9
+      4896fe| check-cast vAA,type@BBBB     v9 Lcom/qimao/qmuser/model/response/UserVipInfoResponse;
+      489702| return-object vAA            v9
+      489704| const/4 vA,#+B               v9 #0
+      489706| return-object vAA            v9
+  .method direct [0x9] Lcom/qimao/qmuser/model/UserVipModel;->getInstance()Lcom/qimao/qmuser/model/UserVipModel;
+      489718| invoke-static {..},meth@BBBB {} LMTT/ThirdAppInfoNew;-><init>()V
+      48971e| move-result-object vAA       v0
+      489720| return-object vAA            v0
+  .method direct [0x2] Lcom/qimao/qmuser/model/UserVipModel;->handlerVipExpiration(Ljava/lang/String;)V
+      489734| const/4 vA,#+B               v0 #1
+      489736| new-array vA,vB,type@CCCC    v1 v0 [Ljava/lang/Object;
+      48973a| const/4 vA,#+B               v2 #0
+      48973c| aput-object vA,vB,vC         v9 v1 v2
+      489740| sget-object vAA,field@BBBB   v3 field@18158 Lcom/qimao/qmuser/model/UserVipModel; changeQuickRedirect Lcom/meituan/robust/ChangeQuickRedirect;
+      489744| new-array vA,vB,type@CCCC    v6 v0 [Ljava/lang/Class;
+      489748| const-class vAA,type@BBBB    v0 Ljava/lang/String;
+      48974c| aput-object vA,vB,vC         v0 v6 v2
+      489750| sget-object vAA,field@BBBB   v7 field@53641 Ljava/lang/Void; TYPE Ljava/lang/Class;
+      489754| const/4 vA,#+B               v4 #0
+      489756| const/16 vAA,#+BBBB          v5 #7236
+      48975a| move-object vA,vB            v2 v8
+      48975c| invoke-static/range          {v4160..v4166} La0;-><init>()V
+      489762| move-result-object vAA       v0
+      489764| iget-boolean                 v0 v0 Lcom/meituan/robust/PatchProxyResult;->isSupported:Z
+      489768| if-eqz vAA,+BBBB             v0 +3
+      48976c| return-void                  
+      48976e| invoke-static {..},meth@BBBB {v0} La22;->m(Ljava/lang/String;)Z
+      489774| move-result-wide vAA         v0
+      489776| const-wide/16 vAA,#+BBBB     v2 #0
+      48977a| cmp-long                     v9 v0 v2
+      48977e| if-eqz vAA,+BBBB             v9 +104
+      489782| invoke-static {..},meth@BBBB {} LMTT/ThirdAppInfoNew;-><init>()V
+      489788| move-result-wide vAA         v4
+      48978a| const-wide/16 vAA,#+BBBB     v6 #1000
+      48978e| div-long/2addr               v4 v6
+      489790| cmp-long                     v9 v0 v4
+      489794| if-gez vAA,+BBBB             v9 +6
+      489798| invoke-direct {..},meth@BBBB {v0} La22;->d()V
+      48979e| goto                         +88
+      4897a0| sub-long/2addr               v0 v4
+      4897a2| invoke-static {..},meth@BBBB {} LMTT/ThirdAppInfoNew;-><init>()V
+      4897a8| move-result vAA              v9
+      4897aa| if-eqz vAA,+BBBB             v9 +32
+      4897ae| new-instance vAA,type@BBBB   v9 Ljava/lang/StringBuilder;
+      4897b2| invoke-direct {..},meth@BBBB {v0} La22;->m(Ljava/lang/String;)Z
+      4897b8| const-string/jumbo vAA,string@BBBBBBBB v4 "距离VIP"
+      4897be| invoke-virtual {..},meth@BBBB {v0,v13} Laea;->f(Laea;,Ljava/lang/String;)V
+      4897c4| invoke-virtual {..},meth@BBBB {v0,v13,v0} Landroid/app/Activity;->getFilesDir()Ljava/io/File;
+      4897ca| const-string/jumbo vAA,string@BBBBBBBB v4 ""
+      4897d0| invoke-virtual {..},meth@BBBB {v0,v13} Laea;->f(Laea;,Ljava/lang/String;)V
+      4897d6| invoke-virtual {..},meth@BBBB {v0} La22;->m(Ljava/lang/String;)Z
+      4897dc| move-result-object vAA       v9
+      4897de| const-string/jumbo vAA,string@BBBBBBBB v4 "vipUpdate"
+      4897e4| invoke-static {..},meth@BBBB {v0,v9} Landroid/animation/ObjectAnimator;->ofFloat(Ljava/lang/Object;,Landroid/util/Property;,[F)Landroid/animation/ObjectAnimator;
+      4897ea| const-wide/16 vAA,#+BBBB     v4 #7200
+      4897ee| cmp-long                     v9 v0 v4
+      4897f2| if-lez vAA,+BBBB             v9 +6
+      4897f6| invoke-direct {..},meth@BBBB {v0} La22;->d()V
+      4897fc| return-void                  
+      4897fe| sget-wide                    v4 field@18161 Lcom/qimao/qmuser/model/UserVipModel; leftTime J
+      489802| cmp-long                     v9 v4 v2
+      489806| if-eqz vAA,+BBBB             v9 +15
+      48980a| sub-long                     v2 v0 v4
+      48980e| invoke-static {..},meth@BBBB {v0,v3} Lac1;->maxBy(Ljava/lang/Iterable;,Lkotlin/jvm/functions/Function1;)Ljava/lang/Object;
+      489814| move-result-wide vAA         v2
+      489816| const-wide/16 vAA,#+BBBB     v4 #10
+      48981a| cmp-long                     v9 v2 v4
+      48981e| if-gez vAA,+BBBB             v9 +3
+      489822| return-void                  
+      489824| invoke-direct {..},meth@BBBB {v0} La22;->d()V
+      48982a| sput-wide                    v0 field@18161 Lcom/qimao/qmuser/model/UserVipModel; leftTime J
+      48982e| const-wide/16 vAA,#+BBBB     v2 #30
+      489832| add-long/2addr               v0 v2
+      489834| sget-object vAA,field@BBBB   v9 field@53673 Ljava/util/concurrent/TimeUnit; SECONDS Ljava/util/concurrent/TimeUnit;
+      489838| new-instance vAA,type@BBBB   v2 Lcom/qimao/qmuser/model/UserVipModel$4;
+      48983c| invoke-direct {..},meth@BBBB {v0,v11} Landroid/animation/Animator;->setInterpolator(Landroid/animation/TimeInterpolator;)V
+      489842| invoke-static {..},meth@BBBB {v0,v11,v13,v0} Lcom/qimao/qmuser/model/entity/mine_v2/VipInfo$NoramlActivityInfo;-><init>()V
+      489848| move-result-object vAA       v9
+      48984a| sput-object vAA,field@BBBB   v9 field@18164 Lcom/qimao/qmuser/model/UserVipModel; schedule Lio/reactivex/disposables/Disposable;
+      48984e| return-void                  
+  .method virtual [0x1] Lcom/qimao/qmuser/model/UserVipModel;->getMineVipChange()Z
+      489870| iget-boolean                 v0 v1 Lcom/qimao/qmuser/model/UserVipModel;->mineVipChange:Z
+      489874| return vAA                   v0
+  .method virtual [0x1] Lcom/qimao/qmuser/model/UserVipModel;->getUserVip()V
+      489888| const/4 vA,#+B               v0 #0
+      48988a| new-array vA,vB,type@CCCC    v1 v0 [Ljava/lang/Object;
+      48988e| sget-object vAA,field@BBBB   v3 field@18158 Lcom/qimao/qmuser/model/UserVipModel; changeQuickRedirect Lcom/meituan/robust/ChangeQuickRedirect;
+      489892| new-array vA,vB,type@CCCC    v6 v0 [Ljava/lang/Class;
+      489896| sget-object vAA,field@BBBB   v7 field@53641 Ljava/lang/Void; TYPE Ljava/lang/Class;
+      48989a| const/4 vA,#+B               v4 #0
+      48989c| const/16 vAA,#+BBBB          v5 #7231
+      4898a0| move-object vA,vB            v2 v8
+      4898a2| invoke-static/range          {v4160..v4166} La0;-><init>()V
+      4898a8| move-result-object vAA       v0
+      4898aa| iget-boolean                 v0 v0 Lcom/meituan/robust/PatchProxyResult;->isSupported:Z
+      4898ae| if-eqz vAA,+BBBB             v0 +3
+      4898b2| return-void                  
+      4898b4| invoke-static {..},meth@BBBB {} LMTT/ThirdAppInfoNew;-><init>()V
+      4898ba| move-result vAA              v0
+      4898bc| if-eqz vAA,+BBBB             v0 +11
+      4898c0| const-string/jumbo vAA,string@BBBBBBBB v0 "vipUpdate"
+      4898c6| const-string/jumbo vAA,string@BBBBBBBB v1 "请求VIP"
+      4898cc| invoke-static {..},meth@BBBB {v0,v9} La37;->l()Z
+      4898d2| iget-object vA,vB,field@CCCC v0 v8 Lwd4;->mModelManager:Lid5;
+      4898d6| iget-object vA,vB,field@CCCC v1 v8 Lcom/qimao/qmuser/model/UserVipModel;->iUserServiceApi:Lcom/qimao/qmuser/model/net/IUserServiceApi;
+      4898da| invoke-interface {..},meth@BBBB {v0} La0;-><init>()V
+      4898e0| move-result-object vAA       v1
+      4898e2| invoke-virtual {..},meth@BBBB {v0,v4} La37;->l()Z
+      4898e8| move-result-object vAA       v0
+      4898ea| new-instance vAA,type@BBBB   v1 Lcom/qimao/qmuser/model/UserVipModel$1;
+      4898ee| invoke-direct {..},meth@BBBB {v0,v10} Landroid/animation/Animator;->removeAllListeners()V
+      4898f4| invoke-virtual {..},meth@BBBB {v0,v10} La37;->l()Z
+      4898fa| return-void                  
+  .method virtual [0x1] Lcom/qimao/qmuser/model/UserVipModel;->getUserVipAndRetry()V
+      48990c| const/4 vA,#+B               v0 #0
+      48990e| new-array vA,vB,type@CCCC    v1 v0 [Ljava/lang/Object;
+      489912| sget-object vAA,field@BBBB   v3 field@18158 Lcom/qimao/qmuser/model/UserVipModel; changeQuickRedirect Lcom/meituan/robust/ChangeQuickRedirect;
+      489916| new-array vA,vB,type@CCCC    v6 v0 [Ljava/lang/Class;
+      48991a| sget-object vAA,field@BBBB   v7 field@53641 Ljava/lang/Void; TYPE Ljava/lang/Class;
+      48991e| const/4 vA,#+B               v4 #0
+      489920| const/16 vAA,#+BBBB          v5 #7232
+      489924| move-object vA,vB            v2 v8
+      489926| invoke-static/range          {v4160..v4166} La0;-><init>()V
+      48992c| move-result-object vAA       v0
+      48992e| iget-boolean                 v0 v0 Lcom/meituan/robust/PatchProxyResult;->isSupported:Z
+      489932| if-eqz vAA,+BBBB             v0 +3
+      489936| return-void                  
+      489938| invoke-static {..},meth@BBBB {} LMTT/ThirdAppInfoNew;-><init>()V
+      48993e| move-result vAA              v0
+      489940| if-eqz vAA,+BBBB             v0 +11
+      489944| const-string/jumbo vAA,string@BBBBBBBB v0 "vipUpdate"
+      48994a| const-string/jumbo vAA,string@BBBBBBBB v1 "请求VIP"
+      489950| invoke-static {..},meth@BBBB {v0,v9} La37;->l()Z
+      489956| iget-object vA,vB,field@CCCC v0 v8 Lwd4;->mModelManager:Lid5;
+      48995a| iget-object vA,vB,field@CCCC v1 v8 Lcom/qimao/qmuser/model/UserVipModel;->iUserServiceApi:Lcom/qimao/qmuser/model/net/IUserServiceApi;
+      48995e| invoke-interface {..},meth@BBBB {v0} La0;-><init>()V
+      489964| move-result-object vAA       v1
+      489966| invoke-virtual {..},meth@BBBB {v0,v4} La37;->l()Z
+      48996c| move-result-object vAA       v0
+      48996e| new-instance vAA,type@BBBB   v1 Lw47;
+      489972| const/4 vA,#+B               v2 #3
+      489974| const/16 vAA,#+BBBB          v3 #10
+      489978| invoke-direct {..},meth@BBBB {v0,v5,v1} Landroid/app/NativeActivity;->onContextItemSelected(Landroid/view/MenuItem;)Z
+      48997e| invoke-virtual {..},meth@BBBB {v0,v9} La37;->l()Z
+      489984| move-result-object vAA       v0
+      489986| new-instance vAA,type@BBBB   v1 Lcom/qimao/qmuser/model/UserVipModel$2;
+      48998a| invoke-direct {..},meth@BBBB {v0,v10} Landroid/animation/Animator;->removeAllListeners()V
+      489990| invoke-virtual {..},meth@BBBB {v0,v10} La37;->l()Z
+      489996| return-void                  
+  .method virtual [0x1] Lcom/qimao/qmuser/model/UserVipModel;->getUserVipObservable()Lio/reactivex/Observable;
+      4899a8| const/4 vA,#+B               v0 #0
+      4899aa| new-array vA,vB,type@CCCC    v1 v0 [Ljava/lang/Object;
+      4899ae| sget-object vAA,field@BBBB   v3 field@18158 Lcom/qimao/qmuser/model/UserVipModel; changeQuickRedirect Lcom/meituan/robust/ChangeQuickRedirect;
+      4899b2| new-array vA,vB,type@CCCC    v6 v0 [Ljava/lang/Class;
+      4899b6| const-class vAA,type@BBBB    v7 Lio/reactivex/Observable;
+      4899ba| const/4 vA,#+B               v4 #0
+      4899bc| const/16 vAA,#+BBBB          v5 #7233
+      4899c0| move-object vA,vB            v2 v8
+      4899c2| invoke-static/range          {v4160..v4166} La0;-><init>()V
+      4899c8| move-result-object vAA       v0
+      4899ca| iget-boolean                 v1 v0 Lcom/meituan/robust/PatchProxyResult;->isSupported:Z
+      4899ce| if-eqz vAA,+BBBB             v1 +7
+      4899d2| iget-object vA,vB,field@CCCC v0 v0 Lcom/meituan/robust/PatchProxyResult;->result:Ljava/lang/Object;
+      4899d6| check-cast vAA,type@BBBB     v0 Lio/reactivex/Observable;
+      4899da| return-object vAA            v0
+      4899dc| iget-object vA,vB,field@CCCC v0 v8 Lwd4;->mModelManager:Lid5;
+      4899e0| iget-object vA,vB,field@CCCC v1 v8 Lcom/qimao/qmuser/model/UserVipModel;->iUserServiceApi:Lcom/qimao/qmuser/model/net/IUserServiceApi;
+      4899e4| invoke-interface {..},meth@BBBB {v0} La0;-><init>()V
+      4899ea| move-result-object vAA       v1
+      4899ec| invoke-virtual {..},meth@BBBB {v0,v4} La37;->l()Z
+      4899f2| move-result-object vAA       v0
+      4899f4| new-instance vAA,type@BBBB   v1 Lcom/qimao/qmuser/model/UserVipModel$3;
+      4899f8| invoke-direct {..},meth@BBBB {v0,v10} Landroid/animation/Animator;->removeAllListeners()V
+      4899fe| invoke-virtual {..},meth@BBBB {v0,v9} La37;->l()Z
+      489a04| move-result-object vAA       v0
+      489a06| return-object vAA            v0
+  .method virtual [0x1] Lcom/qimao/qmuser/model/UserVipModel;->getVipInBackground(I)V
+      489a18| new-instance vAA,type@BBBB   v0 Ljava/lang/Integer;
+      489a1c| invoke-direct {..},meth@BBBB {v0,v1} Landroid/animation/ValueAnimator;->getAnimatedValue()Ljava/lang/Object;
+      489a22| const/4 vA,#+B               v1 #1
+      489a24| new-array vA,vB,type@CCCC    v2 v1 [Ljava/lang/Object;
+      489a28| const/4 vA,#+B               v3 #0
+      489a2a| aput-object vA,vB,vC         v0 v2 v3
+      489a2e| sget-object vAA,field@BBBB   v4 field@18158 Lcom/qimao/qmuser/model/UserVipModel; changeQuickRedirect Lcom/meituan/robust/ChangeQuickRedirect;
+      489a32| new-array vA,vB,type@CCCC    v7 v1 [Ljava/lang/Class;
+      489a36| sget-object vAA,field@BBBB   v0 field@53635 Ljava/lang/Integer; TYPE Ljava/lang/Class;
+      489a3a| aput-object vA,vB,vC         v0 v7 v3
+      489a3e| sget-object vAA,field@BBBB   v8 field@53641 Ljava/lang/Void; TYPE Ljava/lang/Class;
+      489a42| const/4 vA,#+B               v5 #0
+      489a44| const/16 vAA,#+BBBB          v6 #7239
+      489a48| move-object vA,vB            v3 v9
+      489a4a| invoke-static/range          {v4160..v4166} La12;->b(Lmp3;)V
+      489a50| move-result-object vAA       v0
+      489a52| iget-boolean                 v0 v0 Lcom/meituan/robust/PatchProxyResult;->isSupported:Z
+      489a56| if-eqz vAA,+BBBB             v0 +3
+      489a5a| return-void                  
+      489a5c| iget-object vA,vB,field@CCCC v0 v9 Lcom/qimao/qmuser/model/UserVipModel;->retryInterval:[I
+      489a60| array-length vA,vB           v0 v0
+      489a62| if-ge vA,vB,+CCCC            v10 v0 +128
+      489a66| invoke-static {..},meth@BBBB {} LMTT/ThirdAppInfoNew;-><init>()V
+      489a6c| move-result-object vAA       v0
+      489a6e| invoke-static {..},meth@BBBB {} LMTT/ThirdAppInfoNew;-><init>()V
+      489a74| move-result-object vAA       v2
+      489a76| invoke-virtual {..},meth@BBBB {v0,v7} La96;->a()V
+      489a7c| move-result vAA              v0
+      489a7e| if-nez vAA,+BBBB             v0 +114
+      489a82| invoke-static {..},meth@BBBB {} LMTT/ThirdAppInfoNew;-><init>()V
+      489a88| move-result vAA              v0
+      489a8a| const-string/jumbo vAA,string@BBBBBBBB v2 ""
+      489a90| if-eqz vAA,+BBBB             v0 +60
+      489a94| new-instance vAA,type@BBBB   v0 Ljava/lang/StringBuilder;
+      489a98| invoke-direct {..},meth@BBBB {v0} LMTT/ThirdAppInfoNew;-><init>()V
+      489a9e| invoke-virtual {..},meth@BBBB {v0,v13} La96;->a()V
+      489aa4| add-int/lit8 vA,vB,#+CC      v3 v10 #1
+      489aa8| invoke-virtual {..},meth@BBBB {v0,v12} Lac1;->max(Ljava/lang/Iterable;)Ljava/lang/Double;
+      489aae| const-string/jumbo vAA,string@BBBBBBBB v3 "次后台获取VI"
+      489ab4| invoke-virtual {..},meth@BBBB {v0,v13} Lac1;->max(Ljava/lang/Iterable;)Ljava/lang/Double;
+      489aba| invoke-static {..},meth@BBBB {} LMTT/ThirdAppInfoNew;-><init>()V
+      489ac0| move-result-object vAA       v3
+      489ac2| new-instance vAA,type@BBBB   v4 Ljava/util/Date;
+      489ac6| invoke-direct {..},meth@BBBB {v0} La18;-><init>(Lh18;)V
+      489acc| invoke-virtual {..},meth@BBBB {v0,v2} Laea;-><init>(Landroid/content/Context;)V
+      489ad2| move-result-object vAA       v3
+      489ad4| invoke-virtual {..},meth@BBBB {v0,v13} Lac1;->max(Ljava/lang/Iterable;)Ljava/lang/Double;
+      489ada| iget-object vA,vB,field@CCCC v3 v9 Lcom/qimao/qmuser/model/UserVipModel;->retryInterval:[I
+      489ade| aget vA,vB,vC                v3 v3 v10
+      489ae2| invoke-virtual {..},meth@BBBB {v0,v12} Lac1;->max(Ljava/lang/Iterable;)Ljava/lang/Double;
+      489ae8| const-string/jumbo vAA,string@BBBBBBBB v3 "分钟后请"
+      489aee| invoke-virtual {..},meth@BBBB {v0,v13} Lac1;->max(Ljava/lang/Iterable;)Ljava/lang/Double;
+      489af4| invoke-virtual {..},meth@BBBB {v0} LMTT/ThirdAppInfoNew;-><init>()V
+      489afa| move-result-object vAA       v0
+      489afc| const-string/jumbo vAA,string@BBBBBBBB v3 "vipUpdate"
+      489b02| invoke-static {..},meth@BBBB {v0,v9} La12;->g(Ljava/lang/String;)V
+      489b08| new-instance vAA,type@BBBB   v0 Ljava/lang/StringBuilder;
+      489b0c| invoke-direct {..},meth@BBBB {v0} LMTT/ThirdAppInfoNew;-><init>()V
+      489b12| invoke-virtual {..},meth@BBBB {v0,v13} La96;->a()V
+      489b18| add-int/2addr vA,vB          v1 v10
+      489b1a| invoke-virtual {..},meth@BBBB {v0,v12} La37;->l()Z
+      489b20| const-string/jumbo vAA,string@BBBBBBBB v1 "次后台"
+      489b26| invoke-virtual {..},meth@BBBB {v0,v13} La37;->l()Z
+      489b2c| invoke-virtual {..},meth@BBBB {v0} LMTT/ThirdAppInfoNew;-><init>()V
+      489b32| move-result-object vAA       v0
+      489b34| const-string vAA,string@BBBB v1 "UserVipModel"
+      489b38| const-string/jumbo vAA,string@BBBBBBBB v2 "vip"
+      489b3e| invoke-static {..},meth@BBBB {v0,v0,v3} Laaa;->a(J,I)Landroid/os/VibrationEffect;
+      489b44| iget-object vA,vB,field@CCCC v0 v9 Lcom/qimao/qmuser/model/UserVipModel;->retryInterval:[I
+      489b48| aget vA,vB,vC                v0 v0 v10
+      489b4c| int-to-long                  v0 v0
+      489b4e| sget-object vAA,field@BBBB   v2 field@53671 Ljava/util/concurrent/TimeUnit; MINUTES Ljava/util/concurrent/TimeUnit;
+      489b52| new-instance vAA,type@BBBB   v3 Lcom/qimao/qmuser/model/UserVipModel$5;
+      489b56| invoke-direct {..},meth@BBBB {v0,v11,v7} Landroid/webkit/ServiceWorkerWebSettings;->setAllowContentAccess(Z)V
+      489b5c| invoke-static {..},meth@BBBB {v0,v11,v13,v0} Lcom/qimao/qmuser/ui/dialog/MemberReminderBottomDialog;->isOverSixteenHours(I)Z
+      489b62| return-void                  
+  .method virtual [0x1] Lcom/qimao/qmuser/model/UserVipModel;->onBackToFrontOrTabChanged()V
+      489b74| const/4 vA,#+B               v0 #0
+      489b76| new-array vA,vB,type@CCCC    v1 v0 [Ljava/lang/Object;
+      489b7a| sget-object vAA,field@BBBB   v3 field@18158 Lcom/qimao/qmuser/model/UserVipModel; changeQuickRedirect Lcom/meituan/robust/ChangeQuickRedirect;
+      489b7e| new-array vA,vB,type@CCCC    v6 v0 [Ljava/lang/Class;
+      489b82| sget-object vAA,field@BBBB   v7 field@53641 Ljava/lang/Void; TYPE Ljava/lang/Class;
+      489b86| const/4 vA,#+B               v4 #0
+      489b88| const/16 vAA,#+BBBB          v5 #7238
+      489b8c| move-object vA,vB            v2 v8
+      489b8e| invoke-static/range          {v4160..v4166} La0;-><init>()V
+      489b94| move-result-object vAA       v0
+      489b96| iget-boolean                 v0 v0 Lcom/meituan/robust/PatchProxyResult;->isSupported:Z
+      489b9a| if-eqz vAA,+BBBB             v0 +3
+      489b9e| return-void                  
+      489ba0| sget-wide                    v0 field@18160 Lcom/qimao/qmuser/model/UserVipModel; lastGetVipTime J
+      489ba4| const-wide/16 vAA,#+BBBB     v2 #0
+      489ba8| cmp-long                     v0 v0 v2
+      489bac| if-nez vAA,+BBBB             v0 +9
+      489bb0| invoke-static {..},meth@BBBB {} LMTT/ThirdAppInfoNew;-><init>()V
+      489bb6| move-result-wide vAA         v0
+      489bb8| sput-wide                    v0 field@18160 Lcom/qimao/qmuser/model/UserVipModel; lastGetVipTime J
+      489bbc| return-void                  
+      489bbe| invoke-static {..},meth@BBBB {} LMTT/ThirdAppInfoNew;-><init>()V
+      489bc4| move-result-wide vAA         v0
+      489bc6| invoke-static {..},meth@BBBB {} LMTT/ThirdAppInfoNew;-><init>()V
+      489bcc| move-result vAA              v2
+      489bce| const-string/jumbo vAA,string@BBBBBBBB v3 "vipUpdate"
+      489bd4| if-eqz vAA,+BBBB             v2 +38
+      489bd8| new-instance vAA,type@BBBB   v2 Ljava/lang/StringBuilder;
+      489bdc| invoke-direct {..},meth@BBBB {v0} La12;->b(Lmp3;)V
+      489be2| const-string/jumbo vAA,string@BBBBBBBB v4 "回前台时/切换"
+      489be8| invoke-virtual {..},meth@BBBB {v0,v13} Lada;->b(Ljava/lang/String;)Ljava/util/TreeMap;
+      489bee| sget-wide                    v4 field@18160 Lcom/qimao/qmuser/model/UserVipModel; lastGetVipTime J
+      489bf2| sub-long                     v4 v0 v4
+      489bf6| const-wide/32 vAA,#+BBBBBBBB v6 #60000 (0xea60)
+      489bfc| div-long/2addr               v4 v6
+      489bfe| invoke-virtual {..},meth@BBBB {v0,v13,v0} Landroid/content/res/Resources;->getColor(I)I
+      489c04| const-string/jumbo vAA,string@BBBBBBBB v4 ""
+      489c0a| invoke-virtual {..},meth@BBBB {v0,v13} Lada;->b(Ljava/lang/String;)Ljava/util/TreeMap;
+      489c10| invoke-virtual {..},meth@BBBB {v0} La12;->b(Lmp3;)V
+      489c16| move-result-object vAA       v2
+      489c18| invoke-static {..},meth@BBBB {v0,v9} Lab2;->a(Landroid/webkit/RenderProcessGoneDetail;)Z
+      489c1e| goto                         +4
+      489c20| const-wide/32 vAA,#+BBBBBBBB v6 #600000 (0x927c0)
+      489c26| sget-wide                    v4 field@18160 Lcom/qimao/qmuser/model/UserVipModel; lastGetVipTime J
+      489c2a| sub-long                     v4 v0 v4
+      489c2e| cmp-long                     v2 v4 v6
+      489c32| if-lez vAA,+BBBB             v2 +27
+      489c36| invoke-static {..},meth@BBBB {} LMTT/ThirdAppInfoNew;-><init>()V
+      489c3c| move-result vAA              v2
+      489c3e| const-string/jumbo vAA,string@BBBBBBBB v4 "回前台时/切换主tab，距"
+      489c44| if-eqz vAA,+BBBB             v2 +5
+      489c48| invoke-static {..},meth@BBBB {v0,v9} Laea;-><init>(Landroid/content/Context;)V
+      489c4e| const-string vAA,string@BBBB v2 "UserVipModel"
+      489c52| const-string/jumbo vAA,string@BBBBBBBB v3 "vip"
+      489c58| invoke-static {..},meth@BBBB {v0,v0,v3} Landroid/app/Service;->stopSelf(I)V
+      489c5e| invoke-virtual {..},meth@BBBB {v0} La22;->d()V
+      489c64| sput-wide                    v0 field@18160 Lcom/qimao/qmuser/model/UserVipModel; lastGetVipTime J
+      489c68| return-void                  
+  .method virtual [0x1] Lcom/qimao/qmuser/model/UserVipModel;->saveVipInfo(Lcom/qimao/qmuser/model/response/UserVipInfoResponse;)V
+      489c7c| const/4 vA,#+B               v0 #1
+      489c7e| new-array vA,vB,type@CCCC    v1 v0 [Ljava/lang/Object;
+      489c82| const/4 vA,#+B               v8 #0
+      489c84| aput-object vA,vB,vC         v10 v1 v8
+      489c88| sget-object vAA,field@BBBB   v3 field@18158 Lcom/qimao/qmuser/model/UserVipModel; changeQuickRedirect Lcom/meituan/robust/ChangeQuickRedirect;
+      489c8c| new-array vA,vB,type@CCCC    v6 v0 [Ljava/lang/Class;
+      489c90| const-class vAA,type@BBBB    v0 Lcom/qimao/qmuser/model/response/UserVipInfoResponse;
+      489c94| aput-object vA,vB,vC         v0 v6 v8
+      489c98| sget-object vAA,field@BBBB   v7 field@53641 Ljava/lang/Void; TYPE Ljava/lang/Class;
+      489c9c| const/4 vA,#+B               v4 #0
+      489c9e| const/16 vAA,#+BBBB          v5 #7235
+      489ca2| move-object vA,vB            v2 v9
+      489ca4| invoke-static/range          {v4160..v4166} La0;-><init>()V
+      489caa| move-result-object vAA       v0
+      489cac| iget-boolean                 v0 v0 Lcom/meituan/robust/PatchProxyResult;->isSupported:Z
+      489cb0| if-eqz vAA,+BBBB             v0 +3
+      489cb4| return-void                  
+      489cb6| if-nez vAA,+BBBB             v10 +3
+      489cba| return-void                  
+      489cbc| new-instance vAA,type@BBBB   v0 Ljava/lang/StringBuilder;
+      489cc0| invoke-direct {..},meth@BBBB {v0} LMTT/ThirdAppInfoNew;-><init>()V
+      489cc6| const-string vAA,string@BBBB v1 "get-vs 接口"
+      489cca| invoke-virtual {..},meth@BBBB {v0,v13} La37;->l()Z
+      489cd0| invoke-virtual {..},meth@BBBB {v0,v13} Landroid/animation/ValueAnimator;->getAnimatedValue()Ljava/lang/Object;
+      489cd6| invoke-virtual {..},meth@BBBB {v0} LMTT/ThirdAppInfoNew;-><init>()V
+      489cdc| move-result-object vAA       v0
+      489cde| const-string vAA,string@BBBB v1 "UserVipModel"
+      489ce2| const-string/jumbo vAA,string@BBBBBBBB v2 "vip"
+      489ce8| invoke-static {..},meth@BBBB {v0,v0,v3} Laaa;->a(J,I)Landroid/os/VibrationEffect;
+      489cee| invoke-static {..},meth@BBBB {} LMTT/ThirdAppInfoNew;-><init>()V
+      489cf4| move-result vAA              v0
+      489cf6| const-string/jumbo vAA,string@BBBBBBBB v2 "vipUpdate"
+      489cfc| if-eqz vAA,+BBBB             v0 +51
+      489d00| new-instance vAA,type@BBBB   v0 Ljava/lang/StringBuilder;
+      489d04| invoke-direct {..},meth@BBBB {v0} LMTT/ThirdAppInfoNew;-><init>()V
+      489d0a| const-string/jumbo vAA,string@BBBBBBBB v3 "保存VIP信息"
+      489d10| invoke-virtual {..},meth@BBBB {v0,v13} Lac1;->max(Ljava/lang/Iterable;)Ljava/lang/Double;
+      489d16| invoke-virtual {..},meth@BBBB {v0} La26;->a(Ljava/nio/file/Path;,I)Ljava/nio/file/Path;
+      489d1c| move-result-object vAA       v3
+      489d1e| invoke-virtual {..},meth@BBBB {v0,v13} Lac1;->max(Ljava/lang/Iterable;)Ljava/lang/Double;
+      489d24| const-string vAA,string@BBBB v3 "  过"
+      489d28| invoke-virtual {..},meth@BBBB {v0,v13} Lac1;->max(Ljava/lang/Iterable;)Ljava/lang/Double;
+      489d2e| invoke-virtual {..},meth@BBBB {v0} La26;->a(Ljava/nio/file/Path;,I)Ljava/nio/file/Path;
+      489d34| move-result-object vAA       v3
+      489d36| invoke-virtual {..},meth@BBBB {v0,v13} Lac1;->max(Ljava/lang/Iterable;)Ljava/lang/Double;
+      489d3c| const-string vAA,string@BBBB v3 "  类"
+      489d40| invoke-virtual {..},meth@BBBB {v0,v13} Lac1;->max(Ljava/lang/Iterable;)Ljava/lang/Double;
+      489d46| invoke-virtual {..},meth@BBBB {v0} La26;->a(Ljava/nio/file/Path;,I)Ljava/nio/file/Path;
+      489d4c| move-result-object vAA       v3
+      489d4e| invoke-virtual {..},meth@BBBB {v0,v13} Lac1;->max(Ljava/lang/Iterable;)Ljava/lang/Double;
+      489d54| invoke-virtual {..},meth@BBBB {v0} LMTT/ThirdAppInfoNew;-><init>()V
+      489d5a| move-result-object vAA       v0
+      489d5c| invoke-static {..},meth@BBBB {v0,v9} La12;->b(Lmp3;)V
+      489d62| invoke-virtual {..},meth@BBBB {v0} La22;->m(Ljava/lang/String;)Z
+      489d68| move-result vAA              v0
+      489d6a| if-nez vAA,+BBBB             v0 +21
+      489d6e| invoke-virtual {..},meth@BBBB {v0} La26;->a(Ljava/nio/file/Path;,I)Ljava/nio/file/Path;
+      489d74| move-result vAA              v0
+      489d76| invoke-static {..},meth@BBBB {} LMTT/ThirdAppInfoNew;-><init>()V
+      489d7c| move-result-object vAA       v3
+      489d7e| invoke-static {..},meth@BBBB {} LMTT/ThirdAppInfoNew;-><init>()V
+      489d84| move-result-object vAA       v4
+      489d86| invoke-virtual {..},meth@BBBB {v0,v7} Laea;-><init>(Landroid/content/Context;)V
+      489d8c| move-result vAA              v3
+      489d8e| xor-int/2addr                v0 v3
+      489d90| if-eqz vAA,+BBBB             v0 +97
+      489d94| invoke-static {..},meth@BBBB {} LMTT/ThirdAppInfoNew;-><init>()V
+      489d9a| move-result vAA              v0
+      489d9c| if-eqz vAA,+BBBB             v0 +26
+      489da0| new-instance vAA,type@BBBB   v0 Ljava/lang/StringBuilder;
+      489da4| invoke-direct {..},meth@BBBB {v0} LMTT/ThirdAppInfoNew;-><init>()V
+      489daa| const-string vAA,string@BBBB v3 "VIP状态发"
+      489dae| invoke-virtual {..},meth@BBBB {v0,v13} Lac1;->max(Ljava/lang/Iterable;)Ljava/lang/Double;
+      489db4| invoke-virtual {..},meth@BBBB {v0} La26;->a(Ljava/nio/file/Path;,I)Ljava/nio/file/Path;
+      489dba| move-result-object vAA       v3
+      489dbc| invoke-virtual {..},meth@BBBB {v0,v13} Lac1;->max(Ljava/lang/Iterable;)Ljava/lang/Double;
+      489dc2| invoke-virtual {..},meth@BBBB {v0} LMTT/ThirdAppInfoNew;-><init>()V
+      489dc8| move-result-object vAA       v0
+      489dca| invoke-static {..},meth@BBBB {v0,v9} La12;->b(Lmp3;)V
+      489dd0| invoke-virtual {..},meth@BBBB {v0,v12} Landroid/animation/AnimatorSet;-><init>()V
+      489dd6| invoke-virtual {..},meth@BBBB {v0} La26;->a(Ljava/nio/file/Path;,I)Ljava/nio/file/Path;
+      489ddc| move-result-object vAA       v0
+      489dde| invoke-static {..},meth@BBBB {v0} LMTT/ThirdAppInfoNew;-><init>()V
+      489de4| invoke-static {..},meth@BBBB {} LMTT/ThirdAppInfoNew;-><init>()V
+      489dea| move-result-object vAA       v0
+      489dec| invoke-static {..},meth@BBBB {} LMTT/ThirdAppInfoNew;-><init>()V
+      489df2| move-result-object vAA       v2
+      489df4| invoke-virtual {..},meth@BBBB {v0} La26;->a(Ljava/nio/file/Path;,I)Ljava/nio/file/Path;
+      489dfa| move-result-object vAA       v3
+      489dfc| invoke-virtual {..},meth@BBBB {v0,v5,v12} Landroid/app/NativeActivity;->onContentChanged()V
+      489e02| invoke-virtual {..},meth@BBBB {v0} La26;->a(Ljava/nio/file/Path;,I)Ljava/nio/file/Path;
+      489e08| move-result vAA              v0
+      489e0a| invoke-static {..},meth@BBBB {v0} LMTT/ThirdAppInfoNew;-><init>()V
+      489e10| move-result-object vAA       v0
+      489e12| const vAA,#+BBBBBBBB         v2 #331796 (0x51014)
+      489e18| invoke-static {..},meth@BBBB {v0,v14} La12;->b(Lmp3;)V
+      489e1e| new-instance vAA,type@BBBB   v0 Ljava/lang/StringBuilder;
+      489e22| invoke-direct {..},meth@BBBB {v0} LMTT/ThirdAppInfoNew;-><init>()V
+      489e28| const-string vAA,string@BBBB v2 "VIP状"
+      489e2c| invoke-virtual {..},meth@BBBB {v0,v13} La96;->a()V
+      489e32| invoke-virtual {..},meth@BBBB {v0} La26;->a(Ljava/nio/file/Path;,I)Ljava/nio/file/Path;
+      489e38| move-result vAA              v2
+      489e3a| invoke-virtual {..},meth@BBBB {v0,v13} La96;->a()V
+      489e40| invoke-virtual {..},meth@BBBB {v0} LMTT/ThirdAppInfoNew;-><init>()V
+      489e46| move-result-object vAA       v0
+      489e48| const-string vAA,string@BBBB v2 "login"
+      489e4c| invoke-static {..},meth@BBBB {v0,v0,v3} Laaa;->a(J,I)Landroid/os/VibrationEffect;
+      489e52| invoke-virtual {..},meth@BBBB {v0} La26;->a(Ljava/nio/file/Path;,I)Ljava/nio/file/Path;
+      489e58| move-result-object vAA       v0
+      489e5a| invoke-static {..},meth@BBBB {v0} LMTT/ThirdAppInfoNew;-><init>()V
+      489e60| move-result vAA              v0
+      489e62| if-eqz vAA,+BBBB             v0 +34
+      489e66| invoke-static {..},meth@BBBB {} LMTT/ThirdAppInfoNew;-><init>()V
+      489e6c| move-result-object vAA       v0
+      489e6e| invoke-virtual {..},meth@BBBB {v0} La26;->a(Ljava/nio/file/Path;,I)Ljava/nio/file/Path;
+      489e74| move-result-object vAA       v1
+      489e76| invoke-virtual {..},meth@BBBB {v0,v5} La37;->l()Z
+      489e7c| invoke-static {..},meth@BBBB {} LMTT/ThirdAppInfoNew;-><init>()V
+      489e82| move-result-object vAA       v0
+      489e84| invoke-static {..},meth@BBBB {} LMTT/ThirdAppInfoNew;-><init>()V
+      489e8a| move-result-object vAA       v1
+      489e8c| invoke-virtual {..},meth@BBBB {v0,v7} La37;->l()Z
+      489e92| move-result vAA              v0
+      489e94| if-eqz vAA,+BBBB             v0 +9
+      489e98| invoke-virtual {..},meth@BBBB {v0} La26;->a(Ljava/nio/file/Path;,I)Ljava/nio/file/Path;
+      489e9e| move-result-object vAA       v0
+      489ea0| invoke-direct {..},meth@BBBB {v0,v12} La22;->m(Ljava/lang/String;)Z
+      489ea6| invoke-virtual {..},meth@BBBB {v0} La26;->a(Ljava/nio/file/Path;,I)Ljava/nio/file/Path;
+      489eac| move-result-object vAA       v0
+      489eae| invoke-static {..},meth@BBBB {v0} LMTT/ThirdAppInfoNew;-><init>()V
+      489eb4| move-result vAA              v0
+      489eb6| if-eqz vAA,+BBBB             v0 +13
+      489eba| invoke-static {..},meth@BBBB {} LMTT/ThirdAppInfoNew;-><init>()V
+      489ec0| move-result-object vAA       v0
+      489ec2| invoke-virtual {..},meth@BBBB {v0} La26;->a(Ljava/nio/file/Path;,I)Ljava/nio/file/Path;
+      489ec8| move-result-object vAA       v10
+      489eca| invoke-virtual {..},meth@BBBB {v0,v6} Landroid/animation/ValueAnimator;->getAnimatedValue()Ljava/lang/Object;
+      489ed0| return-void                  
+  .method virtual [0x1] Lcom/qimao/qmuser/model/UserVipModel;->setMineVipChange(Z)V
+      489ee4| iput-boolean                 v1 v0 Lcom/qimao/qmuser/model/UserVipModel;->mineVipChange:Z
+      489ee8| return-void                  
+

@@ -1,0 +1,910 @@
+### STRING TABLE (142) ###
+[    0] (I
+[    1] -$$Nest$smsetObjectField
+[    2] <*>;)V
+[    3] <clinit>
+[    4] <init>
+[    5] I
+[    6] L
+[    7] LProtect2C/Loader;
+[    8] LProtect2C/hidden/Hidden0;
+[    9] Landroid/app/Activity;
+[   10] Landroid/content/Context;
+[   11] Landroid/os/MessageQueue$IdleHandler;
+[   12] Ldalvik/annotation/EnclosingMethod;
+[   13] Ldalvik/annotation/InnerClass;
+[   14] Ldalvik/annotation/Signature;
+[   15] Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;
+[   16] Lde/robv/android/xposed/XC_MethodHook;
+[   17] Ljava/lang/Class
+[   18] Ljava/lang/Class;
+[   19] Ljava/lang/ClassLoader;
+[   20] Ljava/lang/Object;
+[   21] Ljava/lang/String;
+[   22] Ljava/lang/System;
+[   23] Ljava/lang/invoke/LambdaForm$Hidden;
+[   24] Ljava/util/Set;
+[   25] Ljdk/internal/vm/annotation/Hidden;
+[   26] L七猫免费小说/Clas
+[   27] L七猫免费小说/Ho
+[   28] L七猫免费小说/Ho
+[   29] L七猫免费小说/Ho
+[   30] L七猫免费小说/Ho
+[   31] L七猫免费小说/Ho
+[   32] L七猫免费小说/Ho
+[   33] L七猫免费小说/Ho
+[   34] L七猫免费小说/Ho
+[   35] L七猫免费小说/Ho
+[   36] L七猫免费小说/Ho
+[   37] L七猫免费小说/H
+[   38] L七猫免费小说/Ho
+[   39] L七猫免费小说/Ho
+[   40] L七猫免费小说/Ho
+[   41] L七猫免费小说/Ho
+[   42] L七猫免费小说/Ho
+[   43] L七猫免费小说/Ho
+[   44] L七猫免费小说/Ho
+[   45] L七猫免费小说/Ho
+[   46] L七猫免费小说/Ho
+[   47] L七猫免费小说/Ho
+[   48] L七猫免费小说/H
+[   49] L七猫免费小说/Ho
+[   50] L七猫免费小说/Ho
+[   51] L七猫免费小说/Ho
+[   52] L七猫免费小说/Ho
+[   53] L七猫免费小说/Ho
+[   54] L七猫免费小说/Ho
+[   55] L七猫免费小说/Ho
+[   56] L七猫免费小说/HookConfig$37$$ExternalSynth
+[   57] L七猫免费小说/Ho
+[   58] L七猫免费小说/H
+[   59] L七猫免费小说/H
+[   60] L七猫免费小说/H
+[   61] L七猫免费小说/H
+[   62] L七猫免费小说/H
+[   63] L七猫免费小说/H
+[   64] L七猫免费小说/H
+[   65] L七猫免费小说
+[   66] Protect2C
+[   67] V
+[   68] VIL
+[   69] VL
+[   70] VLL
+[   71] VLLL
+[   72] Z
+[   73] ZL
+[   74] accessFlags
+[   75] afterHookedMethod
+[   76] appContext
+[   77] applicationClassLoader
+[   78] beforeHookedMethod
+[   79] f$0
+[   80] getActivityClassLoader
+[   81] getAndSaveClassLoaders
+[   82] getApplicationContextClassLoader
+[   83] getBootClassLoader
+[   84] getClassClassLoader
+[   85] getContext
+[   86] getContextClassLoader
+[   87] getLoadedApkClassLoader
+[   88] inject
+[   89] lambda$afterHookedMethod$0
+[   90] loadLibrary
+[   91] name
+[   92] queueIdle
+[   93] registerNativesForClass
+[   94] setContext
+[   95] setObjectField
+[   96] show
+[   97] showToast
+[   98] special_clinit_0_00
+[   99] special_clinit_10_20
+[  100] special_clinit_11_20
+[  101] special_clinit_12_20
+[  102] special_clinit_13_20
+[  103] special_clinit_14_20
+[  104] special_clinit_15_20
+[  105] special_clinit_16_20
+[  106] special_clinit_17_20
+[  107] special_clinit_18_20
+[  108] special_clinit_19_20
+[  109] special_clinit_1_20
+[  110] special_clinit_20_20
+[  111] special_clinit_21_20
+[  112] special_clinit_22_20
+[  113] special_clinit_23_20
+[  114] special_clinit_24_20
+[  115] special_clinit_25_20
+[  116] special_clinit_26_20
+[  117] special_clinit_27_20
+[  118] special_clinit_28_20
+[  119] special_clinit_29_20
+[  120] special_clinit_2_20
+[  121] special_clinit_30_20
+[  122] special_clinit_31_30
+[  123] special_clinit_32_20
+[  124] special_clinit_33_20
+[  125] special_clinit_34_20
+[  126] special_clinit_35_20
+[  127] special_clinit_36_20
+[  128] special_clinit_37_20
+[  129] special_clinit_38_20
+[  130] special_clinit_39_50
+[  131] special_clinit_3_20
+[  132] special_clinit_4_20
+[  133] special_clinit_5_20
+[  134] special_clinit_6_20
+[  135] special_clinit_7_20
+[  136] special_clinit_8_20
+[  137] special_clinit_9_20
+[  138] toastEnabled
+[  139] val$adIds
+[  140] val$cl
+[  141] value
+
+==============================================================================
+CLASS LProtect2C/Loader;  super=Ljava/lang/Object;
+  .method direct LProtect2C/Loader;-><clinit>()V  [acc=0x10008]
+      1ef8| const-string vAA,string@BBBB v0 "Protect2C"
+      1efc| invoke-static {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      1f02| return-void                  
+
+  .method direct LProtect2C/Loader;-><init>()V  [acc=0x10001]
+      1f14| invoke-direct {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      1f1a| return-void                  
+
+  .method direct LProtect2C/Loader;->registerNativesForClass(I,Ljava/lang/Class;)V  [acc=0x109]
+
+==============================================================================
+CLASS LProtect2C/hidden/Hidden0;  super=Ljava/lang/Object;
+  .method direct LProtect2C/hidden/Hidden0;->special_clinit_0_00(Ljava/lang/Class;)V  [acc=0x1149]
+
+  .method direct LProtect2C/hidden/Hidden0;->special_clinit_10_20(Ljava/lang/Class;)V  [acc=0x1149]
+
+  .method direct LProtect2C/hidden/Hidden0;->special_clinit_11_20(Ljava/lang/Class;)V  [acc=0x1149]
+
+  .method direct LProtect2C/hidden/Hidden0;->special_clinit_12_20(Ljava/lang/Class;)V  [acc=0x1149]
+
+  .method direct LProtect2C/hidden/Hidden0;->special_clinit_13_20(Ljava/lang/Class;)V  [acc=0x1149]
+
+  .method direct LProtect2C/hidden/Hidden0;->special_clinit_14_20(Ljava/lang/Class;)V  [acc=0x1149]
+
+  .method direct LProtect2C/hidden/Hidden0;->special_clinit_15_20(Ljava/lang/Class;)V  [acc=0x1149]
+
+  .method direct LProtect2C/hidden/Hidden0;->special_clinit_16_20(Ljava/lang/Class;)V  [acc=0x1149]
+
+  .method direct LProtect2C/hidden/Hidden0;->special_clinit_17_20(Ljava/lang/Class;)V  [acc=0x1149]
+
+  .method direct LProtect2C/hidden/Hidden0;->special_clinit_18_20(Ljava/lang/Class;)V  [acc=0x1149]
+
+  .method direct LProtect2C/hidden/Hidden0;->special_clinit_19_20(Ljava/lang/Class;)V  [acc=0x1149]
+
+  .method direct LProtect2C/hidden/Hidden0;->special_clinit_1_20(Ljava/lang/Class;)V  [acc=0x1149]
+
+  .method direct LProtect2C/hidden/Hidden0;->special_clinit_20_20(Ljava/lang/Class;)V  [acc=0x1149]
+
+  .method direct LProtect2C/hidden/Hidden0;->special_clinit_21_20(Ljava/lang/Class;)V  [acc=0x1149]
+
+  .method direct LProtect2C/hidden/Hidden0;->special_clinit_22_20(Ljava/lang/Class;)V  [acc=0x1149]
+
+  .method direct LProtect2C/hidden/Hidden0;->special_clinit_23_20(Ljava/lang/Class;)V  [acc=0x1149]
+
+  .method direct LProtect2C/hidden/Hidden0;->special_clinit_24_20(Ljava/lang/Class;)V  [acc=0x1149]
+
+  .method direct LProtect2C/hidden/Hidden0;->special_clinit_25_20(Ljava/lang/Class;)V  [acc=0x1149]
+
+  .method direct LProtect2C/hidden/Hidden0;->special_clinit_26_20(Ljava/lang/Class;)V  [acc=0x1149]
+
+  .method direct LProtect2C/hidden/Hidden0;->special_clinit_27_20(Ljava/lang/Class;)V  [acc=0x1149]
+
+  .method direct LProtect2C/hidden/Hidden0;->special_clinit_28_20(Ljava/lang/Class;)V  [acc=0x1149]
+
+  .method direct LProtect2C/hidden/Hidden0;->special_clinit_29_20(Ljava/lang/Class;)V  [acc=0x1149]
+
+  .method direct LProtect2C/hidden/Hidden0;->special_clinit_2_20(Ljava/lang/Class;)V  [acc=0x1149]
+
+  .method direct LProtect2C/hidden/Hidden0;->special_clinit_30_20(Ljava/lang/Class;)V  [acc=0x1149]
+
+  .method direct LProtect2C/hidden/Hidden0;->special_clinit_31_30(Ljava/lang/Class;)V  [acc=0x1149]
+
+  .method direct LProtect2C/hidden/Hidden0;->special_clinit_32_20(Ljava/lang/Class;)V  [acc=0x1149]
+
+  .method direct LProtect2C/hidden/Hidden0;->special_clinit_33_20(Ljava/lang/Class;)V  [acc=0x1149]
+
+  .method direct LProtect2C/hidden/Hidden0;->special_clinit_34_20(Ljava/lang/Class;)V  [acc=0x1149]
+
+  .method direct LProtect2C/hidden/Hidden0;->special_clinit_35_20(Ljava/lang/Class;)V  [acc=0x1149]
+
+  .method direct LProtect2C/hidden/Hidden0;->special_clinit_36_20(Ljava/lang/Class;)V  [acc=0x1149]
+
+  .method direct LProtect2C/hidden/Hidden0;->special_clinit_37_20(Ljava/lang/Class;)V  [acc=0x1149]
+
+  .method direct LProtect2C/hidden/Hidden0;->special_clinit_38_20(Ljava/lang/Class;)V  [acc=0x1149]
+
+  .method direct LProtect2C/hidden/Hidden0;->special_clinit_39_50(Ljava/lang/Class;)V  [acc=0x1149]
+
+  .method direct LProtect2C/hidden/Hidden0;->special_clinit_3_20(Ljava/lang/Class;)V  [acc=0x1149]
+
+  .method direct LProtect2C/hidden/Hidden0;->special_clinit_4_20(Ljava/lang/Class;)V  [acc=0x1149]
+
+  .method direct LProtect2C/hidden/Hidden0;->special_clinit_5_20(Ljava/lang/Class;)V  [acc=0x1149]
+
+  .method direct LProtect2C/hidden/Hidden0;->special_clinit_6_20(Ljava/lang/Class;)V  [acc=0x1149]
+
+  .method direct LProtect2C/hidden/Hidden0;->special_clinit_7_20(Ljava/lang/Class;)V  [acc=0x1149]
+
+  .method direct LProtect2C/hidden/Hidden0;->special_clinit_8_20(Ljava/lang/Class;)V  [acc=0x1149]
+
+  .method direct LProtect2C/hidden/Hidden0;->special_clinit_9_20(Ljava/lang/Class;)V  [acc=0x1149]
+
+==============================================================================
+CLASS L七猫免费小说/Clas  super=Ljava/lang/Object;
+  .method direct L七猫免费小说/Clas-><clinit>()V  [acc=0x10008]
+      1f2c| const/4 vA,#+B               v0 #0
+      1f2e| const-class vAA,type@BBBB    v1 L七猫免费小说/Clas
+      1f32| invoke-static {..},meth@BBBB {v0,v0} LProtect2C/hidden/Hidden0;->special_clinit_21_20(Ljava/lang/Class;)V
+      1f38| const-class vAA,type@BBBB    v0 L七猫免费小说/Clas
+      1f3c| invoke-static {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      1f42| return-void                  
+
+  .method direct L七猫免费小说/Clas-><init>()V  [acc=0x10001]
+      1f54| invoke-direct {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      1f5a| return-void                  
+
+  .method direct L七猫免费小说/Clas->getActivityClassLoader()Ljava/lang/ClassLoader;  [acc=0x109]
+
+  .method direct L七猫免费小说/Clas->getAndSaveClassLoaders()Z  [acc=0x109]
+
+  .method direct L七猫免费小说/Clas->getApplicationContextClassLoader()Ljava/lang/ClassLoader;  [acc=0x109]
+
+  .method direct L七猫免费小说/Clas->getBootClassLoader()Ljava/lang/ClassLoader;  [acc=0x109]
+
+  .method direct L七猫免费小说/Clas->getClassClassLoader()Ljava/lang/ClassLoader;  [acc=0x109]
+
+  .method direct L七猫免费小说/Clas->getContext()Landroid/content/Context;  [acc=0x109]
+
+  .method direct L七猫免费小说/Clas->getContextClassLoader()Ljava/lang/ClassLoader;  [acc=0x109]
+
+  .method direct L七猫免费小说/Clas->getLoadedApkClassLoader()Ljava/lang/ClassLoader;  [acc=0x109]
+
+  .method direct L七猫免费小说/Clas->setContext(Landroid/content/Context;)V  [acc=0x109]
+
+  .method direct L七猫免费小说/Clas->showToast(Landroid/content/Context;,Ljava/lang/String;)V  [acc=0x10a]
+
+==============================================================================
+CLASS L七猫免费小说/Ho  super=Lde/robv/android/xposed/XC_MethodHook;
+  .method direct L七猫免费小说/Ho-><clinit>()V  [acc=0x10008]
+      1f6c| const/4 vA,#+B               v0 #1
+      1f6e| const-class vAA,type@BBBB    v1 L七猫免费小说/Ho
+      1f72| invoke-static {..},meth@BBBB {v0,v0} LProtect2C/hidden/Hidden0;->special_clinit_21_20(Ljava/lang/Class;)V
+      1f78| const-class vAA,type@BBBB    v0 L七猫免费小说/Ho
+      1f7c| invoke-static {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      1f82| return-void                  
+
+  .method direct L七猫免费小说/Ho-><init>()V  [acc=0x10000]
+      1f94| invoke-direct {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      1f9a| return-void                  
+
+  .method virtual L七猫免费小说/Ho->beforeHookedMethod(Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;)V  [acc=0x101]
+
+==============================================================================
+CLASS L七猫免费小说/Ho  super=Lde/robv/android/xposed/XC_MethodHook;
+  .method direct L七猫免费小说/Ho-><clinit>()V  [acc=0x10008]
+      1fac| const/4 vA,#+B               v0 #2
+      1fae| const-class vAA,type@BBBB    v1 L七猫免费小说/Ho
+      1fb2| invoke-static {..},meth@BBBB {v0,v0} LProtect2C/hidden/Hidden0;->special_clinit_21_20(Ljava/lang/Class;)V
+      1fb8| const-class vAA,type@BBBB    v0 L七猫免费小说/Ho
+      1fbc| invoke-static {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      1fc2| return-void                  
+
+  .method direct L七猫免费小说/Ho-><init>()V  [acc=0x10000]
+      1fd4| invoke-direct {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      1fda| return-void                  
+
+  .method virtual L七猫免费小说/Ho->beforeHookedMethod(Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;)V  [acc=0x101]
+
+==============================================================================
+CLASS L七猫免费小说/Ho  super=Lde/robv/android/xposed/XC_MethodHook;
+  .method direct L七猫免费小说/Ho-><clinit>()V  [acc=0x10008]
+      1fec| const/4 vA,#+B               v0 #3
+      1fee| const-class vAA,type@BBBB    v1 L七猫免费小说/Ho
+      1ff2| invoke-static {..},meth@BBBB {v0,v0} LProtect2C/hidden/Hidden0;->special_clinit_21_20(Ljava/lang/Class;)V
+      1ff8| const-class vAA,type@BBBB    v0 L七猫免费小说/Ho
+      1ffc| invoke-static {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      2002| return-void                  
+
+  .method direct L七猫免费小说/Ho-><init>()V  [acc=0x10000]
+      2014| invoke-direct {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      201a| return-void                  
+
+  .method virtual L七猫免费小说/Ho->beforeHookedMethod(Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;)V  [acc=0x101]
+
+==============================================================================
+CLASS L七猫免费小说/Ho  super=Lde/robv/android/xposed/XC_MethodHook;
+  .method direct L七猫免费小说/Ho-><clinit>()V  [acc=0x10008]
+      202c| const/4 vA,#+B               v0 #4
+      202e| const-class vAA,type@BBBB    v1 L七猫免费小说/Ho
+      2032| invoke-static {..},meth@BBBB {v0,v0} LProtect2C/hidden/Hidden0;->special_clinit_21_20(Ljava/lang/Class;)V
+      2038| const-class vAA,type@BBBB    v0 L七猫免费小说/Ho
+      203c| invoke-static {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      2042| return-void                  
+
+  .method direct L七猫免费小说/Ho-><init>()V  [acc=0x10000]
+      2054| invoke-direct {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      205a| return-void                  
+
+  .method virtual L七猫免费小说/Ho->beforeHookedMethod(Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;)V  [acc=0x101]
+
+==============================================================================
+CLASS L七猫免费小说/Ho  super=Lde/robv/android/xposed/XC_MethodHook;
+  .method direct L七猫免费小说/Ho-><clinit>()V  [acc=0x10008]
+      206c| const/4 vA,#+B               v0 #5
+      206e| const-class vAA,type@BBBB    v1 L七猫免费小说/Ho
+      2072| invoke-static {..},meth@BBBB {v0,v0} LProtect2C/hidden/Hidden0;->special_clinit_21_20(Ljava/lang/Class;)V
+      2078| const-class vAA,type@BBBB    v0 L七猫免费小说/Ho
+      207c| invoke-static {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      2082| return-void                  
+
+  .method direct L七猫免费小说/Ho-><init>()V  [acc=0x10000]
+      2094| invoke-direct {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      209a| return-void                  
+
+  .method virtual L七猫免费小说/Ho->beforeHookedMethod(Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;)V  [acc=0x101]
+
+==============================================================================
+CLASS L七猫免费小说/Ho  super=Lde/robv/android/xposed/XC_MethodHook;
+  .method direct L七猫免费小说/Ho-><clinit>()V  [acc=0x10008]
+      20ac| const/4 vA,#+B               v0 #6
+      20ae| const-class vAA,type@BBBB    v1 L七猫免费小说/Ho
+      20b2| invoke-static {..},meth@BBBB {v0,v0} LProtect2C/hidden/Hidden0;->special_clinit_21_20(Ljava/lang/Class;)V
+      20b8| const-class vAA,type@BBBB    v0 L七猫免费小说/Ho
+      20bc| invoke-static {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      20c2| return-void                  
+
+  .method direct L七猫免费小说/Ho-><init>()V  [acc=0x10000]
+      20d4| invoke-direct {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      20da| return-void                  
+
+  .method virtual L七猫免费小说/Ho->beforeHookedMethod(Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;)V  [acc=0x101]
+
+==============================================================================
+CLASS L七猫免费小说/Ho  super=Lde/robv/android/xposed/XC_MethodHook;
+  .method direct L七猫免费小说/Ho-><clinit>()V  [acc=0x10008]
+      20ec| const/4 vA,#+B               v0 #7
+      20ee| const-class vAA,type@BBBB    v1 L七猫免费小说/Ho
+      20f2| invoke-static {..},meth@BBBB {v0,v0} LProtect2C/hidden/Hidden0;->special_clinit_21_20(Ljava/lang/Class;)V
+      20f8| const-class vAA,type@BBBB    v0 L七猫免费小说/Ho
+      20fc| invoke-static {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      2102| return-void                  
+
+  .method direct L七猫免费小说/Ho-><init>()V  [acc=0x10000]
+      2114| invoke-direct {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      211a| return-void                  
+
+  .method virtual L七猫免费小说/Ho->afterHookedMethod(Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;)V  [acc=0x101]
+
+==============================================================================
+CLASS L七猫免费小说/Ho  super=Lde/robv/android/xposed/XC_MethodHook;
+  .method direct L七猫免费小说/Ho-><clinit>()V  [acc=0x10008]
+      212c| const/16 vAA,#+BBBB          v0 #8
+      2130| const-class vAA,type@BBBB    v1 L七猫免费小说/Ho
+      2134| invoke-static {..},meth@BBBB {v0,v0} LProtect2C/hidden/Hidden0;->special_clinit_21_20(Ljava/lang/Class;)V
+      213a| const-class vAA,type@BBBB    v0 L七猫免费小说/Ho
+      213e| invoke-static {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      2144| return-void                  
+
+  .method direct L七猫免费小说/Ho-><init>(Ljava/lang/ClassLoader;)V  [acc=0x10000]
+      2158| iput-object vA,vB,field@CCCC v1 v0 L七猫免费小说/Ho->val$cl:Ljava/lang/ClassLoader;
+      215c| invoke-direct {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      2162| return-void                  
+
+  .method virtual L七猫免费小说/Ho->afterHookedMethod(Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;)V  [acc=0x101]
+
+==============================================================================
+CLASS L七猫免费小说/Ho  super=Lde/robv/android/xposed/XC_MethodHook;
+  .method direct L七猫免费小说/Ho-><clinit>()V  [acc=0x10008]
+      2174| const/16 vAA,#+BBBB          v0 #9
+      2178| const-class vAA,type@BBBB    v1 L七猫免费小说/Ho
+      217c| invoke-static {..},meth@BBBB {v0,v0} LProtect2C/hidden/Hidden0;->special_clinit_21_20(Ljava/lang/Class;)V
+      2182| const-class vAA,type@BBBB    v0 L七猫免费小说/Ho
+      2186| invoke-static {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      218c| return-void                  
+
+  .method direct L七猫免费小说/Ho-><init>()V  [acc=0x10000]
+      21a0| invoke-direct {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      21a6| return-void                  
+
+  .method virtual L七猫免费小说/Ho->beforeHookedMethod(Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;)V  [acc=0x101]
+
+==============================================================================
+CLASS L七猫免费小说/Ho  super=Lde/robv/android/xposed/XC_MethodHook;
+  .method direct L七猫免费小说/Ho-><clinit>()V  [acc=0x10008]
+      21b8| const/16 vAA,#+BBBB          v0 #10
+      21bc| const-class vAA,type@BBBB    v1 L七猫免费小说/Ho
+      21c0| invoke-static {..},meth@BBBB {v0,v0} LProtect2C/hidden/Hidden0;->special_clinit_21_20(Ljava/lang/Class;)V
+      21c6| const-class vAA,type@BBBB    v0 L七猫免费小说/Ho
+      21ca| invoke-static {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      21d0| return-void                  
+
+  .method direct L七猫免费小说/Ho-><init>()V  [acc=0x10000]
+      21e4| invoke-direct {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      21ea| return-void                  
+
+  .method virtual L七猫免费小说/Ho->afterHookedMethod(Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;)V  [acc=0x101]
+
+==============================================================================
+CLASS L七猫免费小说/H  super=Lde/robv/android/xposed/XC_MethodHook;
+  .method direct L七猫免费小说/H-><clinit>()V  [acc=0x10008]
+      21fc| const/16 vAA,#+BBBB          v0 #11
+      2200| const-class vAA,type@BBBB    v1 L七猫免费小说/H
+      2204| invoke-static {..},meth@BBBB {v0,v0} LProtect2C/hidden/Hidden0;->special_clinit_21_20(Ljava/lang/Class;)V
+      220a| const-class vAA,type@BBBB    v0 L七猫免费小说/H
+      220e| invoke-static {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      2214| return-void                  
+
+  .method direct L七猫免费小说/H-><init>(Ljava/util/Set;)V  [acc=0x10000]
+      2228| iput-object vA,vB,field@CCCC v1 v0 L七猫免费小说/H->val$adIds:Ljava/util/Set;
+      222c| invoke-direct {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      2232| return-void                  
+
+  .method virtual L七猫免费小说/H->beforeHookedMethod(Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;)V  [acc=0x101]
+
+==============================================================================
+CLASS L七猫免费小说/Ho  super=Lde/robv/android/xposed/XC_MethodHook;
+  .method direct L七猫免费小说/Ho-><clinit>()V  [acc=0x10008]
+      2244| const/16 vAA,#+BBBB          v0 #12
+      2248| const-class vAA,type@BBBB    v1 L七猫免费小说/Ho
+      224c| invoke-static {..},meth@BBBB {v0,v0} LProtect2C/hidden/Hidden0;->special_clinit_21_20(Ljava/lang/Class;)V
+      2252| const-class vAA,type@BBBB    v0 L七猫免费小说/Ho
+      2256| invoke-static {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      225c| return-void                  
+
+  .method direct L七猫免费小说/Ho-><init>()V  [acc=0x10000]
+      2270| invoke-direct {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      2276| return-void                  
+
+  .method virtual L七猫免费小说/Ho->beforeHookedMethod(Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;)V  [acc=0x101]
+
+==============================================================================
+CLASS L七猫免费小说/Ho  super=Lde/robv/android/xposed/XC_MethodHook;
+  .method direct L七猫免费小说/Ho-><clinit>()V  [acc=0x10008]
+      2288| const/16 vAA,#+BBBB          v0 #13
+      228c| const-class vAA,type@BBBB    v1 L七猫免费小说/Ho
+      2290| invoke-static {..},meth@BBBB {v0,v0} LProtect2C/hidden/Hidden0;->special_clinit_21_20(Ljava/lang/Class;)V
+      2296| const-class vAA,type@BBBB    v0 L七猫免费小说/Ho
+      229a| invoke-static {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      22a0| return-void                  
+
+  .method direct L七猫免费小说/Ho-><init>()V  [acc=0x10000]
+      22b4| invoke-direct {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      22ba| return-void                  
+
+  .method virtual L七猫免费小说/Ho->beforeHookedMethod(Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;)V  [acc=0x101]
+
+==============================================================================
+CLASS L七猫免费小说/Ho  super=Lde/robv/android/xposed/XC_MethodHook;
+  .method direct L七猫免费小说/Ho-><clinit>()V  [acc=0x10008]
+      22cc| const/16 vAA,#+BBBB          v0 #14
+      22d0| const-class vAA,type@BBBB    v1 L七猫免费小说/Ho
+      22d4| invoke-static {..},meth@BBBB {v0,v0} LProtect2C/hidden/Hidden0;->special_clinit_21_20(Ljava/lang/Class;)V
+      22da| const-class vAA,type@BBBB    v0 L七猫免费小说/Ho
+      22de| invoke-static {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      22e4| return-void                  
+
+  .method direct L七猫免费小说/Ho-><init>()V  [acc=0x10000]
+      22f8| invoke-direct {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      22fe| return-void                  
+
+  .method virtual L七猫免费小说/Ho->beforeHookedMethod(Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;)V  [acc=0x101]
+
+==============================================================================
+CLASS L七猫免费小说/Ho  super=Lde/robv/android/xposed/XC_MethodHook;
+  .method direct L七猫免费小说/Ho-><clinit>()V  [acc=0x10008]
+      2310| const/16 vAA,#+BBBB          v0 #15
+      2314| const-class vAA,type@BBBB    v1 L七猫免费小说/Ho
+      2318| invoke-static {..},meth@BBBB {v0,v0} LProtect2C/hidden/Hidden0;->special_clinit_21_20(Ljava/lang/Class;)V
+      231e| const-class vAA,type@BBBB    v0 L七猫免费小说/Ho
+      2322| invoke-static {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      2328| return-void                  
+
+  .method direct L七猫免费小说/Ho-><init>()V  [acc=0x10000]
+      233c| invoke-direct {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      2342| return-void                  
+
+  .method virtual L七猫免费小说/Ho->beforeHookedMethod(Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;)V  [acc=0x101]
+
+==============================================================================
+CLASS L七猫免费小说/Ho  super=Lde/robv/android/xposed/XC_MethodHook;
+  .method direct L七猫免费小说/Ho-><clinit>()V  [acc=0x10008]
+      2354| const/16 vAA,#+BBBB          v0 #16
+      2358| const-class vAA,type@BBBB    v1 L七猫免费小说/Ho
+      235c| invoke-static {..},meth@BBBB {v0,v0} LProtect2C/hidden/Hidden0;->special_clinit_21_20(Ljava/lang/Class;)V
+      2362| const-class vAA,type@BBBB    v0 L七猫免费小说/Ho
+      2366| invoke-static {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      236c| return-void                  
+
+  .method direct L七猫免费小说/Ho-><init>()V  [acc=0x10000]
+      2380| invoke-direct {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      2386| return-void                  
+
+  .method virtual L七猫免费小说/Ho->beforeHookedMethod(Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;)V  [acc=0x101]
+
+==============================================================================
+CLASS L七猫免费小说/Ho  super=Lde/robv/android/xposed/XC_MethodHook;
+  .method direct L七猫免费小说/Ho-><clinit>()V  [acc=0x10008]
+      2398| const/16 vAA,#+BBBB          v0 #17
+      239c| const-class vAA,type@BBBB    v1 L七猫免费小说/Ho
+      23a0| invoke-static {..},meth@BBBB {v0,v0} LProtect2C/hidden/Hidden0;->special_clinit_21_20(Ljava/lang/Class;)V
+      23a6| const-class vAA,type@BBBB    v0 L七猫免费小说/Ho
+      23aa| invoke-static {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      23b0| return-void                  
+
+  .method direct L七猫免费小说/Ho-><init>(Ljava/lang/ClassLoader;)V  [acc=0x10000]
+      23c4| iput-object vA,vB,field@CCCC v1 v0 L七猫免费小说/Ho->val$cl:Ljava/lang/ClassLoader;
+      23c8| invoke-direct {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      23ce| return-void                  
+
+  .method virtual L七猫免费小说/Ho->beforeHookedMethod(Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;)V  [acc=0x101]
+
+==============================================================================
+CLASS L七猫免费小说/Ho  super=Lde/robv/android/xposed/XC_MethodHook;
+  .method direct L七猫免费小说/Ho-><clinit>()V  [acc=0x10008]
+      23e0| const/16 vAA,#+BBBB          v0 #18
+      23e4| const-class vAA,type@BBBB    v1 L七猫免费小说/Ho
+      23e8| invoke-static {..},meth@BBBB {v0,v0} LProtect2C/hidden/Hidden0;->special_clinit_21_20(Ljava/lang/Class;)V
+      23ee| const-class vAA,type@BBBB    v0 L七猫免费小说/Ho
+      23f2| invoke-static {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      23f8| return-void                  
+
+  .method direct L七猫免费小说/Ho-><init>()V  [acc=0x10000]
+      240c| invoke-direct {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      2412| return-void                  
+
+  .method virtual L七猫免费小说/Ho->beforeHookedMethod(Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;)V  [acc=0x101]
+
+==============================================================================
+CLASS L七猫免费小说/Ho  super=Lde/robv/android/xposed/XC_MethodHook;
+  .method direct L七猫免费小说/Ho-><clinit>()V  [acc=0x10008]
+      2424| const/16 vAA,#+BBBB          v0 #19
+      2428| const-class vAA,type@BBBB    v1 L七猫免费小说/Ho
+      242c| invoke-static {..},meth@BBBB {v0,v0} LProtect2C/hidden/Hidden0;->special_clinit_21_20(Ljava/lang/Class;)V
+      2432| const-class vAA,type@BBBB    v0 L七猫免费小说/Ho
+      2436| invoke-static {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      243c| return-void                  
+
+  .method direct L七猫免费小说/Ho-><init>()V  [acc=0x10000]
+      2450| invoke-direct {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      2456| return-void                  
+
+  .method virtual L七猫免费小说/Ho->beforeHookedMethod(Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;)V  [acc=0x101]
+
+==============================================================================
+CLASS L七猫免费小说/Ho  super=Lde/robv/android/xposed/XC_MethodHook;
+  .method direct L七猫免费小说/Ho-><clinit>()V  [acc=0x10008]
+      2468| const/16 vAA,#+BBBB          v0 #20
+      246c| const-class vAA,type@BBBB    v1 L七猫免费小说/Ho
+      2470| invoke-static {..},meth@BBBB {v0,v0} LProtect2C/hidden/Hidden0;->special_clinit_21_20(Ljava/lang/Class;)V
+      2476| const-class vAA,type@BBBB    v0 L七猫免费小说/Ho
+      247a| invoke-static {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      2480| return-void                  
+
+  .method direct L七猫免费小说/Ho-><init>()V  [acc=0x10000]
+      2494| invoke-direct {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      249a| return-void                  
+
+  .method virtual L七猫免费小说/Ho->beforeHookedMethod(Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;)V  [acc=0x101]
+
+==============================================================================
+CLASS L七猫免费小说/Ho  super=Lde/robv/android/xposed/XC_MethodHook;
+  .method direct L七猫免费小说/Ho-><clinit>()V  [acc=0x10008]
+      24ac| const/16 vAA,#+BBBB          v0 #21
+      24b0| const-class vAA,type@BBBB    v1 L七猫免费小说/Ho
+      24b4| invoke-static {..},meth@BBBB {v0,v0} LProtect2C/hidden/Hidden0;->special_clinit_21_20(Ljava/lang/Class;)V
+      24ba| const-class vAA,type@BBBB    v0 L七猫免费小说/Ho
+      24be| invoke-static {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      24c4| return-void                  
+
+  .method direct L七猫免费小说/Ho-><init>()V  [acc=0x10000]
+      24d8| invoke-direct {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      24de| return-void                  
+
+  .method virtual L七猫免费小说/Ho->beforeHookedMethod(Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;)V  [acc=0x101]
+
+==============================================================================
+CLASS L七猫免费小说/H  super=Lde/robv/android/xposed/XC_MethodHook;
+  .method direct L七猫免费小说/H-><clinit>()V  [acc=0x10008]
+      24f0| const/16 vAA,#+BBBB          v0 #22
+      24f4| const-class vAA,type@BBBB    v1 L七猫免费小说/H
+      24f8| invoke-static {..},meth@BBBB {v0,v0} LProtect2C/hidden/Hidden0;->special_clinit_21_20(Ljava/lang/Class;)V
+      24fe| const-class vAA,type@BBBB    v0 L七猫免费小说/H
+      2502| invoke-static {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      2508| return-void                  
+
+  .method direct L七猫免费小说/H-><init>()V  [acc=0x10000]
+      251c| invoke-direct {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      2522| return-void                  
+
+  .method virtual L七猫免费小说/H->beforeHookedMethod(Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;)V  [acc=0x101]
+
+==============================================================================
+CLASS L七猫免费小说/Ho  super=Lde/robv/android/xposed/XC_MethodHook;
+  .method direct L七猫免费小说/Ho-><clinit>()V  [acc=0x10008]
+      2534| const/16 vAA,#+BBBB          v0 #23
+      2538| const-class vAA,type@BBBB    v1 L七猫免费小说/Ho
+      253c| invoke-static {..},meth@BBBB {v0,v0} LProtect2C/hidden/Hidden0;->special_clinit_21_20(Ljava/lang/Class;)V
+      2542| const-class vAA,type@BBBB    v0 L七猫免费小说/Ho
+      2546| invoke-static {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      254c| return-void                  
+
+  .method direct L七猫免费小说/Ho-><init>()V  [acc=0x10000]
+      2560| invoke-direct {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      2566| return-void                  
+
+  .method virtual L七猫免费小说/Ho->beforeHookedMethod(Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;)V  [acc=0x101]
+
+==============================================================================
+CLASS L七猫免费小说/Ho  super=Lde/robv/android/xposed/XC_MethodHook;
+  .method direct L七猫免费小说/Ho-><clinit>()V  [acc=0x10008]
+      2578| const/16 vAA,#+BBBB          v0 #24
+      257c| const-class vAA,type@BBBB    v1 L七猫免费小说/Ho
+      2580| invoke-static {..},meth@BBBB {v0,v0} LProtect2C/hidden/Hidden0;->special_clinit_21_20(Ljava/lang/Class;)V
+      2586| const-class vAA,type@BBBB    v0 L七猫免费小说/Ho
+      258a| invoke-static {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      2590| return-void                  
+
+  .method direct L七猫免费小说/Ho-><init>()V  [acc=0x10000]
+      25a4| invoke-direct {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      25aa| return-void                  
+
+  .method virtual L七猫免费小说/Ho->beforeHookedMethod(Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;)V  [acc=0x101]
+
+==============================================================================
+CLASS L七猫免费小说/Ho  super=Lde/robv/android/xposed/XC_MethodHook;
+  .method direct L七猫免费小说/Ho-><clinit>()V  [acc=0x10008]
+      25bc| const/16 vAA,#+BBBB          v0 #25
+      25c0| const-class vAA,type@BBBB    v1 L七猫免费小说/Ho
+      25c4| invoke-static {..},meth@BBBB {v0,v0} LProtect2C/hidden/Hidden0;->special_clinit_21_20(Ljava/lang/Class;)V
+      25ca| const-class vAA,type@BBBB    v0 L七猫免费小说/Ho
+      25ce| invoke-static {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      25d4| return-void                  
+
+  .method direct L七猫免费小说/Ho-><init>()V  [acc=0x10000]
+      25e8| invoke-direct {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      25ee| return-void                  
+
+  .method virtual L七猫免费小说/Ho->beforeHookedMethod(Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;)V  [acc=0x101]
+
+==============================================================================
+CLASS L七猫免费小说/Ho  super=Lde/robv/android/xposed/XC_MethodHook;
+  .method direct L七猫免费小说/Ho-><clinit>()V  [acc=0x10008]
+      2600| const/16 vAA,#+BBBB          v0 #26
+      2604| const-class vAA,type@BBBB    v1 L七猫免费小说/Ho
+      2608| invoke-static {..},meth@BBBB {v0,v0} LProtect2C/hidden/Hidden0;->special_clinit_21_20(Ljava/lang/Class;)V
+      260e| const-class vAA,type@BBBB    v0 L七猫免费小说/Ho
+      2612| invoke-static {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      2618| return-void                  
+
+  .method direct L七猫免费小说/Ho-><init>()V  [acc=0x10000]
+      262c| invoke-direct {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      2632| return-void                  
+
+  .method virtual L七猫免费小说/Ho->beforeHookedMethod(Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;)V  [acc=0x101]
+
+==============================================================================
+CLASS L七猫免费小说/Ho  super=Lde/robv/android/xposed/XC_MethodHook;
+  .method direct L七猫免费小说/Ho-><clinit>()V  [acc=0x10008]
+      2644| const/16 vAA,#+BBBB          v0 #27
+      2648| const-class vAA,type@BBBB    v1 L七猫免费小说/Ho
+      264c| invoke-static {..},meth@BBBB {v0,v0} LProtect2C/hidden/Hidden0;->special_clinit_21_20(Ljava/lang/Class;)V
+      2652| const-class vAA,type@BBBB    v0 L七猫免费小说/Ho
+      2656| invoke-static {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      265c| return-void                  
+
+  .method direct L七猫免费小说/Ho-><init>()V  [acc=0x10000]
+      2670| invoke-direct {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      2676| return-void                  
+
+  .method virtual L七猫免费小说/Ho->beforeHookedMethod(Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;)V  [acc=0x101]
+
+==============================================================================
+CLASS L七猫免费小说/Ho  super=Lde/robv/android/xposed/XC_MethodHook;
+  .method direct L七猫免费小说/Ho-><clinit>()V  [acc=0x10008]
+      2688| const/16 vAA,#+BBBB          v0 #28
+      268c| const-class vAA,type@BBBB    v1 L七猫免费小说/Ho
+      2690| invoke-static {..},meth@BBBB {v0,v0} LProtect2C/hidden/Hidden0;->special_clinit_21_20(Ljava/lang/Class;)V
+      2696| const-class vAA,type@BBBB    v0 L七猫免费小说/Ho
+      269a| invoke-static {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      26a0| return-void                  
+
+  .method direct L七猫免费小说/Ho-><init>()V  [acc=0x10000]
+      26b4| invoke-direct {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      26ba| return-void                  
+
+  .method virtual L七猫免费小说/Ho->beforeHookedMethod(Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;)V  [acc=0x101]
+
+==============================================================================
+CLASS L七猫免费小说/Ho  super=Lde/robv/android/xposed/XC_MethodHook;
+  .method direct L七猫免费小说/Ho-><clinit>()V  [acc=0x10008]
+      26cc| const/16 vAA,#+BBBB          v0 #29
+      26d0| const-class vAA,type@BBBB    v1 L七猫免费小说/Ho
+      26d4| invoke-static {..},meth@BBBB {v0,v0} LProtect2C/hidden/Hidden0;->special_clinit_21_20(Ljava/lang/Class;)V
+      26da| const-class vAA,type@BBBB    v0 L七猫免费小说/Ho
+      26de| invoke-static {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      26e4| return-void                  
+
+  .method direct L七猫免费小说/Ho-><init>(Ljava/lang/ClassLoader;)V  [acc=0x10000]
+      26f8| iput-object vA,vB,field@CCCC v1 v0 L七猫免费小说/Ho->val$cl:Ljava/lang/ClassLoader;
+      26fc| invoke-direct {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      2702| return-void                  
+
+  .method virtual L七猫免费小说/Ho->beforeHookedMethod(Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;)V  [acc=0x101]
+
+==============================================================================
+CLASS L七猫免费小说/HookConfig$37$$ExternalSynth  super=Ljava/lang/Object;
+  .method direct L七猫免费小说/HookConfig$37$$ExternalSynth-><clinit>()V  [acc=0x10008]
+      2714| const/16 vAA,#+BBBB          v0 #30
+      2718| const-class vAA,type@BBBB    v1 L七猫免费小说/HookConfig$37$$ExternalSynth
+      271c| invoke-static {..},meth@BBBB {v0,v0} LProtect2C/hidden/Hidden0;->special_clinit_21_20(Ljava/lang/Class;)V
+      2722| const-class vAA,type@BBBB    v0 L七猫免费小说/HookConfig$37$$ExternalSynth
+      2726| invoke-static {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      272c| return-void                  
+
+  .method direct L七猫免费小说/HookConfig$37$$ExternalSynth-><init>(Landroid/app/Activity;)V  [acc=0x11001]
+      2740| invoke-direct {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      2746| iput-object vA,vB,field@CCCC v1 v0 L七猫免费小说/HookConfig$37$$ExternalSynth->f$0:Landroid/app/Activity;
+      274a| return-void                  
+
+  .method virtual L七猫免费小说/HookConfig$37$$ExternalSynth->queueIdle()Z  [acc=0x111]
+
+==============================================================================
+CLASS L七猫免费小说/Ho  super=Lde/robv/android/xposed/XC_MethodHook;
+  .method direct L七猫免费小说/Ho-><clinit>()V  [acc=0x10008]
+      275c| const/16 vAA,#+BBBB          v0 #31
+      2760| const-class vAA,type@BBBB    v1 L七猫免费小说/Ho
+      2764| invoke-static {..},meth@BBBB {v0,v0} LProtect2C/hidden/Hidden0;->special_clinit_21_20(Ljava/lang/Class;)V
+      276a| const-class vAA,type@BBBB    v0 L七猫免费小说/Ho
+      276e| invoke-static {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      2774| return-void                  
+
+  .method direct L七猫免费小说/Ho-><init>()V  [acc=0x10000]
+      2788| invoke-direct {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      278e| return-void                  
+
+  .method direct L七猫免费小说/Ho->lambda$afterHookedMethod$0(Landroid/app/Activity;)Z  [acc=0x1108]
+
+  .method virtual L七猫免费小说/Ho->afterHookedMethod(Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;)V  [acc=0x101]
+
+==============================================================================
+CLASS L七猫免费小说/H  super=Lde/robv/android/xposed/XC_MethodHook;
+  .method direct L七猫免费小说/H-><clinit>()V  [acc=0x10008]
+      27a0| const/16 vAA,#+BBBB          v0 #32
+      27a4| const-class vAA,type@BBBB    v1 L七猫免费小说/H
+      27a8| invoke-static {..},meth@BBBB {v0,v0} LProtect2C/hidden/Hidden0;->special_clinit_21_20(Ljava/lang/Class;)V
+      27ae| const-class vAA,type@BBBB    v0 L七猫免费小说/H
+      27b2| invoke-static {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      27b8| return-void                  
+
+  .method direct L七猫免费小说/H-><init>()V  [acc=0x10000]
+      27cc| invoke-direct {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      27d2| return-void                  
+
+  .method virtual L七猫免费小说/H->beforeHookedMethod(Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;)V  [acc=0x101]
+
+==============================================================================
+CLASS L七猫免费小说/H  super=Lde/robv/android/xposed/XC_MethodHook;
+  .method direct L七猫免费小说/H-><clinit>()V  [acc=0x10008]
+      27e4| const/16 vAA,#+BBBB          v0 #33
+      27e8| const-class vAA,type@BBBB    v1 L七猫免费小说/H
+      27ec| invoke-static {..},meth@BBBB {v0,v0} LProtect2C/hidden/Hidden0;->special_clinit_21_20(Ljava/lang/Class;)V
+      27f2| const-class vAA,type@BBBB    v0 L七猫免费小说/H
+      27f6| invoke-static {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      27fc| return-void                  
+
+  .method direct L七猫免费小说/H-><init>()V  [acc=0x10000]
+      2810| invoke-direct {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      2816| return-void                  
+
+  .method virtual L七猫免费小说/H->beforeHookedMethod(Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;)V  [acc=0x101]
+
+==============================================================================
+CLASS L七猫免费小说/H  super=Lde/robv/android/xposed/XC_MethodHook;
+  .method direct L七猫免费小说/H-><clinit>()V  [acc=0x10008]
+      2828| const/16 vAA,#+BBBB          v0 #34
+      282c| const-class vAA,type@BBBB    v1 L七猫免费小说/H
+      2830| invoke-static {..},meth@BBBB {v0,v0} LProtect2C/hidden/Hidden0;->special_clinit_21_20(Ljava/lang/Class;)V
+      2836| const-class vAA,type@BBBB    v0 L七猫免费小说/H
+      283a| invoke-static {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      2840| return-void                  
+
+  .method direct L七猫免费小说/H-><init>()V  [acc=0x10000]
+      2854| invoke-direct {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      285a| return-void                  
+
+  .method virtual L七猫免费小说/H->beforeHookedMethod(Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;)V  [acc=0x101]
+
+==============================================================================
+CLASS L七猫免费小说/H  super=Lde/robv/android/xposed/XC_MethodHook;
+  .method direct L七猫免费小说/H-><clinit>()V  [acc=0x10008]
+      286c| const/16 vAA,#+BBBB          v0 #35
+      2870| const-class vAA,type@BBBB    v1 L七猫免费小说/H
+      2874| invoke-static {..},meth@BBBB {v0,v0} LProtect2C/hidden/Hidden0;->special_clinit_21_20(Ljava/lang/Class;)V
+      287a| const-class vAA,type@BBBB    v0 L七猫免费小说/H
+      287e| invoke-static {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      2884| return-void                  
+
+  .method direct L七猫免费小说/H-><init>()V  [acc=0x10000]
+      2898| invoke-direct {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      289e| return-void                  
+
+  .method virtual L七猫免费小说/H->beforeHookedMethod(Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;)V  [acc=0x101]
+
+==============================================================================
+CLASS L七猫免费小说/H  super=Lde/robv/android/xposed/XC_MethodHook;
+  .method direct L七猫免费小说/H-><clinit>()V  [acc=0x10008]
+      28b0| const/16 vAA,#+BBBB          v0 #36
+      28b4| const-class vAA,type@BBBB    v1 L七猫免费小说/H
+      28b8| invoke-static {..},meth@BBBB {v0,v0} LProtect2C/hidden/Hidden0;->special_clinit_21_20(Ljava/lang/Class;)V
+      28be| const-class vAA,type@BBBB    v0 L七猫免费小说/H
+      28c2| invoke-static {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      28c8| return-void                  
+
+  .method direct L七猫免费小说/H-><init>()V  [acc=0x10000]
+      28dc| invoke-direct {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      28e2| return-void                  
+
+  .method virtual L七猫免费小说/H->beforeHookedMethod(Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;)V  [acc=0x101]
+
+==============================================================================
+CLASS L七猫免费小说/H  super=Lde/robv/android/xposed/XC_MethodHook;
+  .method direct L七猫免费小说/H-><clinit>()V  [acc=0x10008]
+      28f4| const/16 vAA,#+BBBB          v0 #37
+      28f8| const-class vAA,type@BBBB    v1 L七猫免费小说/H
+      28fc| invoke-static {..},meth@BBBB {v0,v0} LProtect2C/hidden/Hidden0;->special_clinit_21_20(Ljava/lang/Class;)V
+      2902| const-class vAA,type@BBBB    v0 L七猫免费小说/H
+      2906| invoke-static {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      290c| return-void                  
+
+  .method direct L七猫免费小说/H-><init>()V  [acc=0x10000]
+      2920| invoke-direct {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      2926| return-void                  
+
+  .method virtual L七猫免费小说/H->beforeHookedMethod(Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;)V  [acc=0x101]
+
+==============================================================================
+CLASS L七猫免费小说/H  super=Lde/robv/android/xposed/XC_MethodHook;
+  .method direct L七猫免费小说/H-><clinit>()V  [acc=0x10008]
+      2938| const/16 vAA,#+BBBB          v0 #38
+      293c| const-class vAA,type@BBBB    v1 L七猫免费小说/H
+      2940| invoke-static {..},meth@BBBB {v0,v0} LProtect2C/hidden/Hidden0;->special_clinit_21_20(Ljava/lang/Class;)V
+      2946| const-class vAA,type@BBBB    v0 L七猫免费小说/H
+      294a| invoke-static {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      2950| return-void                  
+
+  .method direct L七猫免费小说/H-><init>()V  [acc=0x10000]
+      2964| invoke-direct {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      296a| return-void                  
+
+  .method virtual L七猫免费小说/H->beforeHookedMethod(Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;)V  [acc=0x101]
+
+==============================================================================
+CLASS L七猫免费小说  super=Ljava/lang/Object;
+  .method direct L七猫免费小说->-$$Nest$smsetObjectField(Ljava/lang/Object;,Ljava/lang/String;,Ljava/lang/Object;)V  [acc=0x1148]
+
+  .method direct L七猫免费小说-><clinit>()V  [acc=0x10008]
+      297c| const/16 vAA,#+BBBB          v0 #39
+      2980| const-class vAA,type@BBBB    v1 L七猫免费小说
+      2984| invoke-static {..},meth@BBBB {v0,v0} LProtect2C/hidden/Hidden0;->special_clinit_21_20(Ljava/lang/Class;)V
+      298a| const-class vAA,type@BBBB    v0 L七猫免费小说
+      298e| invoke-static {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      2994| return-void                  
+
+  .method direct L七猫免费小说-><init>()V  [acc=0x10002]
+      29a8| invoke-direct {..},meth@BBBB {v0} LProtect2C/Loader;-><clinit>()V
+      29ae| return-void                  
+
+  .method direct L七猫免费小说->inject()V  [acc=0x109]
+
+  .method direct L七猫免费小说->setObjectField(Ljava/lang/Object;,Ljava/lang/String;,Ljava/lang/Object;)V  [acc=0x10a]
+
+  .method direct L七猫免费小说->show(Landroid/app/Activity;)V  [acc=0x109]
+

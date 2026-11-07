@@ -1,0 +1,1112 @@
+--------- beginning of main
+09-29 04:20:04.844   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=3 frameNumber=753 -> producedId=3 frameNumber=661
+09-29 04:20:05.011   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=3 frameNumber=753 -> producedId=3 frameNumber=662
+09-29 04:20:05.177   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=3 frameNumber=753 -> producedId=3 frameNumber=663
+09-29 04:20:05.344   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=3 frameNumber=753 -> producedId=3 frameNumber=664
+09-29 04:20:05.441  3547  3547 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+09-29 04:20:05.449  3547  3547 I AndroidRuntime: Using default boot image
+09-29 04:20:05.449  3547  3547 I AndroidRuntime: Leaving lock profiling enabled
+09-29 04:20:05.452  3547  3547 W app_process: ART APEX data files are untrusted.
+09-29 04:20:05.452  3547  3547 I app_process: Using CollectorTypeCMC GC.
+09-29 04:20:05.527   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=3 frameNumber=753 -> producedId=3 frameNumber=665
+09-29 04:20:05.529  3547  3547 D nativeloader: InitDefaultPublicLibraries for_preload=1: libandroid.so:libaaudio.so:libamidi.so:libbinder_ndk.so:libc.so:libcamera2ndk.so:libdl.so:libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libicu.so:libicui18n.so:libicuuc.so:libjnigraphics.so:liblog.so:libmediandk.so:libm.so:libnativehelper.so:libnativewindow.so:libOpenMAXAL.so:libOpenSLES.so:libRS.so:libstdc++.so:libsync.so:libvulkan.so:libwebviewchromium_plat_support.so:libz.so:libcallhost.so
+09-29 04:20:05.551  3547  3547 D nativeloader: Load libicu_jni.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+09-29 04:20:05.552  3547  3547 D app_process: u_setTimeZoneFilesDirectory("/apex/com.android.tzdata/etc/tz/versioned/8/icu") succeeded. 
+09-29 04:20:05.552  3547  3547 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt75l.dat
+09-29 04:20:05.554  3547  3547 D nativeloader: Load libjavacore.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+09-29 04:20:05.556  3547  3547 D nativeloader: Load libopenjdk.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+09-29 04:20:05.560  3547  3547 W app_process: Unexpected CPU variant for x86: x86_64.
+09-29 04:20:05.560  3547  3547 W app_process: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, alderlake, default
+09-29 04:20:05.566  3547  3547 W app_process: Could not create mount namespace.
+09-29 04:20:05.566  3547  3547 W nativebridge: Failed to bind-mount /system/etc/cpuinfo.x86_64.txt as /proc/cpuinfo: Operation not permitted
+09-29 04:20:05.566  3547  3547 W nativebridge: Failed to bind-mount /system/lib64/x86_64/cpuinfo as /proc/cpuinfo: Operation not permitted
+09-29 04:20:05.566  3547  3547 W nativebridge: Cannot create code cache directory ./code_cache: Read-only file system.
+09-29 04:20:05.566  3547  3547 V libnb   : enter native_bridge2_initialize (null) x86_64
+09-29 04:20:05.566  3547  3547 E libnb   : The translator implementation library has not been set.
+09-29 04:20:05.564  3547  3547 I main    : type=1400 audit(0.0:721): avc:  denied  { mounton } for  path="/proc/cpuinfo" dev="proc" ino=4026532022 scontext=u:r:shell:s0 tcontext=u:object_r:proc_cpuinfo:s0 tclass=file permissive=1
+09-29 04:20:05.574  3547  3547 E libnb   : get_callbacks native_handle 0xaba5f4a81e1d149d: 1 libnb:/system/lib64/libhoudini.so
+09-29 04:20:05.574  3547  3547 I libnb   : Found /system/lib64/libhoudini.so version 7
+09-29 04:20:05.613  3547  3547 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+09-29 04:20:05.613  3547  3547 D AndroidRuntime: Calling main entry com.android.commands.monkey.Monkey
+09-29 04:20:05.614  3547  3547 D nativeloader: Load /system/lib64/libmonkey_jni.so using ns default for caller /system/framework/monkey.jar in same partition (is_bridged=0): ok
+09-29 04:20:05.614  3547  3547 W Monkey  : args: [-p, com.kmxs.reader, -c, android.intent.category.LAUNCHER, 1]
+09-29 04:20:05.616  3547  3547 I commands.monkey: type=1400 audit(0.0:722): avc:  denied  { read } for  name="u:object_r:qemu_sf_lcd_density_prop:s0" dev="tmpfs" ino=514 scontext=u:r:shell:s0 tcontext=u:object_r:qemu_sf_lcd_density_prop:s0 tclass=file permissive=1
+09-29 04:20:05.616  3547  3547 I commands.monkey: type=1400 audit(0.0:723): avc:  denied  { open } for  path="/dev/__properties__/u:object_r:qemu_sf_lcd_density_prop:s0" dev="tmpfs" ino=514 scontext=u:r:shell:s0 tcontext=u:object_r:qemu_sf_lcd_density_prop:s0 tclass=file permissive=1
+09-29 04:20:05.616  3547  3547 I commands.monkey: type=1400 audit(0.0:724): avc:  denied  { getattr } for  path="/dev/__properties__/u:object_r:qemu_sf_lcd_density_prop:s0" dev="tmpfs" ino=514 scontext=u:r:shell:s0 tcontext=u:object_r:qemu_sf_lcd_density_prop:s0 tclass=file permissive=1
+09-29 04:20:05.616  3547  3547 I commands.monkey: type=1400 audit(0.0:725): avc:  denied  { map } for  path="/dev/__properties__/u:object_r:qemu_sf_lcd_density_prop:s0" dev="tmpfs" ino=514 scontext=u:r:shell:s0 tcontext=u:object_r:qemu_sf_lcd_density_prop:s0 tclass=file permissive=1
+09-29 04:20:05.638  3547  3547 W Monkey  :  arg: "-p"
+09-29 04:20:05.638  3547  3547 W Monkey  :  arg: "com.kmxs.reader"
+09-29 04:20:05.638  3547  3547 W Monkey  :  arg: "-c"
+09-29 04:20:05.638  3547  3547 W Monkey  :  arg: "android.intent.category.LAUNCHER"
+09-29 04:20:05.638  3547  3547 W Monkey  :  arg: "1"
+09-29 04:20:05.638  3547  3547 W Monkey  : data="com.kmxs.reader"
+09-29 04:20:05.638  3547  3547 W Monkey  : data="android.intent.category.LAUNCHER"
+09-29 04:20:05.640   844   951 D EventHub: configureBatteryLocked rawBatteryId 1 name battery
+09-29 04:20:05.640   844   951 D EventHub: No input device configuration file found for device 'Monkey touch'.
+09-29 04:20:05.640   844   951 I EventHub: usingClockIoctl=true
+09-29 04:20:05.640   844   951 I EventHub: New device: id=6, fd=439, path='/dev/input/event8', name='Monkey touch', classes=TOUCH | TOUCH_MT | BATTERY, configuration='', keyLayout='', keyCharacterMap='', builtinKeyboard=false, 
+09-29 04:20:05.642   844   951 W InputReader: Input device Monkey touch should be associated with display id: 1 but the corresponding viewport cannot be found
+09-29 04:20:05.643   844   951 I InputReader: Device reconfigured: id=7, name='Monkey touch', size 900x1600, orientation Rotation0, mode DIRECT, display id 0
+09-29 04:20:05.644   844   951 W InputReader: Input device Monkey touch should be associated with display id: 1 but the corresponding viewport cannot be found
+09-29 04:20:05.644   844   951 I InputReader: Device added: id=7, eventHubId=6, name='Monkey touch', descriptor='e1fe28b90f915c7d1febbd52c1ef84b3c4cbed9f',sources=TOUCHSCREEN
+--------- beginning of system
+09-29 04:20:05.650   844   951 E WindowManager: Display reconfigured outside of a transition: Display{#0 state=ON size=900x1600 ROTATION_0}
+09-29 04:20:05.662   844  1218 W ActivityManager: registerReceiverWithFeature: no app for null
+09-29 04:20:05.670   844  1218 W ActivityTaskManager: callingPackage for (uid=2000, pid=3547) has no WPC
+09-29 04:20:05.673   844  1218 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@16f1eba5 does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+09-29 04:20:05.673   844  1218 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_RESIZEABLE_ACTIVITY_OVERRIDES
+09-29 04:20:05.674   844  1218 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_MIN_ASPECT_RATIO_OVERRIDE
+09-29 04:20:05.675   844  1218 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+09-29 04:20:05.681   844  1218 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.kmxs.reader/com.km.app.home.view.LoadingActivity} with LAUNCH_SINGLE_TASK from uid 2000 (BAL_ALLOW_PERMISSION) result code=0
+09-29 04:20:05.681  1086  1233 V WindowManagerShell: Transition requested (#20): android.os.BinderProxy@de79692 TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=50 effectiveUid=10067 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.kmxs.reader/com.km.app.home.view.LoadingActivity } baseActivity=ComponentInfo{com.kmxs.reader/com.km.app.home.view.LoadingActivity} topActivity=ComponentInfo{com.kmxs.reader/com.km.app.home.view.LoadingActivity} origActivity=null realActivity=ComponentInfo{com.kmxs.reader/com.km.app.home.view.LoadingActivity} numActivities=1 lastActiveTime=1353403 supportsMultiWindow=true resizeMode=2 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@267c863} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 0 - 0, 0) topActivityInfo=ActivityInfo{4d0ac60 com.km.app.home.view.LoadingActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isTopActivityNoDisplay=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false isActivityStackTransparent=false lastNonFullscreenBounds=Rect(190, 374 - 711, 1274) capturedLink=null capturedLinkTimestamp=0 requestedVisibleTypes=-9 topActivityRequestOpenInBrowserEducationTimestamp=0 appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false eligibleForLetterboxEducation= false isLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false eligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 topActivityLetterboxAppWidth=-1 topActivityLetterboxAppHeight=-1 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false hasMinAspectRatioOverride=false topActivityLetterboxBounds=null cameraCompatTaskInfo=CameraCompatTaskInfo { freeformCameraCompatMode=inactive}} topActivityMainWindowFrame=null}, pipChange = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 20 }
+09-29 04:20:05.681  1086  1233 D ShellSplitScreen: logExit: no-op, mLoggerSessionId is null
+09-29 04:20:05.682  1086  1233 D WindowManagerShell: setLauncherKeepClearAreaHeight: visible=false, height=197
+09-29 04:20:05.682   844   867 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@16f1eba5 does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+09-29 04:20:05.684  3547  3547 I Monkey  : Events injected: 1
+09-29 04:20:05.685   844   867 D CompatChangeReporter: Compat change id reported: 135754954; UID 10067; state: ENABLED
+09-29 04:20:05.686   844   879 D CompatChangeReporter: Compat change id reported: 143937733; UID 10067; state: ENABLED
+09-29 04:20:05.693   661   661 D Zygote  : Forked child process 3558
+09-29 04:20:05.694  1078  1078 W SplitSelectStateCtor: Missing session instanceIds
+09-29 04:20:05.694  1078  1078 D StatsLog: LAUNCHER_SPLIT_SELECTION_EXIT_INTERRUPTED
+09-29 04:20:05.694   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=3 frameNumber=753 -> producedId=3 frameNumber=666
+09-29 04:20:05.694   844   879 I ActivityManager: Start proc 3558:com.kmxs.reader/u0a67 for next-top-activity {com.kmxs.reader/com.km.app.home.view.LoadingActivity}
+09-29 04:20:05.694   693   693 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+09-29 04:20:05.697  1086  1260 W HWUI    : Image decoding logging dropped!
+09-29 04:20:05.704  3547  3547 I Monkey  : ## Network stats: elapsed time=35ms (0ms mobile, 0ms wifi, 35ms not connected)
+09-29 04:20:05.705  3547  3547 I app_process: System.exit called, status: 0
+09-29 04:20:05.705  3547  3547 I AndroidRuntime: VM exiting with result code 0.
+09-29 04:20:05.708   844  3257 D CoreBackPreview: Window{9075d26 u0 Splash Screen com.kmxs.reader}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@998a080, mPriority=0, mIsAnimationCallback=false, mOverrideBehavior=0}
+09-29 04:20:05.709   844   951 I EventHub: Removing device Monkey touch due to epoll hang-up event.
+09-29 04:20:05.709   844   951 I EventHub: Removed device: path=/dev/input/event8 name=Monkey touch id=6 fd=439 classes=TOUCH | TOUCH_MT | BATTERY
+09-29 04:20:05.712   844  1046 D BackgroundInstallControlService: Package event received: 0
+09-29 04:20:05.713  1086  1289 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 5763072
+09-29 04:20:05.713  3558  3558 W nativebridge: Failed to bind-mount /system/etc/cpuinfo.arm64.txt as /proc/cpuinfo: No such file or directory
+09-29 04:20:05.713  3558  3558 E Zygote  : pkg name is 0 => com.kmxs.reader, data dir is /data/user/0/com.kmxs.reader
+09-29 04:20:05.714  1381  1381 W WidgetOperateReceiver: onReceive: intent = Intent { act=com.mumu.LAUNCHER_LIFECYCLE flg=0x30 pkg=com.mumu.store cmp=com.mumu.store/.widget.receiver.WidgetOperateReceiver (has extras) } action = com.mumu.LAUNCHER_LIFECYCLE
+09-29 04:20:05.714  1381  1381 W WidgetOperateReceiver: onLauncherLifecycle: launcherLifecycle = ON_PAUSE
+09-29 04:20:05.714  1381  1381 W WidgetManager: updateLauncherLifecycle: launcherLifecycleName = ON_PAUSE
+09-29 04:20:05.714  1086  1289 D HWUI    : HOOK FAILED! Expected 3 got = 2
+09-29 04:20:05.714  3558  3558 W zygote64: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: nemuhotd
+09-29 04:20:05.716  1086  3560 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 5763072
+09-29 04:20:05.723   844   868 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_ORIENTATION_OVERRIDE
+09-29 04:20:05.725   844   864 V WindowManager: Sent Transition (#20) createdAt=09-29 04:20:05.674 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=50 effectiveUid=10067 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.kmxs.reader/com.km.app.home.view.LoadingActivity } baseActivity=ComponentInfo{com.kmxs.reader/com.km.app.home.view.LoadingActivity} topActivity=ComponentInfo{com.kmxs.reader/com.km.app.home.view.LoadingActivity} origActivity=null realActivity=ComponentInfo{com.kmxs.reader/com.km.app.home.view.LoadingActivity} numActivities=1 lastActiveTime=1353403 supportsMultiWindow=true resizeMode=2 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{67a455a Task{e2bc47c #50 type=standard A=10067:com.kmxs.reader}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 0 - 0, 0) topActivityInfo=ActivityInfo{f6b949 com.km.app.home.view.LoadingActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isTopActivityNoDisplay=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false isActivityStackTransparent=false lastNonFullscreenBounds=Rect(190, 374 - 711, 1274) capturedLink=null capturedLinkTimestamp=0 requestedVisibleTypes=-9 topActivityRequestOpenInBrowserEducationTimestamp=0 appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false eligibleForLetterboxEducation= false isLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false eligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 topActivityLetterboxAppWidth=-1 topActivityLetterboxAppHeight=-1 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false hasMinAspectRatioOverride=false topActivityLetterboxBounds=null cameraCompatTaskInfo=CameraCompatTaskInfo { freeformCameraCompatMode=inactive}} topActivityMainWindowFrame=null}, pipChange = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 20 }
+09-29 04:20:05.725   844   864 V WindowManager:     startWCT=WindowContainerTransaction { changes= {} hops= [] errorCallbackToken=null taskFragmentOrganizer=null }
+09-29 04:20:05.725   844   864 V WindowManager:     info={id=20 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[
+09-29 04:20:05.725   844   864 V WindowManager:         {WCT{RemoteToken{67a455a Task{e2bc47c #50 type=standard A=10067:com.kmxs.reader}}} m=OPEN f=NONE leash=Surface(name=Task=50)/@0x44ba25f sb=Rect(0, 0 - 900, 1600) eb=Rect(0, 0 - 900, 1600) epz=Point(900, 1600) d=0 taskParent=-1},
+09-29 04:20:05.725   844   864 V WindowManager:         {WCT{RemoteToken{efc115c Task{f4c739 #1 type=home}}} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0xc1f9373 sb=Rect(0, 0 - 900, 1600) eb=Rect(0, 0 - 900, 1600) epz=Point(900, 1600) d=0 taskParent=-1}
+09-29 04:20:05.725   844   864 V WindowManager:     ]}
+09-29 04:20:05.725  1086  1131 V WindowManagerShell: onTransitionReady(transaction=3624952400247)
+09-29 04:20:05.725  1086  1233 V WindowManagerShell: onTransitionReady (#20) android.os.BinderProxy@de79692: {id=20 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[
+09-29 04:20:05.725  1086  1233 V WindowManagerShell:         {m=OPEN f=NONE leash=Surface(name=Task=50)/@0x8e93443 sb=Rect(0, 0 - 900, 1600) eb=Rect(0, 0 - 900, 1600) epz=Point(900, 1600) d=0 taskParent=-1},
+09-29 04:20:05.725  1086  1233 V WindowManagerShell:         {m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0x809dac0 sb=Rect(0, 0 - 900, 1600) eb=Rect(0, 0 - 900, 1600) epz=Point(900, 1600) d=0 taskParent=-1}
+09-29 04:20:05.725  1086  1233 V WindowManagerShell:     ]}
+09-29 04:20:05.725  1086  1233 V WindowManagerShell: Playing animation for (#20) android.os.BinderProxy@de79692@0
+09-29 04:20:05.725  1086  1233 V ShellRecents: RecentsTransitionHandler.startAnimation: no controller found
+09-29 04:20:05.725  1086  1233 V WindowManagerShell: Transition doesn't have explicit remote, search filters for match for {id=20 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{m=OPEN f=NONE leash=Surface(name=Task=50)/@0x8e93443 sb=Rect(0, 0 - 900, 1600) eb=Rect(0, 0 - 900, 1600) epz=Point(900, 1600) d=0 taskParent=-1},{m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0x809dac0 sb=Rect(0, 0 - 900, 1600) eb=Rect(0, 0 - 900, 1600) epz=Point(900, 1600) d=0 taskParent=-1}]}
+09-29 04:20:05.725  1086  1233 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{app.lawnchair/app.lawnchair.LawnchairLauncher} launchCookie=null windowingMode=undefined},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null launchCookie=null windowingMode=undefined},{NOT atype=undefined independent=true modes=[] flags=NONE mustBeTask=true order=ANY topActivity=null launchCookie=null windowingMode=undefined}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@40ceb63, appThread = android.app.IApplicationThread$Stub$Proxy@aca9360, debugName = QuickstepLaunchHome }}
+09-29 04:20:05.725  1086  1233 V WindowManagerShell:  Delegate animation for (#20) to null
+09-29 04:20:05.725  1086  1233 V WindowManagerShell: start default transition animation, info = {id=20 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{m=OPEN f=NONE leash=Surface(name=Task=50)/@0x8e93443 sb=Rect(0, 0 - 900, 1600) eb=Rect(0, 0 - 900, 1600) epz=Point(900, 1600) d=0 taskParent=-1},{m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0x809dac0 sb=Rect(0, 0 - 900, 1600) eb=Rect(0, 0 - 900, 1600) epz=Point(900, 1600) d=0 taskParent=-1}]}
+09-29 04:20:05.725  1086  1233 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@311e2ec animAttr=0x13 type=OPEN isEntrance=false
+09-29 04:20:05.726  1086  1233 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@3b041d8 animAttr=0x12 type=OPEN isEntrance=true
+09-29 04:20:05.726  1086  1233 V WindowManagerShell:  animated by com.android.wm.shell.transition.DefaultTransitionHandler@e3dad31
+09-29 04:20:05.727  1086  1233 V WindowManagerShell: Transition animation finished (aborted=false), notifying core (#20) android.os.BinderProxy@de79692@0
+09-29 04:20:05.728  1078  1078 D VRI[LawnchairLauncher]: visibilityChanged oldVisibility=true newVisibility=false
+09-29 04:20:05.728   844   864 V WindowManager: Finish Transition (#20): created at 09-29 04:20:05.674 collect-started=0.219ms request-sent=6.306ms started=7.368ms ready=49.515ms sent=50.371ms finished=53.883ms
+09-29 04:20:05.728  1086  1233 V WindowManagerShell: Track 0 became idle
+09-29 04:20:05.728  1086  1233 V WindowManagerShell: All active transition animations finished
+09-29 04:20:05.729   844   951 I EventHub: Removing device '/dev/input/event8' due to inotify event
+09-29 04:20:05.729   844   951 I InputReader: Device removed: id=7, eventHubId=6, name='Monkey touch', descriptor='e1fe28b90f915c7d1febbd52c1ef84b3c4cbed9f', sources=TOUCHSCREEN
+09-29 04:20:05.730   844  1917 W UserManagerService: Requested status bar icon for non-badged user 0
+09-29 04:20:05.730   844  1917 W UserManagerService: Requested status bar icon for non-badged user 0
+09-29 04:20:05.730   844  1917 W UserManagerService: Requested status bar icon for non-badged user 0
+09-29 04:20:05.731   844   951 E WindowManager: Display reconfigured outside of a transition: Display{#0 state=ON size=900x1600 ROTATION_0}
+09-29 04:20:05.733  3558  3558 I Zygote  : seccomp disabled by setenforce 0
+09-29 04:20:05.737  3558  3558 I com.kmxs.reader: Using CollectorTypeCMC GC.
+09-29 04:20:05.738  3558  3558 W com.kmxs.reader: Unexpected CPU variant for x86: x86_64.
+09-29 04:20:05.738  3558  3558 W com.kmxs.reader: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, alderlake, default
+09-29 04:20:05.738  3558  3558 V libnb   : enter native_bridge2_initialize /data/user/0/com.kmxs.reader/code_cache arm64
+09-29 04:20:05.739  3558  3558 E libnb   : The translator implementation library has not been set.
+09-29 04:20:05.750  3558  3558 E libnb   : get_callbacks native_handle 0x49e2fdedad85c161: 1 libnb:/system/lib64/libhoudini.so
+09-29 04:20:05.750  3558  3558 I libnb   : Found /system/lib64/libhoudini.so version 7
+09-29 04:20:05.751  3558  3558 E HP      : patch_houdini_linker_null_crash: patched +0x2FFECE (je->jmp) OK
+09-29 04:20:05.751  3558  3558 D HP      : no libmumuhooker.so
+09-29 04:20:05.748  3558  3558 I com.kmxs.reader: type=1400 audit(0.0:726): avc:  denied  { write } for  name="property_service" dev="tmpfs" ino=664 scontext=u:r:untrusted_app_30:s0:c67,c256,c512,c768 tcontext=u:object_r:property_socket:s0 tclass=sock_file permissive=1 app=com.kmxs.reader
+09-29 04:20:05.748  3558  3558 I com.kmxs.reader: type=1400 audit(0.0:727): avc:  denied  { connectto } for  path="/dev/socket/property_service" scontext=u:r:untrusted_app_30:s0:c67,c256,c512,c768 tcontext=u:r:init:s0 tclass=unix_stream_socket permissive=1 app=com.kmxs.reader
+09-29 04:20:05.752  3562  3562 I sh      : type=1400 audit(0.0:728): avc:  denied  { open } for  path="/data/tombstones" dev="sdc3" ino=7340033 scontext=u:r:untrusted_app_30:s0:c67,c256,c512,c768 tcontext=u:object_r:tombstone_data_file:s0 tclass=dir permissive=1 app=com.kmxs.reader
+09-29 04:20:05.774  3558  3558 D HP      : mAbi = arm64 enableHighFrame = 0
+09-29 04:20:05.774  3558  3558 D houdini : [3558] Houdini now in android app mode
+09-29 04:20:05.774  3558  3558 D houdini : [3558] Intel Bridge Technology for Netease Mumu only, Copyright(C) Intel Corp. 2012-2025.
+09-29 04:20:05.774  3558  3558 D houdini : [3558] Use permitted only under a valid commercial software license agreement - all other rights reserved.
+09-29 04:20:05.774  3558  3558 D houdini : [3558] Initialize library(version: 15.0.0_z.Netease_com2.0 RELEASE)... successfully.
+09-29 04:20:05.774  3558  3558 W HP      : x_initialize private_dir:/data/user/0/com.kmxs.reader/code_cache instruction_set:arm64 getMethodShorty:0x7791da9e3700 ret:1
+09-29 04:20:05.776  3558  3558 E com.kmxs.reader: Not starting debugger since process cannot load the jdwp agent.
+09-29 04:20:05.777  3558  3558 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+09-29 04:20:05.779   844   864 E [MUMU]TaskTab: setPresentationRotation 0 for com.kmxs.reader:50
+09-29 04:20:05.779   844   864 E [MUMU]TaskTab: java.lang.Exception
+09-29 04:20:05.779   844   864 E [MUMU]TaskTab: 	at com.android.server.mumu.tab.TaskTab.setPresentationRotation(TaskTab.java:52)
+09-29 04:20:05.779   844   864 E [MUMU]TaskTab: 	at com.android.server.wm.TaskUtils.getTopTaskOnDisplay(TaskUtils.java:557)
+09-29 04:20:05.779   844   864 E [MUMU]TaskTab: 	at com.android.server.wm.TaskUtils.updateTaskTabRotation(TaskUtils.java:1876)
+09-29 04:20:05.779   844   864 E [MUMU]TaskTab: 	at com.android.server.wm.TaskUtils.notifyOpen(TaskUtils.java:210)
+09-29 04:20:05.779   844   864 E [MUMU]TaskTab: 	at com.android.server.wm.WmBridge.notifyOpen(WmBridge.java:496)
+09-29 04:20:05.779   844   864 E [MUMU]TaskTab: 	at com.android.server.mumu.wm.TaskHandler.handleMessage(TaskHandler.java:32)
+09-29 04:20:05.779   844   864 E [MUMU]TaskTab: 	at android.os.Handler.dispatchMessage(Handler.java:109)
+09-29 04:20:05.779   844   864 E [MUMU]TaskTab: 	at android.os.Looper.loopOnce(Looper.java:232)
+09-29 04:20:05.779   844   864 E [MUMU]TaskTab: 	at android.os.Looper.loop(Looper.java:317)
+09-29 04:20:05.779   844   864 E [MUMU]TaskTab: 	at android.os.HandlerThread.run(HandlerThread.java:85)
+09-29 04:20:05.779   844   864 E [MUMU]TaskTab: 	at com.android.server.ServiceThread.run(ServiceThread.java:49)
+09-29 04:20:05.781   844   864 E ActivityManager: Sending non-protected broadcast nemu.intent.action.NEW_TASK from system 844:system/1000 pkg android
+09-29 04:20:05.781   844   864 E ActivityManager: java.lang.Throwable
+09-29 04:20:05.781   844   864 E ActivityManager: 	at com.android.server.am.BroadcastController.checkBroadcastFromSystem(BroadcastController.java:2118)
+09-29 04:20:05.781   844   864 E ActivityManager: 	at com.android.server.am.BroadcastController.broadcastIntentLockedTraced(BroadcastController.java:1635)
+09-29 04:20:05.781   844   864 E ActivityManager: 	at com.android.server.am.BroadcastController.broadcastIntentLocked(BroadcastController.java:807)
+09-29 04:20:05.781   844   864 E ActivityManager: 	at com.android.server.am.BroadcastController.broadcastIntentWithFeature(BroadcastController.java:740)
+09-29 04:20:05.781   844   864 E ActivityManager: 	at com.android.server.am.ActivityManagerService.broadcastIntentWithFeature(ActivityManagerService.java:14410)
+09-29 04:20:05.781   844   864 E ActivityManager: 	at android.app.ContextImpl.sendBroadcastAsUser(ContextImpl.java:1509)
+09-29 04:20:05.781   844   864 E ActivityManager: 	at android.content.ContextWrapper.sendBroadcastAsUser(ContextWrapper.java:603)
+09-29 04:20:05.781   844   864 E ActivityManager: 	at com.android.server.wm.TaskUtils.$r8$lambda$izZd96HXfmc2zvc_tMQT0zjG0cY(TaskUtils.java:2098)
+09-29 04:20:05.781   844   864 E ActivityManager: 	at com.android.server.wm.TaskUtils$$ExternalSyntheticLambda1.run(R8$$SyntheticClass:0)
+09-29 04:20:05.781   844   864 E ActivityManager: 	at android.os.Handler.handleCallback(Handler.java:991)
+09-29 04:20:05.781   844   864 E ActivityManager: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+09-29 04:20:05.781   844   864 E ActivityManager: 	at android.os.Looper.loopOnce(Looper.java:232)
+09-29 04:20:05.781   844   864 E ActivityManager: 	at android.os.Looper.loop(Looper.java:317)
+09-29 04:20:05.781   844   864 E ActivityManager: 	at android.os.HandlerThread.run(HandlerThread.java:85)
+09-29 04:20:05.781   844   864 E ActivityManager: 	at com.android.server.ServiceThread.run(ServiceThread.java:49)
+09-29 04:20:05.814   844  1046 D BackgroundInstallControlService: Package event received: 0
+09-29 04:20:05.818   844  1218 W ActivityTaskManager: takeTaskSnapshot: taskId=38 not found or not visible
+09-29 04:20:05.821  3558  3558 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/org.apache.http.legacy.jar
+09-29 04:20:05.821  3558  3558 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+09-29 04:20:05.821  3558  3558 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+09-29 04:20:05.874  3558  3558 D nativeloader: Configuring clns-7 for other apk /data/app/~~MrjPTAJpVzAFU6RxLRzOLQ==/com.kmxs.reader-LW1ecI5ulgH14evCSuMH4A==/base.apk. target_sdk_version=30, uses_libraries=, library_path=/data/app/~~MrjPTAJpVzAFU6RxLRzOLQ==/com.kmxs.reader-LW1ecI5ulgH14evCSuMH4A==/lib/arm64:/data/app/~~MrjPTAJpVzAFU6RxLRzOLQ==/com.kmxs.reader-LW1ecI5ulgH14evCSuMH4A==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.kmxs.reader
+09-29 04:20:05.882  3558  3558 I com.kmxs.reader: AssetManager2(0x7793bbb55a78) locale list changing from [] to [zh-Hans-CN]
+09-29 04:20:05.887  3558  3558 V GraphicsEnvironment: Currently set values for:
+09-29 04:20:05.887  3558  3558 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+09-29 04:20:05.887  3558  3558 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+09-29 04:20:05.887  3558  3558 V GraphicsEnvironment: com.kmxs.reader is not listed in per-application setting
+09-29 04:20:05.887  3558  3558 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+09-29 04:20:05.891  3558  3558 D SophixStubApplication: 本地存储的版本号 = 0
+09-29 04:20:05.892  3558  3558 D SophixStubApplication: App版本号 = 7.80
+09-29 04:20:05.892  3558  3558 I Sophix.LogLevel:  set value: V
+09-29 04:20:05.893  3558  3558 D Sophix.PatchManager:  initPatchDir patchDir: patch nativeLibDir: libs
+09-29 04:20:05.893  3558  3558 I Sophix.SophixManager:  Sophix starting... sdk: 3.3.0 main process: false fingerprint: vivo/PD2284/PD2284:15/V417IR/760:user/release-keys app version: 7.80 patch version: 0
+09-29 04:20:05.893  3558  3558 I Sophix.NetworkManager:  init appVersion: 7.80
+09-29 04:20:05.893  3558  3558 I Sophix.PatchManager:  init appVersion: 7.80
+09-29 04:20:05.893  3558  3558 D Sophix.PatchManager:  checkAppUpdatedForContinue app is updated
+09-29 04:20:05.893  3558  3558 W Sophix.PatchManager:  patch is not the newest, skip loading in sub-process
+09-29 04:20:05.895  3558  3558 D Sophix.PatchManager:  callRealAppAttach finish call real App.attach, app: com.kmxs.reader.app.MainApplication
+09-29 04:20:05.895  3558  3558 D Sophix.SophixManager:  initialize time consumed(ms): 3
+09-29 04:20:05.903  3558  3558 I PineXposed: QMExport: 使用公共下载目录: /sdcard/Download/QimaoBooks
+09-29 04:20:05.903  3558  3558 I System.out: QMExport: mounted via PineXposed.hookLoadPackage
+09-29 04:20:05.903  3558  3558 I PineXposed: QMExport: mounted via PineXposed.hookLoadPackage
+09-29 04:20:05.903  3558  3558 D Sophix.PatchManager:  replaceRealApplication finish
+09-29 04:20:05.906  3558  3558 W HMSSDK_PushPreferences: get new sharedPreferences failed,start to get from context. 
+09-29 04:20:05.907  3558  3558 I AGConnectProvider: AGConnectInitializeProvider#onCreate
+09-29 04:20:05.907  3558  3558 I AGConnectInstance: AGConnectInstance#initialize
+09-29 04:20:05.907  3558  3558 I ServiceRegistrarParser: getServices
+09-29 04:20:05.908  3558  3558 I ServiceRegistrarParser: services:0
+09-29 04:20:05.914  3558  3558 I AGC_Instance: AGC SDK initialize end, default route:UNKNOWN
+09-29 04:20:05.922  3558  3558 D WM-WrkMgrInitializer: Initializing WorkManager with default configuration.
+09-29 04:20:05.929  3558  3558 W com.kmxs.reader: Accessing hidden method Landroid/telephony/TelephonyManager;->getDefault()Landroid/telephony/TelephonyManager; (max-target-p, reflection, denied)
+09-29 04:20:05.929  3558  3558 I _V_LIB-ICDM-MULTI-DownloadProvider: DownloadProvider onCreate()
+09-29 04:20:05.930  3558  3558 W _V_LIB-MutiNetManager: register net work error
+09-29 04:20:05.930  3558  3558 W _V_LIB-MutiNetManager: java.lang.NoSuchFieldException: No field TRANSPORT_EXTWIFI in class Landroid/net/NetworkCapabilities; (declaration of 'android.net.NetworkCapabilities' appears in /apex/com.android.tethering/javalib/framework-connectivity.jar)
+09-29 04:20:05.930  3558  3558 W _V_LIB-MutiNetManager: 	at java.lang.Class.getDeclaredField(Native Method)
+09-29 04:20:05.930  3558  3558 W _V_LIB-MutiNetManager: 	at com.vivo.ic.dm.network.h.a(Unknown Source:2)
+09-29 04:20:05.930  3558  3558 W _V_LIB-MutiNetManager: 	at com.vivo.ic.dm.network.h.c(Unknown Source:32)
+09-29 04:20:05.930  3558  3558 W _V_LIB-MutiNetManager: 	at com.vivo.ic.dm.DownloadProvider.a(Unknown Source:19)
+09-29 04:20:05.930  3558  3558 W _V_LIB-MutiNetManager: 	at com.vivo.ic.dm.DownloadProvider.onCreate(Unknown Source:11)
+09-29 04:20:05.930  3558  3558 W _V_LIB-MutiNetManager: 	at android.content.ContentProvider.attachInfo(ContentProvider.java:2662)
+09-29 04:20:05.930  3558  3558 W _V_LIB-MutiNetManager: 	at android.content.ContentProvider.attachInfo(ContentProvider.java:2631)
+09-29 04:20:05.930  3558  3558 W _V_LIB-MutiNetManager: 	at android.app.ActivityThread.installProvider(ActivityThread.java:8546)
+09-29 04:20:05.930  3558  3558 W _V_LIB-MutiNetManager: 	at android.app.ActivityThread.installContentProviders(ActivityThread.java:8061)
+09-29 04:20:05.930  3558  3558 W _V_LIB-MutiNetManager: 	at java.lang.reflect.Method.invoke(Native Method)
+09-29 04:20:05.930  3558  3558 W _V_LIB-MutiNetManager: 	at com.taobao.sophix.a.c.p(Unknown Source:94)
+09-29 04:20:05.930  3558  3558 W _V_LIB-MutiNetManager: 	at com.taobao.sophix.a.c.b(Unknown Source:22)
+09-29 04:20:05.930  3558  3558 W _V_LIB-MutiNetManager: 	at com.taobao.sophix.a.e.b(Unknown Source:2)
+09-29 04:20:05.930  3558  3558 W _V_LIB-MutiNetManager: 	at com.taobao.sophix.SophixApplication.onCreate(Unknown Source:9)
+09-29 04:20:05.930  3558  3558 W _V_LIB-MutiNetManager: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1391)
+09-29 04:20:05.930  3558  3558 W _V_LIB-MutiNetManager: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7735)
+09-29 04:20:05.930  3558  3558 W _V_LIB-MutiNetManager: 	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+09-29 04:20:05.930  3558  3558 W _V_LIB-MutiNetManager: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2511)
+09-29 04:20:05.930  3558  3558 W _V_LIB-MutiNetManager: 	at android.os.Handler.dispatchMessage(Handler.java:109)
+09-29 04:20:05.930  3558  3558 W _V_LIB-MutiNetManager: 	at android.os.Looper.loopOnce(Looper.java:232)
+09-29 04:20:05.930  3558  3558 W _V_LIB-MutiNetManager: 	at android.os.Looper.loop(Looper.java:317)
+09-29 04:20:05.930  3558  3558 W _V_LIB-MutiNetManager: 	at android.app.ActivityThread.main(ActivityThread.java:8971)
+09-29 04:20:05.930  3558  3558 W _V_LIB-MutiNetManager: 	at java.lang.reflect.Method.invoke(Native Method)
+09-29 04:20:05.930  3558  3558 W _V_LIB-MutiNetManager: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:597)
+09-29 04:20:05.930  3558  3558 W _V_LIB-MutiNetManager: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:919)
+09-29 04:20:05.930  3558  3558 I _V_LIB-MutiNetManager: TRANSPORT_EXTWIFI onUnavailable null
+09-29 04:20:05.931  3558  3558 I _V_LIB-ICDM-MULTI-DownloadProvider: DownloadProvider register end
+09-29 04:20:05.932  3558  3602 W _V_LIB-MutiNetManager: register net work success TRANSPORT_WIFI
+09-29 04:20:05.932  3558  3558 W RMonitor_meta: markAppLaunch
+09-29 04:20:05.933  3558  3558 W RMonitor_launch_installer: isFileExist, fileName: RMonitor_launch_monitor, ret: false, context: not null
+09-29 04:20:05.933  3558  3558 D AppLifecycleManager: register
+09-29 04:20:05.933  3558  3558 D AndroidRuntime: Shutting down VM
+--------- beginning of crash
+09-29 04:20:05.933  3558  3558 E AndroidRuntime: FATAL EXCEPTION: main
+09-29 04:20:05.933  3558  3558 E AndroidRuntime: Process: com.kmxs.reader, PID: 3558
+09-29 04:20:05.933  3558  3558 E AndroidRuntime: java.lang.RuntimeException: Unable to create application com.km.sophix.SophixStubApplication: java.lang.RuntimeException: abandon initialization: installProviders
+09-29 04:20:05.933  3558  3558 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7741)
+09-29 04:20:05.933  3558  3558 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+09-29 04:20:05.933  3558  3558 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2511)
+09-29 04:20:05.933  3558  3558 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:109)
+09-29 04:20:05.933  3558  3558 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:232)
+09-29 04:20:05.933  3558  3558 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:317)
+09-29 04:20:05.933  3558  3558 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8971)
+09-29 04:20:05.933  3558  3558 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+09-29 04:20:05.933  3558  3558 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:597)
+09-29 04:20:05.933  3558  3558 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:919)
+09-29 04:20:05.933  3558  3558 E AndroidRuntime: Caused by: java.lang.RuntimeException: abandon initialization: installProviders
+09-29 04:20:05.933  3558  3558 E AndroidRuntime: 	at com.taobao.sophix.a.c.a(Unknown Source:19)
+09-29 04:20:05.933  3558  3558 E AndroidRuntime: 	at com.taobao.sophix.a.c.p(Unknown Source:101)
+09-29 04:20:05.933  3558  3558 E AndroidRuntime: 	at com.taobao.sophix.a.c.b(Unknown Source:22)
+09-29 04:20:05.933  3558  3558 E AndroidRuntime: 	at com.taobao.sophix.a.e.b(Unknown Source:2)
+09-29 04:20:05.933  3558  3558 E AndroidRuntime: 	at com.taobao.sophix.SophixApplication.onCreate(Unknown Source:9)
+09-29 04:20:05.933  3558  3558 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1391)
+09-29 04:20:05.933  3558  3558 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7735)
+09-29 04:20:05.933  3558  3558 E AndroidRuntime: 	... 9 more
+09-29 04:20:05.933  3558  3558 E AndroidRuntime: Caused by: java.lang.reflect.InvocationTargetException
+09-29 04:20:05.933  3558  3558 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+09-29 04:20:05.933  3558  3558 E AndroidRuntime: 	at com.taobao.sophix.a.c.p(Unknown Source:94)
+09-29 04:20:05.933  3558  3558 E AndroidRuntime: 	... 14 more
+09-29 04:20:05.933  3558  3558 E AndroidRuntime: Caused by: java.lang.RuntimeException: Unable to get provider com.bytedance.sdk.openadsdk.multipro.TTMultiProvider: java.lang.ClassNotFoundException: Didn't find class "com.bytedance.sdk.openadsdk.multipro.TTMultiProvider" on path: DexPathList[[zip file "/data/app/~~MrjPTAJpVzAFU6RxLRzOLQ==/com.kmxs.reader-LW1ecI5ulgH14evCSuMH4A==/base.apk"],nativeLibraryDirectories=[/data/app/~~MrjPTAJpVzAFU6RxLRzOLQ==/com.kmxs.reader-LW1ecI5ulgH14evCSuMH4A==/lib/arm64, /data/app/~~MrjPTAJpVzAFU6RxLRzOLQ==/com.kmxs.reader-LW1ecI5ulgH14evCSuMH4A==/base.apk!/lib/arm64-v8a, /system/lib64, /system/product/lib64, /vendor/lib64, /vendor/lib64/hw]]
+09-29 04:20:05.933  3558  3558 E AndroidRuntime: 	at android.app.ActivityThread.installProvider(ActivityThread.java:8551)
+09-29 04:20:05.933  3558  3558 E AndroidRuntime: 	at android.app.ActivityThread.installContentProviders(ActivityThread.java:8061)
+09-29 04:20:05.933  3558  3558 E AndroidRuntime: 	... 16 more
+09-29 04:20:05.933  3558  3558 E AndroidRuntime: Caused by: java.lang.ClassNotFoundException: Didn't find class "com.bytedance.sdk.openadsdk.multipro.TTMultiProvider" on path: DexPathList[[zip file "/data/app/~~MrjPTAJpVzAFU6RxLRzOLQ==/com.kmxs.reader-LW1ecI5ulgH14evCSuMH4A==/base.apk"],nativeLibraryDirectories=[/data/app/~~MrjPTAJpVzAFU6RxLRzOLQ==/com.kmxs.reader-LW1ecI5ulgH14evCSuMH4A==/lib/arm64, /data/app/~~MrjPTAJpVzAFU6RxLRzOLQ==/com.kmxs.reader-LW1ecI5ulgH14evCSuMH4A==/base.apk!/lib/arm64-v8a, /system/lib64, /system/product/lib64, /vendor/lib64, /vendor/lib64/hw]]
+09-29 04:20:05.933  3558  3558 E AndroidRuntime: 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:259)
+09-29 04:20:05.933  3558  3558 E AndroidRuntime: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:637)
+09-29 04:20:05.933  3558  3558 E AndroidRuntime: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:573)
+09-29 04:20:05.933  3558  3558 E AndroidRuntime: 	at android.app.AppComponentFactory.instantiateProvider(AppComponentFactory.java:147)
+09-29 04:20:05.933  3558  3558 E AndroidRuntime: 	at androidx.core.app.CoreComponentFactory.instantiateProvider(Unknown Source:0)
+09-29 04:20:05.933  3558  3558 E AndroidRuntime: 	at android.app.ActivityThread.installProvider(ActivityThread.java:8535)
+09-29 04:20:05.933  3558  3558 E AndroidRuntime: 	... 17 more
+09-29 04:20:05.936   844  1004 D ConnectivityService: NetReassign [no changes] [c 0] [a 3] [i 1]
+09-29 04:20:05.940  3558  3558 I Process : Sending signal. PID: 3558 SIG: 9
+09-29 04:20:05.945   661   661 I Zygote  : Process 3558 exited due to signal 9 (Killed)
+09-29 04:20:05.945   844  1218 I ActivityManager: Process com.kmxs.reader (pid 3558) has died: fg  TOP 
+09-29 04:20:05.945   844  1218 W ActivityTaskManager: ProcessRecord{aeac68 3558:com.kmxs.reader/u0a67} is removed with pending start ActivityRecord{112590703 u0 com.kmxs.reader/com.km.app.home.view.LoadingActivity t50}
+09-29 04:20:05.946  1086  1233 V WindowManagerShell: Transition requested (#21): android.os.BinderProxy@207076d TransitionRequestInfo { type = CLOSE, triggerTask = TaskInfo{userId=0 taskId=50 effectiveUid=10067 displayId=0 isRunning=false baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.kmxs.reader/com.km.app.home.view.LoadingActivity } baseActivity=null topActivity=null origActivity=null realActivity=ComponentInfo{com.kmxs.reader/com.km.app.home.view.LoadingActivity} numActivities=0 lastActiveTime=1353403 supportsMultiWindow=true resizeMode=2 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@c8f8fa2} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 0 - 0, 0) topActivityInfo=null launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=true isVisibleRequested=true isTopActivityNoDisplay=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false isActivityStackTransparent=true lastNonFullscreenBounds=Rect(190, 374 - 711, 1274) capturedLink=null capturedLinkTimestamp=0 requestedVisibleTypes=-9 topActivityRequestOpenInBrowserEducationTimestamp=0 appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false eligibleForLetterboxEducation= false isLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false eligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 topActivityLetterboxAppWidth=-1 topActivityLetterboxAppHeight=-1 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false hasMinAspectRatioOverride=false topActivityLetterboxBounds=null cameraCompatTaskInfo=CameraCompatTaskInfo { freeformCameraCompatMode=inactive}} topActivityMainWindowFrame=null}, pipChange = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 21 }
+09-29 04:20:05.947  1078  1078 D VRI[LawnchairLauncher]: visibilityChanged oldVisibility=false newVisibility=true
+09-29 04:20:05.949   844   865 D DisplayManagerService: Drop pending events for gone uid 10067
+09-29 04:20:05.951   844   925 W UsageStatsService: Unexpected activity event reported! (com.kmxs.reader/com.km.app.home.view.LoadingActivity event : 23 instanceId : 40411397)
+09-29 04:20:05.951   844  1046 D BackgroundInstallControlService: Package event received: 0
+09-29 04:20:05.951   844  1046 D BackgroundInstallControlService: Package event received: 0
+09-29 04:20:05.952   844  1004 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+09-29 04:20:05.952   844  1004 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+09-29 04:20:05.952   844  1004 D InetDiagMessage: Destroyed live tcp sockets for uids={10067} in 1ms
+09-29 04:20:05.953   844  1004 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+09-29 04:20:05.953   844  1004 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+09-29 04:20:05.953   844  1004 D InetDiagMessage: Destroyed live tcp sockets for uids={20067} in 0ms
+09-29 04:20:05.964  1078  1365 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 5763072
+09-29 04:20:05.965  1078  1365 D HWUI    : HOOK FAILED! Expected 3 got = 2
+09-29 04:20:05.967  1078  3606 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 5763072
+09-29 04:20:05.970  1086  1233 D WindowManagerShell: setLauncherKeepClearAreaHeight: visible=true, height=197
+09-29 04:20:05.971  1078  1078 D StatsLog: LAUNCHER_ONRESUME
+09-29 04:20:05.971  1381  1381 W WidgetOperateReceiver: onReceive: intent = Intent { act=com.mumu.LAUNCHER_LIFECYCLE flg=0x30 pkg=com.mumu.store cmp=com.mumu.store/.widget.receiver.WidgetOperateReceiver (has extras) } action = com.mumu.LAUNCHER_LIFECYCLE
+09-29 04:20:05.971  1381  1381 W WidgetOperateReceiver: onLauncherLifecycle: launcherLifecycle = ON_RESUME
+09-29 04:20:05.971  1381  1381 W WidgetManager: updateLauncherLifecycle: launcherLifecycleName = ON_RESUME
+09-29 04:20:05.971  1086  1119 V WindowManagerShell: onTransitionReady(transaction=3624952400261)
+09-29 04:20:05.972  1086  1233 V WindowManagerShell: onTransitionReady (#21) android.os.BinderProxy@207076d: {id=21 t=CLOSE f=0x0 trk=0 r=[0@Point(0, 0)] c=[
+09-29 04:20:05.972  1086  1233 V WindowManagerShell:         {m=TO_FRONT f=SHOW_WALLPAPER|MOVE_TO_TOP leash=Surface(name=Task=1)/@0x2fb433 sb=Rect(0, 0 - 900, 1600) eb=Rect(0, 0 - 900, 1600) epz=Point(900, 1600) d=0 taskParent=-1},
+09-29 04:20:05.972  1086  1233 V WindowManagerShell:         {m=CLOSE f=NONE leash=Surface(name=Task=50)/@0xfa973f0 sb=Rect(0, 0 - 900, 1600) eb=Rect(0, 0 - 900, 1600) epz=Point(900, 1600) d=0 taskParent=-1},
+09-29 04:20:05.972  1086  1233 V WindowManagerShell:         {m=TO_FRONT f=IS_WALLPAPER leash=Surface(name=WallpaperWindowToken{abdc271 token=android.os.Binder@c7c1818})/@0x819ad69 sb=Rect(0, 0 - 900, 1600) eb=Rect(0, 0 - 900, 1600) epz=Point(900, 1600) d=0}
+09-29 04:20:05.972  1086  1233 V WindowManagerShell:     ]}
+09-29 04:20:05.972   693   733 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 5763072
+09-29 04:20:05.972  1086  1233 V WindowManagerShell: Playing animation for (#21) android.os.BinderProxy@207076d@0
+09-29 04:20:05.972  1086  1233 V ShellRecents: RecentsTransitionHandler.startAnimation: no controller found
+09-29 04:20:05.972  1381  1381 W AdBannerWidgetManager: onHoverAdBannerFlipper: appWidgetId = 2, isHovered = false, updatePreSwitchHovered = false, updateNextSwitchHovered = false
+09-29 04:20:05.972  1086  1233 V WindowManagerShell: Transition doesn't have explicit remote, search filters for match for {id=21 t=CLOSE f=0x0 trk=0 r=[0@Point(0, 0)] c=[{m=TO_FRONT f=SHOW_WALLPAPER|MOVE_TO_TOP leash=Surface(name=Task=1)/@0x2fb433 sb=Rect(0, 0 - 900, 1600) eb=Rect(0, 0 - 900, 1600) epz=Point(900, 1600) d=0 taskParent=-1},{m=CLOSE f=NONE leash=Surface(name=Task=50)/@0xfa973f0 sb=Rect(0, 0 - 900, 1600) eb=Rect(0, 0 - 900, 1600) epz=Point(900, 1600) d=0 taskParent=-1},{m=TO_FRONT f=IS_WALLPAPER leash=Surface(name=WallpaperWindowToken{abdc271 token=android.os.Binder@c7c1818})/@0x819ad69 sb=Rect(0, 0 - 900, 1600) eb=Rect(0, 0 - 900, 1600) epz=Point(900, 1600) d=0}]}
+09-29 04:20:05.972  1086  1233 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{app.lawnchair/app.lawnchair.LawnchairLauncher} launchCookie=null windowingMode=undefined},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null launchCookie=null windowingMode=undefined},{NOT atype=undefined independent=true modes=[] flags=NONE mustBeTask=true order=ANY topActivity=null launchCookie=null windowingMode=undefined}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@40ceb63, appThread = android.app.IApplicationThread$Stub$Proxy@aca9360, debugName = QuickstepLaunchHome }}
+09-29 04:20:05.972  1086  1233 V WindowManagerShell:  Delegate animation for (#21) to null
+09-29 04:20:05.972  1086  1233 V WindowManagerShell: start default transition animation, info = {id=21 t=CLOSE f=0x0 trk=0 r=[0@Point(0, 0)] c=[{m=TO_FRONT f=SHOW_WALLPAPER|MOVE_TO_TOP leash=Surface(name=Task=1)/@0x2fb433 sb=Rect(0, 0 - 900, 1600) eb=Rect(0, 0 - 900, 1600) epz=Point(900, 1600) d=0 taskParent=-1},{m=CLOSE f=NONE leash=Surface(name=Task=50)/@0xfa973f0 sb=Rect(0, 0 - 900, 1600) eb=Rect(0, 0 - 900, 1600) epz=Point(900, 1600) d=0 taskParent=-1},{m=TO_FRONT f=IS_WALLPAPER leash=Surface(name=WallpaperWindowToken{abdc271 token=android.os.Binder@c7c1818})/@0x819ad69 sb=Rect(0, 0 - 900, 1600) eb=Rect(0, 0 - 900, 1600) epz=Point(900, 1600) d=0}]}
+09-29 04:20:05.973  1086  1233 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@b96b725 animAttr=0x11 type=CLOSE isEntrance=false
+09-29 04:20:05.973  1086  1233 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@e4376ab animAttr=0x10 type=CLOSE isEntrance=true
+09-29 04:20:05.974  1086  1233 V WindowManagerShell:  animated by com.android.wm.shell.transition.DefaultTransitionHandler@e3dad31
+09-29 04:20:05.974   844   864 V WindowManager: Sent Transition (#21) createdAt=09-29 04:20:05.945 via request=TransitionRequestInfo { type = CLOSE, triggerTask = TaskInfo{userId=0 taskId=50 effectiveUid=10067 displayId=0 isRunning=false baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.kmxs.reader/com.km.app.home.view.LoadingActivity } baseActivity=null topActivity=null origActivity=null realActivity=ComponentInfo{com.kmxs.reader/com.km.app.home.view.LoadingActivity} numActivities=0 lastActiveTime=1353403 supportsMultiWindow=true resizeMode=2 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{67a455a Task{e2bc47c #50 type=standard A=10067:com.kmxs.reader}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 0 - 0, 0) topActivityInfo=null launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=true isVisibleRequested=true isTopActivityNoDisplay=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false isActivityStackTransparent=true lastNonFullscreenBounds=Rect(190, 374 - 711, 1274) capturedLink=null capturedLinkTimestamp=0 requestedVisibleTypes=-9 topActivityRequestOpenInBrowserEducationTimestamp=0 appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false eligibleForLetterboxEducation= false isLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false eligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 topActivityLetterboxAppWidth=-1 topActivityLetterboxAppHeight=-1 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false hasMinAspectRatioOverride=false topActivityLetterboxBounds=null cameraCompatTaskInfo=CameraCompatTaskInfo { freeformCameraCompatMode=inactive}} topActivityMainWindowFrame=null}, pipChange = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 21 }
+09-29 04:20:05.974   844   864 V WindowManager:     startWCT=WindowContainerTransaction { changes= {} hops= [] errorCallbackToken=null taskFragmentOrganizer=null }
+09-29 04:20:05.974   844  1917 W UserManagerService: Requested status bar icon for non-badged user 0
+09-29 04:20:05.974   844   864 V WindowManager:     info={id=21 t=CLOSE f=0x0 trk=0 r=[0@Point(0, 0)] c=[
+09-29 04:20:05.974   844   864 V WindowManager:         {WCT{RemoteToken{efc115c Task{f4c739 #1 type=home}}} m=TO_FRONT f=SHOW_WALLPAPER|MOVE_TO_TOP leash=Surface(name=Task=1)/@0xc1f9373 sb=Rect(0, 0 - 900, 1600) eb=Rect(0, 0 - 900, 1600) epz=Point(900, 1600) d=0 taskParent=-1},
+09-29 04:20:05.974   844   864 V WindowManager:         {WCT{RemoteToken{67a455a Task{e2bc47c #50 type=standard A=10067:com.kmxs.reader}}} m=CLOSE f=NONE leash=Surface(name=Task=50)/@0x44ba25f sb=Rect(0, 0 - 900, 1600) eb=Rect(0, 0 - 900, 1600) epz=Point(900, 1600) d=0 taskParent=-1},
+09-29 04:20:05.974   844   864 V WindowManager:         {m=TO_FRONT f=IS_WALLPAPER leash=Surface(name=WallpaperWindowToken{abdc271 token=android.os.Binder@c7c1818})/@0xd51906b sb=Rect(0, 0 - 900, 1600) eb=Rect(0, 0 - 900, 1600) epz=Point(900, 1600) d=0}
+09-29 04:20:05.974   844   864 V WindowManager:     ]}
+09-29 04:20:05.977   693   693 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+09-29 04:20:05.978  1086  1233 V WindowManagerShell: Transition animation finished (aborted=false), notifying core (#21) android.os.BinderProxy@207076d@0
+09-29 04:20:05.979   844   864 V WindowManager: Finish Transition (#21): created at 09-29 04:20:05.945 collect-started=0.05ms request-sent=0.23ms started=4.309ms ready=4.295ms sent=25.871ms finished=32.64ms
+09-29 04:20:05.979  1078  1102 E FrameEvents: addRelease: Did not find frame.
+09-29 04:20:05.980  1086  1233 V WindowManagerShell: Track 0 became idle
+09-29 04:20:05.980  1086  1233 V WindowManagerShell: All active transition animations finished
+09-29 04:20:05.980  1078  1078 D RecentsView: onTaskRemoved: 50, not handling task stack changes
+09-29 04:20:05.981  1078  1078 D RecentsView: onTaskRemoved: 50, not handling task stack changes
+09-29 04:20:05.981   844  3257 W UserManagerService: Requested status bar icon for non-badged user 0
+09-29 04:20:05.981   844  3257 W UserManagerService: Requested status bar icon for non-badged user 0
+09-29 04:20:05.981   844   864 E ActivityManager: Sending non-protected broadcast uu.intent.action.STOP_ACCELERATE from system 844:system/1000 pkg android
+09-29 04:20:05.981   844   864 E ActivityManager: java.lang.Throwable
+09-29 04:20:05.981   844   864 E ActivityManager: 	at com.android.server.am.BroadcastController.checkBroadcastFromSystem(BroadcastController.java:2118)
+09-29 04:20:05.981   844   864 E ActivityManager: 	at com.android.server.am.BroadcastController.broadcastIntentLockedTraced(BroadcastController.java:1635)
+09-29 04:20:05.981   844   864 E ActivityManager: 	at com.android.server.am.BroadcastController.broadcastIntentLocked(BroadcastController.java:807)
+09-29 04:20:05.981   844   864 E ActivityManager: 	at com.android.server.am.BroadcastController.broadcastIntentWithFeature(BroadcastController.java:740)
+09-29 04:20:05.981   844   864 E ActivityManager: 	at com.android.server.am.ActivityManagerService.broadcastIntentWithFeature(ActivityManagerService.java:14410)
+09-29 04:20:05.981   844   864 E ActivityManager: 	at android.app.ContextImpl.sendBroadcastAsUser(ContextImpl.java:1509)
+09-29 04:20:05.981   844   864 E ActivityManager: 	at android.content.ContextWrapper.sendBroadcastAsUser(ContextWrapper.java:603)
+09-29 04:20:05.981   844   864 E ActivityManager: 	at com.android.server.wm.TaskUtils.$r8$lambda$jkqZqUV7W8pT107WPfSjHa5IqQE(TaskUtils.java:2124)
+09-29 04:20:05.981   844   864 E ActivityManager: 	at com.android.server.wm.TaskUtils$$ExternalSyntheticLambda4.run(R8$$SyntheticClass:0)
+09-29 04:20:05.981   844   864 E ActivityManager: 	at android.os.Handler.handleCallback(Handler.java:991)
+09-29 04:20:05.981   844   864 E ActivityManager: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+09-29 04:20:05.981   844   864 E ActivityManager: 	at android.os.Looper.loopOnce(Looper.java:232)
+09-29 04:20:05.981   844   864 E ActivityManager: 	at android.os.Looper.loop(Looper.java:317)
+09-29 04:20:05.981   844   864 E ActivityManager: 	at android.os.HandlerThread.run(HandlerThread.java:85)
+09-29 04:20:05.981   844   864 E ActivityManager: 	at com.android.server.ServiceThread.run(ServiceThread.java:49)
+09-29 04:20:05.985   844  1628 W HWUI    : Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+09-29 04:20:05.994   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=2
+09-29 04:20:05.997   844   955 I ImeTracker: app.lawnchair:28089948: onRequestHide at ORIGIN_SERVER reason HIDE_SAME_WINDOW_FOCUSED_WITHOUT_EDITOR fromUser false
+09-29 04:20:05.998  1078  1078 D InsetsController: hide(ime(), fromIme=false)
+09-29 04:20:05.998  1078  1078 I ImeTracker: app.lawnchair:28089948: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+09-29 04:20:06.013   844  1917 W WindowManager: Failed looking up window session=Session{a6bf68a 1086:u0a10032} callers=com.android.server.wm.WindowManagerService.windowForClientLocked:6325 com.android.server.wm.WindowManagerService.relayoutWindow:2315 com.android.server.wm.Session.relayout:282 
+09-29 04:20:06.014  1086  1259 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda13@e73dea8
+09-29 04:20:06.017   844  1218 W WindowManager: Failed looking up window session=Session{a6bf68a 1086:u0a10032} callers=com.android.server.wm.WindowManagerService.windowForClientLocked:6325 com.android.server.wm.Session.setOnBackInvokedCallbackInfo:982 android.view.IWindowSession$Stub.onTransact:1144 
+09-29 04:20:06.017   844  1218 I WindowManager: setOnBackInvokedCallback(): No window state for package:com.android.systemui
+09-29 04:20:06.017   844  3255 W WindowManager: Failed looking up window session=Session{a6bf68a 1086:u0a10032} callers=com.android.server.wm.WindowManagerService.removeClientToken:2070 com.android.server.wm.Session.remove:269 android.view.IWindowSession$Stub.onTransact:696 
+09-29 04:20:06.079  1086  1112 W System  : A resource failed to call release. 
+09-29 04:20:06.079  1086  1112 W System  : A resource failed to call release. 
+09-29 04:20:06.079  1086  1112 W System  : A resource failed to call release. 
+09-29 04:20:06.079  1086  1112 W System  : A resource failed to call release. 
+09-29 04:20:06.079  1086  1112 W System  : A resource failed to call release. 
+09-29 04:20:06.079  1086  1112 W System  : A resource failed to call release. 
+09-29 04:20:06.079  1086  1112 W System  : A resource failed to call release. 
+09-29 04:20:06.079  1086  1112 W System  : A resource failed to call release. 
+09-29 04:20:06.079  1086  1112 W System  : A resource failed to call release. 
+09-29 04:20:06.079  1086  1112 W System  : A resource failed to call release. 
+09-29 04:20:06.079  1086  1112 W System  : A resource failed to call release. 
+09-29 04:20:06.079  1086  1112 W System  : A resource failed to call release. 
+09-29 04:20:06.079  1086  1112 W System  : A resource failed to call release. 
+09-29 04:20:06.079  1086  1112 W System  : A resource failed to call release. 
+09-29 04:20:06.079  1086  1112 W System  : A resource failed to call release. 
+09-29 04:20:06.079  1086  1112 W System  : A resource failed to call release. 
+09-29 04:20:06.079  1086  1112 W System  : A resource failed to call release. 
+09-29 04:20:06.079  1086  1112 W System  : A resource failed to call release. 
+09-29 04:20:06.079  1086  1112 W System  : A resource failed to call release. 
+09-29 04:20:06.079  1086  1112 W System  : A resource failed to call release. 
+09-29 04:20:06.079  1086  1112 W System  : A resource failed to call release. 
+09-29 04:20:06.079  1086  1112 W System  : A resource failed to call release. 
+09-29 04:20:06.079  1086  1112 W System  : A resource failed to call release. 
+09-29 04:20:06.079  1086  1112 W System  : A resource failed to call release. 
+09-29 04:20:06.079  1086  1112 W System  : A resource failed to call release. 
+09-29 04:20:06.079  1086  1112 W System  : A resource failed to call release. 
+09-29 04:20:06.079  1086  1112 W System  : A resource failed to call release. 
+09-29 04:20:06.079  1086  1112 W System  : A resource failed to call release. 
+09-29 04:20:06.079  1086  1112 W System  : A resource failed to call release. 
+09-29 04:20:06.079  1086  1112 W System  : A resource failed to call release. 
+09-29 04:20:06.079  1086  1112 W System  : A resource failed to call release. 
+09-29 04:20:06.161   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=3
+09-29 04:20:06.173  1381  3488 W AdBannerWidgetManager: onHoverAdBannerFlipper: newIsHovered = false
+09-29 04:20:06.173  1381  3488 W AdBannerWidgetManager: prepareAdBannerFlipperHover: isHovered = false  false  false
+09-29 04:20:06.282  1800  1800 W AccMsgReceiver: AccMsgReceiver: onReceive action = nemu.intent.action.NEW_TASK
+09-29 04:20:06.285  1800  1800 W AccMsgReceiver: AccMsgReceiver: onReceive action = uu.intent.action.STOP_ACCELERATE
+09-29 04:20:06.288   844  1218 W ActivityManager: Foreground service started from background can not have location/camera/microphone access: service com.mumu.acc/.AccService
+09-29 04:20:06.289  1800  1892 W AccServiceManager: onAppLaunch: packageName = com.kmxs.reader
+09-29 04:20:06.289   844  3257 W ActivityManager: Foreground service started from background can not have location/camera/microphone access: service com.mumu.acc/.AccService
+09-29 04:20:06.290  1800  1892 W TranslateGameManager: onAppLaunch: packageName = com.kmxs.reader, hasPackageLaunchedBefore = false, supportTranslateReally = false, isLocalTranslateEnabled = false
+09-29 04:20:06.290  1800  1892 W AccServiceManager: onAppClose: packageName = com.kmxs.reader
+09-29 04:20:06.344   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=4
+09-29 04:20:06.511   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=5
+09-29 04:20:06.533   844  2538 D SntpClient: request time failed: java.net.SocketTimeoutException: Poll timed out
+09-29 04:20:06.657   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 04:20:06.657   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 04:20:06.657   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 04:20:06.657   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 04:20:06.657   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 04:20:06.677   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=6
+09-29 04:20:06.844   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=7
+09-29 04:20:07.011   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=8
+09-29 04:20:07.176   844  1046 D BackgroundInstallControlService: Package event received: 0
+09-29 04:20:07.176   844  3257 E ActivityManager: Sending non-protected broadcast android.appwidget.action.MUMU_HOVER_AD_BANNER_FLIPPER from system uid 1000 pkg com.mumu.store
+09-29 04:20:07.176   844  3257 E ActivityManager: java.lang.Throwable
+09-29 04:20:07.176   844  3257 E ActivityManager: 	at com.android.server.am.BroadcastController.checkBroadcastFromSystem(BroadcastController.java:2122)
+09-29 04:20:07.176   844  3257 E ActivityManager: 	at com.android.server.am.BroadcastController.broadcastIntentLockedTraced(BroadcastController.java:1635)
+09-29 04:20:07.176   844  3257 E ActivityManager: 	at com.android.server.am.BroadcastController.broadcastIntentLocked(BroadcastController.java:807)
+09-29 04:20:07.176   844  3257 E ActivityManager: 	at com.android.server.am.BroadcastController.broadcastIntentInPackage(BroadcastController.java:774)
+09-29 04:20:07.176   844  3257 E ActivityManager: 	at com.android.server.am.ActivityManagerService$LocalService.broadcastIntentInPackage(ActivityManagerService.java:17205)
+09-29 04:20:07.176   844  3257 E ActivityManager: 	at com.android.server.am.PendingIntentRecord.sendInner(PendingIntentRecord.java:673)
+09-29 04:20:07.176   844  3257 E ActivityManager: 	at com.android.server.wm.ActivityTaskManagerService.startActivityIntentSender(ActivityTaskManagerService.java:1359)
+09-29 04:20:07.176   844  3257 E ActivityManager: 	at android.app.IActivityTaskManager$Stub.onTransact(IActivityTaskManager.java:1043)
+09-29 04:20:07.176   844  3257 E ActivityManager: 	at com.android.server.wm.ActivityTaskManagerService.onTransact(ActivityTaskManagerService.java:5817)
+09-29 04:20:07.176   844  3257 E ActivityManager: 	at android.os.Binder.execTransactInternal(Binder.java:1406)
+09-29 04:20:07.176   844  3257 E ActivityManager: 	at android.os.Binder.execTransact(Binder.java:1350)
+09-29 04:20:07.177  1381  1381 W WidgetOperateReceiver: onReceive: intent = Intent { act=android.appwidget.action.MUMU_HOVER_AD_BANNER_FLIPPER flg=0x10000010 pkg=com.mumu.store cmp=com.mumu.store/.widget.receiver.WidgetOperateReceiver bnds=[49,200][421,451] (has extras) } action = android.appwidget.action.MUMU_HOVER_AD_BANNER_FLIPPER
+09-29 04:20:07.178  1381  1381 W AdBannerWidgetManager: onHoverAdBannerFlipper: appWidgetId = 2, isHovered = true, updatePreSwitchHovered = false, updateNextSwitchHovered = false
+09-29 04:20:07.178  1381  3488 W AdBannerWidgetManager: prepareAdBannerFlipperHover: isHovered = true  false  false
+09-29 04:20:07.179  1381  3488 W AdBannerWidgetManager: prepareAdBannerFlipperHover: start
+09-29 04:20:07.180  1381  3488 W AdBannerWidgetManager: restoreWidgetUIByUpdated: ignoreWidgetFlipper = true
+09-29 04:20:07.180  1381  3488 W AdBannerWidgetManager: restoreWidgetUIByUpdated: appWidgetId = 2
+09-29 04:20:07.186  1381  3488 W WidgetManager: getWidgetRootSize: displayProfileStr = null
+09-29 04:20:07.186  1381  3488 W WidgetManager: getWidgetRootSize: displayProfile is null, fallback to ContentResolver query
+09-29 04:20:07.189  1381  3488 W WidgetManager: queryGridInfoFromContentResolver: cellWidth=215, cellHeight=174
+09-29 04:20:07.192  1381  3488 W WidgetManager: getDefaultWidgetPadding: resourcesId = 17105223
+09-29 04:20:07.192  1381  3488 W WidgetManager: getDefaultWidgetPadding: resourcesId = 17105225
+09-29 04:20:07.193  1381  3488 W WidgetManager: getDefaultWidgetPadding: resourcesId = 17105224
+09-29 04:20:07.193  1381  3488 W WidgetManager: getDefaultWidgetPadding: resourcesId = 17105222
+09-29 04:20:07.193  1381  3488 W WidgetManager: getDefaultWidgetPadding: resourcesId = 17105223
+09-29 04:20:07.193  1381  3488 W WidgetManager: getDefaultWidgetPadding: resourcesId = 17105225
+09-29 04:20:07.193  1381  3488 W WidgetManager: getDefaultWidgetPadding: resourcesId = 17105224
+09-29 04:20:07.193  1381  3488 W WidgetManager: getDefaultWidgetPadding: resourcesId = 17105222
+09-29 04:20:07.195   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=9
+09-29 04:20:07.196  1381  3488 W AdBannerWidgetManager: formatWidgetDataIfNeed: dataList has data, size = 2
+09-29 04:20:07.196  1381  3488 W AdBannerWidgetManager: formatWidgetData: appWidgetId = 2
+09-29 04:20:07.196  1381  3488 W AdBannerWidgetManager: formatWidgetCustomUIByData: adBannerDescMarginEnd = 56.51, widgetDataSize = 2
+09-29 04:20:07.196  1381  3488 W AdBannerWidgetManager: formatCurrentWidgetUIByData: widgetDataIndex = 0, widgetFlipperIndex = 0, preWidgetDataIndex = 0, preWidgetFlipperIndex = 0
+09-29 04:20:07.197  1381  3488 W AdBannerWidgetManager: prepareAdBannerFlipperHover: isHovered = true exceptedScaleXY = 1.05 adBannerFlipperScaleXY = 1.0
+09-29 04:20:07.197  1381  3488 W AdBannerWidgetManager: prepareAdBannerFlipperHover: newFlipperScaleXY = 1.01
+09-29 04:20:07.197  1381  3488 W AdBannerWidgetManager: updateAppWidget: partiallyUpdated = false
+09-29 04:20:07.198   844  1035 D AppWidgetServiceImpl: Trying to notify widget update for package com.mumu.store with widget id: 2
+09-29 04:20:07.198  1078  1078 I app.lawnchair: AssetManager2(0x7793bbb82c58) locale list changing from [] to [zh-Hans-CN]
+09-29 04:20:07.223  1381  3488 W AdBannerWidgetManager: prepareAdBannerFlipperHover: newFlipperScaleXY = 1.02
+09-29 04:20:07.223  1381  3488 W AdBannerWidgetManager: updateAppWidget: partiallyUpdated = false
+09-29 04:20:07.223   844  1035 D AppWidgetServiceImpl: Trying to notify widget update for package com.mumu.store with widget id: 2
+09-29 04:20:07.227   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=10
+09-29 04:20:07.244   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=11
+09-29 04:20:07.245   844  1218 E ActivityManager: Sending non-protected broadcast android.appwidget.action.MUMU_HOVER_AD_BANNER_FLIPPER from system uid 1000 pkg com.mumu.store
+09-29 04:20:07.245   844  1218 E ActivityManager: java.lang.Throwable
+09-29 04:20:07.245   844  1218 E ActivityManager: 	at com.android.server.am.BroadcastController.checkBroadcastFromSystem(BroadcastController.java:2122)
+09-29 04:20:07.245   844  1218 E ActivityManager: 	at com.android.server.am.BroadcastController.broadcastIntentLockedTraced(BroadcastController.java:1635)
+09-29 04:20:07.245   844  1218 E ActivityManager: 	at com.android.server.am.BroadcastController.broadcastIntentLocked(BroadcastController.java:807)
+09-29 04:20:07.245   844  1218 E ActivityManager: 	at com.android.server.am.BroadcastController.broadcastIntentInPackage(BroadcastController.java:774)
+09-29 04:20:07.245   844  1218 E ActivityManager: 	at com.android.server.am.ActivityManagerService$LocalService.broadcastIntentInPackage(ActivityManagerService.java:17205)
+09-29 04:20:07.245   844  1218 E ActivityManager: 	at com.android.server.am.PendingIntentRecord.sendInner(PendingIntentRecord.java:673)
+09-29 04:20:07.245   844  1218 E ActivityManager: 	at com.android.server.wm.ActivityTaskManagerService.startActivityIntentSender(ActivityTaskManagerService.java:1359)
+09-29 04:20:07.245   844  1218 E ActivityManager: 	at android.app.IActivityTaskManager$Stub.onTransact(IActivityTaskManager.java:1043)
+09-29 04:20:07.245   844  1218 E ActivityManager: 	at com.android.server.wm.ActivityTaskManagerService.onTransact(ActivityTaskManagerService.java:5817)
+09-29 04:20:07.245   844  1218 E ActivityManager: 	at android.os.Binder.execTransactInternal(Binder.java:1406)
+09-29 04:20:07.245   844  1218 E ActivityManager: 	at android.os.Binder.execTransact(Binder.java:1350)
+09-29 04:20:07.246   844  1046 D BackgroundInstallControlService: Package event received: 0
+09-29 04:20:07.246  1381  1381 W WidgetOperateReceiver: onReceive: intent = Intent { act=android.appwidget.action.MUMU_HOVER_AD_BANNER_FLIPPER flg=0x10000010 pkg=com.mumu.store cmp=com.mumu.store/.widget.receiver.WidgetOperateReceiver bnds=[49,200][421,451] (has extras) } action = android.appwidget.action.MUMU_HOVER_AD_BANNER_FLIPPER
+09-29 04:20:07.247  1381  1381 W AdBannerWidgetManager: onHoverAdBannerFlipper: appWidgetId = 2, isHovered = false, updatePreSwitchHovered = false, updateNextSwitchHovered = false
+09-29 04:20:07.248  1381  1484 W System.err: kotlinx.coroutines.JobCancellationException: G0 was cancelled; job=G0{Cancelling}@e3a54cf
+09-29 04:20:07.277   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=12
+09-29 04:20:07.294   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=13
+09-29 04:20:07.311   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=14
+09-29 04:20:07.327   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=15
+09-29 04:20:07.344   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=16
+09-29 04:20:07.361   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=17
+09-29 04:20:07.377   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=18
+09-29 04:20:07.394   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=19
+09-29 04:20:07.411   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=20
+09-29 04:20:07.427   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=21
+09-29 04:20:07.448  1381  1915 W AdBannerWidgetManager: onHoverAdBannerFlipper: newIsHovered = false
+09-29 04:20:07.448  1381  1915 W AdBannerWidgetManager: prepareAdBannerFlipperHover: isHovered = false  false  false
+09-29 04:20:07.448  1381  1915 W AdBannerWidgetManager: prepareAdBannerFlipperHover: start
+09-29 04:20:07.448  1381  1915 W AdBannerWidgetManager: restoreWidgetUIByUpdated: ignoreWidgetFlipper = false
+09-29 04:20:07.448  1381  1915 W AdBannerWidgetManager: restoreWidgetUIByUpdated: appWidgetId = 2
+09-29 04:20:07.449  1381  1915 W WidgetManager: getWidgetRootSize: displayProfileStr = null
+09-29 04:20:07.449  1381  1915 W WidgetManager: getWidgetRootSize: displayProfile is null, fallback to ContentResolver query
+09-29 04:20:07.450  1381  1915 W WidgetManager: queryGridInfoFromContentResolver: cellWidth=215, cellHeight=174
+09-29 04:20:07.450  1381  1915 W WidgetManager: getDefaultWidgetPadding: resourcesId = 17105223
+09-29 04:20:07.451  1381  1915 W WidgetManager: getDefaultWidgetPadding: resourcesId = 17105225
+09-29 04:20:07.451  1381  1915 W WidgetManager: getDefaultWidgetPadding: resourcesId = 17105224
+09-29 04:20:07.451  1381  1915 W WidgetManager: getDefaultWidgetPadding: resourcesId = 17105222
+09-29 04:20:07.451  1381  1915 W WidgetManager: getDefaultWidgetPadding: resourcesId = 17105223
+09-29 04:20:07.451  1381  1915 W WidgetManager: getDefaultWidgetPadding: resourcesId = 17105225
+09-29 04:20:07.451  1381  1915 W WidgetManager: getDefaultWidgetPadding: resourcesId = 17105224
+09-29 04:20:07.451  1381  1915 W WidgetManager: getDefaultWidgetPadding: resourcesId = 17105222
+09-29 04:20:07.451  1381  1915 W AdBannerWidgetManager: formatWidgetDataIfNeed: dataList has data, size = 2
+09-29 04:20:07.451  1381  1915 W AdBannerWidgetManager: formatWidgetData: appWidgetId = 2
+09-29 04:20:07.451  1381  1915 W AdBannerWidgetManager: formatWidgetCustomUIByData: adBannerDescMarginEnd = 56.51, widgetDataSize = 2
+09-29 04:20:07.451  1381  1915 W AdBannerWidgetManager: formatCurrentWidgetUIByData: widgetDataIndex = 0, widgetFlipperIndex = 0, preWidgetDataIndex = 0, preWidgetFlipperIndex = 0
+09-29 04:20:07.452  1381  1915 W AdBannerWidgetManager: prepareAdBannerFlipperHover: isHovered = false exceptedScaleXY = 1.0 adBannerFlipperScaleXY = 1.02
+09-29 04:20:07.452  1381  1915 W AdBannerWidgetManager: prepareAdBannerFlipperHover: newFlipperScaleXY = 1.01
+09-29 04:20:07.452  1381  1915 W AdBannerWidgetManager: updateAppWidget: partiallyUpdated = false
+09-29 04:20:07.452   844  1035 D AppWidgetServiceImpl: Trying to notify widget update for package com.mumu.store with widget id: 2
+09-29 04:20:07.477   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=22
+09-29 04:20:07.477  1381  1915 W AdBannerWidgetManager: prepareAdBannerFlipperHover: newFlipperScaleXY = 1.0
+09-29 04:20:07.477  1381  1915 W AdBannerWidgetManager: updateAppWidget: partiallyUpdated = false
+09-29 04:20:07.478   844  1035 D AppWidgetServiceImpl: Trying to notify widget update for package com.mumu.store with widget id: 2
+09-29 04:20:07.510   844   940 D ActivityManager: freezing 2430 com.google.android.gms
+09-29 04:20:07.511   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=23
+09-29 04:20:07.527   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=24
+09-29 04:20:07.661   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=25
+09-29 04:20:07.677   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=26
+09-29 04:20:07.694   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=27
+09-29 04:20:07.711   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=28
+09-29 04:20:07.727   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=29
+09-29 04:20:07.744   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=30
+09-29 04:20:07.761   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=31
+09-29 04:20:07.777   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=32
+09-29 04:20:07.794   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=33
+09-29 04:20:07.811   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=34
+09-29 04:20:07.827   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=35
+09-29 04:20:07.844   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=36
+09-29 04:20:07.861   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=37
+09-29 04:20:08.044   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=38
+09-29 04:20:08.178   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=39
+09-29 04:20:08.194   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=40
+09-29 04:20:08.211   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=41
+09-29 04:20:08.228   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=42
+09-29 04:20:08.244   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=43
+09-29 04:20:08.261   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=44
+09-29 04:20:08.277   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=45
+09-29 04:20:08.294   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=46
+09-29 04:20:08.311   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=47
+09-29 04:20:08.327   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=48
+09-29 04:20:08.344   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=49
+09-29 04:20:08.361   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=50
+09-29 04:20:08.377   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=51
+09-29 04:20:08.394   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=52
+09-29 04:20:08.411   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=53
+09-29 04:20:08.427   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=54
+09-29 04:20:08.544   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=55
+09-29 04:20:08.694   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=56
+09-29 04:20:08.711   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=57
+09-29 04:20:08.727   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=58
+09-29 04:20:08.744   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=59
+09-29 04:20:08.761   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=60
+09-29 04:20:08.777   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=61
+09-29 04:20:08.794   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=62
+09-29 04:20:08.811   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=63
+09-29 04:20:08.827   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=64
+09-29 04:20:08.844   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=65
+09-29 04:20:08.894   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=66
+09-29 04:20:09.061   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=67
+09-29 04:20:09.220   844   950 I InputDispatcher: Canceling pointers for device 3 in 8bd6b6b app.lawnchair/app.lawnchair.LawnchairLauncher with event MotionEvent
+09-29 04:20:09.220   844   950 I InputDispatcher: Canceling pointers for device 3 in PointerEventDispatcher0 with event MotionEvent
+09-29 04:20:09.227   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=68
+09-29 04:20:09.244   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=69
+09-29 04:20:09.300  1078  1378 I app.lawnchair: AssetManager2(0x7793bbb660f8) locale list changing from [] to [zh-Hans-CN]
+09-29 04:20:09.301  1078  1378 W HWUI    : Image decoding logging dropped!
+09-29 04:20:09.301   844  1218 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@16f1eba5 does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+09-29 04:20:09.302   844  1218 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_RESIZEABLE_ACTIVITY_OVERRIDES
+09-29 04:20:09.302   844  1218 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_MIN_ASPECT_RATIO_OVERRIDE
+09-29 04:20:09.303   844  1218 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+09-29 04:20:09.308   844  1218 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.kmxs.reader/com.km.app.home.view.LoadingActivity bnds=[235,1018][450,1191]} with LAUNCH_SINGLE_TASK from uid 10016 (sr=84150109) (BAL_ALLOW_VISIBLE_WINDOW) result code=0
+09-29 04:20:09.309  1086  1260 W HWUI    : Image decoding logging dropped!
+09-29 04:20:09.309  1086  1233 V WindowManagerShell: Transition requested (#22): android.os.BinderProxy@a8e5c03 TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=51 effectiveUid=10067 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.kmxs.reader/com.km.app.home.view.LoadingActivity } baseActivity=ComponentInfo{com.kmxs.reader/com.km.app.home.view.LoadingActivity} topActivity=ComponentInfo{com.kmxs.reader/com.km.app.home.view.LoadingActivity} origActivity=null realActivity=ComponentInfo{com.kmxs.reader/com.km.app.home.view.LoadingActivity} numActivities=1 lastActiveTime=1357031 supportsMultiWindow=true resizeMode=2 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@bf84780} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 0 - 0, 0) topActivityInfo=ActivityInfo{b7fa1b9 com.km.app.home.view.LoadingActivity} launchCookies=[android.os.BinderProxy@6b469fe] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isTopActivityNoDisplay=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false isActivityStackTransparent=false lastNonFullscreenBounds=Rect(190, 374 - 711, 1274) capturedLink=null capturedLinkTimestamp=0 requestedVisibleTypes=-9 topActivityRequestOpenInBrowserEducationTimestamp=0 appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false eligibleForLetterboxEducation= false isLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false eligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 topActivityLetterboxAppWidth=-1 topActivityLetterboxAppHeight=-1 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false hasMinAspectRatioOverride=false topActivityLetterboxBounds=null cameraCompatTaskInfo=CameraCompatTaskInfo { freeformCameraCompatMode=inactive}} topActivityMainWindowFrame=null}, pipChange = null, remoteTransition = RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@b90b55f, appThread = android.app.IApplicationThread$Stub$Proxy@a5a5bac, debugName = QuickstepLaunch }, displayChange = null, flags = 0, debugId = 22 }
+09-29 04:20:09.309  1086  1233 D ShellSplitScreen: logExit: no-op, mLoggerSessionId is null
+09-29 04:20:09.309  1086  1233 V WindowManagerShell: RemoteTransition directly requested for (#22) android.os.BinderProxy@a8e5c03: RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@b90b55f, appThread = android.app.IApplicationThread$Stub$Proxy@a5a5bac, debugName = QuickstepLaunch }
+09-29 04:20:09.310  1078  1078 D StatsLog: LAUNCHER_APP_LAUNCH_TAP
+09-29 04:20:09.311   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=70
+09-29 04:20:09.311   844   867 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@16f1eba5 does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+09-29 04:20:09.312  1078  1078 W SplitSelectStateCtor: Missing session instanceIds
+09-29 04:20:09.312  1078  1078 D StatsLog: LAUNCHER_SPLIT_SELECTION_EXIT_INTERRUPTED
+09-29 04:20:09.312   844   867 D CompatChangeReporter: Compat change id reported: 135754954; UID 10067; state: ENABLED
+09-29 04:20:09.313   844  2522 D CoreBackPreview: Window{3931e5d u0 Splash Screen com.kmxs.reader}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@bbdeba0, mPriority=0, mIsAnimationCallback=false, mOverrideBehavior=0}
+09-29 04:20:09.313  1086  1233 D WindowManagerShell: setLauncherKeepClearAreaHeight: visible=false, height=197
+09-29 04:20:09.313   844   879 D CompatChangeReporter: Compat change id reported: 143937733; UID 10067; state: ENABLED
+09-29 04:20:09.315   844  1046 D BackgroundInstallControlService: Package event received: 0
+09-29 04:20:09.315  1086  1289 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 5763072
+09-29 04:20:09.315  1381  1381 W WidgetOperateReceiver: onReceive: intent = Intent { act=com.mumu.LAUNCHER_LIFECYCLE flg=0x30 pkg=com.mumu.store cmp=com.mumu.store/.widget.receiver.WidgetOperateReceiver (has extras) } action = com.mumu.LAUNCHER_LIFECYCLE
+09-29 04:20:09.315  1381  1381 W WidgetOperateReceiver: onLauncherLifecycle: launcherLifecycle = ON_PAUSE
+09-29 04:20:09.315  1381  1381 W WidgetManager: updateLauncherLifecycle: launcherLifecycleName = ON_PAUSE
+09-29 04:20:09.316  1086  1289 D HWUI    : HOOK FAILED! Expected 3 got = 2
+09-29 04:20:09.316   661   661 D Zygote  : Forked child process 3623
+09-29 04:20:09.317  1086  3622 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 5763072
+09-29 04:20:09.317   844   879 I ActivityManager: Start proc 3623:com.kmxs.reader/u0a67 for next-top-activity {com.kmxs.reader/com.km.app.home.view.LoadingActivity}
+09-29 04:20:09.318   844   868 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_ORIENTATION_OVERRIDE
+09-29 04:20:09.319   844   864 V WindowManager: Sent Transition (#22) createdAt=09-29 04:20:09.302 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=51 effectiveUid=10067 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.kmxs.reader/com.km.app.home.view.LoadingActivity } baseActivity=ComponentInfo{com.kmxs.reader/com.km.app.home.view.LoadingActivity} topActivity=ComponentInfo{com.kmxs.reader/com.km.app.home.view.LoadingActivity} origActivity=null realActivity=ComponentInfo{com.kmxs.reader/com.km.app.home.view.LoadingActivity} numActivities=1 lastActiveTime=1357031 supportsMultiWindow=true resizeMode=2 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{86f9121 Task{827d32b #51 type=standard A=10067:com.kmxs.reader}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 0 - 0, 0) topActivityInfo=ActivityInfo{e1b199c com.km.app.home.view.LoadingActivity} launchCookies=[android.os.BinderProxy@63f0946] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isTopActivityNoDisplay=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false isActivityStackTransparent=false lastNonFullscreenBounds=Rect(190, 374 - 711, 1274) capturedLink=null capturedLinkTimestamp=0 requestedVisibleTypes=-9 topActivityRequestOpenInBrowserEducationTimestamp=0 appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false eligibleForLetterboxEducation= false isLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false eligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 topActivityLetterboxAppWidth=-1 topActivityLetterboxAppHeight=-1 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false hasMinAspectRatioOverride=false topActivityLetterboxBounds=null cameraCompatTaskInfo=CameraCompatTaskInfo { freeformCameraCompatMode=inactive}} topActivityMainWindowFrame=null}, pipChange = null, remoteTransition = RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@3d0bc15, appThread = android.app.IApplicationThread$Stub$Proxy@66cab2a, debugName = QuickstepLaunch }, displayChange = null, flags = 0, debugId = 22 }
+09-29 04:20:09.319   844   864 V WindowManager:     startWCT=WindowContainerTransaction { changes= {} hops= [] errorCallbackToken=null taskFragmentOrganizer=null }
+09-29 04:20:09.319   844   864 V WindowManager:     info={id=22 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[
+09-29 04:20:09.319   844   864 V WindowManager:         {WCT{RemoteToken{86f9121 Task{827d32b #51 type=standard A=10067:com.kmxs.reader}}} m=OPEN f=NONE leash=Surface(name=Task=51)/@0xa753fff sb=Rect(0, 0 - 900, 1600) eb=Rect(0, 0 - 900, 1600) epz=Point(900, 1600) d=0 taskParent=-1},
+09-29 04:20:09.319   844   864 V WindowManager:         {WCT{RemoteToken{efc115c Task{f4c739 #1 type=home}}} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0xc1f9373 sb=Rect(0, 0 - 900, 1600) eb=Rect(0, 0 - 900, 1600) epz=Point(900, 1600) d=0 taskParent=-1}
+09-29 04:20:09.319   844   864 V WindowManager:     ]}
+09-29 04:20:09.320  1086  1131 V WindowManagerShell: onTransitionReady(transaction=3624952400384)
+09-29 04:20:09.320  1086  1233 V WindowManagerShell: onTransitionReady (#22) android.os.BinderProxy@a8e5c03: {id=22 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[
+09-29 04:20:09.320  1086  1233 V WindowManagerShell:         {m=OPEN f=NONE leash=Surface(name=Task=51)/@0xc548586 sb=Rect(0, 0 - 900, 1600) eb=Rect(0, 0 - 900, 1600) epz=Point(900, 1600) d=0 taskParent=-1},
+09-29 04:20:09.320  1086  1233 V WindowManagerShell:         {m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0xc4fde47 sb=Rect(0, 0 - 900, 1600) eb=Rect(0, 0 - 900, 1600) epz=Point(900, 1600) d=0 taskParent=-1}
+09-29 04:20:09.320  1086  1233 V WindowManagerShell:     ]}
+09-29 04:20:09.320  1086  1233 V WindowManagerShell: Playing animation for (#22) android.os.BinderProxy@a8e5c03@0
+09-29 04:20:09.320  1086  1233 V WindowManagerShell:  try firstHandler com.android.wm.shell.transition.DefaultMixedHandler@a0738a7
+09-29 04:20:09.320  1086  1233 V WindowManagerShell: Mixed transition for opening an intent with a remote transition and PIP or Desktop #22
+09-29 04:20:09.320  1086  1233 V WindowManagerShell: tryAnimateOpenIntentWithRemoteAndPipOrDesktop
+09-29 04:20:09.320  1086  1233 V WindowManagerShell:  Delegate animation for (#22) to RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@b90b55f, appThread = android.app.IApplicationThread$Stub$Proxy@a5a5bac, debugName = QuickstepLaunch }
+09-29 04:20:09.320   844  1218 W UserManagerService: Requested status bar icon for non-badged user 0
+09-29 04:20:09.320  1086  1233 V WindowManagerShell:  animated by firstHandler
+09-29 04:20:09.327   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=71
+09-29 04:20:09.328   693   693 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+09-29 04:20:09.336  3623  3623 W nativebridge: Failed to bind-mount /system/etc/cpuinfo.arm64.txt as /proc/cpuinfo: No such file or directory
+09-29 04:20:09.336  3623  3623 E Zygote  : pkg name is 0 => com.kmxs.reader, data dir is /data/user/0/com.kmxs.reader
+09-29 04:20:09.337  3623  3623 W zygote64: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: nemuhotd
+09-29 04:20:09.344   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=72
+09-29 04:20:09.344  1078  1078 D AppLaunchAnim: App launch animation START, duration=300ms
+09-29 04:20:09.345   844  1218 I InputDispatcher: Touched window was removed: 8bd6b6b app.lawnchair/app.lawnchair.LawnchairLauncher in display %0
+09-29 04:20:09.351  3623  3623 I Zygote  : seccomp disabled by setenforce 0
+09-29 04:20:09.355  3623  3623 I com.kmxs.reader: Using CollectorTypeCMC GC.
+09-29 04:20:09.355  3623  3623 W com.kmxs.reader: Unexpected CPU variant for x86: x86_64.
+09-29 04:20:09.355  3623  3623 W com.kmxs.reader: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, alderlake, default
+09-29 04:20:09.356  3623  3623 V libnb   : enter native_bridge2_initialize /data/user/0/com.kmxs.reader/code_cache arm64
+09-29 04:20:09.356  3623  3623 E libnb   : The translator implementation library has not been set.
+09-29 04:20:09.361   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=73
+09-29 04:20:09.364  3623  3623 E libnb   : get_callbacks native_handle 0x4e558203b868eae3: 1 libnb:/system/lib64/libhoudini.so
+09-29 04:20:09.365  3623  3623 I libnb   : Found /system/lib64/libhoudini.so version 7
+09-29 04:20:09.365  3623  3623 E HP      : patch_houdini_linker_null_crash: patched +0x2FFECE (je->jmp) OK
+09-29 04:20:09.365  3623  3623 D HP      : no libmumuhooker.so
+09-29 04:20:09.364  3623  3623 I com.kmxs.reader: type=1400 audit(0.0:738): avc:  denied  { write } for  name="property_service" dev="tmpfs" ino=664 scontext=u:r:untrusted_app_30:s0:c67,c256,c512,c768 tcontext=u:object_r:property_socket:s0 tclass=sock_file permissive=1 app=com.kmxs.reader
+09-29 04:20:09.364  3623  3623 I com.kmxs.reader: type=1400 audit(0.0:739): avc:  denied  { connectto } for  path="/dev/socket/property_service" scontext=u:r:untrusted_app_30:s0:c67,c256,c512,c768 tcontext=u:r:init:s0 tclass=unix_stream_socket permissive=1 app=com.kmxs.reader
+09-29 04:20:09.376  3625  3625 I sh      : type=1400 audit(0.0:740): avc:  denied  { open } for  path="/data/tombstones" dev="sdc3" ino=7340033 scontext=u:r:untrusted_app_30:s0:c67,c256,c512,c768 tcontext=u:object_r:tombstone_data_file:s0 tclass=dir permissive=1 app=com.kmxs.reader
+09-29 04:20:09.377   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=74
+09-29 04:20:09.393  3623  3623 D HP      : mAbi = arm64 enableHighFrame = 0
+09-29 04:20:09.393  3623  3623 D houdini : [3623] Houdini now in android app mode
+09-29 04:20:09.393  3623  3623 D houdini : [3623] Intel Bridge Technology for Netease Mumu only, Copyright(C) Intel Corp. 2012-2025.
+09-29 04:20:09.393  3623  3623 D houdini : [3623] Use permitted only under a valid commercial software license agreement - all other rights reserved.
+09-29 04:20:09.393  3623  3623 D houdini : [3623] Initialize library(version: 15.0.0_z.Netease_com2.0 RELEASE)... successfully.
+09-29 04:20:09.393  3623  3623 W HP      : x_initialize private_dir:/data/user/0/com.kmxs.reader/code_cache instruction_set:arm64 getMethodShorty:0x7791da9e3700 ret:1
+09-29 04:20:09.394   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=75
+09-29 04:20:09.395  3623  3623 E com.kmxs.reader: Not starting debugger since process cannot load the jdwp agent.
+09-29 04:20:09.397  3623  3623 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+09-29 04:20:09.405   844   864 E [MUMU]TaskTab: setPresentationRotation 0 for com.kmxs.reader:51
+09-29 04:20:09.405   844   864 E [MUMU]TaskTab: java.lang.Exception
+09-29 04:20:09.405   844   864 E [MUMU]TaskTab: 	at com.android.server.mumu.tab.TaskTab.setPresentationRotation(TaskTab.java:52)
+09-29 04:20:09.405   844   864 E [MUMU]TaskTab: 	at com.android.server.wm.TaskUtils.getTopTaskOnDisplay(TaskUtils.java:557)
+09-29 04:20:09.405   844   864 E [MUMU]TaskTab: 	at com.android.server.wm.TaskUtils.updateTaskTabRotation(TaskUtils.java:1876)
+09-29 04:20:09.405   844   864 E [MUMU]TaskTab: 	at com.android.server.wm.TaskUtils.notifyOpen(TaskUtils.java:210)
+09-29 04:20:09.405   844   864 E [MUMU]TaskTab: 	at com.android.server.wm.WmBridge.notifyOpen(WmBridge.java:496)
+09-29 04:20:09.405   844   864 E [MUMU]TaskTab: 	at com.android.server.mumu.wm.TaskHandler.handleMessage(TaskHandler.java:32)
+09-29 04:20:09.405   844   864 E [MUMU]TaskTab: 	at android.os.Handler.dispatchMessage(Handler.java:109)
+09-29 04:20:09.405   844   864 E [MUMU]TaskTab: 	at android.os.Looper.loopOnce(Looper.java:232)
+09-29 04:20:09.405   844   864 E [MUMU]TaskTab: 	at android.os.Looper.loop(Looper.java:317)
+09-29 04:20:09.405   844   864 E [MUMU]TaskTab: 	at android.os.HandlerThread.run(HandlerThread.java:85)
+09-29 04:20:09.405   844   864 E [MUMU]TaskTab: 	at com.android.server.ServiceThread.run(ServiceThread.java:49)
+09-29 04:20:09.407   844   864 E ActivityManager: Sending non-protected broadcast nemu.intent.action.NEW_TASK from system 844:system/1000 pkg android
+09-29 04:20:09.407   844   864 E ActivityManager: java.lang.Throwable
+09-29 04:20:09.407   844   864 E ActivityManager: 	at com.android.server.am.BroadcastController.checkBroadcastFromSystem(BroadcastController.java:2118)
+09-29 04:20:09.407   844   864 E ActivityManager: 	at com.android.server.am.BroadcastController.broadcastIntentLockedTraced(BroadcastController.java:1635)
+09-29 04:20:09.407   844   864 E ActivityManager: 	at com.android.server.am.BroadcastController.broadcastIntentLocked(BroadcastController.java:807)
+09-29 04:20:09.407   844   864 E ActivityManager: 	at com.android.server.am.BroadcastController.broadcastIntentWithFeature(BroadcastController.java:740)
+09-29 04:20:09.407   844   864 E ActivityManager: 	at com.android.server.am.ActivityManagerService.broadcastIntentWithFeature(ActivityManagerService.java:14410)
+09-29 04:20:09.407   844   864 E ActivityManager: 	at android.app.ContextImpl.sendBroadcastAsUser(ContextImpl.java:1509)
+09-29 04:20:09.407   844   864 E ActivityManager: 	at android.content.ContextWrapper.sendBroadcastAsUser(ContextWrapper.java:603)
+09-29 04:20:09.407   844   864 E ActivityManager: 	at com.android.server.wm.TaskUtils.$r8$lambda$izZd96HXfmc2zvc_tMQT0zjG0cY(TaskUtils.java:2098)
+09-29 04:20:09.407   844   864 E ActivityManager: 	at com.android.server.wm.TaskUtils$$ExternalSyntheticLambda1.run(R8$$SyntheticClass:0)
+09-29 04:20:09.407   844   864 E ActivityManager: 	at android.os.Handler.handleCallback(Handler.java:991)
+09-29 04:20:09.407   844   864 E ActivityManager: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+09-29 04:20:09.407   844   864 E ActivityManager: 	at android.os.Looper.loopOnce(Looper.java:232)
+09-29 04:20:09.407   844   864 E ActivityManager: 	at android.os.Looper.loop(Looper.java:317)
+09-29 04:20:09.407   844   864 E ActivityManager: 	at android.os.HandlerThread.run(HandlerThread.java:85)
+09-29 04:20:09.407   844   864 E ActivityManager: 	at com.android.server.ServiceThread.run(ServiceThread.java:49)
+09-29 04:20:09.411   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=76
+09-29 04:20:09.419   844  1046 D BackgroundInstallControlService: Package event received: 0
+09-29 04:20:09.419   844   912 W ActivityTaskManager: takeTaskSnapshot: taskId=38 not found or not visible
+09-29 04:20:09.424  3623  3623 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/org.apache.http.legacy.jar
+09-29 04:20:09.424  3623  3623 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+09-29 04:20:09.424  3623  3623 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+09-29 04:20:09.426  3623  3623 D nativeloader: Configuring clns-7 for other apk /data/app/~~MrjPTAJpVzAFU6RxLRzOLQ==/com.kmxs.reader-LW1ecI5ulgH14evCSuMH4A==/base.apk. target_sdk_version=30, uses_libraries=, library_path=/data/app/~~MrjPTAJpVzAFU6RxLRzOLQ==/com.kmxs.reader-LW1ecI5ulgH14evCSuMH4A==/lib/arm64:/data/app/~~MrjPTAJpVzAFU6RxLRzOLQ==/com.kmxs.reader-LW1ecI5ulgH14evCSuMH4A==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.kmxs.reader
+09-29 04:20:09.427   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=77
+09-29 04:20:09.431  3623  3623 I com.kmxs.reader: AssetManager2(0x7793bbb55a78) locale list changing from [] to [zh-Hans-CN]
+09-29 04:20:09.433  3623  3623 V GraphicsEnvironment: Currently set values for:
+09-29 04:20:09.433  3623  3623 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+09-29 04:20:09.433  3623  3623 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+09-29 04:20:09.433  3623  3623 V GraphicsEnvironment: com.kmxs.reader is not listed in per-application setting
+09-29 04:20:09.434  3623  3623 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+09-29 04:20:09.436  3623  3623 D SophixStubApplication: 本地存储的版本号 = 0
+09-29 04:20:09.436  3623  3623 D SophixStubApplication: App版本号 = 7.80
+09-29 04:20:09.437  3623  3623 I Sophix.LogLevel:  set value: V
+09-29 04:20:09.437  3623  3623 D Sophix.PatchManager:  initPatchDir patchDir: patch nativeLibDir: libs
+09-29 04:20:09.437  3623  3623 I Sophix.SophixManager:  Sophix starting... sdk: 3.3.0 main process: false fingerprint: vivo/PD2284/PD2284:15/V417IR/760:user/release-keys app version: 7.80 patch version: 0
+09-29 04:20:09.437  3623  3623 I Sophix.NetworkManager:  init appVersion: 7.80
+09-29 04:20:09.437  3623  3623 I Sophix.PatchManager:  init appVersion: 7.80
+09-29 04:20:09.437  3623  3623 D Sophix.PatchManager:  checkAppUpdatedForContinue app is updated
+09-29 04:20:09.437  3623  3623 W Sophix.PatchManager:  patch is not the newest, skip loading in sub-process
+09-29 04:20:09.438  3623  3623 D Sophix.PatchManager:  callRealAppAttach finish call real App.attach, app: com.kmxs.reader.app.MainApplication
+09-29 04:20:09.438  3623  3623 D Sophix.SophixManager:  initialize time consumed(ms): 1
+09-29 04:20:09.440  3623  3623 I PineXposed: QMExport: 使用公共下载目录: /sdcard/Download/QimaoBooks
+09-29 04:20:09.440  3623  3623 I System.out: QMExport: mounted via PineXposed.hookLoadPackage
+09-29 04:20:09.440  3623  3623 I PineXposed: QMExport: mounted via PineXposed.hookLoadPackage
+09-29 04:20:09.440  3623  3623 D Sophix.PatchManager:  replaceRealApplication finish
+09-29 04:20:09.442  3623  3623 W HMSSDK_PushPreferences: get new sharedPreferences failed,start to get from context. 
+09-29 04:20:09.444  3623  3623 I AGConnectProvider: AGConnectInitializeProvider#onCreate
+09-29 04:20:09.444   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=78
+09-29 04:20:09.445  3623  3623 I AGConnectInstance: AGConnectInstance#initialize
+09-29 04:20:09.445  3623  3623 I ServiceRegistrarParser: getServices
+09-29 04:20:09.446  3623  3623 I ServiceRegistrarParser: services:0
+09-29 04:20:09.449  3623  3623 I AGC_Instance: AGC SDK initialize end, default route:UNKNOWN
+09-29 04:20:09.453  3623  3623 D WM-WrkMgrInitializer: Initializing WorkManager with default configuration.
+09-29 04:20:09.457  3623  3623 W com.kmxs.reader: Accessing hidden method Landroid/telephony/TelephonyManager;->getDefault()Landroid/telephony/TelephonyManager; (max-target-p, reflection, denied)
+09-29 04:20:09.457  3623  3623 I _V_LIB-ICDM-MULTI-DownloadProvider: DownloadProvider onCreate()
+09-29 04:20:09.458  3623  3623 W _V_LIB-MutiNetManager: register net work error
+09-29 04:20:09.458  3623  3623 W _V_LIB-MutiNetManager: java.lang.NoSuchFieldException: No field TRANSPORT_EXTWIFI in class Landroid/net/NetworkCapabilities; (declaration of 'android.net.NetworkCapabilities' appears in /apex/com.android.tethering/javalib/framework-connectivity.jar)
+09-29 04:20:09.458  3623  3623 W _V_LIB-MutiNetManager: 	at java.lang.Class.getDeclaredField(Native Method)
+09-29 04:20:09.458  3623  3623 W _V_LIB-MutiNetManager: 	at com.vivo.ic.dm.network.h.a(Unknown Source:2)
+09-29 04:20:09.458  3623  3623 W _V_LIB-MutiNetManager: 	at com.vivo.ic.dm.network.h.c(Unknown Source:32)
+09-29 04:20:09.458  3623  3623 W _V_LIB-MutiNetManager: 	at com.vivo.ic.dm.DownloadProvider.a(Unknown Source:19)
+09-29 04:20:09.458  3623  3623 W _V_LIB-MutiNetManager: 	at com.vivo.ic.dm.DownloadProvider.onCreate(Unknown Source:11)
+09-29 04:20:09.458  3623  3623 W _V_LIB-MutiNetManager: 	at android.content.ContentProvider.attachInfo(ContentProvider.java:2662)
+09-29 04:20:09.458  3623  3623 W _V_LIB-MutiNetManager: 	at android.content.ContentProvider.attachInfo(ContentProvider.java:2631)
+09-29 04:20:09.458  3623  3623 W _V_LIB-MutiNetManager: 	at android.app.ActivityThread.installProvider(ActivityThread.java:8546)
+09-29 04:20:09.458  3623  3623 W _V_LIB-MutiNetManager: 	at android.app.ActivityThread.installContentProviders(ActivityThread.java:8061)
+09-29 04:20:09.458  3623  3623 W _V_LIB-MutiNetManager: 	at java.lang.reflect.Method.invoke(Native Method)
+09-29 04:20:09.458  3623  3623 W _V_LIB-MutiNetManager: 	at com.taobao.sophix.a.c.p(Unknown Source:94)
+09-29 04:20:09.458  3623  3623 W _V_LIB-MutiNetManager: 	at com.taobao.sophix.a.c.b(Unknown Source:22)
+09-29 04:20:09.458  3623  3623 W _V_LIB-MutiNetManager: 	at com.taobao.sophix.a.e.b(Unknown Source:2)
+09-29 04:20:09.458  3623  3623 W _V_LIB-MutiNetManager: 	at com.taobao.sophix.SophixApplication.onCreate(Unknown Source:9)
+09-29 04:20:09.458  3623  3623 W _V_LIB-MutiNetManager: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1391)
+09-29 04:20:09.458  3623  3623 W _V_LIB-MutiNetManager: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7735)
+09-29 04:20:09.458  3623  3623 W _V_LIB-MutiNetManager: 	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+09-29 04:20:09.458  3623  3623 W _V_LIB-MutiNetManager: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2511)
+09-29 04:20:09.458  3623  3623 W _V_LIB-MutiNetManager: 	at android.os.Handler.dispatchMessage(Handler.java:109)
+09-29 04:20:09.458  3623  3623 W _V_LIB-MutiNetManager: 	at android.os.Looper.loopOnce(Looper.java:232)
+09-29 04:20:09.458  3623  3623 W _V_LIB-MutiNetManager: 	at android.os.Looper.loop(Looper.java:317)
+09-29 04:20:09.458  3623  3623 W _V_LIB-MutiNetManager: 	at android.app.ActivityThread.main(ActivityThread.java:8971)
+09-29 04:20:09.458  3623  3623 W _V_LIB-MutiNetManager: 	at java.lang.reflect.Method.invoke(Native Method)
+09-29 04:20:09.458  3623  3623 W _V_LIB-MutiNetManager: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:597)
+09-29 04:20:09.458  3623  3623 W _V_LIB-MutiNetManager: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:919)
+09-29 04:20:09.458  3623  3623 I _V_LIB-MutiNetManager: TRANSPORT_EXTWIFI onUnavailable null
+09-29 04:20:09.459  3623  3623 I _V_LIB-ICDM-MULTI-DownloadProvider: DownloadProvider register end
+09-29 04:20:09.461   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=79
+09-29 04:20:09.461  3623  3623 W RMonitor_meta: markAppLaunch
+09-29 04:20:09.461  3623  3623 W RMonitor_launch_installer: isFileExist, fileName: RMonitor_launch_monitor, ret: false, context: not null
+09-29 04:20:09.462  3623  3623 D AppLifecycleManager: register
+09-29 04:20:09.462  3623  3623 D AndroidRuntime: Shutting down VM
+09-29 04:20:09.462  3623  3623 E AndroidRuntime: FATAL EXCEPTION: main
+09-29 04:20:09.462  3623  3623 E AndroidRuntime: Process: com.kmxs.reader, PID: 3623
+09-29 04:20:09.462  3623  3623 E AndroidRuntime: java.lang.RuntimeException: Unable to create application com.km.sophix.SophixStubApplication: java.lang.RuntimeException: abandon initialization: installProviders
+09-29 04:20:09.462  3623  3623 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7741)
+09-29 04:20:09.462  3623  3623 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+09-29 04:20:09.462  3623  3623 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2511)
+09-29 04:20:09.462  3623  3623 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:109)
+09-29 04:20:09.462  3623  3623 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:232)
+09-29 04:20:09.462  3623  3623 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:317)
+09-29 04:20:09.462  3623  3623 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8971)
+09-29 04:20:09.462  3623  3623 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+09-29 04:20:09.462  3623  3623 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:597)
+09-29 04:20:09.462  3623  3623 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:919)
+09-29 04:20:09.462  3623  3623 E AndroidRuntime: Caused by: java.lang.RuntimeException: abandon initialization: installProviders
+09-29 04:20:09.462  3623  3623 E AndroidRuntime: 	at com.taobao.sophix.a.c.a(Unknown Source:19)
+09-29 04:20:09.462  3623  3623 E AndroidRuntime: 	at com.taobao.sophix.a.c.p(Unknown Source:101)
+09-29 04:20:09.462  3623  3623 E AndroidRuntime: 	at com.taobao.sophix.a.c.b(Unknown Source:22)
+09-29 04:20:09.462  3623  3623 E AndroidRuntime: 	at com.taobao.sophix.a.e.b(Unknown Source:2)
+09-29 04:20:09.462  3623  3623 E AndroidRuntime: 	at com.taobao.sophix.SophixApplication.onCreate(Unknown Source:9)
+09-29 04:20:09.462  3623  3623 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1391)
+09-29 04:20:09.462  3623  3623 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7735)
+09-29 04:20:09.462  3623  3623 E AndroidRuntime: 	... 9 more
+09-29 04:20:09.462  3623  3623 E AndroidRuntime: Caused by: java.lang.reflect.InvocationTargetException
+09-29 04:20:09.462  3623  3623 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+09-29 04:20:09.462  3623  3623 E AndroidRuntime: 	at com.taobao.sophix.a.c.p(Unknown Source:94)
+09-29 04:20:09.462  3623  3623 E AndroidRuntime: 	... 14 more
+09-29 04:20:09.462  3623  3623 E AndroidRuntime: Caused by: java.lang.RuntimeException: Unable to get provider com.bytedance.sdk.openadsdk.multipro.TTMultiProvider: java.lang.ClassNotFoundException: Didn't find class "com.bytedance.sdk.openadsdk.multipro.TTMultiProvider" on path: DexPathList[[zip file "/data/app/~~MrjPTAJpVzAFU6RxLRzOLQ==/com.kmxs.reader-LW1ecI5ulgH14evCSuMH4A==/base.apk"],nativeLibraryDirectories=[/data/app/~~MrjPTAJpVzAFU6RxLRzOLQ==/com.kmxs.reader-LW1ecI5ulgH14evCSuMH4A==/lib/arm64, /data/app/~~MrjPTAJpVzAFU6RxLRzOLQ==/com.kmxs.reader-LW1ecI5ulgH14evCSuMH4A==/base.apk!/lib/arm64-v8a, /system/lib64, /system/product/lib64, /vendor/lib64, /vendor/lib64/hw]]
+09-29 04:20:09.462  3623  3623 E AndroidRuntime: 	at android.app.ActivityThread.installProvider(ActivityThread.java:8551)
+09-29 04:20:09.462  3623  3623 E AndroidRuntime: 	at android.app.ActivityThread.installContentProviders(ActivityThread.java:8061)
+09-29 04:20:09.462  3623  3623 E AndroidRuntime: 	... 16 more
+09-29 04:20:09.462  3623  3623 E AndroidRuntime: Caused by: java.lang.ClassNotFoundException: Didn't find class "com.bytedance.sdk.openadsdk.multipro.TTMultiProvider" on path: DexPathList[[zip file "/data/app/~~MrjPTAJpVzAFU6RxLRzOLQ==/com.kmxs.reader-LW1ecI5ulgH14evCSuMH4A==/base.apk"],nativeLibraryDirectories=[/data/app/~~MrjPTAJpVzAFU6RxLRzOLQ==/com.kmxs.reader-LW1ecI5ulgH14evCSuMH4A==/lib/arm64, /data/app/~~MrjPTAJpVzAFU6RxLRzOLQ==/com.kmxs.reader-LW1ecI5ulgH14evCSuMH4A==/base.apk!/lib/arm64-v8a, /system/lib64, /system/product/lib64, /vendor/lib64, /vendor/lib64/hw]]
+09-29 04:20:09.462  3623  3623 E AndroidRuntime: 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:259)
+09-29 04:20:09.462  3623  3623 E AndroidRuntime: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:637)
+09-29 04:20:09.462  3623  3623 E AndroidRuntime: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:573)
+09-29 04:20:09.462  3623  3623 E AndroidRuntime: 	at android.app.AppComponentFactory.instantiateProvider(AppComponentFactory.java:147)
+09-29 04:20:09.462  3623  3623 E AndroidRuntime: 	at androidx.core.app.CoreComponentFactory.instantiateProvider(Unknown Source:0)
+09-29 04:20:09.462  3623  3623 E AndroidRuntime: 	at android.app.ActivityThread.installProvider(ActivityThread.java:8535)
+09-29 04:20:09.462  3623  3623 E AndroidRuntime: 	... 17 more
+09-29 04:20:09.462   844  1004 D ConnectivityService: NetReassign [no changes] [c 0] [a 1] [i 0]
+09-29 04:20:09.463  3623  3657 W _V_LIB-MutiNetManager: register net work success TRANSPORT_WIFI
+09-29 04:20:09.463  3623  3658 I _V_LIB-MutiNetManager: TRANSPORT_WIFI onAvailable 100
+09-29 04:20:09.464  3623  3623 I Process : Sending signal. PID: 3623 SIG: 9
+09-29 04:20:09.468   844  2522 I ActivityManager: Process com.kmxs.reader (pid 3623) has died: fg  TOP 
+09-29 04:20:09.468   661   661 I Zygote  : Process 3623 exited due to signal 9 (Killed)
+09-29 04:20:09.468   844  2522 W ActivityTaskManager: ProcessRecord{c517ca3 3623:com.kmxs.reader/u0a67} is removed with pending start ActivityRecord{119107450 u0 com.kmxs.reader/com.km.app.home.view.LoadingActivity t51}
+09-29 04:20:09.469  1086  1233 V WindowManagerShell: Transition requested (#23): android.os.BinderProxy@add85e0 TransitionRequestInfo { type = CLOSE, triggerTask = TaskInfo{userId=0 taskId=51 effectiveUid=10067 displayId=0 isRunning=false baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.kmxs.reader/com.km.app.home.view.LoadingActivity } baseActivity=null topActivity=null origActivity=null realActivity=ComponentInfo{com.kmxs.reader/com.km.app.home.view.LoadingActivity} numActivities=0 lastActiveTime=1357031 supportsMultiWindow=true resizeMode=2 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@a5c7099} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 0 - 0, 0) topActivityInfo=null launchCookies=[android.os.BinderProxy@6b469fe] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=true isVisibleRequested=true isTopActivityNoDisplay=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false isActivityStackTransparent=true lastNonFullscreenBounds=Rect(190, 374 - 711, 1274) capturedLink=null capturedLinkTimestamp=0 requestedVisibleTypes=-9 topActivityRequestOpenInBrowserEducationTimestamp=0 appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false eligibleForLetterboxEducation= false isLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false eligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 topActivityLetterboxAppWidth=-1 topActivityLetterboxAppHeight=-1 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false hasMinAspectRatioOverride=false topActivityLetterboxBounds=null cameraCompatTaskInfo=CameraCompatTaskInfo { freeformCameraCompatMode=inactive}} topActivityMainWindowFrame=null}, pipChange = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 23 }
+09-29 04:20:09.470   844   865 D DisplayManagerService: Drop pending events for gone uid 10067
+09-29 04:20:09.471  1086  1233 D WindowManagerShell: setLauncherKeepClearAreaHeight: visible=true, height=197
+09-29 04:20:09.472   844  1004 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+09-29 04:20:09.472   844  1004 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+09-29 04:20:09.472   844  1004 D InetDiagMessage: Destroyed live tcp sockets for uids={10067} in 0ms
+09-29 04:20:09.472   844  1004 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+09-29 04:20:09.472   844  1004 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+09-29 04:20:09.472   844  1004 D InetDiagMessage: Destroyed live tcp sockets for uids={20067} in 0ms
+09-29 04:20:09.472  1086  1117 V WindowManagerShell: onTransitionReady(transaction=3624952400390)
+09-29 04:20:09.473  1086  1233 V WindowManagerShell: onTransitionReady (#23) android.os.BinderProxy@add85e0: {id=23 t=CLOSE f=0x0 trk=0 r=[0@Point(0, 0)] c=[
+09-29 04:20:09.473  1086  1233 V WindowManagerShell:         {m=TO_FRONT f=SHOW_WALLPAPER|MOVE_TO_TOP leash=Surface(name=Task=1)/@0x300bf5e sb=Rect(0, 0 - 900, 1600) eb=Rect(0, 0 - 900, 1600) epz=Point(900, 1600) d=0 taskParent=-1},
+09-29 04:20:09.473  1086  1233 V WindowManagerShell:         {m=CLOSE f=NONE leash=Surface(name=Task=51)/@0x2544f3f sb=Rect(0, 0 - 900, 1600) eb=Rect(0, 0 - 900, 1600) epz=Point(900, 1600) d=0 taskParent=-1}
+09-29 04:20:09.473  1086  1233 V WindowManagerShell:     ]}
+09-29 04:20:09.473   693  1506 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 5763072
+09-29 04:20:09.473  1086  1233 V WindowManagerShell: Transition (#23) android.os.BinderProxy@add85e0@0 ready while (#22) android.os.BinderProxy@a8e5c03@0 is still animating. Notify the animating transition in case they can be merged
+09-29 04:20:09.474  1086  1233 V WindowManagerShell:    Merge into remote: RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@b90b55f, appThread = android.app.IApplicationThread$Stub$Proxy@a5a5bac, debugName = QuickstepLaunch }
+09-29 04:20:09.475   844  1046 D BackgroundInstallControlService: Package event received: 0
+09-29 04:20:09.475   844  1046 D BackgroundInstallControlService: Package event received: 0
+09-29 04:20:09.475   844  2522 W UserManagerService: Requested status bar icon for non-badged user 0
+09-29 04:20:09.475  1086  1233 V WindowManagerShell: Transition animation finished (aborted=false), notifying core (#22) android.os.BinderProxy@a8e5c03@0
+09-29 04:20:09.475  1086  1233 V WindowManagerShell: Playing animation for (#23) android.os.BinderProxy@add85e0@0
+09-29 04:20:09.475  1086  1233 V ShellRecents: RecentsTransitionHandler.startAnimation: no controller found
+09-29 04:20:09.475  1086  1233 V WindowManagerShell: Transition doesn't have explicit remote, search filters for match for {id=23 t=CLOSE f=0x0 trk=0 r=[0@Point(0, 0)] c=[{m=TO_FRONT f=SHOW_WALLPAPER|MOVE_TO_TOP leash=Surface(name=Task=1)/@0x300bf5e sb=Rect(0, 0 - 900, 1600) eb=Rect(0, 0 - 900, 1600) epz=Point(900, 1600) d=0 taskParent=-1},{m=CLOSE f=NONE leash=Surface(name=Task=51)/@0x2544f3f sb=Rect(0, 0 - 900, 1600) eb=Rect(0, 0 - 900, 1600) epz=Point(900, 1600) d=0 taskParent=-1}]}
+09-29 04:20:09.475  1086  1233 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{app.lawnchair/app.lawnchair.LawnchairLauncher} launchCookie=null windowingMode=undefined},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null launchCookie=null windowingMode=undefined},{NOT atype=undefined independent=true modes=[] flags=NONE mustBeTask=true order=ANY topActivity=null launchCookie=null windowingMode=undefined}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@40ceb63, appThread = android.app.IApplicationThread$Stub$Proxy@aca9360, debugName = QuickstepLaunchHome }}
+09-29 04:20:09.475  1086  1233 V WindowManagerShell:  Delegate animation for (#23) to null
+09-29 04:20:09.475  1086  1233 V WindowManagerShell: start default transition animation, info = {id=23 t=CLOSE f=0x0 trk=0 r=[0@Point(0, 0)] c=[{m=TO_FRONT f=SHOW_WALLPAPER|MOVE_TO_TOP leash=Surface(name=Task=1)/@0x300bf5e sb=Rect(0, 0 - 900, 1600) eb=Rect(0, 0 - 900, 1600) epz=Point(900, 1600) d=0 taskParent=-1},{m=CLOSE f=NONE leash=Surface(name=Task=51)/@0x2544f3f sb=Rect(0, 0 - 900, 1600) eb=Rect(0, 0 - 900, 1600) epz=Point(900, 1600) d=0 taskParent=-1}]}
+09-29 04:20:09.475  1086  1233 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@3fa7d55 animAttr=0x11 type=CLOSE isEntrance=false
+09-29 04:20:09.475  1086  1233 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@895736a animAttr=0x10 type=CLOSE isEntrance=true
+09-29 04:20:09.475   844   925 W UsageStatsService: Unexpected activity event reported! (com.kmxs.reader/com.km.app.home.view.LoadingActivity event : 23 instanceId : 160314248)
+09-29 04:20:09.475  1086  1233 V WindowManagerShell:  animated by com.android.wm.shell.transition.DefaultTransitionHandler@e3dad31
+09-29 04:20:09.476  1381  1381 W WidgetOperateReceiver: onReceive: intent = Intent { act=com.mumu.LAUNCHER_LIFECYCLE flg=0x30 pkg=com.mumu.store cmp=com.mumu.store/.widget.receiver.WidgetOperateReceiver (has extras) } action = com.mumu.LAUNCHER_LIFECYCLE
+09-29 04:20:09.476  1381  1381 W WidgetOperateReceiver: onLauncherLifecycle: launcherLifecycle = ON_RESUME
+09-29 04:20:09.476  1381  1381 W WidgetManager: updateLauncherLifecycle: launcherLifecycleName = ON_RESUME
+09-29 04:20:09.476  1078  1078 D StatsLog: LAUNCHER_ONRESUME
+09-29 04:20:09.476   844   864 V WindowManager: Sent Transition (#23) createdAt=09-29 04:20:09.468 via request=TransitionRequestInfo { type = CLOSE, triggerTask = TaskInfo{userId=0 taskId=51 effectiveUid=10067 displayId=0 isRunning=false baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.kmxs.reader/com.km.app.home.view.LoadingActivity } baseActivity=null topActivity=null origActivity=null realActivity=ComponentInfo{com.kmxs.reader/com.km.app.home.view.LoadingActivity} numActivities=0 lastActiveTime=1357031 supportsMultiWindow=true resizeMode=2 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{86f9121 Task{827d32b #51 type=standard A=10067:com.kmxs.reader}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 0 - 0, 0) topActivityInfo=null launchCookies=[android.os.BinderProxy@63f0946] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=true isVisibleRequested=true isTopActivityNoDisplay=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false isActivityStackTransparent=true lastNonFullscreenBounds=Rect(190, 374 - 711, 1274) capturedLink=null capturedLinkTimestamp=0 requestedVisibleTypes=-9 topActivityRequestOpenInBrowserEducationTimestamp=0 appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false eligibleForLetterboxEducation= false isLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false eligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 topActivityLetterboxAppWidth=-1 topActivityLetterboxAppHeight=-1 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false hasMinAspectRatioOverride=false topActivityLetterboxBounds=null cameraCompatTaskInfo=CameraCompatTaskInfo { freeformCameraCompatMode=inactive}} topActivityMainWindowFrame=null}, pipChange = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 23 }
+09-29 04:20:09.476   844   864 V WindowManager:     startWCT=WindowContainerTransaction { changes= {} hops= [] errorCallbackToken=null taskFragmentOrganizer=null }
+09-29 04:20:09.476   844   864 V WindowManager:     info={id=23 t=CLOSE f=0x0 trk=0 r=[0@Point(0, 0)] c=[
+09-29 04:20:09.476   844   864 V WindowManager:         {WCT{RemoteToken{efc115c Task{f4c739 #1 type=home}}} m=TO_FRONT f=SHOW_WALLPAPER|MOVE_TO_TOP leash=Surface(name=Task=1)/@0xc1f9373 sb=Rect(0, 0 - 900, 1600) eb=Rect(0, 0 - 900, 1600) epz=Point(900, 1600) d=0 taskParent=-1},
+09-29 04:20:09.476   844   864 V WindowManager:         {WCT{RemoteToken{86f9121 Task{827d32b #51 type=standard A=10067:com.kmxs.reader}}} m=CLOSE f=NONE leash=Surface(name=Task=51)/@0xa753fff sb=Rect(0, 0 - 900, 1600) eb=Rect(0, 0 - 900, 1600) epz=Point(900, 1600) d=0 taskParent=-1}
+09-29 04:20:09.476   844   864 V WindowManager:     ]}
+09-29 04:20:09.476   844   864 V WindowManager: Finish Transition (#22): created at 09-29 04:20:09.302 collect-started=0.028ms request-sent=5.41ms started=8.825ms ready=16.192ms sent=16.781ms finished=172.665ms
+09-29 04:20:09.477  1381  1381 W AdBannerWidgetManager: onHoverAdBannerFlipper: appWidgetId = 2, isHovered = false, updatePreSwitchHovered = false, updateNextSwitchHovered = false
+09-29 04:20:09.477   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=80
+09-29 04:20:09.478  1086  1233 V WindowManagerShell: Transition animation finished (aborted=false), notifying core (#23) android.os.BinderProxy@add85e0@0
+09-29 04:20:09.478   844   864 V WindowManager: Finish Transition (#23): created at 09-29 04:20:09.468 collect-started=0.029ms request-sent=0.076ms started=2.807ms ready=2.795ms sent=3.742ms finished=9.679ms
+09-29 04:20:09.480  1086  1233 V WindowManagerShell: Track 0 became idle
+09-29 04:20:09.480  1086  1233 V WindowManagerShell: All active transition animations finished
+09-29 04:20:09.481   844   864 E ActivityManager: Sending non-protected broadcast uu.intent.action.STOP_ACCELERATE from system 844:system/1000 pkg android
+09-29 04:20:09.481   844   864 E ActivityManager: java.lang.Throwable
+09-29 04:20:09.481   844   864 E ActivityManager: 	at com.android.server.am.BroadcastController.checkBroadcastFromSystem(BroadcastController.java:2118)
+09-29 04:20:09.481   844   864 E ActivityManager: 	at com.android.server.am.BroadcastController.broadcastIntentLockedTraced(BroadcastController.java:1635)
+09-29 04:20:09.481   844   864 E ActivityManager: 	at com.android.server.am.BroadcastController.broadcastIntentLocked(BroadcastController.java:807)
+09-29 04:20:09.481   844   864 E ActivityManager: 	at com.android.server.am.BroadcastController.broadcastIntentWithFeature(BroadcastController.java:740)
+09-29 04:20:09.481   844   864 E ActivityManager: 	at com.android.server.am.ActivityManagerService.broadcastIntentWithFeature(ActivityManagerService.java:14410)
+09-29 04:20:09.481   844   864 E ActivityManager: 	at android.app.ContextImpl.sendBroadcastAsUser(ContextImpl.java:1509)
+09-29 04:20:09.481   844   864 E ActivityManager: 	at android.content.ContextWrapper.sendBroadcastAsUser(ContextWrapper.java:603)
+09-29 04:20:09.481   844   864 E ActivityManager: 	at com.android.server.wm.TaskUtils.$r8$lambda$jkqZqUV7W8pT107WPfSjHa5IqQE(TaskUtils.java:2124)
+09-29 04:20:09.481   844   864 E ActivityManager: 	at com.android.server.wm.TaskUtils$$ExternalSyntheticLambda4.run(R8$$SyntheticClass:0)
+09-29 04:20:09.481   844   864 E ActivityManager: 	at android.os.Handler.handleCallback(Handler.java:991)
+09-29 04:20:09.481   844   864 E ActivityManager: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+09-29 04:20:09.481   844   864 E ActivityManager: 	at android.os.Looper.loopOnce(Looper.java:232)
+09-29 04:20:09.481   844   864 E ActivityManager: 	at android.os.Looper.loop(Looper.java:317)
+09-29 04:20:09.481   844   864 E ActivityManager: 	at android.os.HandlerThread.run(HandlerThread.java:85)
+09-29 04:20:09.481   844   864 E ActivityManager: 	at com.android.server.ServiceThread.run(ServiceThread.java:49)
+09-29 04:20:09.481   844  3257 W UserManagerService: Requested status bar icon for non-badged user 0
+09-29 04:20:09.481   844  1218 W UserManagerService: Requested status bar icon for non-badged user 0
+09-29 04:20:09.481  1078  1078 D RecentsView: onTaskRemoved: 51, not handling task stack changes
+09-29 04:20:09.481  1078  1078 D RecentsView: onTaskRemoved: 51, not handling task stack changes
+09-29 04:20:09.481   844  1218 W UserManagerService: Requested status bar icon for non-badged user 0
+09-29 04:20:09.482   844  1218 W UserManagerService: Requested status bar icon for non-badged user 0
+09-29 04:20:09.494   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=81
+09-29 04:20:09.494  1078  1078 D AppLaunchAnim: App launch animation END
+09-29 04:20:09.496   844   955 I ImeTracker: app.lawnchair:2be69991: onRequestHide at ORIGIN_SERVER reason HIDE_SAME_WINDOW_FOCUSED_WITHOUT_EDITOR fromUser false
+09-29 04:20:09.496  1078  1078 D InsetsController: hide(ime(), fromIme=false)
+09-29 04:20:09.496  1078  1078 I ImeTracker: app.lawnchair:2be69991: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+09-29 04:20:09.511   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=82
+09-29 04:20:09.513   844  3257 W WindowManager: Failed looking up window session=Session{a6bf68a 1086:u0a10032} callers=com.android.server.wm.WindowManagerService.windowForClientLocked:6325 com.android.server.wm.WindowManagerService.relayoutWindow:2315 com.android.server.wm.Session.relayout:282 
+09-29 04:20:09.514  1086  1259 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda13@f7b44f
+09-29 04:20:09.514   844   912 W WindowManager: Failed looking up window session=Session{a6bf68a 1086:u0a10032} callers=com.android.server.wm.WindowManagerService.windowForClientLocked:6325 com.android.server.wm.Session.setOnBackInvokedCallbackInfo:982 android.view.IWindowSession$Stub.onTransact:1144 
+09-29 04:20:09.514   844   912 I WindowManager: setOnBackInvokedCallback(): No window state for package:com.android.systemui
+09-29 04:20:09.515   844  1218 W WindowManager: Failed looking up window session=Session{a6bf68a 1086:u0a10032} callers=com.android.server.wm.WindowManagerService.removeClientToken:2070 com.android.server.wm.Session.remove:269 android.view.IWindowSession$Stub.onTransact:696 
+09-29 04:20:09.548   844   856 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+09-29 04:20:09.549   844   857 W System  : A resource failed to call HardwareBuffer.close. 
+09-29 04:20:09.550   844   857 W System  : A resource failed to call release. 
+09-29 04:20:09.550   844   857 W System  : A resource failed to call HardwareBuffer.close. 
+09-29 04:20:09.552   844   857 W System  : A resource failed to call release. 
+09-29 04:20:09.552   844   857 W System  : A resource failed to call HardwareBuffer.close. 
+09-29 04:20:09.552   844   857 W System  : A resource failed to call release. 
+09-29 04:20:09.660   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 04:20:09.660   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 04:20:09.660   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 04:20:09.660   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 04:20:09.660   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 04:20:09.661   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=83
+09-29 04:20:09.677  1381  3621 W AdBannerWidgetManager: onHoverAdBannerFlipper: newIsHovered = false
+09-29 04:20:09.677  1381  3621 W AdBannerWidgetManager: prepareAdBannerFlipperHover: isHovered = false  false  false
+09-29 04:20:09.844   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=84
+09-29 04:20:09.908  1800  1800 W AccMsgReceiver: AccMsgReceiver: onReceive action = nemu.intent.action.NEW_TASK
+09-29 04:20:09.908  1800  1800 W AccMsgReceiver: AccMsgReceiver: onReceive action = uu.intent.action.STOP_ACCELERATE
+09-29 04:20:09.909   844  3257 W ActivityManager: Foreground service started from background can not have location/camera/microphone access: service com.mumu.acc/.AccService
+09-29 04:20:09.909  1800  1892 W AccServiceManager: onAppLaunch: packageName = com.kmxs.reader
+09-29 04:20:09.909  1800  1892 W TranslateGameManager: onAppLaunch: packageName = com.kmxs.reader, hasPackageLaunchedBefore = false, supportTranslateReally = false, isLocalTranslateEnabled = false
+09-29 04:20:09.910   844  3257 W ActivityManager: Foreground service started from background can not have location/camera/microphone access: service com.mumu.acc/.AccService
+09-29 04:20:09.910  1800  1892 W AccServiceManager: onAppClose: packageName = com.kmxs.reader
+09-29 04:20:10.011   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=85
+09-29 04:20:10.177   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=86
+09-29 04:20:10.344   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=87
+09-29 04:20:10.511   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=88
+09-29 04:20:10.527   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=89
+09-29 04:20:10.544   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=90
+09-29 04:20:10.561   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=91
+09-29 04:20:10.577   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=92
+09-29 04:20:10.594   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=93
+09-29 04:20:10.611   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=94
+09-29 04:20:10.627   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=95
+09-29 04:20:10.644   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=96
+09-29 04:20:10.661   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=97
+09-29 04:20:10.677   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=98
+09-29 04:20:10.694   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=99
+09-29 04:20:10.711   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=100
+09-29 04:20:10.861   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=101
+09-29 04:20:10.928  3667  3667 I init    : type=1400 audit(0.0:741): avc:  denied  { transition } for  path="/system/xbin/serial_console" dev="sda6" ino=3974 scontext=u:r:init:s0 tcontext=u:r:su:s0 tclass=process permissive=1
+09-29 04:20:10.928  3667  3667 I init    : type=1400 audit(0.0:742): avc:  denied  { entrypoint } for  path="/system/xbin/serial_console" dev="sda6" ino=3974 scontext=u:r:su:s0 tcontext=u:object_r:system_file:s0 tclass=file permissive=1
+09-29 04:20:10.928  3667  3667 I init    : type=1400 audit(0.0:743): avc:  denied  { noatsecure } for  scontext=u:r:init:s0 tcontext=u:r:su:s0 tclass=process permissive=1
+09-29 04:20:10.928  3667  3667 I serial_console: type=1400 audit(0.0:744): avc:  denied  { rlimitinh } for  scontext=u:r:init:s0 tcontext=u:r:su:s0 tclass=process permissive=1
+09-29 04:20:10.928  3667  3667 I serial_console: type=1400 audit(0.0:745): avc:  denied  { siginh } for  scontext=u:r:init:s0 tcontext=u:r:su:s0 tclass=process permissive=1
+09-29 04:20:10.928  3667  3667 I serial_console: type=1400 audit(0.0:746): avc:  denied  { map } for  path="/system/xbin/serial_console" dev="sda6" ino=3974 scontext=u:r:su:s0 tcontext=u:object_r:system_file:s0 tclass=file permissive=1
+09-29 04:20:10.928  3667  3667 I serial_console: type=1400 audit(0.0:747): avc:  denied  { read execute } for  path="/system/xbin/serial_console" dev="sda6" ino=3974 scontext=u:r:su:s0 tcontext=u:object_r:system_file:s0 tclass=file permissive=1
+09-29 04:20:11.027   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=102
+09-29 04:20:11.194   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=103
+09-29 04:20:11.361   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=104
+09-29 04:20:11.538   844  2538 D SntpClient: request time failed: java.net.SocketTimeoutException: Poll timed out
+09-29 04:20:11.544   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=105
+09-29 04:20:11.711   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=106
+09-29 04:20:11.877   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=107
+09-29 04:20:12.044   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=108
+09-29 04:20:12.227   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=109
+09-29 04:20:12.394   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=110
+09-29 04:20:12.561   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=111
+09-29 04:20:12.662   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 04:20:12.662   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 04:20:12.662   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 04:20:12.662   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 04:20:12.662   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 04:20:12.727   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=112
+09-29 04:20:12.911   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=113
+09-29 04:20:13.077   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=114
+09-29 04:20:13.244   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=115
+09-29 04:20:13.411   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=116
+09-29 04:20:13.477  1381  3488 W AdBannerWidgetManager: formatCurrentWidgetUIByData: widgetDataIndex = 1, widgetFlipperIndex = 1, preWidgetDataIndex = 0, preWidgetFlipperIndex = 0
+09-29 04:20:13.478  1381  3488 W AdBannerWidgetManager: updateAppWidget: partiallyUpdated = true
+09-29 04:20:13.479   844  1035 D AppWidgetServiceImpl: Trying to notify widget update for package com.mumu.store with widget id: 2
+09-29 04:20:13.494   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=117
+09-29 04:20:13.511   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=118
+09-29 04:20:13.516  1078  1979 W HWUI    : Image decoding logging dropped!
+09-29 04:20:13.527   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=119
+09-29 04:20:13.544   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=120
+09-29 04:20:13.561   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=121
+09-29 04:20:13.577   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=122
+09-29 04:20:13.594   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=123
+09-29 04:20:13.611   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=124
+09-29 04:20:13.627   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=125
+09-29 04:20:13.644   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=126
+09-29 04:20:13.661   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=127
+09-29 04:20:13.677   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=128
+09-29 04:20:13.694   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=129
+09-29 04:20:13.711   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=130
+09-29 04:20:13.714  1078  1979 W HWUI    : Image decoding logging dropped!
+09-29 04:20:13.727   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=131
+09-29 04:20:13.744   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=132
+09-29 04:20:13.761   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=133
+09-29 04:20:13.777   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=134
+09-29 04:20:13.794   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=135
+09-29 04:20:13.794  3181  3183 I AidlLazyServiceRegistrar: Process has 0 (of 1 available) client(s) in use after notification artd has clients: 0
+09-29 04:20:13.794  3181  3183 I AidlLazyServiceRegistrar: Trying to shut down the service. No clients in use for any service in process.
+09-29 04:20:13.797  3181  3183 I AidlLazyServiceRegistrar: Unregistered all clients and exiting
+09-29 04:20:13.811   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=136
+09-29 04:20:13.827   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=137
+09-29 04:20:13.844   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=138
+09-29 04:20:13.861   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=139
+09-29 04:20:13.877   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=140
+09-29 04:20:13.894   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=141
+09-29 04:20:13.911   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=142
+09-29 04:20:13.927   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=143
+09-29 04:20:13.944   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=144
+09-29 04:20:13.961   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=145
+09-29 04:20:14.011   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=146
+09-29 04:20:14.044   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=147
+09-29 04:20:14.094   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=148
+09-29 04:20:14.177   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=149
+09-29 04:20:14.211   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=150
+09-29 04:20:14.261   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=151
+09-29 04:20:14.344   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=152
+09-29 04:20:14.377   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=153
+09-29 04:20:14.411   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=154
+09-29 04:20:14.494   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=155
+09-29 04:20:14.561   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=156
+09-29 04:20:14.577   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=157
+09-29 04:20:14.661   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=158
+09-29 04:20:14.727   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=159
+09-29 04:20:14.744   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=160
+09-29 04:20:14.811   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=161
+09-29 04:20:14.894   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=162
+09-29 04:20:14.911   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=163
+09-29 04:20:14.977   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=164
+09-29 04:20:15.061   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=165
+09-29 04:20:15.077   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=166
+09-29 04:20:15.144   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=167
+09-29 04:20:15.227   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=168
+09-29 04:20:15.244   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=169
+09-29 04:20:15.311   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=170
+09-29 04:20:15.394   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=171
+09-29 04:20:15.411   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=172
+09-29 04:20:15.477   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=173
+09-29 04:20:15.478  2726  2845 E DGFRR   : FR error [CONTEXT service_id=25 ]
+09-29 04:20:15.478  2726  2845 E DGFRR   : java.io.IOException: Couldn't fetch response.
+09-29 04:20:15.478  2726  2845 E DGFRR   : 	at bsoi.a(:com.google.android.gms@262634038@26.26.34 (260800-945364269):136)
+09-29 04:20:15.478  2726  2845 E DGFRR   : 	at bsmn.b(:com.google.android.gms@262634038@26.26.34 (260800-945364269):45)
+09-29 04:20:15.478  2726  2845 E DGFRR   : 	at bsmn.a(:com.google.android.gms@262634038@26.26.34 (260800-945364269):2)
+09-29 04:20:15.478  2726  2845 E DGFRR   : 	at bslz.a(:com.google.android.gms@262634038@26.26.34 (260800-945364269):106)
+09-29 04:20:15.478  2726  2845 E DGFRR   : 	at bslu.g(:com.google.android.gms@262634038@26.26.34 (260800-945364269):205)
+09-29 04:20:15.478  2726  2845 E DGFRR   : 	at com.google.android.gms.droidguard.DroidGuardFastRefreshGmsTaskBoundService.a(:com.google.android.gms@262634038@26.26.34 (260800-945364269):50)
+09-29 04:20:15.478  2726  2845 E DGFRR   : 	at deku.call(:com.google.android.gms@262634038@26.26.34 (260800-945364269):36)
+09-29 04:20:15.478  2726  2845 E DGFRR   : 	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+09-29 04:20:15.478  2726  2845 E DGFRR   : 	at blvu.c(:com.google.android.gms@262634038@26.26.34 (260800-945364269):50)
+09-29 04:20:15.478  2726  2845 E DGFRR   : 	at blvu.run(:com.google.android.gms@262634038@26.26.34 (260800-945364269):71)
+09-29 04:20:15.478  2726  2845 E DGFRR   : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+09-29 04:20:15.478  2726  2845 E DGFRR   : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:651)
+09-29 04:20:15.478  2726  2845 E DGFRR   : 	at bmbo.run(:com.google.android.gms@262634038@26.26.34 (260800-945364269):8)
+09-29 04:20:15.478  2726  2845 E DGFRR   : 	at java.lang.Thread.run(Thread.java:1119)
+09-29 04:20:15.478  2726  2845 E DGFRR   : Caused by: java.util.concurrent.TimeoutException: Waited 60000 milliseconds (plus 90053 nanoseconds delay) for lob@5aa2c93[status=PENDING, info=[tag=[degl@fbbf4d0]]]
+09-29 04:20:15.478  2726  2845 E DGFRR   : 	at lnx.get(:com.google.android.gms@262634038@26.26.34 (260800-945364269):351)
+09-29 04:20:15.478  2726  2845 E DGFRR   : 	at loc.get(:com.google.android.gms@262634038@26.26.34 (260800-945364269):8)
+09-29 04:20:15.478  2726  2845 E DGFRR   : 	at bsoi.a(:com.google.android.gms@262634038@26.26.34 (260800-945364269):119)
+09-29 04:20:15.478  2726  2845 E DGFRR   : 	... 13 more
+09-29 04:20:15.479  2726  2726 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.droidguard.DroidGuardFastRefreshGmsTaskBoundService.ACTION_TASK_READY dat=chimera-action:/... cmp=com.google.android.gms/.chimera.UnstableInternalBoundBrokerService }
+09-29 04:20:15.480  2350  3230 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+09-29 04:20:15.493  2350  2866 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+09-29 04:20:15.561   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=174
+09-29 04:20:15.577   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=175
+09-29 04:20:15.627   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=176
+09-29 04:20:15.663   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 04:20:15.663   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 04:20:15.663   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 04:20:15.663   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 04:20:15.663   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 04:20:15.711   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=177
+09-29 04:20:15.744   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=178
+09-29 04:20:15.794   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=179
+09-29 04:20:15.877   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=180
+09-29 04:20:15.911   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=181
+09-29 04:20:15.961   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=182
+09-29 04:20:16.044   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=183
+09-29 04:20:16.094   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=184
+09-29 04:20:16.111   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=185
+09-29 04:20:16.194   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=186
+09-29 04:20:16.261   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=187
+09-29 04:20:16.277   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=188
+09-29 04:20:16.361   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=189
+09-29 04:20:16.427   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=190
+09-29 04:20:16.444   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=191
+09-29 04:20:16.511   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=192
+09-29 04:20:16.544   844  2538 D SntpClient: request time failed: java.net.SocketTimeoutException: Poll timed out
+09-29 04:20:16.594   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=193
+09-29 04:20:16.611   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=194
+09-29 04:20:16.677   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=195
+09-29 04:20:16.761   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=196
+09-29 04:20:16.777   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=197
+09-29 04:20:16.844   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=198
+09-29 04:20:16.911   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=199
+09-29 04:20:16.944   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=200
+09-29 04:20:16.994   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=201
+09-29 04:20:17.078   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=202
+09-29 04:20:17.111   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=203
+09-29 04:20:17.161   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=204
+09-29 04:20:17.244   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=205
+09-29 04:20:17.277   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=206
+09-29 04:20:17.311   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=207
+09-29 04:20:17.394   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=208
+09-29 04:20:17.461   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=209
+09-29 04:20:17.477   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=210
+09-29 04:20:17.478  1381  3488 W AdBannerWidgetManager: formatCurrentWidgetUIByData: widgetDataIndex = 0, widgetFlipperIndex = 0, preWidgetDataIndex = 1, preWidgetFlipperIndex = 1
+09-29 04:20:17.479  1381  3488 W AdBannerWidgetManager: updateAppWidget: partiallyUpdated = true
+09-29 04:20:17.479   844  1035 D AppWidgetServiceImpl: Trying to notify widget update for package com.mumu.store with widget id: 2
+09-29 04:20:17.511   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=211
+09-29 04:20:17.527   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=212
+09-29 04:20:17.544   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=213
+09-29 04:20:17.561   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=214
+09-29 04:20:17.577   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=215
+09-29 04:20:17.594   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=216
+09-29 04:20:17.611   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=217
+09-29 04:20:17.627   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=218
+09-29 04:20:17.644   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=219
+09-29 04:20:17.661   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=220
+09-29 04:20:17.677   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=221
+09-29 04:20:17.694   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=222
+09-29 04:20:17.711   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=223
+09-29 04:20:17.727   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=224
+09-29 04:20:17.744   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=225
+09-29 04:20:17.761   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=226
+09-29 04:20:17.777   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=227
+09-29 04:20:17.794   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=228
+09-29 04:20:17.811   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=229
+09-29 04:20:17.827   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=230
+09-29 04:20:17.844   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=231
+09-29 04:20:17.861   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=232
+09-29 04:20:17.877   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=233
+09-29 04:20:17.894   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=234
+09-29 04:20:17.911   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=235
+09-29 04:20:17.927   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=236
+09-29 04:20:17.944   693   693 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#172 parentId=70} producedId=4 frameNumber=753 -> producedId=4 frameNumber=237

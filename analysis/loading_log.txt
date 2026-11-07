@@ -1,0 +1,1011 @@
+--------- beginning of main
+09-29 07:53:54.832   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:53:54.832   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:53:54.832   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:53:54.832   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:53:54.832   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:53:55.123  8327  8327 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+09-29 07:53:55.132  8327  8327 I AndroidRuntime: Using default boot image
+09-29 07:53:55.132  8327  8327 I AndroidRuntime: Leaving lock profiling enabled
+09-29 07:53:55.135  8327  8327 W app_process: ART APEX data files are untrusted.
+09-29 07:53:55.136  8327  8327 I app_process: Using CollectorTypeCMC GC.
+09-29 07:53:55.211  8327  8327 D nativeloader: InitDefaultPublicLibraries for_preload=1: libandroid.so:libaaudio.so:libamidi.so:libbinder_ndk.so:libc.so:libcamera2ndk.so:libdl.so:libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libicu.so:libicui18n.so:libicuuc.so:libjnigraphics.so:liblog.so:libmediandk.so:libm.so:libnativehelper.so:libnativewindow.so:libOpenMAXAL.so:libOpenSLES.so:libRS.so:libstdc++.so:libsync.so:libvulkan.so:libwebviewchromium_plat_support.so:libz.so:libcallhost.so
+09-29 07:53:55.232  8327  8327 D nativeloader: Load libicu_jni.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+09-29 07:53:55.233  8327  8327 D app_process: u_setTimeZoneFilesDirectory("/apex/com.android.tzdata/etc/tz/versioned/8/icu") succeeded. 
+09-29 07:53:55.233  8327  8327 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt75l.dat
+09-29 07:53:55.237  8327  8327 D nativeloader: Load libjavacore.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+09-29 07:53:55.239  8327  8327 D nativeloader: Load libopenjdk.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+09-29 07:53:55.243  8327  8327 W app_process: Unexpected CPU variant for x86: x86_64.
+09-29 07:53:55.243  8327  8327 W app_process: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, alderlake, default
+09-29 07:53:55.254  8327  8327 W app_process: Could not create mount namespace.
+09-29 07:53:55.254  8327  8327 W nativebridge: Failed to bind-mount /system/etc/cpuinfo.x86_64.txt as /proc/cpuinfo: Operation not permitted
+09-29 07:53:55.254  8327  8327 W nativebridge: Failed to bind-mount /system/lib64/x86_64/cpuinfo as /proc/cpuinfo: Operation not permitted
+09-29 07:53:55.254  8327  8327 W nativebridge: Cannot create code cache directory ./code_cache: Read-only file system.
+09-29 07:53:55.254  8327  8327 V libnb   : enter native_bridge2_initialize (null) x86_64
+09-29 07:53:55.254  8327  8327 E libnb   : The translator implementation library has not been set.
+09-29 07:53:55.252  8327  8327 I main    : type=1400 audit(0.0:983): avc:  denied  { mounton } for  path="/proc/cpuinfo" dev="proc" ino=4026532022 scontext=u:r:shell:s0 tcontext=u:object_r:proc_cpuinfo:s0 tclass=file permissive=1
+09-29 07:53:55.267  8327  8327 E libnb   : get_callbacks native_handle 0x434fec8c9b948ae1: 1 libnb:/system/lib64/libhoudini.so
+09-29 07:53:55.268  8327  8327 I libnb   : Found /system/lib64/libhoudini.so version 7
+09-29 07:53:55.309  8327  8327 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+09-29 07:53:55.310  8327  8327 D AndroidRuntime: Calling main entry com.android.commands.monkey.Monkey
+09-29 07:53:55.310  8327  8327 D nativeloader: Load /system/lib64/libmonkey_jni.so using ns default for caller /system/framework/monkey.jar in same partition (is_bridged=0): ok
+09-29 07:53:55.311  8327  8327 W Monkey  : args: [-p, com.kmxs.reader, -c, android.intent.category.LAUNCHER, 1]
+09-29 07:53:55.316  8327  8327 I commands.monkey: type=1400 audit(0.0:984): avc:  denied  { read } for  name="u:object_r:qemu_sf_lcd_density_prop:s0" dev="tmpfs" ino=514 scontext=u:r:shell:s0 tcontext=u:object_r:qemu_sf_lcd_density_prop:s0 tclass=file permissive=1
+09-29 07:53:55.316  8327  8327 I commands.monkey: type=1400 audit(0.0:985): avc:  denied  { open } for  path="/dev/__properties__/u:object_r:qemu_sf_lcd_density_prop:s0" dev="tmpfs" ino=514 scontext=u:r:shell:s0 tcontext=u:object_r:qemu_sf_lcd_density_prop:s0 tclass=file permissive=1
+09-29 07:53:55.329  8327  8327 W Monkey  :  arg: "-p"
+09-29 07:53:55.329  8327  8327 W Monkey  :  arg: "com.kmxs.reader"
+09-29 07:53:55.329  8327  8327 W Monkey  :  arg: "-c"
+09-29 07:53:55.329  8327  8327 W Monkey  :  arg: "android.intent.category.LAUNCHER"
+09-29 07:53:55.329  8327  8327 W Monkey  :  arg: "1"
+09-29 07:53:55.329  8327  8327 W Monkey  : data="com.kmxs.reader"
+09-29 07:53:55.329  8327  8327 W Monkey  : data="android.intent.category.LAUNCHER"
+09-29 07:53:55.316  8327  8327 I commands.monkey: type=1400 audit(0.0:986): avc:  denied  { getattr } for  path="/dev/__properties__/u:object_r:qemu_sf_lcd_density_prop:s0" dev="tmpfs" ino=514 scontext=u:r:shell:s0 tcontext=u:object_r:qemu_sf_lcd_density_prop:s0 tclass=file permissive=1
+09-29 07:53:55.316  8327  8327 I commands.monkey: type=1400 audit(0.0:987): avc:  denied  { map } for  path="/dev/__properties__/u:object_r:qemu_sf_lcd_density_prop:s0" dev="tmpfs" ino=514 scontext=u:r:shell:s0 tcontext=u:object_r:qemu_sf_lcd_density_prop:s0 tclass=file permissive=1
+09-29 07:53:55.340   844   951 D EventHub: configureBatteryLocked rawBatteryId 1 name battery
+09-29 07:53:55.341   844   951 D EventHub: No input device configuration file found for device 'Monkey touch'.
+09-29 07:53:55.341   844   951 I EventHub: usingClockIoctl=true
+09-29 07:53:55.341   844   951 I EventHub: New device: id=9, fd=368, path='/dev/input/event8', name='Monkey touch', classes=TOUCH | TOUCH_MT | BATTERY, configuration='', keyLayout='', keyCharacterMap='', builtinKeyboard=false, 
+09-29 07:53:55.343   844   951 W InputReader: Input device Monkey touch should be associated with display id: 1 but the corresponding viewport cannot be found
+09-29 07:53:55.345   844   951 I InputReader: Device reconfigured: id=10, name='Monkey touch', size 900x1600, orientation Rotation0, mode DIRECT, display id 0
+09-29 07:53:55.345   844   951 W InputReader: Input device Monkey touch should be associated with display id: 1 but the corresponding viewport cannot be found
+09-29 07:53:55.345   844   951 I InputReader: Device added: id=10, eventHubId=9, name='Monkey touch', descriptor='e1fe28b90f915c7d1febbd52c1ef84b3c4cbed9f',sources=TOUCHSCREEN
+--------- beginning of system
+09-29 07:53:55.355   844   951 E WindowManager: Display reconfigured outside of a transition: Display{#0 state=ON size=900x1600 ROTATION_0}
+09-29 07:53:55.363   844  4547 W ActivityManager: registerReceiverWithFeature: no app for null
+09-29 07:53:55.371   844  4547 W ActivityTaskManager: callingPackage for (uid=2000, pid=8327) has no WPC
+09-29 07:53:55.375   844  4547 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@18a6c444 does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+09-29 07:53:55.376   844  4547 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_RESIZEABLE_ACTIVITY_OVERRIDES
+09-29 07:53:55.376   844  4547 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_MIN_ASPECT_RATIO_OVERRIDE
+09-29 07:53:55.379   844  4547 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+09-29 07:53:55.388   844  4547 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.kmxs.reader/com.km.app.home.view.LoadingActivity} with LAUNCH_SINGLE_TASK from uid 2000 (BAL_ALLOW_PERMISSION) result code=0
+09-29 07:53:55.388  1086  1233 V WindowManagerShell: Transition requested (#55): android.os.BinderProxy@cd074dc TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=67 effectiveUid=10068 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.kmxs.reader/com.km.app.home.view.LoadingActivity } baseActivity=ComponentInfo{com.kmxs.reader/com.km.app.home.view.LoadingActivity} topActivity=ComponentInfo{com.kmxs.reader/com.km.app.home.view.LoadingActivity} origActivity=null realActivity=ComponentInfo{com.kmxs.reader/com.km.app.home.view.LoadingActivity} numActivities=1 lastActiveTime=14183110 supportsMultiWindow=true resizeMode=2 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@684f9e5} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 0 - 0, 0) topActivityInfo=ActivityInfo{6e05cba com.km.app.home.view.LoadingActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isTopActivityNoDisplay=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false isActivityStackTransparent=false lastNonFullscreenBounds=Rect(190, 374 - 711, 1274) capturedLink=null capturedLinkTimestamp=0 requestedVisibleTypes=-9 topActivityRequestOpenInBrowserEducationTimestamp=0 appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false eligibleForLetterboxEducation= false isLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false eligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 topActivityLetterboxAppWidth=-1 topActivityLetterboxAppHeight=-1 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false hasMinAspectRatioOverride=false topActivityLetterboxBounds=null cameraCompatTaskInfo=CameraCompatTaskInfo { freeformCameraCompatMode=inactive}} topActivityMainWindowFrame=null}, pipChange = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 55 }
+09-29 07:53:55.388  1086  1233 D ShellSplitScreen: logExit: no-op, mLoggerSessionId is null
+09-29 07:53:55.389  1086  1259 I ndroid.systemui: AssetManager2(0x7793bbb6e758) locale list changing from [] to [zh-Hans-CN]
+09-29 07:53:55.393  8327  8327 I Monkey  : Events injected: 1
+09-29 07:53:55.397   844   867 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@18a6c444 does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+09-29 07:53:55.416  1086  1233 D WindowManagerShell: setLauncherKeepClearAreaHeight: visible=false, height=197
+09-29 07:53:55.417   844   867 D CompatChangeReporter: Compat change id reported: 135754954; UID 10068; state: ENABLED
+09-29 07:53:55.419   844   879 D CompatChangeReporter: Compat change id reported: 143937733; UID 10068; state: ENABLED
+09-29 07:53:55.423  1086  1260 W HWUI    : Image decoding logging dropped!
+09-29 07:53:55.425   661   661 D Zygote  : Forked child process 8339
+09-29 07:53:55.425  1086  1260 W HWUI    : Image decoding logging dropped!
+09-29 07:53:55.430  8327  8327 I Monkey  : ## Network stats: elapsed time=53ms (0ms mobile, 0ms wifi, 53ms not connected)
+09-29 07:53:55.430   693   693 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+09-29 07:53:55.430   844   879 I ActivityManager: Start proc 8339:com.kmxs.reader/u0a68 for next-top-activity {com.kmxs.reader/com.km.app.home.view.LoadingActivity}
+09-29 07:53:55.435  8327  8327 I app_process: System.exit called, status: 0
+09-29 07:53:55.435  8327  8327 I AndroidRuntime: VM exiting with result code 0.
+09-29 07:53:55.439  1086  1260 W HWUI    : Image decoding logging dropped!
+09-29 07:53:55.440  1078  1078 W SplitSelectStateCtor: Missing session instanceIds
+09-29 07:53:55.440  1078  1078 D StatsLog: LAUNCHER_SPLIT_SELECTION_EXIT_INTERRUPTED
+09-29 07:53:55.446   844   951 I EventHub: Removing device Monkey touch due to epoll hang-up event.
+09-29 07:53:55.446   844   951 I EventHub: Removed device: path=/dev/input/event8 name=Monkey touch id=9 fd=368 classes=TOUCH | TOUCH_MT | BATTERY
+09-29 07:53:55.447   844  1046 D BackgroundInstallControlService: Package event received: 0
+09-29 07:53:55.448  1381  1381 W WidgetOperateReceiver: onReceive: intent = Intent { act=com.mumu.LAUNCHER_LIFECYCLE flg=0x30 pkg=com.mumu.store cmp=com.mumu.store/.widget.receiver.WidgetOperateReceiver (has extras) } action = com.mumu.LAUNCHER_LIFECYCLE
+09-29 07:53:55.448  1381  1381 W WidgetOperateReceiver: onLauncherLifecycle: launcherLifecycle = ON_PAUSE
+09-29 07:53:55.449  1381  1381 W WidgetManager: updateLauncherLifecycle: launcherLifecycleName = ON_PAUSE
+09-29 07:53:55.452   844  4547 D CoreBackPreview: Window{75a3b01 u0 Splash Screen com.kmxs.reader}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@563ee32, mPriority=0, mIsAnimationCallback=false, mOverrideBehavior=0}
+09-29 07:53:55.455   844  4587 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_ORIENTATION_OVERRIDE
+09-29 07:53:55.456  8339  8339 W nativebridge: Failed to bind-mount /system/etc/cpuinfo.arm64.txt as /proc/cpuinfo: No such file or directory
+09-29 07:53:55.456  8339  8339 E Zygote  : pkg name is 0 => com.kmxs.reader, data dir is /data/user/0/com.kmxs.reader
+09-29 07:53:55.457  8339  8339 W zygote64: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: nemuhotd
+09-29 07:53:55.458  1086  1289 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 5763072
+09-29 07:53:55.460  1086  1289 D HWUI    : HOOK FAILED! Expected 3 got = 2
+09-29 07:53:55.463  1086  8341 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 5763072
+09-29 07:53:55.465   844   951 I InputReader: Device removed: id=10, eventHubId=9, name='Monkey touch', descriptor='e1fe28b90f915c7d1febbd52c1ef84b3c4cbed9f', sources=TOUCHSCREEN
+09-29 07:53:55.467  1086  1117 V WindowManagerShell: onTransitionReady(transaction=3624952402249)
+09-29 07:53:55.467  1086  1233 V WindowManagerShell: onTransitionReady (#55) android.os.BinderProxy@cd074dc: {id=55 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[
+09-29 07:53:55.467  1086  1233 V WindowManagerShell:         {m=OPEN f=NONE leash=Surface(name=Task=67)/@0xe54c521 sb=Rect(0, 0 - 900, 1600) eb=Rect(0, 0 - 900, 1600) epz=Point(900, 1600) d=0 taskParent=-1},
+09-29 07:53:55.467  1086  1233 V WindowManagerShell:         {m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0x6ae2d46 sb=Rect(0, 0 - 900, 1600) eb=Rect(0, 0 - 900, 1600) epz=Point(900, 1600) d=0 taskParent=-1}
+09-29 07:53:55.467  1086  1233 V WindowManagerShell:     ]}
+09-29 07:53:55.467   844   864 V WindowManager: Sent Transition (#55) createdAt=09-29 07:53:55.377 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=67 effectiveUid=10068 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.kmxs.reader/com.km.app.home.view.LoadingActivity } baseActivity=ComponentInfo{com.kmxs.reader/com.km.app.home.view.LoadingActivity} topActivity=ComponentInfo{com.kmxs.reader/com.km.app.home.view.LoadingActivity} origActivity=null realActivity=ComponentInfo{com.kmxs.reader/com.km.app.home.view.LoadingActivity} numActivities=1 lastActiveTime=14183110 supportsMultiWindow=true resizeMode=2 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{ae96b85 Task{fbe25ef #67 type=standard A=10068:com.kmxs.reader}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 0 - 0, 0) topActivityInfo=ActivityInfo{b24d07e com.km.app.home.view.LoadingActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isTopActivityNoDisplay=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false isActivityStackTransparent=false lastNonFullscreenBounds=Rect(190, 374 - 711, 1274) capturedLink=null capturedLinkTimestamp=0 requestedVisibleTypes=-9 topActivityRequestOpenInBrowserEducationTimestamp=0 appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false eligibleForLetterboxEducation= false isLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false eligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 topActivityLetterboxAppWidth=-1 topActivityLetterboxAppHeight=-1 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false hasMinAspectRatioOverride=false topActivityLetterboxBounds=null cameraCompatTaskInfo=CameraCompatTaskInfo { freeformCameraCompatMode=inactive}} topActivityMainWindowFrame=null}, pipChange = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 55 }
+09-29 07:53:55.467   844   864 V WindowManager:     startWCT=WindowContainerTransaction { changes= {} hops= [] errorCallbackToken=null taskFragmentOrganizer=null }
+09-29 07:53:55.467   844   864 V WindowManager:     info={id=55 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[
+09-29 07:53:55.467   844   864 V WindowManager:         {WCT{RemoteToken{ae96b85 Task{fbe25ef #67 type=standard A=10068:com.kmxs.reader}}} m=OPEN f=NONE leash=Surface(name=Task=67)/@0x6c6dd00 sb=Rect(0, 0 - 900, 1600) eb=Rect(0, 0 - 900, 1600) epz=Point(900, 1600) d=0 taskParent=-1},
+09-29 07:53:55.467   844   864 V WindowManager:         {WCT{RemoteToken{efc115c Task{f4c739 #1 type=home}}} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0xc1f9373 sb=Rect(0, 0 - 900, 1600) eb=Rect(0, 0 - 900, 1600) epz=Point(900, 1600) d=0 taskParent=-1}
+09-29 07:53:55.467   844   864 V WindowManager:     ]}
+09-29 07:53:55.467  1086  1233 V WindowManagerShell: Playing animation for (#55) android.os.BinderProxy@cd074dc@0
+09-29 07:53:55.467  1086  1233 V ShellRecents: RecentsTransitionHandler.startAnimation: no controller found
+09-29 07:53:55.468   844   951 E WindowManager: Display reconfigured outside of a transition: Display{#0 state=ON size=900x1600 ROTATION_0}
+09-29 07:53:55.468  1086  1233 V WindowManagerShell: Transition doesn't have explicit remote, search filters for match for {id=55 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{m=OPEN f=NONE leash=Surface(name=Task=67)/@0xe54c521 sb=Rect(0, 0 - 900, 1600) eb=Rect(0, 0 - 900, 1600) epz=Point(900, 1600) d=0 taskParent=-1},{m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0x6ae2d46 sb=Rect(0, 0 - 900, 1600) eb=Rect(0, 0 - 900, 1600) epz=Point(900, 1600) d=0 taskParent=-1}]}
+09-29 07:53:55.468  1086  1233 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{app.lawnchair/app.lawnchair.LawnchairLauncher} launchCookie=null windowingMode=undefined},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null launchCookie=null windowingMode=undefined},{NOT atype=undefined independent=true modes=[] flags=NONE mustBeTask=true order=ANY topActivity=null launchCookie=null windowingMode=undefined}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@40ceb63, appThread = android.app.IApplicationThread$Stub$Proxy@aca9360, debugName = QuickstepLaunchHome }}
+09-29 07:53:55.468  1086  1233 V WindowManagerShell:  Delegate animation for (#55) to null
+09-29 07:53:55.468  1086  1233 V WindowManagerShell: start default transition animation, info = {id=55 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{m=OPEN f=NONE leash=Surface(name=Task=67)/@0xe54c521 sb=Rect(0, 0 - 900, 1600) eb=Rect(0, 0 - 900, 1600) epz=Point(900, 1600) d=0 taskParent=-1},{m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0x6ae2d46 sb=Rect(0, 0 - 900, 1600) eb=Rect(0, 0 - 900, 1600) epz=Point(900, 1600) d=0 taskParent=-1}]}
+09-29 07:53:55.469   844   951 I EventHub: Removing device '/dev/input/event8' due to inotify event
+09-29 07:53:55.470   844  3255 W UserManagerService: Requested status bar icon for non-badged user 0
+09-29 07:53:55.471  1086  1233 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@40fd7d2 animAttr=0x13 type=OPEN isEntrance=false
+09-29 07:53:55.471  1086  1233 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@26f9f1e animAttr=0x12 type=OPEN isEntrance=true
+09-29 07:53:55.472  1086  1233 V WindowManagerShell:  animated by com.android.wm.shell.transition.DefaultTransitionHandler@e3dad31
+09-29 07:53:55.476  8339  8339 I Zygote  : seccomp disabled by setenforce 0
+09-29 07:53:55.479  1086  1233 V WindowManagerShell: Transition animation finished (aborted=false), notifying core (#55) android.os.BinderProxy@cd074dc@0
+09-29 07:53:55.481   844   864 V WindowManager: Finish Transition (#55): created at 09-29 07:53:55.377 collect-started=0.146ms request-sent=10.089ms started=31.584ms ready=88.55ms sent=89.517ms finished=102.999ms
+09-29 07:53:55.481   844  3255 I InputDispatcher: Touched window was removed: 8bd6b6b app.lawnchair/app.lawnchair.LawnchairLauncher in display %0
+09-29 07:53:55.482  8339  8339 I com.kmxs.reader: Using CollectorTypeCMC GC.
+09-29 07:53:55.483  8339  8339 W com.kmxs.reader: Unexpected CPU variant for x86: x86_64.
+09-29 07:53:55.483  8339  8339 W com.kmxs.reader: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, alderlake, default
+09-29 07:53:55.483  8339  8339 V libnb   : enter native_bridge2_initialize /data/user/0/com.kmxs.reader/code_cache arm64
+09-29 07:53:55.483  1078  1078 D VRI[LawnchairLauncher]: visibilityChanged oldVisibility=true newVisibility=false
+09-29 07:53:55.483  8339  8339 E libnb   : The translator implementation library has not been set.
+09-29 07:53:55.483  1086  1233 V WindowManagerShell: Track 0 became idle
+09-29 07:53:55.483  1086  1233 V WindowManagerShell: All active transition animations finished
+09-29 07:53:55.484   844  3255 W UserManagerService: Requested status bar icon for non-badged user 0
+09-29 07:53:55.485   844  3255 W UserManagerService: Requested status bar icon for non-badged user 0
+09-29 07:53:55.489   844   864 E [MUMU]TaskTab: setPresentationRotation 0 for com.kmxs.reader:67
+09-29 07:53:55.489   844   864 E [MUMU]TaskTab: java.lang.Exception
+09-29 07:53:55.489   844   864 E [MUMU]TaskTab: 	at com.android.server.mumu.tab.TaskTab.setPresentationRotation(TaskTab.java:52)
+09-29 07:53:55.489   844   864 E [MUMU]TaskTab: 	at com.android.server.wm.TaskUtils.getTopTaskOnDisplay(TaskUtils.java:557)
+09-29 07:53:55.489   844   864 E [MUMU]TaskTab: 	at com.android.server.wm.TaskUtils.updateTaskTabRotation(TaskUtils.java:1876)
+09-29 07:53:55.489   844   864 E [MUMU]TaskTab: 	at com.android.server.wm.TaskUtils.notifyOpen(TaskUtils.java:210)
+09-29 07:53:55.489   844   864 E [MUMU]TaskTab: 	at com.android.server.wm.WmBridge.notifyOpen(WmBridge.java:496)
+09-29 07:53:55.489   844   864 E [MUMU]TaskTab: 	at com.android.server.mumu.wm.TaskHandler.handleMessage(TaskHandler.java:32)
+09-29 07:53:55.489   844   864 E [MUMU]TaskTab: 	at android.os.Handler.dispatchMessage(Handler.java:109)
+09-29 07:53:55.489   844   864 E [MUMU]TaskTab: 	at android.os.Looper.loopOnce(Looper.java:232)
+09-29 07:53:55.489   844   864 E [MUMU]TaskTab: 	at android.os.Looper.loop(Looper.java:317)
+09-29 07:53:55.489   844   864 E [MUMU]TaskTab: 	at android.os.HandlerThread.run(HandlerThread.java:85)
+09-29 07:53:55.489   844   864 E [MUMU]TaskTab: 	at com.android.server.ServiceThread.run(ServiceThread.java:49)
+09-29 07:53:55.501   844   864 E ActivityManager: Sending non-protected broadcast nemu.intent.action.NEW_TASK from system 844:system/1000 pkg android
+09-29 07:53:55.501   844   864 E ActivityManager: java.lang.Throwable
+09-29 07:53:55.501   844   864 E ActivityManager: 	at com.android.server.am.BroadcastController.checkBroadcastFromSystem(BroadcastController.java:2118)
+09-29 07:53:55.501   844   864 E ActivityManager: 	at com.android.server.am.BroadcastController.broadcastIntentLockedTraced(BroadcastController.java:1635)
+09-29 07:53:55.501   844   864 E ActivityManager: 	at com.android.server.am.BroadcastController.broadcastIntentLocked(BroadcastController.java:807)
+09-29 07:53:55.501   844   864 E ActivityManager: 	at com.android.server.am.BroadcastController.broadcastIntentWithFeature(BroadcastController.java:740)
+09-29 07:53:55.501   844   864 E ActivityManager: 	at com.android.server.am.ActivityManagerService.broadcastIntentWithFeature(ActivityManagerService.java:14410)
+09-29 07:53:55.501   844   864 E ActivityManager: 	at android.app.ContextImpl.sendBroadcastAsUser(ContextImpl.java:1509)
+09-29 07:53:55.501   844   864 E ActivityManager: 	at android.content.ContextWrapper.sendBroadcastAsUser(ContextWrapper.java:603)
+09-29 07:53:55.501   844   864 E ActivityManager: 	at com.android.server.wm.TaskUtils.$r8$lambda$izZd96HXfmc2zvc_tMQT0zjG0cY(TaskUtils.java:2098)
+09-29 07:53:55.501   844   864 E ActivityManager: 	at com.android.server.wm.TaskUtils$$ExternalSyntheticLambda1.run(R8$$SyntheticClass:0)
+09-29 07:53:55.501   844   864 E ActivityManager: 	at android.os.Handler.handleCallback(Handler.java:991)
+09-29 07:53:55.501   844   864 E ActivityManager: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+09-29 07:53:55.501   844   864 E ActivityManager: 	at android.os.Looper.loopOnce(Looper.java:232)
+09-29 07:53:55.501   844   864 E ActivityManager: 	at android.os.Looper.loop(Looper.java:317)
+09-29 07:53:55.501   844   864 E ActivityManager: 	at android.os.HandlerThread.run(HandlerThread.java:85)
+09-29 07:53:55.501   844   864 E ActivityManager: 	at com.android.server.ServiceThread.run(ServiceThread.java:49)
+09-29 07:53:55.512  8339  8339 E libnb   : get_callbacks native_handle 0x557d58a4617bdd01: 1 libnb:/system/lib64/libhoudini.so
+09-29 07:53:55.512  8339  8339 I libnb   : Found /system/lib64/libhoudini.so version 7
+09-29 07:53:55.513  8339  8339 E HP      : patch_houdini_linker_null_crash: patched +0x2FFECE (je->jmp) OK
+09-29 07:53:55.513  8339  8339 D HP      : no libmumuhooker.so
+09-29 07:53:55.512  8339  8339 I com.kmxs.reader: type=1400 audit(0.0:988): avc:  denied  { write } for  name="property_service" dev="tmpfs" ino=664 scontext=u:r:untrusted_app_30:s0:c68,c256,c512,c768 tcontext=u:object_r:property_socket:s0 tclass=sock_file permissive=1 app=com.kmxs.reader
+09-29 07:53:55.512  8339  8339 I com.kmxs.reader: type=1400 audit(0.0:989): avc:  denied  { connectto } for  path="/dev/socket/property_service" scontext=u:r:untrusted_app_30:s0:c68,c256,c512,c768 tcontext=u:r:init:s0 tclass=unix_stream_socket permissive=1 app=com.kmxs.reader
+09-29 07:53:55.559  8339  8339 D HP      : mAbi = arm64 enableHighFrame = 0
+09-29 07:53:55.560  8339  8339 D houdini : [8339] Houdini now in android app mode
+09-29 07:53:55.560  8339  8339 D houdini : [8339] Intel Bridge Technology for Netease Mumu only, Copyright(C) Intel Corp. 2012-2025.
+09-29 07:53:55.560  8339  8339 D houdini : [8339] Use permitted only under a valid commercial software license agreement - all other rights reserved.
+09-29 07:53:55.560  8339  8339 D houdini : [8339] Initialize library(version: 15.0.0_z.Netease_com2.0 RELEASE)... successfully.
+09-29 07:53:55.560  8339  8339 W HP      : x_initialize private_dir:/data/user/0/com.kmxs.reader/code_cache instruction_set:arm64 getMethodShorty:0x7791da9e3700 ret:1
+09-29 07:53:55.563  8339  8339 E com.kmxs.reader: Not starting debugger since process cannot load the jdwp agent.
+09-29 07:53:55.565  8339  8339 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+09-29 07:53:55.597   844  1046 D BackgroundInstallControlService: Package event received: 0
+09-29 07:53:55.605  8339  8339 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/org.apache.http.legacy.jar
+09-29 07:53:55.605  8339  8339 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+09-29 07:53:55.605  8339  8339 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+09-29 07:53:55.841  8339  8339 D nativeloader: Configuring clns-7 for other apk /data/app/~~CJnS1aJway3C3K0ZAtE7bA==/com.kmxs.reader-77R6m2GR4qgDm5ZV6EE-Gg==/base.apk. target_sdk_version=30, uses_libraries=, library_path=/data/app/~~CJnS1aJway3C3K0ZAtE7bA==/com.kmxs.reader-77R6m2GR4qgDm5ZV6EE-Gg==/lib/arm64:/data/app/~~CJnS1aJway3C3K0ZAtE7bA==/com.kmxs.reader-77R6m2GR4qgDm5ZV6EE-Gg==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.kmxs.reader
+09-29 07:53:55.859  8339  8339 I com.kmxs.reader: AssetManager2(0x7793bbb55a78) locale list changing from [] to [zh-Hans-CN]
+09-29 07:53:55.865  8339  8339 V GraphicsEnvironment: Currently set values for:
+09-29 07:53:55.865  8339  8339 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+09-29 07:53:55.865  8339  8339 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+09-29 07:53:55.866  8339  8339 V GraphicsEnvironment: com.kmxs.reader is not listed in per-application setting
+09-29 07:53:55.867  8339  8339 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+09-29 07:53:55.878  8339  8339 D SophixStubApplication: 本地存储的版本号 = 0
+09-29 07:53:55.878  8339  8339 D SophixStubApplication: App版本号 = 7.80
+09-29 07:53:55.879  8339  8339 I Sophix.LogLevel:  set value: V
+09-29 07:53:55.880  8339  8339 V Sophix.ProcessUtils:  process name ap com.kmxs.reader
+09-29 07:53:55.880  8339  8339 D Sophix.PatchManager:  initPatchDir patchDir: patch nativeLibDir: libs
+09-29 07:53:55.881  8339  8339 I Sophix.SophixManager:  Sophix starting... sdk: 3.3.0 main process: true fingerprint: vivo/PD2284/PD2284:15/V417IR/760:user/release-keys app version: 7.80 patch version: 0
+09-29 07:53:55.881  8339  8339 I Sophix.NetworkManager:  init appVersion: 7.80
+09-29 07:53:55.881  8339  8339 I Sophix.PatchManager:  init appVersion: 7.80
+09-29 07:53:55.881  8339  8339 W Sophix.PatchManager:  handleLocalPatch no any patch exists
+09-29 07:53:55.888  8339  8339 D Sophix.PatchManager:  callRealAppAttach finish call real App.attach, app: com.kmxs.reader.app.MainApplication
+09-29 07:53:55.888  8339  8339 D Sophix.SophixManager:  initialize time consumed(ms): 9
+09-29 07:53:55.891  8339  8339 I System.out: QMExport: 使用公共下载目录: /sdcard/Download/QimaoBooks
+09-29 07:53:55.891  8339  8339 I System.out: QMExport: 导出目录: /sdcard/Download/QimaoBooks
+09-29 07:53:55.893  8339  8339 D Sophix.PatchManager:  replaceRealApplication finish
+09-29 07:53:55.897  8339  8339 W HMSSDK_PushPreferences: get new sharedPreferences failed,start to get from context. 
+09-29 07:53:55.900  8339  8339 I AGConnectProvider: AGConnectInitializeProvider#onCreate
+09-29 07:53:55.900  8339  8339 I AGConnectInstance: AGConnectInstance#initialize
+09-29 07:53:55.900  8339  8339 I ServiceRegistrarParser: getServices
+09-29 07:53:55.901  8339  8339 I ServiceRegistrarParser: services:0
+09-29 07:53:55.906  8339  8339 I AGC_Instance: AGC SDK initialize end, default route:UNKNOWN
+09-29 07:53:55.916  8339  8339 D WM-WrkMgrInitializer: Initializing WorkManager with default configuration.
+09-29 07:53:55.926  8339  8339 W com.kmxs.reader: Accessing hidden method Landroid/telephony/TelephonyManager;->getDefault()Landroid/telephony/TelephonyManager; (max-target-p, reflection, denied)
+09-29 07:53:55.927  8339  8339 I _V_LIB-ICDM-MULTI-DownloadProvider: DownloadProvider onCreate()
+09-29 07:53:55.927   496   606 E vold    : Failed to set project id on /data/media/0/Android/data/com.kmxs.reader/: Operation not supported on transport endpoint
+09-29 07:53:55.928   496   606 E vold    : Failed to set project id on /data/media/0/Android/data/com.kmxs.reader/cache/: Operation not supported on transport endpoint
+09-29 07:53:55.929  8339  8339 W _V_LIB-MutiNetManager: register net work error
+09-29 07:53:55.929  8339  8339 W _V_LIB-MutiNetManager: java.lang.NoSuchFieldException: No field TRANSPORT_EXTWIFI in class Landroid/net/NetworkCapabilities; (declaration of 'android.net.NetworkCapabilities' appears in /apex/com.android.tethering/javalib/framework-connectivity.jar)
+09-29 07:53:55.929  8339  8339 W _V_LIB-MutiNetManager: 	at java.lang.Class.getDeclaredField(Native Method)
+09-29 07:53:55.929  8339  8339 W _V_LIB-MutiNetManager: 	at com.vivo.ic.dm.network.h.a(Unknown Source:2)
+09-29 07:53:55.929  8339  8339 W _V_LIB-MutiNetManager: 	at com.vivo.ic.dm.network.h.c(Unknown Source:32)
+09-29 07:53:55.929  8339  8339 W _V_LIB-MutiNetManager: 	at com.vivo.ic.dm.DownloadProvider.a(Unknown Source:19)
+09-29 07:53:55.929  8339  8339 W _V_LIB-MutiNetManager: 	at com.vivo.ic.dm.DownloadProvider.onCreate(Unknown Source:11)
+09-29 07:53:55.929  8339  8339 W _V_LIB-MutiNetManager: 	at android.content.ContentProvider.attachInfo(ContentProvider.java:2662)
+09-29 07:53:55.929  8339  8339 W _V_LIB-MutiNetManager: 	at android.content.ContentProvider.attachInfo(ContentProvider.java:2631)
+09-29 07:53:55.929  8339  8339 W _V_LIB-MutiNetManager: 	at android.app.ActivityThread.installProvider(ActivityThread.java:8546)
+09-29 07:53:55.929  8339  8339 W _V_LIB-MutiNetManager: 	at android.app.ActivityThread.installContentProviders(ActivityThread.java:8061)
+09-29 07:53:55.929  8339  8339 W _V_LIB-MutiNetManager: 	at java.lang.reflect.Method.invoke(Native Method)
+09-29 07:53:55.929  8339  8339 W _V_LIB-MutiNetManager: 	at com.taobao.sophix.a.c.p(Unknown Source:94)
+09-29 07:53:55.929  8339  8339 W _V_LIB-MutiNetManager: 	at com.taobao.sophix.a.c.b(Unknown Source:22)
+09-29 07:53:55.929  8339  8339 W _V_LIB-MutiNetManager: 	at com.taobao.sophix.a.e.b(Unknown Source:2)
+09-29 07:53:55.929  8339  8339 W _V_LIB-MutiNetManager: 	at com.taobao.sophix.SophixApplication.onCreate(Unknown Source:9)
+09-29 07:53:55.929  8339  8339 W _V_LIB-MutiNetManager: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1391)
+09-29 07:53:55.929  8339  8339 W _V_LIB-MutiNetManager: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7735)
+09-29 07:53:55.929  8339  8339 W _V_LIB-MutiNetManager: 	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+09-29 07:53:55.929  8339  8339 W _V_LIB-MutiNetManager: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2511)
+09-29 07:53:55.929  8339  8339 W _V_LIB-MutiNetManager: 	at android.os.Handler.dispatchMessage(Handler.java:109)
+09-29 07:53:55.929  8339  8339 W _V_LIB-MutiNetManager: 	at android.os.Looper.loopOnce(Looper.java:232)
+09-29 07:53:55.929  8339  8339 W _V_LIB-MutiNetManager: 	at android.os.Looper.loop(Looper.java:317)
+09-29 07:53:55.929  8339  8339 W _V_LIB-MutiNetManager: 	at android.app.ActivityThread.main(ActivityThread.java:8971)
+09-29 07:53:55.929  8339  8339 W _V_LIB-MutiNetManager: 	at java.lang.reflect.Method.invoke(Native Method)
+09-29 07:53:55.929  8339  8339 W _V_LIB-MutiNetManager: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:597)
+09-29 07:53:55.929  8339  8339 W _V_LIB-MutiNetManager: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:919)
+09-29 07:53:55.930  8339  8339 I _V_LIB-MutiNetManager: TRANSPORT_EXTWIFI onUnavailable null
+09-29 07:53:55.931  8339  8339 I _V_LIB-ICDM-MULTI-DownloadProvider: DownloadProvider register end
+09-29 07:53:55.933  8339  8339 W RMonitor_meta: markAppLaunch
+09-29 07:53:55.933  8339  8339 W RMonitor_launch_installer: isFileExist, fileName: RMonitor_launch_monitor, ret: false, context: not null
+09-29 07:53:55.933  8339  8339 D AppLifecycleManager: register
+09-29 07:53:55.934  8339  8339 I HiAds-AdLifecycleProvider: [1.0.28.301-env_prod_union]AdLifecycleProvider onCreate.
+09-29 07:53:55.934  8339  8339 I HiAds-InitializerImpl: [1.0.28.301-env_prod_union]initActivityLifecycle
+09-29 07:53:55.934  8339  8339 I HiAds-AdLifecycleProvider: [1.0.28.301-env_prod_union]AdLifecycleProvider init lifecycle.
+09-29 07:53:55.935   844  1004 D ConnectivityService: NetReassign [no changes] [c 0] [a 0] [i 1]
+09-29 07:53:55.935  8339  8387 W _V_LIB-MutiNetManager: register net work success TRANSPORT_WIFI
+09-29 07:53:55.938  8339  8388 I _V_LIB-MutiNetManager: TRANSPORT_WIFI onAvailable 100
+09-29 07:53:55.946  8339  8339 D 20220506 initapp:  1790639635946
+09-29 07:53:55.954   844  1004 D ConnectivityService: NetReassign [no changes] [c 0] [a 0] [i 0]
+09-29 07:53:55.954  8339  8339 D IpDetectorManager: enableIpv6Detect true, dnsIpv4s: [223.5.5.5, 233.6.6.6], dnsIpv6s: [2400:3200::1, 2400:3200:baba::1]
+09-29 07:53:55.954  8339  8339 D IpDetectorManager: mCheckIpv4List [223.5.5.5, 233.6.6.6] mCheckIpv6List [2400:3200::1, 2400:3200:baba::1] 
+09-29 07:53:55.963   844  1004 D ConnectivityService: NetReassign [no changes] [c 0] [a 0] [i 1]
+09-29 07:53:55.964  8339  8339 W com.kmxs.reader: Accessing hidden method Ldalvik/system/VMRuntime;->setHiddenApiExemptions([Ljava/lang/String;)V (blocked,core-platform-api, reflection, denied)
+09-29 07:53:55.964  8339  8339 W BootstrapClass: reflect bootstrap failed:
+09-29 07:53:55.964  8339  8339 W BootstrapClass: java.lang.reflect.InvocationTargetException
+09-29 07:53:55.964  8339  8339 W BootstrapClass: 	at java.lang.reflect.Method.invoke(Native Method)
+09-29 07:53:55.964  8339  8339 W BootstrapClass: 	at me.weishu.reflection.BootstrapClass.<clinit>(Unknown Source:78)
+09-29 07:53:55.964  8339  8339 W BootstrapClass: 	at me.weishu.reflection.Reflection.b(Unknown Source:8)
+09-29 07:53:55.964  8339  8339 W BootstrapClass: 	at ha1.k(Unknown Source:35)
+09-29 07:53:55.964  8339  8339 W BootstrapClass: 	at fr1.n(Unknown Source:59)
+09-29 07:53:55.964  8339  8339 W BootstrapClass: 	at com.kmxs.reader.app.MainApplication.onCreate(Unknown Source:119)
+09-29 07:53:55.964  8339  8339 W BootstrapClass: 	at com.taobao.sophix.a.c.b(Unknown Source:27)
+09-29 07:53:55.964  8339  8339 W BootstrapClass: 	at com.taobao.sophix.a.e.b(Unknown Source:2)
+09-29 07:53:55.964  8339  8339 W BootstrapClass: 	at com.taobao.sophix.SophixApplication.onCreate(Unknown Source:9)
+09-29 07:53:55.964  8339  8339 W BootstrapClass: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1391)
+09-29 07:53:55.964  8339  8339 W BootstrapClass: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7735)
+09-29 07:53:55.964  8339  8339 W BootstrapClass: 	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+09-29 07:53:55.964  8339  8339 W BootstrapClass: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2511)
+09-29 07:53:55.964  8339  8339 W BootstrapClass: 	at android.os.Handler.dispatchMessage(Handler.java:109)
+09-29 07:53:55.964  8339  8339 W BootstrapClass: 	at android.os.Looper.loopOnce(Looper.java:232)
+09-29 07:53:55.964  8339  8339 W BootstrapClass: 	at android.os.Looper.loop(Looper.java:317)
+09-29 07:53:55.964  8339  8339 W BootstrapClass: 	at android.app.ActivityThread.main(ActivityThread.java:8971)
+09-29 07:53:55.964  8339  8339 W BootstrapClass: 	at java.lang.reflect.Method.invoke(Native Method)
+09-29 07:53:55.964  8339  8339 W BootstrapClass: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:597)
+09-29 07:53:55.964  8339  8339 W BootstrapClass: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:919)
+09-29 07:53:55.964  8339  8339 W BootstrapClass: Caused by: java.lang.NoSuchMethodException: dalvik.system.VMRuntime.setHiddenApiExemptions [class [Ljava.lang.String;]
+09-29 07:53:55.964  8339  8339 W BootstrapClass: 	at java.lang.Class.getMethod(Class.java:2950)
+09-29 07:53:55.964  8339  8339 W BootstrapClass: 	at java.lang.Class.getDeclaredMethod(Class.java:2929)
+09-29 07:53:55.964  8339  8339 W BootstrapClass: 	... 20 more
+09-29 07:53:55.965  8339  8339 W com.kmxs.reader: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-29 07:53:55.965  8339  8339 W com.kmxs.reader: DexFile /data/user/0/com.kmxs.reader/code_cache/1790639635965.dex is in boot class path but is not in a known location
+09-29 07:53:55.973  8339  8339 D ConfigManager: InitSqliteTask dependsOn isTaskClass: true, name: com.km.app.app.performance.tasks.InitMMKVTask
+09-29 07:53:55.976  8339  8401 W System.err: java.io.FileNotFoundException: nullvivo_com.kmxs.reader.txt: open failed: ENOENT (No such file or directory)
+09-29 07:53:55.977  8339  8401 W System.err: 	at libcore.io.IoBridge.open(IoBridge.java:574)
+09-29 07:53:55.977  8339  8401 W System.err: 	at java.io.FileInputStream.<init>(FileInputStream.java:179)
+09-29 07:53:55.977  8339  8401 W System.err: 	at okio.Okio.source(Unknown Source:7)
+09-29 07:53:55.977  8339  8401 W System.err: 	at com.qimao.qmutil.FileUtil.readFile(Unknown Source:51)
+09-29 07:53:55.977  8339  8401 W System.err: 	at com.qimao.qmutil.FileUtil.readFile(Unknown Source:35)
+09-29 07:53:55.977  8339  8401 W System.err: 	at hb9.a(Unknown Source:81)
+09-29 07:53:55.977  8339  8401 W System.err: 	at im$j.a(Unknown Source:49)
+09-29 07:53:55.977  8339  8401 W System.err: 	at im$j.call(Unknown Source:24)
+09-29 07:53:55.977  8339  8401 W System.err: 	at io.reactivex.internal.operators.observable.ObservableFromCallable.call(Unknown Source:2)
+09-29 07:53:55.977  8339  8401 W System.err: 	at io.reactivex.internal.operators.observable.ObservableConcatMap$ConcatMapDelayErrorObserver.drain(Unknown Source:104)
+09-29 07:53:55.977  8339  8401 W System.err: 	at io.reactivex.internal.operators.observable.ObservableConcatMap$ConcatMapDelayErrorObserver.onSubscribe(Unknown Source:35)
+09-29 07:53:55.977  8339  8401 W System.err: 	at io.reactivex.internal.operators.observable.ObservableFromIterable.subscribeActual(Unknown Source:21)
+09-29 07:53:55.977  8339  8401 W System.err: 	at io.reactivex.Observable.subscribe(Unknown Source:14)
+09-29 07:53:55.977  8339  8401 W System.err: 	at io.reactivex.internal.operators.observable.ObservableConcatMap.subscribeActual(Unknown Source:57)
+09-29 07:53:55.977  8339  8401 W System.err: 	at io.reactivex.Observable.subscribe(Unknown Source:14)
+09-29 07:53:55.977  8339  8401 W System.err: 	at io.reactivex.internal.operators.observable.ObservableFilter.subscribeActual(Unknown Source:9)
+09-29 07:53:55.977  8339  8401 W System.err: 	at io.reactivex.Observable.subscribe(Unknown Source:14)
+09-29 07:53:55.977  8339  8401 W System.err: 	at io.reactivex.internal.operators.observable.ObservableTake.subscribeActual(Unknown Source:9)
+09-29 07:53:55.977  8339  8401 W System.err: 	at io.reactivex.Observable.subscribe(Unknown Source:14)
+09-29 07:53:55.977  8339  8401 W System.err: 	at im.l(Unknown Source:83)
+09-29 07:53:55.977  8339  8401 W System.err: 	at im.k(Unknown Source:478)
+09-29 07:53:55.977  8339  8401 W System.err: 	at im.a(Unknown Source:0)
+09-29 07:53:55.977  8339  8401 W System.err: 	at im$g.a(Unknown Source:50)
+09-29 07:53:55.977  8339  8401 W System.err: 	at im$g.apply(Unknown Source:33)
+09-29 07:53:55.977  8339  8401 W System.err: 	at io.reactivex.internal.operators.observable.ObservableMap$MapObserver.onNext(Unknown Source:18)
+09-29 07:53:55.977  8339  8401 W System.err: 	at io.reactivex.internal.operators.observable.ObservableMap$MapObserver.onNext(Unknown Source:30)
+09-29 07:53:55.977  8339  8401 W System.err: 	at io.reactivex.internal.operators.observable.ObservableScalarXMap$ScalarDisposable.run(Unknown Source:18)
+09-29 07:53:55.977  8339  8401 W System.err: 	at io.reactivex.internal.operators.observable.ObservableJust.subscribeActual(Unknown Source:10)
+09-29 07:53:55.977  8339  8401 W System.err: 	at io.reactivex.Observable.subscribe(Unknown Source:14)
+09-29 07:53:55.977  8339  8401 W System.err: 	at io.reactivex.internal.operators.observable.ObservableMap.subscribeActual(Unknown Source:9)
+09-29 07:53:55.977  8339  8401 W System.err: 	at io.reactivex.Observable.subscribe(Unknown Source:14)
+09-29 07:53:55.977  8339  8401 W System.err: 	at io.reactivex.internal.operators.observable.ObservableMap.subscribeActual(Unknown Source:9)
+09-29 07:53:55.977  8339  8401 W System.err: 	at io.reactivex.Observable.subscribe(Unknown Source:14)
+09-29 07:53:55.977  8339  8401 W System.err: 	at im.d(Unknown Source:180)
+09-29 07:53:55.977  8339  8401 W System.err: 	at d44.run(Unknown Source:22)
+09-29 07:53:55.977  8339  8401 W System.err: 	at j22.run(Unknown Source:134)
+09-29 07:53:55.977  8339  8401 W System.err: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:524)
+09-29 07:53:55.977  8339  8401 W System.err: 	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+09-29 07:53:55.977  8339  8401 W System.err: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+09-29 07:53:55.977  8339  8401 W System.err: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:651)
+09-29 07:53:55.977  8339  8401 W System.err: 	at java.lang.Thread.run(Thread.java:1119)
+09-29 07:53:55.977  8339  8401 W System.err: Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+09-29 07:53:55.977  8339  8401 W System.err: 	at libcore.io.Linux.open(Native Method)
+09-29 07:53:55.977  8339  8401 W System.err: 	at libcore.io.ForwardingOs.open(ForwardingOs.java:563)
+09-29 07:53:55.977  8339  8401 W System.err: 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:274)
+09-29 07:53:55.977  8339  8401 W System.err: 	at libcore.io.ForwardingOs.open(ForwardingOs.java:563)
+09-29 07:53:55.977  8339  8401 W System.err: 	at android.app.ActivityThread$AndroidOs.open(ActivityThread.java:8857)
+09-29 07:53:55.977  8339  8401 W System.err: 	at libcore.io.IoBridge.open(IoBridge.java:560)
+09-29 07:53:55.977  8339  8401 W System.err: 	... 40 more
+09-29 07:53:55.977  8339  8401 W System.err: java.io.FileNotFoundException: null/oppo_com.kmxs.reader.txt: open failed: ENOENT (No such file or directory)
+09-29 07:53:55.977  8339  8401 W System.err: 	at libcore.io.IoBridge.open(IoBridge.java:574)
+09-29 07:53:55.977  8339  8401 W System.err: 	at java.io.FileInputStream.<init>(FileInputStream.java:179)
+09-29 07:53:55.977  8339  8401 W System.err: 	at okio.Okio.source(Unknown Source:7)
+09-29 07:53:55.977  8339  8401 W System.err: 	at com.qimao.qmutil.FileUtil.readFile(Unknown Source:51)
+09-29 07:53:55.977  8339  8401 W System.err: 	at com.qimao.qmutil.FileUtil.readFile(Unknown Source:35)
+09-29 07:53:55.977  8339  8401 W System.err: 	at tw5.a(Unknown Source:92)
+09-29 07:53:55.977  8339  8401 W System.err: 	at im$k.a(Unknown Source:49)
+09-29 07:53:55.977  8339  8401 W System.err: 	at im$k.call(Unknown Source:24)
+09-29 07:53:55.977  8339  8401 W System.err: 	at io.reactivex.internal.operators.observable.ObservableFromCallable.call(Unknown Source:2)
+09-29 07:53:55.977  8339  8401 W System.err: 	at io.reactivex.internal.operators.observable.ObservableConcatMap$ConcatMapDelayErrorObserver.drain(Unknown Source:104)
+09-29 07:53:55.977  8339  8401 W System.err: 	at io.reactivex.internal.operators.observable.ObservableConcatMap$ConcatMapDelayErrorObserver.onSubscribe(Unknown Source:35)
+09-29 07:53:55.977  8339  8401 W System.err: 	at io.reactivex.internal.operators.observable.ObservableFromIterable.subscribeActual(Unknown Source:21)
+09-29 07:53:55.977  8339  8401 W System.err: 	at io.reactivex.Observable.subscribe(Unknown Source:14)
+09-29 07:53:55.977  8339  8401 W System.err: 	at io.reactivex.internal.operators.observable.ObservableConcatMap.subscribeActual(Unknown Source:57)
+09-29 07:53:55.977  8339  8401 W System.err: 	at io.reactivex.Observable.subscribe(Unknown Source:14)
+09-29 07:53:55.977  8339  8401 W System.err: 	at io.reactivex.internal.operators.observable.ObservableFilter.subscribeActual(Unknown Source:9)
+09-29 07:53:55.977  8339  8401 W System.err: 	at io.reactivex.Observable.subscribe(Unknown Source:14)
+09-29 07:53:55.977  8339  8401 W System.err: 	at io.reactivex.internal.operators.observable.ObservableTake.subscribeActual(Unknown Source:9)
+09-29 07:53:55.977  8339  8401 W System.err: 	at io.reactivex.Observable.subscribe(Unknown Source:14)
+09-29 07:53:55.977  8339  8401 W System.err: 	at im.l(Unknown Source:83)
+09-29 07:53:55.977  8339  8401 W System.err: 	at im.k(Unknown Source:478)
+09-29 07:53:55.977  8339  8401 W System.err: 	at im.a(Unknown Source:0)
+09-29 07:53:55.977  8339  8401 W System.err: 	at im$g.a(Unknown Source:50)
+09-29 07:53:55.977  8339  8401 W System.err: 	at im$g.apply(Unknown Source:33)
+09-29 07:53:55.977  8339  8401 W System.err: 	at io.reactivex.internal.operators.observable.ObservableMap$MapObserver.onNext(Unknown Source:18)
+09-29 07:53:55.977  8339  8401 W System.err: 	at io.reactivex.internal.operators.observable.ObservableMap$MapObserver.onNext(Unknown Source:30)
+09-29 07:53:55.977  8339  8401 W System.err: 	at io.reactivex.internal.operators.observable.ObservableScalarXMap$ScalarDisposable.run(Unknown Source:18)
+09-29 07:53:55.977  8339  8401 W System.err: 	at io.reactivex.internal.operators.observable.ObservableJust.subscribeActual(Unknown Source:10)
+09-29 07:53:55.977  8339  8401 W System.err: 	at io.reactivex.Observable.subscribe(Unknown Source:14)
+09-29 07:53:55.977  8339  8401 W System.err: 	at io.reactivex.internal.operators.observable.ObservableMap.subscribeActual(Unknown Source:9)
+09-29 07:53:55.977  8339  8401 W System.err: 	at io.reactivex.Observable.subscribe(Unknown Source:14)
+09-29 07:53:55.977  8339  8401 W System.err: 	at io.reactivex.internal.operators.observable.ObservableMap.subscribeActual(Unknown Source:9)
+09-29 07:53:55.977  8339  8401 W System.err: 	at io.reactivex.Observable.subscribe(Unknown Source:14)
+09-29 07:53:55.977  8339  8401 W System.err: 	at im.d(Unknown Source:180)
+09-29 07:53:55.977  8339  8401 W System.err: 	at d44.run(Unknown Source:22)
+09-29 07:53:55.977  8339  8401 W System.err: 	at j22.run(Unknown Source:134)
+09-29 07:53:55.977  8339  8401 W System.err: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:524)
+09-29 07:53:55.977  8339  8401 W System.err: 	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+09-29 07:53:55.977  8339  8401 W System.err: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+09-29 07:53:55.977  8339  8401 W System.err: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:651)
+09-29 07:53:55.977  8339  8401 W System.err: 	at java.lang.Thread.run(Thread.java:1119)
+09-29 07:53:55.977  8339  8401 W System.err: Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+09-29 07:53:55.977  8339  8401 W System.err: 	at libcore.io.Linux.open(Native Method)
+09-29 07:53:55.977  8339  8401 W System.err: 	at libcore.io.ForwardingOs.open(ForwardingOs.java:563)
+09-29 07:53:55.977  8339  8401 W System.err: 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:274)
+09-29 07:53:55.977  8339  8401 W System.err: 	at libcore.io.ForwardingOs.open(ForwardingOs.java:563)
+09-29 07:53:55.977  8339  8401 W System.err: 	at android.app.ActivityThread$AndroidOs.open(ActivityThread.java:8857)
+09-29 07:53:55.977  8339  8401 W System.err: 	at libcore.io.IoBridge.open(IoBridge.java:560)
+09-29 07:53:55.977  8339  8401 W System.err: 	... 40 more
+09-29 07:53:55.977  8339  8401 W System.err: java.io.FileNotFoundException: /data/etc/appchannel/oppo_com.kmxs.reader.txt: open failed: ENOENT (No such file or directory)
+09-29 07:53:55.977  8339  8401 W System.err: 	at libcore.io.IoBridge.open(IoBridge.java:574)
+09-29 07:53:55.977  8339  8401 W System.err: 	at java.io.FileInputStream.<init>(FileInputStream.java:179)
+09-29 07:53:55.977  8339  8401 W System.err: 	at okio.Okio.source(Unknown Source:7)
+09-29 07:53:55.977  8339  8401 W System.err: 	at com.qimao.qmutil.FileUtil.readFile(Unknown Source:51)
+09-29 07:53:55.977  8339  8401 W System.err: 	at com.qimao.qmutil.FileUtil.readFile(Unknown Source:35)
+09-29 07:53:55.977  8339  8401 W System.err: 	at tw5.a(Unknown Source:140)
+09-29 07:53:55.977  8339  8401 W System.err: 	at im$k.a(Unknown Source:49)
+09-29 07:53:55.977  8339  8401 W System.err: 	at im$k.call(Unknown Source:24)
+09-29 07:53:55.977  8339  8401 W System.err: 	at io.reactivex.internal.operators.observable.ObservableFromCallable.call(Unknown Source:2)
+09-29 07:53:55.977  8339  8401 W System.err: 	at io.reactivex.internal.operators.observable.ObservableConcatMap$ConcatMapDelayErrorObserver.drain(Unknown Source:104)
+09-29 07:53:55.977  8339  8401 W System.err: 	at io.reactivex.internal.operators.observable.ObservableConcatMap$ConcatMapDelayErrorObserver.onSubscribe(Unknown Source:35)
+09-29 07:53:55.977  8339  8401 W System.err: 	at io.reactivex.internal.operators.observable.ObservableFromIterable.subscribeActual(Unknown Source:21)
+09-29 07:53:55.977  8339  8401 W System.err: 	at io.reactivex.Observable.subscribe(Unknown Source:14)
+09-29 07:53:55.977  8339  8401 W System.err: 	at io.reactivex.internal.operators.observable.ObservableConcatMap.subscribeActual(Unknown Source:57)
+09-29 07:53:55.977  8339  8401 W System.err: 	at io.reactivex.Observable.subscribe(Unknown Source:14)
+09-29 07:53:55.977  8339  8401 W System.err: 	at io.reactivex.internal.operators.observable.ObservableFilter.subscribeActual(Unknown Source:9)
+09-29 07:53:55.977  8339  8401 W System.err: 	at io.reactivex.Observable.subscribe(Unknown Source:14)
+09-29 07:53:55.977  8339  8401 W System.err: 	at io.reactivex.internal.operators.observable.ObservableTake.subscribeActual(Unknown Source:9)
+09-29 07:53:55.977  8339  8401 W System.err: 	at io.reactivex.Observable.subscribe(Unknown Source:14)
+09-29 07:53:55.977  8339  8401 W System.err: 	at im.l(Unknown Source:83)
+09-29 07:53:55.977  8339  8401 W System.err: 	at im.k(Unknown Source:478)
+09-29 07:53:55.977  8339  8401 W System.err: 	at im.a(Unknown Source:0)
+09-29 07:53:55.977  8339  8401 W System.err: 	at im$g.a(Unknown Source:50)
+09-29 07:53:55.977  8339  8401 W System.err: 	at im$g.apply(Unknown Source:33)
+09-29 07:53:55.977  8339  8401 W System.err: 	at io.reactivex.internal.operators.observable.ObservableMap$MapObserver.onNext(Unknown Source:18)
+09-29 07:53:55.977  8339  8401 W System.err: 	at io.reactivex.internal.operators.observable.ObservableMap$MapObserver.onNext(Unknown Source:30)
+09-29 07:53:55.977  8339  8401 W System.err: 	at io.reactivex.internal.operators.observable.ObservableScalarXMap$ScalarDisposable.run(Unknown Source:18)
+09-29 07:53:55.977  8339  8401 W System.err: 	at io.reactivex.internal.operators.observable.ObservableJust.subscribeActual(Unknown Source:10)
+09-29 07:53:55.977  8339  8401 W System.err: 	at io.reactivex.Observable.subscribe(Unknown Source:14)
+09-29 07:53:55.977  8339  8401 W System.err: 	at io.reactivex.internal.operators.observable.ObservableMap.subscribeActual(Unknown Source:9)
+09-29 07:53:55.977  8339  8401 W System.err: 	at io.reactivex.Observable.subscribe(Unknown Source:14)
+09-29 07:53:55.977  8339  8401 W System.err: 	at io.reactivex.internal.operators.observable.ObservableMap.subscribeActual(Unknown Source:9)
+09-29 07:53:55.977  8339  8401 W System.err: 	at io.reactivex.Observable.subscribe(Unknown Source:14)
+09-29 07:53:55.977  8339  8401 W System.err: 	at im.d(Unknown Source:180)
+09-29 07:53:55.977  8339  8401 W System.err: 	at d44.run(Unknown Source:22)
+09-29 07:53:55.977  8339  8401 W System.err: 	at j22.run(Unknown Source:134)
+09-29 07:53:55.978  8339  8401 W System.err: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:524)
+09-29 07:53:55.978  8339  8401 W System.err: 	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+09-29 07:53:55.978  8339  8401 W System.err: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+09-29 07:53:55.978  8339  8401 W System.err: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:651)
+09-29 07:53:55.978  8339  8401 W System.err: 	at java.lang.Thread.run(Thread.java:1119)
+09-29 07:53:55.978  8339  8401 W System.err: Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+09-29 07:53:55.978  8339  8401 W System.err: 	at libcore.io.Linux.open(Native Method)
+09-29 07:53:55.978  8339  8401 W System.err: 	at libcore.io.ForwardingOs.open(ForwardingOs.java:563)
+09-29 07:53:55.978  8339  8401 W System.err: 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:274)
+09-29 07:53:55.978  8339  8401 W System.err: 	at libcore.io.ForwardingOs.open(ForwardingOs.java:563)
+09-29 07:53:55.978  8339  8401 W System.err: 	at android.app.ActivityThread$AndroidOs.open(ActivityThread.java:8857)
+09-29 07:53:55.978  8339  8401 W System.err: 	at libcore.io.IoBridge.open(IoBridge.java:560)
+09-29 07:53:55.978  8339  8401 W System.err: 	... 40 more
+09-29 07:53:55.978  8339  8401 W System.err: java.io.FileNotFoundException: null/mzyz_com.kmxs.reader.txt: open failed: ENOENT (No such file or directory)
+09-29 07:53:55.978  8339  8401 W System.err: 	at libcore.io.IoBridge.open(IoBridge.java:574)
+09-29 07:53:55.978  8339  8401 W System.err: 	at java.io.FileInputStream.<init>(FileInputStream.java:179)
+09-29 07:53:55.978  8339  8401 W System.err: 	at okio.Okio.source(Unknown Source:7)
+09-29 07:53:55.978  8339  8401 W System.err: 	at com.qimao.qmutil.FileUtil.readFile(Unknown Source:51)
+09-29 07:53:55.978  8339  8401 W System.err: 	at com.qimao.qmutil.FileUtil.readFile(Unknown Source:35)
+09-29 07:53:55.978  8339  8401 W System.err: 	at t95.a(Unknown Source:92)
+09-29 07:53:55.978  8339  8401 W System.err: 	at im$l.a(Unknown Source:49)
+09-29 07:53:55.978  8339  8401 W System.err: 	at im$l.call(Unknown Source:24)
+09-29 07:53:55.978  8339  8401 W System.err: 	at io.reactivex.internal.operators.observable.ObservableFromCallable.call(Unknown Source:2)
+09-29 07:53:55.978  8339  8401 W System.err: 	at io.reactivex.internal.operators.observable.ObservableConcatMap$ConcatMapDelayErrorObserver.drain(Unknown Source:104)
+09-29 07:53:55.978  8339  8401 W System.err: 	at io.reactivex.internal.operators.observable.ObservableConcatMap$ConcatMapDelayErrorObserver.onSubscribe(Unknown Source:35)
+09-29 07:53:55.978  8339  8401 W System.err: 	at io.reactivex.internal.operators.observable.ObservableFromIterable.subscribeActual(Unknown Source:21)
+09-29 07:53:55.978  8339  8401 W System.err: 	at io.reactivex.Observable.subscribe(Unknown Source:14)
+09-29 07:53:55.978  8339  8401 W System.err: 	at io.reactivex.internal.operators.observable.ObservableConcatMap.subscribeActual(Unknown Source:57)
+09-29 07:53:55.978  8339  8401 W System.err: 	at io.reactivex.Observable.subscribe(Unknown Source:14)
+09-29 07:53:55.978  8339  8401 W System.err: 	at io.reactivex.internal.operators.observable.ObservableFilter.subscribeActual(Unknown Source:9)
+09-29 07:53:55.978  8339  8401 W System.err: 	at io.reactivex.Observable.subscribe(Unknown Source:14)
+09-29 07:53:55.978  8339  8401 W System.err: 	at io.reactivex.internal.operators.observable.ObservableTake.subscribeActual(Unknown Source:9)
+09-29 07:53:55.978  8339  8401 W System.err: 	at io.reactivex.Observable.subscribe(Unknown Source:14)
+09-29 07:53:55.978  8339  8401 W System.err: 	at im.l(Unknown Source:83)
+09-29 07:53:55.978  8339  8401 W System.err: 	at im.k(Unknown Source:478)
+09-29 07:53:55.978  8339  8401 W System.err: 	at im.a(Unknown Source:0)
+09-29 07:53:55.978  8339  8401 W System.err: 	at im$g.a(Unknown Source:50)
+09-29 07:53:55.978  8339  8401 W System.err: 	at im$g.apply(Unknown Source:33)
+09-29 07:53:55.978  8339  8401 W System.err: 	at io.reactivex.internal.operators.observable.ObservableMap$MapObserver.onNext(Unknown Source:18)
+09-29 07:53:55.978  8339  8401 W System.err: 	at io.reactivex.internal.operators.observable.ObservableMap$MapObserver.onNext(Unknown Source:30)
+09-29 07:53:55.978  8339  8401 W System.err: 	at io.reactivex.internal.operators.observable.ObservableScalarXMap$ScalarDisposable.run(Unknown Source:18)
+09-29 07:53:55.978  8339  8401 W System.err: 	at io.reactivex.internal.operators.observable.ObservableJust.subscribeActual(Unknown Source:10)
+09-29 07:53:55.978  8339  8401 W System.err: 	at io.reactivex.Observable.subscribe(Unknown Source:14)
+09-29 07:53:55.978  8339  8401 W System.err: 	at io.reactivex.internal.operators.observable.ObservableMap.subscribeActual(Unknown Source:9)
+09-29 07:53:55.978  8339  8401 W System.err: 	at io.reactivex.Observable.subscribe(Unknown Source:14)
+09-29 07:53:55.978  8339  8401 W System.err: 	at io.reactivex.internal.operators.observable.ObservableMap.subscribeActual(Unknown Source:9)
+09-29 07:53:55.978  8339  8401 W System.err: 	at io.reactivex.Observable.subscribe(Unknown Source:14)
+09-29 07:53:55.978  8339  8401 W System.err: 	at im.d(Unknown Source:180)
+09-29 07:53:55.978  8339  8401 W System.err: 	at d44.run(Unknown Source:22)
+09-29 07:53:55.978  8339  8401 W System.err: 	at j22.run(Unknown Source:134)
+09-29 07:53:55.978  8339  8401 W System.err: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:524)
+09-29 07:53:55.978  8339  8401 W System.err: 	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+09-29 07:53:55.978  8339  8401 W System.err: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+09-29 07:53:55.978  8339  8401 W System.err: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:651)
+09-29 07:53:55.978  8339  8401 W System.err: 	at java.lang.Thread.run(Thread.java:1119)
+09-29 07:53:55.978  8339  8401 W System.err: Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+09-29 07:53:55.978  8339  8401 W System.err: 	at libcore.io.Linux.open(Native Method)
+09-29 07:53:55.978  8339  8401 W System.err: 	at libcore.io.ForwardingOs.open(ForwardingOs.java:563)
+09-29 07:53:55.978  8339  8401 W System.err: 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:274)
+09-29 07:53:55.978  8339  8401 W System.err: 	at libcore.io.ForwardingOs.open(ForwardingOs.java:563)
+09-29 07:53:55.978  8339  8401 W System.err: 	at android.app.ActivityThread$AndroidOs.open(ActivityThread.java:8857)
+09-29 07:53:55.978  8339  8401 W System.err: 	at libcore.io.IoBridge.open(IoBridge.java:560)
+09-29 07:53:55.978  8339  8401 W System.err: 	... 40 more
+09-29 07:53:55.978  8339  8401 W System.err: java.io.FileNotFoundException: /system/etc/mzyz_com.kmxs.reader.txt: open failed: ENOENT (No such file or directory)
+09-29 07:53:55.978  8339  8401 W System.err: 	at libcore.io.IoBridge.open(IoBridge.java:574)
+09-29 07:53:55.978  8339  8401 W System.err: 	at java.io.FileInputStream.<init>(FileInputStream.java:179)
+09-29 07:53:55.978  8339  8401 W System.err: 	at okio.Okio.source(Unknown Source:7)
+09-29 07:53:55.978  8339  8401 W System.err: 	at com.qimao.qmutil.FileUtil.readFile(Unknown Source:51)
+09-29 07:53:55.978  8339  8401 W System.err: 	at com.qimao.qmutil.FileUtil.readFile(Unknown Source:35)
+09-29 07:53:55.978  8339  8401 W System.err: 	at t95.a(Unknown Source:137)
+09-29 07:53:55.978  8339  8401 W System.err: 	at im$l.a(Unknown Source:49)
+09-29 07:53:55.978  8339  8401 W System.err: 	at im$l.call(Unknown Source:24)
+09-29 07:53:55.978  8339  8401 W System.err: 	at io.reactivex.internal.operators.observable.ObservableFromCallable.call(Unknown Source:2)
+09-29 07:53:55.978  8339  8401 W System.err: 	at io.reactivex.internal.operators.observable.ObservableConcatMap$ConcatMapDelayErrorObserver.drain(Unknown Source:104)
+09-29 07:53:55.978  8339  8401 W System.err: 	at io.reactivex.internal.operators.observable.ObservableConcatMap$ConcatMapDelayErrorObserver.onSubscribe(Unknown Source:35)
+09-29 07:53:55.978  8339  8401 W System.err: 	at io.reactivex.internal.operators.observable.ObservableFromIterable.subscribeActual(Unknown Source:21)
+09-29 07:53:55.978  8339  8401 W System.err: 	at io.reactivex.Observable.subscribe(Unknown Source:14)
+09-29 07:53:55.978  8339  8401 W System.err: 	at io.reactivex.internal.operators.observable.ObservableConcatMap.subscribeActual(Unknown Source:57)
+09-29 07:53:55.978  8339  8401 W System.err: 	at io.reactivex.Observable.subscribe(Unknown Source:14)
+09-29 07:53:55.978  8339  8401 W System.err: 	at io.reactivex.internal.operators.observable.ObservableFilter.subscribeActual(Unknown Source:9)
+09-29 07:53:55.978  8339  8401 W System.err: 	at io.reactivex.Observable.subscribe(Unknown Source:14)
+09-29 07:53:55.978  8339  8401 W System.err: 	at io.reactivex.internal.operators.observable.ObservableTake.subscribeActual(Unknown Source:9)
+09-29 07:53:55.978  8339  8401 W System.err: 	at io.reactivex.Observable.subscribe(Unknown Source:14)
+09-29 07:53:55.978  8339  8401 W System.err: 	at im.l(Unknown Source:83)
+09-29 07:53:55.978  8339  8401 W System.err: 	at im.k(Unknown Source:478)
+09-29 07:53:55.978  8339  8401 W System.err: 	at im.a(Unknown Source:0)
+09-29 07:53:55.978  8339  8401 W System.err: 	at im$g.a(Unknown Source:50)
+09-29 07:53:55.978  8339  8401 W System.err: 	at im$g.apply(Unknown Source:33)
+09-29 07:53:55.978  8339  8401 W System.err: 	at io.reactivex.internal.operators.observable.ObservableMap$MapObserver.onNext(Unknown Source:18)
+09-29 07:53:55.978  8339  8401 W System.err: 	at io.reactivex.internal.operators.observable.ObservableMap$MapObserver.onNext(Unknown Source:30)
+09-29 07:53:55.978  8339  8401 W System.err: 	at io.reactivex.internal.operators.observable.ObservableScalarXMap$ScalarDisposable.run(Unknown Source:18)
+09-29 07:53:55.978  8339  8401 W System.err: 	at io.reactivex.internal.operators.observable.ObservableJust.subscribeActual(Unknown Source:10)
+09-29 07:53:55.978  8339  8401 W System.err: 	at io.reactivex.Observable.subscribe(Unknown Source:14)
+09-29 07:53:55.978  8339  8401 W System.err: 	at io.reactivex.internal.operators.observable.ObservableMap.subscribeActual(Unknown Source:9)
+09-29 07:53:55.978  8339  8401 W System.err: 	at io.reactivex.Observable.subscribe(Unknown Source:14)
+09-29 07:53:55.978  8339  8401 W System.err: 	at io.reactivex.internal.operators.observable.ObservableMap.subscribeActual(Unknown Source:9)
+09-29 07:53:55.978  8339  8401 W System.err: 	at io.reactivex.Observable.subscribe(Unknown Source:14)
+09-29 07:53:55.978  8339  8401 W System.err: 	at im.d(Unknown Source:180)
+09-29 07:53:55.978  8339  8401 W System.err: 	at d44.run(Unknown Source:22)
+09-29 07:53:55.978  8339  8401 W System.err: 	at j22.run(Unknown Source:134)
+09-29 07:53:55.978  8339  8401 W System.err: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:524)
+09-29 07:53:55.978  8339  8401 W System.err: 	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+09-29 07:53:55.978  8339  8401 W System.err: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+09-29 07:53:55.978  8339  8401 W System.err: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:651)
+09-29 07:53:55.978  8339  8401 W System.err: 	at java.lang.Thread.run(Thread.java:1119)
+09-29 07:53:55.978  8339  8401 W System.err: Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+09-29 07:53:55.978  8339  8401 W System.err: 	at libcore.io.Linux.open(Native Method)
+09-29 07:53:55.978  8339  8401 W System.err: 	at libcore.io.ForwardingOs.open(ForwardingOs.java:563)
+09-29 07:53:55.978  8339  8401 W System.err: 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:274)
+09-29 07:53:55.978  8339  8401 W System.err: 	at libcore.io.ForwardingOs.open(ForwardingOs.java:563)
+09-29 07:53:55.978  8339  8401 W System.err: 	at android.app.ActivityThread$AndroidOs.open(ActivityThread.java:8857)
+09-29 07:53:55.978  8339  8401 W System.err: 	at libcore.io.IoBridge.open(IoBridge.java:560)
+09-29 07:53:55.978  8339  8401 W System.err: 	... 40 more
+09-29 07:53:56.003  1800  1800 W AccMsgReceiver: AccMsgReceiver: onReceive action = nemu.intent.action.NEW_TASK
+09-29 07:53:56.009   844  3255 W ActivityManager: Foreground service started from background can not have location/camera/microphone access: service com.mumu.acc/.AccService
+09-29 07:53:56.010  1800  1892 W AccServiceManager: onAppLaunch: packageName = com.kmxs.reader
+09-29 07:53:56.011  1800  1892 W TranslateGameManager: onAppLaunch: packageName = com.kmxs.reader, hasPackageLaunchedBefore = false, supportTranslateReally = false, isLocalTranslateEnabled = false
+09-29 07:53:56.040  8339  8339 I MMKV    : <native-bridge.cpp:104::JNI_OnLoad> current API level = 35, libc++_shared=0
+09-29 07:53:56.041  8339  8339 I MMKV    : <MMKV.cpp:165::initialize> version v1.2.13, page size 4096, arch arm64-v8a
+09-29 07:53:56.041  8339  8339 I MMKV    : <MMKV.cpp:176::initialize> armv8 AES instructions is supported
+09-29 07:53:56.041  8339  8339 I MMKV    : <MMKV.cpp:184::initialize> armv8 CRC32 instructions is supported
+09-29 07:53:56.041  8339  8339 I MMKV    : <MMKV.cpp:207::initializeMMKV> root dir: /data/user/0/com.kmxs.reader/files/mmkv
+09-29 07:53:56.041  8339  8339 I MMKV    : <MemoryFile.cpp:97::open> open fd[0x68], /data/user/0/com.kmxs.reader/files/mmkv/com.kmxs.reader
+09-29 07:53:56.042  8339  8339 I MMKV    : <MemoryFile.cpp:97::open> open fd[0x69], /data/user/0/com.kmxs.reader/files/mmkv/com.kmxs.reader.crc
+09-29 07:53:56.042  8339  8339 I MMKV    : <MMKV_IO.cpp:81::loadFromFile> loading [com.kmxs.reader] with 0 actual size, file size 4096, InterProcess 0, meta info version:0
+09-29 07:53:56.042  8339  8339 I MMKV    : <MMKV_IO.cpp:130::loadFromFile> loaded [com.kmxs.reader] with 0 key-values
+09-29 07:53:56.045  8339  8339 I MMKV    : <MemoryFile.cpp:97::open> open fd[0x6a], /data/user/0/com.kmxs.reader/files/mmkv/km-network
+09-29 07:53:56.046  8339  8339 I MMKV    : <MemoryFile.cpp:97::open> open fd[0x6b], /data/user/0/com.kmxs.reader/files/mmkv/km-network.crc
+09-29 07:53:56.046  8339  8339 I MMKV    : <MMKV_IO.cpp:81::loadFromFile> loading [km-network] with 0 actual size, file size 4096, InterProcess 0, meta info version:0
+09-29 07:53:56.046  8339  8339 I MMKV    : <MMKV_IO.cpp:130::loadFromFile> loaded [km-network] with 0 key-values
+09-29 07:53:56.046  8339  8339 W WMRouter: !!当前未设置Logger,建议通过 Debugger.setLogger()方法设置Logger
+09-29 07:53:56.046  8339  8339 W WMRouter: !!并在测试环境通过 Debugger.EnableLog(true)方法开启日志
+09-29 07:53:56.046  8339  8339 W WMRouter: !!通过Debugger.setEnableDebug(true)方法在测试环境及时抛出严重类型异常
+09-29 07:53:56.058  8339  8339 I MMKV    : <MemoryFile.cpp:97::open> open fd[0x6c], /data/user/0/com.kmxs.reader/files/mmkv/bookstorebookstoreMMKV
+09-29 07:53:56.058  8339  8339 I MMKV    : <MemoryFile.cpp:97::open> open fd[0x6d], /data/user/0/com.kmxs.reader/files/mmkv/bookstorebookstoreMMKV.crc
+09-29 07:53:56.059  8339  8339 I MMKV    : <MMKV_IO.cpp:81::loadFromFile> loading [bookstorebookstoreMMKV] with 0 actual size, file size 4096, InterProcess 0, meta info version:0
+09-29 07:53:56.059  8339  8339 I MMKV    : <MMKV_IO.cpp:130::loadFromFile> loaded [bookstorebookstoreMMKV] with 0 key-values
+09-29 07:53:56.061  8339  8339 I martial_test: init: 1.6.70
+09-29 07:53:56.063  8339  8408 I MMKV    : <MemoryFile.cpp:97::open> open fd[0x70], /data/user/0/com.kmxs.reader/files/mmkv/readerreaderMMKV
+09-29 07:53:56.063  8339  8408 I MMKV    : <MemoryFile.cpp:97::open> open fd[0x71], /data/user/0/com.kmxs.reader/files/mmkv/readerreaderMMKV.crc
+09-29 07:53:56.065  8339  8408 I MMKV    : <MMKV_IO.cpp:81::loadFromFile> loading [readerreaderMMKV] with 0 actual size, file size 4096, InterProcess 0, meta info version:0
+09-29 07:53:56.065  8339  8408 I MMKV    : <MMKV_IO.cpp:130::loadFromFile> loaded [readerreaderMMKV] with 0 key-values
+09-29 07:53:56.091  8339  8401 V SoLoader: Init System Loader delegate
+09-29 07:53:56.092  8339  8401 D Freso CacheSize: 最大可用内存 = 192.0
+09-29 07:53:56.092  8339  8401 D Freso CacheSize: 设置缓存大小 = 24.0
+09-29 07:53:56.118  8339  8401 D ReaderConfigManager: isNewInstallUser: AppUserInfo{oldVersion='0', newVersion='78000', isNewInstallUser='1'}
+09-29 07:53:56.122  8339  8339 D JNI     : hloop_new tid=8339
+09-29 07:53:56.125  8339  8403 D PatchLog: patchDir: /storage/emulated/0/Android/data/com.kmxs.reader/files/qmpatch
+09-29 07:53:56.125  8339  8403 D PatchLog: CheckAppVersion
+09-29 07:53:56.125  8339  8403 D PatchLog: AppVersion First
+09-29 07:53:56.125  8339  8403 D PatchLog: CheckPatchInfo
+09-29 07:53:56.125  8339  8403 D PatchLog: No PatchInfo
+09-29 07:53:56.133  8339  8414 D JNI     : hloop_run tid=8414
+09-29 07:53:56.145   844  3255 D FileUtils: Rounded bytes from 5174239232 to 8000000000
+09-29 07:53:56.149  8339  8417 I com.kmxs.reader: AssetManager2(0x7793bbb4f358) locale list changing from [] to [zh-Hans-CN]
+09-29 07:53:56.150  8339  8417 I WebViewFactory: Loading com.android.webview version 110.0.5481.154.1 (code 548115537)
+09-29 07:53:56.151  8339  8417 I com.kmxs.reader: AssetManager2(0x7793bbb5a578) locale list changing from [] to [zh-Hans-CN]
+09-29 07:53:56.151  8339  8417 I com.kmxs.reader: AssetManager2(0x7793bbb5c198) locale list changing from [] to [zh-Hans-CN]
+09-29 07:53:56.152  8339  8417 V ResourcesManager: The following library key has been added: ResourcesKey{ mHash=7117283d mResDir=null mSplitDirs=[] mOverlayDirs=[/data/resource-cache/com.android.systemui-neutral-80al.frro,/data/resource-cache/com.android.systemui-accent-bd0t.frro,/data/resource-cache/com.android.systemui-dynamic-CfrN.frro] mLibDirs=[/system/product/app/TrichromeWebView/TrichromeWebView.apk,/system/product/app/TrichromeLibrary/TrichromeLibrary.apk] mDisplayId=0 mOverrideConfig=v35 mCompatInfo={320dpi always-compat} mLoaders=[]}
+09-29 07:53:56.154  8339  8417 W ziparchive: Unable to open '/system/product/app/TrichromeLibrary/TrichromeLibrary.dm': No such file or directory
+09-29 07:53:56.154  8339  8417 W ziparchive: Unable to open '/system/product/app/TrichromeLibrary/TrichromeLibrary.dm': No such file or directory
+09-29 07:53:56.154  8339  8417 W com.kmxs.reader: Entry not found
+09-29 07:53:56.155  8339  8417 D nativeloader: InitLlndkLibrariesProduct: libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libRS.so:libandroid_net.so:libapexsupport.so:libavf.so:libbinder_ndk.so:libc.so:libcgrouprc.so:libclang_rt.asan-i686-android.so:libclang_rt.asan-x86_64-android.so:libcom.android.tethering.connectivity_native.so:libdl.so:libft2.so:liblog.so:libm.so:libmediandk.so:libnativewindow.so:libneuralnetworks.so:libselinux.so:libsync.so:libvendorsupport.so:libvndksupport.so:libvulkan.so
+09-29 07:53:56.155  8339  8417 D nativeloader: Configuring product-clns-8 for unbundled product apk /system/product/app/TrichromeLibrary/TrichromeLibrary.apk. target_sdk_version=33, uses_libraries=ALL, library_path=/system/product/app/TrichromeWebView/lib/x86_64:/system/product/app/TrichromeWebView/TrichromeWebView.apk!/lib/x86_64:/system/product/app/TrichromeLibrary/TrichromeLibrary.apk!/lib/x86_64:/product/lib64:/system/product/lib64:/system/lib64, permitted_path=/data:/mnt/expand:/product/lib64:/system/product/lib64
+09-29 07:53:56.160  8339  8402 D thread_hook: JNI: JNI_OnLoad called
+09-29 07:53:56.160  8339  8402 D thread_hook: JNI: JNI_OnLoad completed successfully
+09-29 07:53:56.162  8339  8402 E Bugly_Init: set test labels fail, pls init bugly first!
+09-29 07:53:56.201  8339  8417 D nativeloader: InitVndkspLibrariesProduct: VNDK is deprecated with product
+09-29 07:53:56.205  8339  8417 D nativeloader: Configuring product-clns-9 for unbundled product apk /system/product/app/TrichromeWebView/TrichromeWebView.apk. target_sdk_version=33, uses_libraries=, library_path=/system/product/app/TrichromeWebView/lib/x86_64:/system/product/app/TrichromeWebView/TrichromeWebView.apk!/lib/x86_64:/system/product/app/TrichromeLibrary/TrichromeLibrary.apk!/lib/x86_64:/product/lib64:/system/product/lib64:/system/lib64, permitted_path=/data:/mnt/expand:/product/lib64:/system/product/lib64
+09-29 07:53:56.225  8339  8417 W webviewchromiumloader: Failed to open relro file /data/misc/shared_relro/libwebviewchromium64.relro: No such file or directory
+09-29 07:53:56.225  8339  8417 W WebViewLibraryLoader: failed to load with relro file, proceeding without
+09-29 07:53:56.249  8339  8417 I cr_WVCFactoryProvider: Loaded version=110.0.5481.154 minSdkVersion=29 isBundle=false multiprocess=true packageId=2
+09-29 07:53:56.279   844   864 E [MUMU]TaskTab: setPresentationRotation 0 for com.kmxs.reader:67
+09-29 07:53:56.279   844   864 E [MUMU]TaskTab: java.lang.Exception
+09-29 07:53:56.279   844   864 E [MUMU]TaskTab: 	at com.android.server.mumu.tab.TaskTab.setPresentationRotation(TaskTab.java:52)
+09-29 07:53:56.279   844   864 E [MUMU]TaskTab: 	at com.android.server.wm.TaskUtils.getTopTaskOnDisplay(TaskUtils.java:557)
+09-29 07:53:56.279   844   864 E [MUMU]TaskTab: 	at com.android.server.wm.TaskUtils.updateTaskTabRotation(TaskUtils.java:1876)
+09-29 07:53:56.279   844   864 E [MUMU]TaskTab: 	at com.android.server.wm.TaskUtils.notifyOpen(TaskUtils.java:210)
+09-29 07:53:56.279   844   864 E [MUMU]TaskTab: 	at com.android.server.wm.WmBridge.notifyOpen(WmBridge.java:496)
+09-29 07:53:56.279   844   864 E [MUMU]TaskTab: 	at com.android.server.mumu.wm.TaskHandler.handleMessage(TaskHandler.java:32)
+09-29 07:53:56.279   844   864 E [MUMU]TaskTab: 	at android.os.Handler.dispatchMessage(Handler.java:109)
+09-29 07:53:56.279   844   864 E [MUMU]TaskTab: 	at android.os.Looper.loopOnce(Looper.java:232)
+09-29 07:53:56.279   844   864 E [MUMU]TaskTab: 	at android.os.Looper.loop(Looper.java:317)
+09-29 07:53:56.279   844   864 E [MUMU]TaskTab: 	at android.os.HandlerThread.run(HandlerThread.java:85)
+09-29 07:53:56.279   844   864 E [MUMU]TaskTab: 	at com.android.server.ServiceThread.run(ServiceThread.java:49)
+09-29 07:53:56.290   844  1046 D BackgroundInstallControlService: Package event received: 0
+09-29 07:53:56.290   844  1046 D BackgroundInstallControlService: Package event received: 0
+09-29 07:53:56.290   844   925 V Configuration: Updating configuration, locales updated from [] to [zh_CN_#Hans]
+09-29 07:53:56.290   844   925 V Configuration: Updating configuration, locales updated from [] to [zh_CN_#Hans]
+09-29 07:53:56.290   844   925 V Configuration: Updating configuration, locales updated from [] to [zh_CN_#Hans]
+09-29 07:53:56.290   844   925 V Configuration: Updating configuration, locales updated from [] to [zh_CN_#Hans]
+09-29 07:53:56.290   844   925 V Configuration: Updating configuration, locales updated from [] to [zh_CN_#Hans]
+09-29 07:53:56.291  8339  8339 I _V_LIB-ICDM-MULTI-DownloadReceiver: onReceive action: android.net.conn.CONNECTIVITY_CHANGE
+09-29 07:53:56.293  8339  8339 W _V_LIB-MutiNetManager: register net work error
+09-29 07:53:56.293  8339  8339 W _V_LIB-MutiNetManager: java.lang.NoSuchFieldException: No field TRANSPORT_EXTWIFI in class Landroid/net/NetworkCapabilities; (declaration of 'android.net.NetworkCapabilities' appears in /apex/com.android.tethering/javalib/framework-connectivity.jar)
+09-29 07:53:56.293  8339  8339 W _V_LIB-MutiNetManager: 	at java.lang.Class.getDeclaredField(Native Method)
+09-29 07:53:56.293  8339  8339 W _V_LIB-MutiNetManager: 	at com.vivo.ic.dm.network.h.a(Unknown Source:2)
+09-29 07:53:56.293  8339  8339 W _V_LIB-MutiNetManager: 	at com.vivo.ic.dm.network.h.c(Unknown Source:32)
+09-29 07:53:56.293  8339  8339 W _V_LIB-MutiNetManager: 	at com.vivo.ic.dm.DownloadReceiver.onReceive(Unknown Source:225)
+09-29 07:53:56.293  8339  8339 W _V_LIB-MutiNetManager: 	at android.app.LoadedApk$ReceiverDispatcher$Args.lambda$getRunnable$0(LoadedApk.java:1825)
+09-29 07:53:56.293  8339  8339 W _V_LIB-MutiNetManager: 	at android.app.LoadedApk$ReceiverDispatcher$Args.$r8$lambda$mcNAAl1SQ4MyJPyDg8TJ2x2h0Rk(Unknown Source:0)
+09-29 07:53:56.293  8339  8339 W _V_LIB-MutiNetManager: 	at android.app.LoadedApk$ReceiverDispatcher$Args$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+09-29 07:53:56.293  8339  8339 W _V_LIB-MutiNetManager: 	at android.os.Handler.handleCallback(Handler.java:991)
+09-29 07:53:56.293  8339  8339 W _V_LIB-MutiNetManager: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+09-29 07:53:56.293  8339  8339 W _V_LIB-MutiNetManager: 	at android.os.Looper.loopOnce(Looper.java:232)
+09-29 07:53:56.293  8339  8339 W _V_LIB-MutiNetManager: 	at android.os.Looper.loop(Looper.java:317)
+09-29 07:53:56.293  8339  8339 W _V_LIB-MutiNetManager: 	at android.app.ActivityThread.main(ActivityThread.java:8971)
+09-29 07:53:56.293  8339  8339 W _V_LIB-MutiNetManager: 	at java.lang.reflect.Method.invoke(Native Method)
+09-29 07:53:56.293  8339  8339 W _V_LIB-MutiNetManager: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:597)
+09-29 07:53:56.293  8339  8339 W _V_LIB-MutiNetManager: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:919)
+09-29 07:53:56.293  8339  8339 I _V_LIB-MutiNetManager: TRANSPORT_EXTWIFI onUnavailable null
+09-29 07:53:56.294  8339  8387 W _V_LIB-MutiNetManager: unregister net work success 
+09-29 07:53:56.295  8339  8387 W _V_LIB-MutiNetManager: unregister net work error
+09-29 07:53:56.295  8339  8387 W _V_LIB-MutiNetManager: java.lang.IllegalArgumentException: NetworkCallback was not registered
+09-29 07:53:56.295  8339  8387 W _V_LIB-MutiNetManager: 	at android.net.ConnectivityManager.unregisterNetworkCallback(ConnectivityManager.java:5485)
+09-29 07:53:56.295  8339  8387 W _V_LIB-MutiNetManager: 	at com.vivo.ic.dm.network.h$c.run(Unknown Source:6)
+09-29 07:53:56.295  8339  8387 W _V_LIB-MutiNetManager: 	at android.os.Handler.handleCallback(Handler.java:991)
+09-29 07:53:56.295  8339  8387 W _V_LIB-MutiNetManager: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+09-29 07:53:56.295  8339  8387 W _V_LIB-MutiNetManager: 	at android.os.Looper.loopOnce(Looper.java:232)
+09-29 07:53:56.295  8339  8387 W _V_LIB-MutiNetManager: 	at android.os.Looper.loop(Looper.java:317)
+09-29 07:53:56.295  8339  8387 W _V_LIB-MutiNetManager: 	at android.os.HandlerThread.run(HandlerThread.java:85)
+09-29 07:53:56.295  8339  8387 W _V_LIB-MutiNetManager: register net work success TRANSPORT_WIFI
+09-29 07:53:56.296   844  1004 D ConnectivityService: NetReassign [no changes] [c 0] [a 1] [i 0]
+09-29 07:53:56.297  8339  8388 I _V_LIB-MutiNetManager: TRANSPORT_WIFI onAvailable 100
+09-29 07:53:56.298  8339  8339 I com.kmxs.reader: AssetManager2(0x7793bbb57698) locale list changing from [] to [zh-Hans-CN]
+09-29 07:53:56.298  8339  8431 E libEGL  : intercept_property_get () for (persist.graphics.egl)
+09-29 07:53:56.301  8339  8339 I com.kmxs.reader: AssetManager2(0x7793bbb5b518) locale list changing from [] to [zh-Hans-CN]
+09-29 07:53:56.302  8339  8339 D AppCompatDelegate: Checking for metadata for AppLocalesMetadataHolderService : Service not found
+09-29 07:53:56.302  8339  8339 I com.kmxs.reader: AssetManager2(0x7793bbb5da98) locale list changing from [] to [zh-Hans-CN]
+09-29 07:53:56.306  8339  8431 I EGL_emulation: EGL display initialized (version 1.4, rendererVersion=0x3, configs=120)
+09-29 07:53:56.306  8339  8339 I SceneRecord: onPageCreate page_name: LoadingActivity
+09-29 07:53:56.308  8339  8339 I AppCompatDelegate: The Activity's LayoutInflater already has a Factory installed so we can not install AppCompat's
+09-29 07:53:56.318  8339  8339 W HWUI    : Image decoding logging dropped!
+09-29 07:53:56.322  8339  8339 W HWUI    : Image decoding logging dropped!
+09-29 07:53:56.323  8339  8339 I HiAds-ActivityManager: [1.0.28.301-env_prod_union]add activity: com.km.app.home.view.LoadingActivity
+09-29 07:53:56.334  8339  8339 D DesktopModeFlagsUtil: Toggle override initialized to: OVERRIDE_OFF
+09-29 07:53:56.343  8339  8339 D AppLifecycleManager: onActivityStarted, LoadingActivity, startActivityCount: 1
+09-29 07:53:56.343  8339  8339 D AppLifecycleManager: onBackToFront
+09-29 07:53:56.343  8339  8339 I HiAds-ActivityManager: [1.0.28.301-env_prod_union]onActivityStarted0
+09-29 07:53:56.343  8339  8339 I HiAds-ActivityManager: [1.0.28.301-env_prod_union]foreGroundHandler onActivityStarted
+09-29 07:53:56.343  8339  8339 I HiAds-ActivityManager: [1.0.28.301-env_prod_union]notifyApplicationLifecycleListeners ifForeground = true
+09-29 07:53:56.343  8339  8339 I HiAds-ActivityManager: [1.0.28.301-env_prod_union]onActivityStarted foreground
+09-29 07:53:56.343  8339  8339 I HiAds-AppStartSource: [1.0.28.301-env_prod_union]getActivityReferrer#Referrer:com.android.shell
+09-29 07:53:56.343  8339  8339 I HiAds-AppStartSource: [1.0.28.301-env_prod_union]onActivityCreate#referrer: com.android.shell, activityPackage:com.kmxs.reader
+09-29 07:53:56.343  8339  8339 I HiAds-AppStartSource: [1.0.28.301-env_prod_union]set SDK referrer. sdkVisitSrc=com.android.shell
+09-29 07:53:56.343  8339  8339 I HiAds-AppStartSource: [1.0.28.301-env_prod_union]Report referrer to HA
+09-29 07:53:56.343  8339  8339 I HiAds-SdkInitInfoSave: [1.0.28.301-env_prod_union]mInitResp is null getDpMethod = -1
+09-29 07:53:56.344  8339  8432 I HiAds-HiAnalyticsImpl: [1.0.28.301-env_prod_union]sdk has not init,no upload onEvent
+09-29 07:53:56.344  8339  8432 I HiAds-HiAnalyticsConfig: [1.0.28.301-env_prod_union]onEventTemp tempReportList.size():----tempIdList.size():1, eventId=8817000066
+09-29 07:53:56.348  8339  8339 I HiAds-ActivityManager: [1.0.28.301-env_prod_union]onActivityResumed activity = com.km.app.home.view.LoadingActivity@ed5a007
+09-29 07:53:56.350  8339  8339 I SceneRecord: enterScene scene_name: LoadingActivity
+09-29 07:53:56.360  8339  8433 W SQLiteLog: (28) double-quoted string literal: "1790639636359"
+09-29 07:53:56.360  8339  8433 W SQLiteLog: (28) double-quoted string literal: "0"
+09-29 07:53:56.360  8339  8433 W SQLiteLog: (28) double-quoted string literal: ""
+09-29 07:53:56.360  8339  8433 W SQLiteLog: (28) double-quoted string literal: ""
+09-29 07:53:56.360  8339  8433 W SQLiteLog: (28) double-quoted string literal: ""
+09-29 07:53:56.360  8339  8339 W HWUI    : Unknown dataspace 0
+09-29 07:53:56.363  8339  8339 D InsetsController: Setting requestedVisibleTypes to -12 (was -9)
+09-29 07:53:56.368  8339  8433 W SQLiteLog: (28) double-quoted string literal: "81F089788D50278F71FE5AAD41201BCE"
+09-29 07:53:56.368  8339  8433 W SQLiteLog: (28) double-quoted string literal: ""
+09-29 07:53:56.369  8339  8433 W SQLiteLog: (28) double-quoted string literal: "81F089788D50278F71FE5AAD41201BCE"
+09-29 07:53:56.369  8339  8433 W SQLiteLog: (28) double-quoted string literal: "-1"
+09-29 07:53:56.379   844  3255 D CoreBackPreview: Window{6ae4fa7 u0 com.kmxs.reader/com.km.app.home.view.LoadingActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@2f337fd, mPriority=0, mIsAnimationCallback=false, mOverrideBehavior=0}
+09-29 07:53:56.383   693  1451 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10068 pid=0
+09-29 07:53:56.383   693  1451 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10068 => denied (155 us)
+09-29 07:53:56.383   693  1451 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10068 pid=0
+09-29 07:53:56.383   693  1451 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10068 => denied (89 us)
+09-29 07:53:56.383   693   733 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10068 pid=8339
+09-29 07:53:56.383   693   733 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10068 => denied (52 us)
+09-29 07:53:56.383   693  1451 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10068 pid=0
+09-29 07:53:56.383   693  1451 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10068 => denied (126 us)
+09-29 07:53:56.384  8339  8429 I EGL_emulation: EGL display initialized (version 1.4, rendererVersion=0x3, configs=120)
+09-29 07:53:56.390   486   486 I hwservicemanager: getTransport: Cannot find entry android.hardware.configstore@1.0::ISurfaceFlingerConfigs/default in either framework or device VINTF manifest.
+09-29 07:53:56.390  8339  8429 E HidlServiceManagement: getService: Potential race detected, descriptor: android.hardware.configstore@1.0::ISurfaceFlingerConfigs instance: default
+09-29 07:53:56.391  8339  8429 W HWUI    : Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+09-29 07:53:56.398   693  1451 E HWComposer: getSupportedContentTypes: getSupportedContentTypes failed for display 4619827820427265280: UNSUPPORTED (8)
+09-29 07:53:56.399  8339  8429 E HidlServiceManagement: getService: Potential race detected, descriptor: android.hardware.graphics.mapper@2.0::IMapper instance: default
+09-29 07:53:56.400  8339  8429 E HidlServiceManagement: getService: Potential race detected, descriptor: android.hardware.graphics.allocator@2.0::IAllocator instance: default
+09-29 07:53:56.401  8339  8429 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 5763072
+09-29 07:53:56.404  8339  8438 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 5763072
+09-29 07:53:56.405  8339  8438 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 5763072
+09-29 07:53:56.419   844  4587 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10068 pid=0
+09-29 07:53:56.419   844  4587 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10068 => denied (75 us)
+09-29 07:53:56.419   844  4587 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10068 pid=0
+09-29 07:53:56.419   844  4587 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10068 => denied (9 us)
+09-29 07:53:56.419   844  4587 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10068 pid=0
+09-29 07:53:56.419   844  4587 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10068 => denied (13 us)
+09-29 07:53:56.419  8339  8339 E ADLOADER: 0===
+09-29 07:53:56.421   844   864 W system_server: Failed to determine oat file name for dex location /data/app/~~CJnS1aJway3C3K0ZAtE7bA==/com.kmxs.reader-77R6m2GR4qgDm5ZV6EE-Gg==/base.apk: Dalvik cache directory does not exist
+09-29 07:53:56.421   844   864 W ziparchive: Unable to open '/data/app/~~CJnS1aJway3C3K0ZAtE7bA==/com.kmxs.reader-77R6m2GR4qgDm5ZV6EE-Gg==/base.dm': No such file or directory
+09-29 07:53:56.422   844   864 I ActivityTaskManager: Displayed com.kmxs.reader/com.km.app.home.view.LoadingActivity for user 0: +1s49ms
+09-29 07:53:56.437  8339  8339 I WindowExtensionsImpl: Initializing Window Extensions, vendor API level=8, activity embedding enabled=true
+09-29 07:53:56.517   844   955 I ImeTracker: com.kmxs.reader:9e2e20d4: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+09-29 07:53:56.518  8339  8339 D WindowLayoutComponentImpl: Register WindowLayoutInfoListener on Context=com.km.app.home.view.LoadingActivity@ed5a007, of which baseContext=androidx.appcompat.view.ContextThemeWrapper@9609e86, of which baseContext=android.app.ContextImpl@148347
+09-29 07:53:56.520  8339  8339 D InsetsController: hide(ime(), fromIme=false)
+09-29 07:53:56.520  8339  8339 I ImeTracker: com.kmxs.reader:9e2e20d4: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+09-29 07:53:56.530  1078  1078 D BaseDepthController: setSurface:
+09-29 07:53:56.530  1078  1078 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
+09-29 07:53:56.530  1078  1078 D BaseDepthController: 	mSurface: null
+09-29 07:53:56.536  1078  1078 D StateManager: goToState - fromState: Normal, toState: Normal, partial trace:
+09-29 07:53:56.536  1078  1078 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(r8-map-id-af248ccf5fbcbf3d066781e397f85d6b3e8796c1f97a935933638e9928604675:4)
+09-29 07:53:56.536  1078  1078 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(r8-map-id-af248ccf5fbcbf3d066781e397f85d6b3e8796c1f97a935933638e9928604675:1)
+09-29 07:53:56.536  1078  1078 D StateManager: 	at com.android.launcher3.statemanager.StatefulActivity.onStop(r8-map-id-af248ccf5fbcbf3d066781e397f85d6b3e8796c1f97a935933638e9928604675:34)
+09-29 07:53:56.537  1078  1078 D StatsLog: LAUNCHER_ONSTOP
+09-29 07:53:56.545   844  1046 D BackgroundInstallControlService: Package event received: 0
+09-29 07:53:56.614  1086  1259 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda13@8a0be6e
+09-29 07:53:56.615   844  3255 D CoreBackPreview: Window{75a3b01 u0 Splash Screen com.kmxs.reader EXITING}: Setting back callback null
+09-29 07:53:56.662  8339  8448 W InteractionJankMonitor: Initializing without READ_DEVICE_CONFIG permission. enabled=false, interval=1, missedFrameThreshold=3, frameTimeThreshold=64, package=com.kmxs.reader
+09-29 07:53:56.856   844  1046 D BackgroundInstallControlService: Package event received: 0
+09-29 07:53:56.856   844  1046 D BackgroundInstallControlService: Package event received: 0
+09-29 07:53:56.856   844  1046 D BackgroundInstallControlService: Package event received: 0
+09-29 07:53:56.859  2350  2422 I FontLog : (REDACTED) Received query %s, URI %s
+09-29 07:53:56.860  2350  2422 I FontLog : (REDACTED) Query [%s] resolved to %s
+09-29 07:53:56.863  2350  2422 I FontLog : (REDACTED) Fetch %s end status %s
+09-29 07:53:56.864  2350  7243 I FontLog : (REDACTED) Pulling font file for id = %d, cache size = %d
+09-29 07:53:56.867  2350  7243 I FontLog : (REDACTED) Pulling font file for id = %d, cache size = %d
+09-29 07:53:56.922   844  1045 D ShortcutService: received package broadcast intent: Intent { act=android.intent.action.PACKAGE_CHANGED dat=package: flg=0x45000010 (has extras) }
+09-29 07:53:56.922   844  1045 D ShortcutService: changing package: com.kmxs.reader userId=0
+09-29 07:53:56.924   844   877 W VoiceInteractionManager: no available voice recognition services found for user 0
+09-29 07:53:56.925   844  1045 E system_server: No package ID 7f found for resource ID 0x7f080537.
+09-29 07:53:56.925   844  1045 E system_server: No package ID 7f found for resource ID 0x7f130371.
+09-29 07:53:56.925   844  1045 E system_server: No package ID 7f found for resource ID 0x7f130371.
+09-29 07:53:56.925   844  1045 E system_server: No package ID 7f found for resource ID 0x7f130371.
+09-29 07:53:56.925   844  1045 W ShortcutService: Invalid tag 'capability-binding' found at depth 3
+09-29 07:53:56.925   844  1045 E system_server: No package ID 7f found for resource ID 0x7f080538.
+09-29 07:53:56.925   844  1045 E system_server: No package ID 7f found for resource ID 0x7f130373.
+09-29 07:53:56.925   844  1045 E system_server: No package ID 7f found for resource ID 0x7f130373.
+09-29 07:53:56.925   844  1045 E system_server: No package ID 7f found for resource ID 0x7f130373.
+09-29 07:53:56.925   844  1045 W ShortcutService: Invalid tag 'capability-binding' found at depth 3
+09-29 07:53:56.925  1179  1179 D CarrierSvcBindHelper: onPackageModified: com.kmxs.reader
+09-29 07:53:56.927  1078  1378 D PackageUpdatedTask: Package updated: mOp=UPDATE packages=[com.kmxs.reader]
+09-29 07:53:56.932   844   942 I RoleService: Granting default roles...
+09-29 07:53:56.943  1568  6191 I PermissionControllerServiceImpl: Updating user sensitive for uid 10068
+09-29 07:53:56.956   844  1148 W Role    : Cannot get ApplicationInfo for default holder: com.android.contacts
+09-29 07:53:56.959  1179  1179 D CarrierSvcBindHelper: No carrier app for: 0
+09-29 07:53:56.959   844   959 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+09-29 07:53:56.966  1078  1378 W HWUI    : Image decoding logging dropped!
+09-29 07:53:56.971  8339  8394 D IpDetectorManager: detectIpv6Reachable true detectIpv4Reachable true
+09-29 07:53:56.971  8339  8393 D IpDetectorManager: detectIpv6Reachable true detectIpv4Reachable true
+09-29 07:53:56.980   844  1148 E RoleControllerServiceImpl: Default/fallback role holder package doesn't qualify for the role, package: com.android.bluetooth, role: android.app.role.SYSTEM_BLUETOOTH_STACK
+09-29 07:53:56.985   844  1148 W Role    : Cannot get ApplicationInfo for default holder: com.android.messaging
+09-29 07:53:56.986  1078  1078 D StatsLog: LAUNCHER_ALLAPPS_COUNT
+09-29 07:53:56.986   844  1148 W Role    : Cannot get ApplicationInfo for default holder: com.android.dialer
+09-29 07:53:57.364  2350  2350 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.auth.aang.events.services.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.PersistentApiService }
+09-29 07:53:57.424  1086  1086 D ControlsListingControllerImpl: ServiceConfig reloaded, count: 0
+09-29 07:53:57.429  2430  2430 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.feedback.internal.IFeedbackService dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+09-29 07:53:57.452  2430  8455 I ComponentChangedIO: Feature is not enabled, skipping component changed intent operation [CONTEXT service_id=469 ]
+09-29 07:53:57.834   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:53:57.835   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:53:57.835   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:53:57.835   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:53:57.835   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:53:59.980  8457  8457 I init    : type=1400 audit(0.0:992): avc:  denied  { transition } for  path="/system/xbin/serial_console" dev="sda6" ino=3974 scontext=u:r:init:s0 tcontext=u:r:su:s0 tclass=process permissive=1
+09-29 07:53:59.980  8457  8457 I init    : type=1400 audit(0.0:993): avc:  denied  { entrypoint } for  path="/system/xbin/serial_console" dev="sda6" ino=3974 scontext=u:r:su:s0 tcontext=u:object_r:system_file:s0 tclass=file permissive=1
+09-29 07:53:59.980  8457  8457 I init    : type=1400 audit(0.0:994): avc:  denied  { noatsecure } for  scontext=u:r:init:s0 tcontext=u:r:su:s0 tclass=process permissive=1
+09-29 07:53:59.980  8457  8457 I serial_console: type=1400 audit(0.0:995): avc:  denied  { rlimitinh } for  scontext=u:r:init:s0 tcontext=u:r:su:s0 tclass=process permissive=1
+09-29 07:53:59.980  8457  8457 I serial_console: type=1400 audit(0.0:996): avc:  denied  { siginh } for  scontext=u:r:init:s0 tcontext=u:r:su:s0 tclass=process permissive=1
+09-29 07:54:00.840   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:00.840   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:00.840   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:00.840   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:00.840   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:02.111  8339  8462 D ProfileInstaller: Installing profile for com.kmxs.reader
+09-29 07:54:03.842   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:03.842   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:03.842   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:03.842   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:03.842   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:06.006  8339  8366 W System  : A resource failed to call close. 
+09-29 07:54:06.007  8339  8366 W System  : A resource failed to call close. 
+09-29 07:54:06.844   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:06.844   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:06.844   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:06.844   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:06.844   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:09.847   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:09.847   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:09.847   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:09.847   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:09.847   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:11.804   722  8323 I adbd    : host-13: read failed: Connection reset by peer
+09-29 07:54:11.804   722  8320 I adbd    : host-16: read failed: Connection reset by peer
+09-29 07:54:11.804   722  8323 I adbd    : host-13: connection terminated: read failed
+09-29 07:54:11.804   722  8320 I adbd    : host-16: connection terminated: read failed
+09-29 07:54:11.804   722   722 I adbd    : host-13: offline
+09-29 07:54:11.804   722   722 I adbd    : BlockingConnectionAdapter(host-13): stopping
+09-29 07:54:11.805   722   722 I adbd    : BlockingConnectionAdapter(host-13): stopped
+09-29 07:54:11.805   722   722 I adbd    : host-16: offline
+09-29 07:54:11.805   722   722 I adbd    : BlockingConnectionAdapter(host-16): stopping
+09-29 07:54:11.805   722   722 I adbd    : BlockingConnectionAdapter(host-16): stopped
+09-29 07:54:11.805   722   722 I adbd    : BlockingConnectionAdapter(host-13): destructing
+09-29 07:54:11.805   722   722 I adbd    : BlockingConnectionAdapter(host-13): already stopped
+09-29 07:54:11.805   722   722 I adbd    : BlockingConnectionAdapter(host-16): destructing
+09-29 07:54:11.805   722   722 I adbd    : BlockingConnectionAdapter(host-16): already stopped
+09-29 07:54:12.849   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:12.849   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:12.849   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:12.849   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:12.849   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:14.476   844   940 D ActivityManager: freezing 2430 com.google.android.gms
+09-29 07:54:14.992  8468  8468 I serial_console: type=1400 audit(0.0:1001): avc:  denied  { read write } for  name="ttyS1" dev="tmpfs" ino=757 scontext=u:r:su:s0 tcontext=u:object_r:serial_device:s0 tclass=chr_file permissive=1
+09-29 07:54:14.992  8468  8468 I serial_console: type=1400 audit(0.0:1002): avc:  denied  { open } for  path="/dev/ttyS1" dev="tmpfs" ino=757 scontext=u:r:su:s0 tcontext=u:object_r:serial_device:s0 tclass=chr_file permissive=1
+09-29 07:54:15.852   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:15.852   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:15.852   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:15.852   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:15.852   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:18.854   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:18.854   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:18.854   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:18.854   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:18.854   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:21.801   844   940 D ActivityManager: freezing 1760 com.android.keychain
+09-29 07:54:21.858   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:21.858   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:21.858   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:21.858   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:21.858   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:24.860   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:24.860   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:24.860   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:24.860   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:24.861   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:27.864   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:27.864   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:27.864   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:27.864   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:27.864   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:30.867   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:30.867   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:30.867   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:30.867   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:30.867   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:32.589   722  8472 I adbd    : host-17: read thread spawning
+09-29 07:54:32.589   722   722 I adbd    : host-17: already offline
+09-29 07:54:32.589   722  8473 I adbd    : host-17: write thread spawning
+09-29 07:54:32.589   722   722 I adbd    : authentication not required
+09-29 07:54:33.872   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:33.872   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:33.872   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:33.872   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:33.872   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:34.300   722  8472 I adbd    : host-17: read failed: Connection reset by peer
+09-29 07:54:34.300   722  8472 I adbd    : host-17: connection terminated: read failed
+09-29 07:54:34.300   722   722 I adbd    : host-17: offline
+09-29 07:54:34.300   722   722 I adbd    : BlockingConnectionAdapter(host-17): stopping
+09-29 07:54:34.300   722   722 I adbd    : BlockingConnectionAdapter(host-17): stopped
+09-29 07:54:34.300   722   722 I adbd    : BlockingConnectionAdapter(host-17): destructing
+09-29 07:54:34.300   722   722 I adbd    : BlockingConnectionAdapter(host-17): already stopped
+09-29 07:54:35.020  8480  8480 I init    : type=1400 audit(0.0:1003): avc:  denied  { transition } for  path="/system/xbin/serial_console" dev="sda6" ino=3974 scontext=u:r:init:s0 tcontext=u:r:su:s0 tclass=process permissive=1
+09-29 07:54:35.020  8480  8480 I init    : type=1400 audit(0.0:1004): avc:  denied  { noatsecure } for  scontext=u:r:init:s0 tcontext=u:r:su:s0 tclass=process permissive=1
+09-29 07:54:35.020  8480  8480 I serial_console: type=1400 audit(0.0:1005): avc:  denied  { rlimitinh } for  scontext=u:r:init:s0 tcontext=u:r:su:s0 tclass=process permissive=1
+09-29 07:54:35.020  8480  8480 I serial_console: type=1400 audit(0.0:1006): avc:  denied  { siginh } for  scontext=u:r:init:s0 tcontext=u:r:su:s0 tclass=process permissive=1
+09-29 07:54:36.875   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:36.875   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:36.875   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:36.875   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:36.875   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:38.897   844  3255 D WifiNl80211Manager: Scan result ready event
+09-29 07:54:38.897   844  3255 D WifiNative: Scan result ready event
+09-29 07:54:38.900  2350  2422 I WifiScanner: onFullResults
+09-29 07:54:38.900   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:38.900   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:38.900   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:38.958  1597  1615 I NemuSysOpt: Start compat memory
+09-29 07:54:38.974  1597  1615 I NemuSysOpt: Compat memory done
+09-29 07:54:39.876   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:39.876   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:39.876   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:39.876   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:42.878   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:42.879   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:42.879   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:42.879   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:42.879   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:45.880   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:45.880   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:45.880   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:45.880   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:45.880   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:48.391   722  8484 I adbd    : host-13: read thread spawning
+09-29 07:54:48.391   722  8485 I adbd    : host-13: write thread spawning
+09-29 07:54:48.391   722   722 I adbd    : host-13: already offline
+09-29 07:54:48.391   722   722 I adbd    : authentication not required
+09-29 07:54:48.883   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:48.883   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:48.883   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:48.883   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:48.883   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:49.500  8488  8488 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: activity
+09-29 07:54:49.622   722  8484 I adbd    : host-13: read failed: Connection reset by peer
+09-29 07:54:49.622   722  8484 I adbd    : host-13: connection terminated: read failed
+09-29 07:54:49.622   722   722 I adbd    : host-13: offline
+09-29 07:54:49.622   722   722 I adbd    : BlockingConnectionAdapter(host-13): stopping
+09-29 07:54:49.622   722   722 I adbd    : BlockingConnectionAdapter(host-13): stopped
+09-29 07:54:49.622   722   722 I adbd    : BlockingConnectionAdapter(host-13): destructing
+09-29 07:54:49.622   722   722 I adbd    : BlockingConnectionAdapter(host-13): already stopped
+09-29 07:54:51.885   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:51.885   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:51.885   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:51.885   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:51.885   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:54.888   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:54.888   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:54.888   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:54.888   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:54.888   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:56.001   844  3255 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:56.001   844  3255 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:56.980   844   940 D ActivityManager: freezing 1568 com.android.permissioncontroller
+09-29 07:54:56.981   844  1004 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+09-29 07:54:56.982   844  1004 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+09-29 07:54:56.982   844  1004 D InetDiagMessage: Destroyed live tcp sockets for uids={10050} in 0ms
+09-29 07:54:57.888   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:57.888   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:57.888   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:57.888   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:54:57.888   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:55:00.892   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:55:00.892   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:55:00.892   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:55:00.892   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:55:00.892   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:55:02.292   722  8494 I adbd    : host-16: read thread spawning
+09-29 07:55:02.292   722  8495 I adbd    : host-16: write thread spawning
+09-29 07:55:02.292   722   722 I adbd    : host-16: already offline
+09-29 07:55:02.292   722   722 I adbd    : authentication not required
+09-29 07:55:03.895   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:55:03.895   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:55:03.895   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:55:03.895   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:55:03.895   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:55:04.108   722  8496 I adbd    : host-13: read thread spawning
+09-29 07:55:04.108   722  8497 I adbd    : host-13: write thread spawning
+09-29 07:55:04.108   722   722 I adbd    : host-13: already offline
+09-29 07:55:04.108   722   722 I adbd    : authentication not required
+09-29 07:55:06.897   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:55:06.897   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:55:06.897   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:55:06.897   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:55:06.897   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:55:09.899   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:55:09.899   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:55:09.899   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:55:09.899   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:55:09.899   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:55:12.901   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:55:12.901   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:55:12.901   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:55:12.901   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:55:12.901   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:55:13.722  8502  8502 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: activity
+09-29 07:55:14.367   722  8496 I adbd    : host-13: read failed: Connection reset by peer
+09-29 07:55:14.367   722  8496 I adbd    : host-13: connection terminated: read failed
+09-29 07:55:14.367   722  8494 I adbd    : host-16: read failed: Connection reset by peer
+09-29 07:55:14.367   722  8494 I adbd    : host-16: connection terminated: read failed
+09-29 07:55:14.367   722   722 I adbd    : host-16: offline
+09-29 07:55:14.367   722   722 I adbd    : BlockingConnectionAdapter(host-16): stopping
+09-29 07:55:14.367   722   722 I adbd    : BlockingConnectionAdapter(host-16): stopped
+09-29 07:55:14.367   722   722 I adbd    : host-13: offline
+09-29 07:55:14.367   722   722 I adbd    : BlockingConnectionAdapter(host-13): stopping
+09-29 07:55:14.367   722   722 I adbd    : BlockingConnectionAdapter(host-13): stopped
+09-29 07:55:14.367   722   722 I adbd    : BlockingConnectionAdapter(host-16): destructing
+09-29 07:55:14.367   722   722 I adbd    : BlockingConnectionAdapter(host-16): already stopped
+09-29 07:55:14.367   722   722 I adbd    : BlockingConnectionAdapter(host-13): destructing
+09-29 07:55:14.367   722   722 I adbd    : BlockingConnectionAdapter(host-13): already stopped
+09-29 07:55:15.904   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:55:15.904   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:55:15.904   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:55:15.904   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:55:15.904   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:55:18.906   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:55:18.907   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:55:18.907   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:55:18.907   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:55:18.907   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:55:21.908   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:55:21.908   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:55:21.908   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:55:21.908   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:55:21.908   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:55:24.910   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:55:24.910   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:55:24.910   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:55:24.910   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:55:24.910   844   986 W BestClock: java.time.DateTimeException: No network time available
+09-29 07:55:25.662   722  8514 I adbd    : host-17: read thread spawning
+09-29 07:55:25.662   722  8515 I adbd    : host-17: write thread spawning
+09-29 07:55:25.662   722   722 I adbd    : host-17: already offline
+09-29 07:55:25.662   722   722 I adbd    : authentication not required

@@ -1,0 +1,119 @@
+============================================================================
+extracted\classes3.dex
+  CLASS  : Lol6;
+  METHOD : Lol6;->Y(Landroid/content/Context;)Ljava/lang/String;  [acc=0x1]
+          6e9d08| const/4 vA,#+B               v0 #1
+          6e9d0a| new-array vA,vB,type@CCCC    v1 v0 [Ljava/lang/Object;
+          6e9d0e| const/4 vA,#+B               v2 #0
+          6e9d10| aput-object vA,vB,vC         v9 v1 v2
+          6e9d14| sget-object vAA,field@BBBB   v3 field@59195 Lol6; changeQuickRedirect Lcom/meituan/robust/ChangeQuickRedirect;
+          6e9d18| new-array vA,vB,type@CCCC    v6 v0 [Ljava/lang/Class;
+          6e9d1c| const-class vAA,type@BBBB    v0 Landroid/content/Context;
+          6e9d20| aput-object vA,vB,vC         v0 v6 v2
+          6e9d24| const-class vAA,type@BBBB    v7 Ljava/lang/String;
+          6e9d28| const/4 vA,#+B               v4 #0
+          6e9d2a| const vAA,#+BBBBBBBB         v5 #44691 (0xae93)
+          6e9d30| move-object vA,vB            v2 v8
+          6e9d32| invoke-static/range          {v3738..v3744} La00;->B0(Ljava/lang/String;)V
+          6e9d38| move-result-object vAA       v0
+          6e9d3a| iget-boolean                 v1 v0 Lcom/meituan/robust/PatchProxyResult;->isSupported:Z
+          6e9d3e| if-eqz vAA,+BBBB             v1 +7
+          6e9d42| iget-object vA,vB,field@CCCC v9 v0 Lcom/meituan/robust/PatchProxyResult;->result:Ljava/lang/Object;
+          6e9d46| check-cast vAA,type@BBBB     v9 Ljava/lang/String;
+          6e9d4a| return-object vAA            v9
+          6e9d4c| invoke-virtual {..},meth@BBBB {v0,v13} Laj5;->b()I
+          6e9d52| move-result-object vAA       v9
+      >>> 6e9d54| const-string vAA,string@BBBB v0 "USER_IS_VIP"
+          6e9d58| const-string vAA,string@BBBB v1 "0"
+          6e9d5c| invoke-interface {..},meth@BBBB {v0,v13,v12} Landroid/animation/ValueAnimator;->setFloatValues([F)V
+          6e9d62| move-result-object vAA       v9
+          6e9d64| return-object vAA            v9
+
+============================================================================
+extracted\classes3.dex
+  CLASS  : Lol6;
+  METHOD : Lol6;->d(Landroid/content/Context;)V  [acc=0x1]
+          6ea32c| const/4 vA,#+B               v0 #1
+          6ea32e| new-array vA,vB,type@CCCC    v1 v0 [Ljava/lang/Object;
+          6ea332| const/4 vA,#+B               v8 #0
+          6ea334| aput-object vA,vB,vC         v10 v1 v8
+          6ea338| sget-object vAA,field@BBBB   v3 field@59195 Lol6; changeQuickRedirect Lcom/meituan/robust/ChangeQuickRedirect;
+          6ea33c| new-array vA,vB,type@CCCC    v6 v0 [Ljava/lang/Class;
+          6ea340| const-class vAA,type@BBBB    v0 Landroid/content/Context;
+          6ea344| aput-object vA,vB,vC         v0 v6 v8
+          6ea348| sget-object vAA,field@BBBB   v7 field@58607 Ljava/lang/Void; TYPE Ljava/lang/Class;
+          6ea34c| const/4 vA,#+B               v4 #0
+          6ea34e| const vAA,#+BBBBBBBB         v5 #44682 (0xae8a)
+          6ea354| move-object vA,vB            v2 v9
+          6ea356| invoke-static/range          {v3738..v3744} La00;->B0(Ljava/lang/String;)V
+          6ea35c| move-result-object vAA       v0
+          6ea35e| iget-boolean                 v0 v0 Lcom/meituan/robust/PatchProxyResult;->isSupported:Z
+          6ea362| if-eqz vAA,+BBBB             v0 +3
+          6ea366| return-void                  
+          6ea368| invoke-virtual {..},meth@BBBB {v0,v13} Lal4;->c(Lorg/apache/commons/codec/language/bm/NameType;)Lal4;
+          6ea36e| move-result-object vAA       v10
+          6ea370| const-string vAA,string@BBBB v0 "KEY_USER_AVATAR"
+          6ea374| const-string vAA,string@BBBB v1 ""
+          6ea378| invoke-interface {..},meth@BBBB {v0,v14,v6} Landroid/animation/ValueAnimator;->setIntValues([I)V
+          6ea37e| const-string vAA,string@BBBB v0 "KEY_USER_AVATAR_REVIEW_STATUS"
+          6ea382| invoke-interface {..},meth@BBBB {v0,v14,v6} Landroid/animation/ValueAnimator;->setIntValues([I)V
+          6ea388| const-string vAA,string@BBBB v0 "KEY_USER_ID"
+          6ea38c| invoke-interface {..},meth@BBBB {v0,v14,v6} Landroid/animation/ValueAnimator;->setIntValues([I)V
+          6ea392| const-string vAA,string@BBBB v0 "KEY_USER_NICKNAME"
+          6ea396| invoke-interface {..},meth@BBBB {v0,v14,v6} Landroid/animation/ValueAnimator;->setIntValues([I)V
+          6ea39c| const-string vAA,string@BBBB v0 "KEY_USER_PHONE"
+          6ea3a0| invoke-interface {..},meth@BBBB {v0,v14,v6} Landroid/animation/ValueAnimator;->setIntValues([I)V
+          6ea3a6| const-string vAA,string@BBBB v0 "KEY_USER_ENCRYPT_PHONE"
+          6ea3aa| invoke-interface {..},meth@BBBB {v0,v14,v6} Landroid/animation/ValueAnimator;->setIntValues([I)V
+          6ea3b0| const-string vAA,string@BBBB v0 "KEY_USER_WECHAT_NICKNAME"
+          6ea3b4| invoke-interface {..},meth@BBBB {v0,v14,v6} Landroid/animation/ValueAnimator;->setIntValues([I)V
+          6ea3ba| const-string vAA,string@BBBB v0 "AUTHORIZATION"
+          6ea3be| invoke-interface {..},meth@BBBB {v0,v14,v6} Landroid/animation/ValueAnimator;->setIntValues([I)V
+      >>> 6ea3c4| const-string vAA,string@BBBB v0 "USER_IS_VIP"
+          6ea3c8| const-string vAA,string@BBBB v2 "0"
+          6ea3cc| invoke-interface {..},meth@BBBB {v0,v14,v6} Landroid/content/res/TypedArray;->getDimension(I,F)F
+          6ea3d2| const-string vAA,string@BBBB v0 "USER_IS_MULTI_DEVICE"
+          6ea3d6| invoke-interface {..},meth@BBBB {v0,v14,v6} Landroid/content/res/TypedArray;->getDimension(I,F)F
+          6ea3dc| const-string vAA,string@BBBB v0 "KEY_APP_IS_SIGN_IN"
+          6ea3e0| invoke-interface {..},meth@BBBB {v0,v14,v5} Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->getChildCount()I
+          6ea3e6| const-string vAA,string@BBBB v0 "KEY_USER_NICKNAME_REVIEW_STATUS"
+          6ea3ea| invoke-interface {..},meth@BBBB {v0,v14,v6} Landroid/content/res/TypedArray;->getDimension(I,F)F
+          6ea3f0| const-string vAA,string@BBBB v0 "KEY_USER_TOURIST_MODE"
+          6ea3f4| invoke-interface {..},meth@BBBB {v0,v14,v6} Landroid/animation/ValueAnimator;->setIntValues([I)V
+          6ea3fa| return-void                  
+
+============================================================================
+extracted\classes3.dex
+  CLASS  : Lol6;
+  METHOD : Lol6;->n1(Landroid/content/Context;,Ljava/lang/String;)V  [acc=0x1]
+          6eb218| const/4 vA,#+B               v0 #2
+          6eb21a| new-array vA,vB,type@CCCC    v1 v0 [Ljava/lang/Object;
+          6eb21e| const/4 vA,#+B               v2 #0
+          6eb220| aput-object vA,vB,vC         v9 v1 v2
+          6eb224| const/4 vA,#+B               v3 #1
+          6eb226| aput-object vA,vB,vC         v10 v1 v3
+          6eb22a| sget-object vAA,field@BBBB   v4 field@59195 Lol6; changeQuickRedirect Lcom/meituan/robust/ChangeQuickRedirect;
+          6eb22e| new-array vA,vB,type@CCCC    v6 v0 [Ljava/lang/Class;
+          6eb232| const-class vAA,type@BBBB    v0 Landroid/content/Context;
+          6eb236| aput-object vA,vB,vC         v0 v6 v2
+          6eb23a| const-class vAA,type@BBBB    v0 Ljava/lang/String;
+          6eb23e| aput-object vA,vB,vC         v0 v6 v3
+          6eb242| sget-object vAA,field@BBBB   v7 field@58607 Ljava/lang/Void; TYPE Ljava/lang/Class;
+          6eb246| const/4 vA,#+B               v0 #0
+          6eb248| const vAA,#+BBBBBBBB         v5 #44690 (0xae92)
+          6eb24e| move-object vA,vB            v2 v8
+          6eb250| move-object vA,vB            v3 v4
+          6eb252| move vA,vB                   v4 v0
+          6eb254| invoke-static/range          {v3738..v3744} La00;->B0(Ljava/lang/String;)V
+          6eb25a| move-result-object vAA       v0
+          6eb25c| iget-boolean                 v0 v0 Lcom/meituan/robust/PatchProxyResult;->isSupported:Z
+          6eb260| if-eqz vAA,+BBBB             v0 +3
+          6eb264| return-void                  
+          6eb266| invoke-virtual {..},meth@BBBB {v0,v13} Laj5;->b()I
+          6eb26c| move-result-object vAA       v9
+      >>> 6eb26e| const-string vAA,string@BBBB v0 "USER_IS_VIP"
+          6eb272| invoke-interface {..},meth@BBBB {v0,v14,v6} Lbi6;->b()Lkotlin/jvm/functions/Function2;
+          6eb278| return-void                  
+
+
+[total methods matched: 3]
